@@ -78,15 +78,35 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
     category="$(sed -n 's/^category: *//p' "$md_file" | head -1)"
     confidence="$(sed -n 's/^confidence: *//p' "$md_file" | head -1)"
 
+    # 提取 L2 shift_summary（用於 embedding）
+    shift_summary="$(sed -n 's/^- \*\*shift_summary\*\*: *//p' "$md_file" | head -1)"
+    # 備用：nist_cybersecurity_insights 的 L2 格式可能不同
+    [[ -z "$shift_summary" ]] && shift_summary="$(sed -n 's/^- \*\*變動摘要.*\*\*: *//p' "$md_file" | head -1)"
+
+    # 提取 L3 Risk Domains（用於 embedding）
+    risk_domains="$(sed -n '/^## L3/,/^## L4/p' "$md_file" | grep '^- ' | sed 's/^- //' | tr '\n' ', ' | sed 's/, $//')"
+
     # 讀取完整內容
     content="$(cat "$md_file")"
 
+    # 組合 embedding 文字（title + shift_summary + risk_domains）
+    embed_text="$title"
+    [[ -n "$shift_summary" ]] && embed_text="$embed_text. $shift_summary"
+    [[ -n "$risk_domains" ]] && embed_text="$embed_text. Risk domains: $risk_domains"
+
     # 產生 embedding
-    vector_json="$(chatgpt_embed "$title")" || {
+    vector_json="$(chatgpt_embed "$embed_text")" || {
       echo "⚠️  Embedding failed: $md_file" >&2
       ((UPSERT_FAIL++)) || true
       continue
     }
+
+    # 提取額外欄位（用於 payload 篩選）
+    rule_type="$(sed -n 's/^- \*\*rule_type\*\*: *//p' "$md_file" | head -1)"
+    [[ -z "$rule_type" ]] && rule_type="$(sed -n 's/^- \*\*規則類型\*\*: *//p' "$md_file" | head -1)"
+    affected_roles="$(sed -n 's/^- \*\*affected_roles\*\*: *//p' "$md_file" | head -1)"
+    [[ -z "$affected_roles" ]] && affected_roles="$(sed -n 's/^- \*\*影響角色\*\*:/,/^$/p' "$md_file" | grep '^ *- ' | sed 's/^ *- //' | tr '\n' ', ' | sed 's/, $//')"
+    enforcement_signal="$(sed -n 's/^- \*\*enforcement_signal\*\*: *//p' "$md_file" | head -1)"
 
     # 建構 payload
     payload_json="$(jq -nc \
@@ -96,6 +116,10 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
       --arg category "$category" \
       --arg confidence "$confidence" \
       --arg source_layer "$LAYER_NAME" \
+      --arg rule_type "$rule_type" \
+      --arg affected_roles "$affected_roles" \
+      --arg enforcement_signal "$enforcement_signal" \
+      --arg shift_summary "$shift_summary" \
       --arg fetched_at "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
       --arg original_content "$content" \
       '{
@@ -105,6 +129,10 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
         category: $category,
         confidence: $confidence,
         source_layer: $source_layer,
+        rule_type: $rule_type,
+        affected_roles: $affected_roles,
+        enforcement_signal: $enforcement_signal,
+        shift_summary: $shift_summary,
         fetched_at: $fetched_at,
         original_content: $original_content
       }'
