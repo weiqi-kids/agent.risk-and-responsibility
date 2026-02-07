@@ -26,17 +26,45 @@
 掃描 `core/Narrator/Modes/*/`，排除含有 `.disabled` 檔案的目錄。
 每個有效 Mode 目錄應包含 `CLAUDE.md`。
 
-### 步驟四：逐一執行 Mode
+### 步驟四：執行所有 Mode（兩階段）
 
-對每個 Mode 依序執行：
+#### 階段 4a：Qdrant 查詢（Sonnet 平行執行）
 
+對所有 Mode **平行**執行 Qdrant 語意搜尋：
+
+```
+頂層 CLI 同時分派多個 Sonnet Task：
+├── Task(Bash, sonnet) → Mode A 的 Qdrant 查詢
+├── Task(Bash, sonnet) → Mode B 的 Qdrant 查詢
+├── Task(Bash, sonnet) → Mode C 的 Qdrant 查詢
+└── ...
+```
+
+每個 Task 執行：
+1. 讀取該 Mode 的 `CLAUDE.md` 取得搜尋關鍵字
+2. 執行 `chatgpt_embed` 產生 embedding
+3. 執行 `qdrant_search` 取得搜尋結果
+4. 將結果寫入暫存檔 `/tmp/qdrant-{mode_name}.json`
+
+#### 階段 4b：報告產出（Opus 平行執行）
+
+收集所有 Qdrant 查詢結果後，對所有 Mode **平行**產出報告：
+
+```
+頂層 CLI 同時分派多個 Opus Task：
+├── Task(general-purpose, opus) → Mode A 報告（讀取 /tmp/qdrant-mode-a.json）
+├── Task(general-purpose, opus) → Mode B 報告
+├── Task(general-purpose, opus) → Mode C 報告
+└── ...
+```
+
+每個 Task 執行：
 1. 讀取該 Mode 的 `CLAUDE.md` 和 `core/Narrator/CLAUDE.md`
-2. **從 Qdrant 語意搜尋取得資料**：
-   - 根據 Mode 的主題關鍵字產生 embedding
-   - 使用 `qdrant_search` 搜尋相關資料（limit 依 Mode 需求設定）
-   - 搜尋結果包含 payload（source_url、title、date、category、original_content 等）
+2. 讀取暫存的 Qdrant 搜尋結果
 3. 依照輸出框架產出報告到 `docs/Narrator/{mode_name}/`
 4. 更新該 Mode 的 `index.md`（嵌入最新報告內容）
+
+> **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫，避免 Opus 等待網路回應。
 
 ### 步驟五：提交並部署
 
@@ -84,32 +112,52 @@
 
 ```
 頂層 Claude CLI（Opus）
-├── Task(Bash, sonnet)     → 目錄掃描、fetch.sh、update.sh
-├── Task(general-purpose, sonnet) → Layer 萃取（需 Write tool 寫 .md 檔）
-└── Task(general-purpose, opus)   → Mode 報告產出（需跨來源綜合分析）
+│
+├── 步驟一～三：Layer 處理（全部 Sonnet）
+│   ├── Task(Bash, sonnet)           → 目錄掃描、fetch.sh、update.sh
+│   └── Task(general-purpose, sonnet) → Layer 萃取（需 Write tool）
+│
+└── 步驟四：Mode 報告（兩階段）
+    ├── 階段 4a：Task(Bash, sonnet) × N     → 平行 Qdrant 查詢（I/O 密集）
+    │   └── 等待全部完成...
+    └── 階段 4b：Task(general-purpose, opus) × N → 平行報告產出（推理密集）
 ```
 
 ### 指派表
 
-| 步驟 | 任務類型 | 指定模型 | 子代理類型 | 原因 |
-|------|----------|----------|------------|------|
-| 步驟一 | 動態發現所有 Layer | `sonnet` | `Bash` | 純目錄掃描，無需推理 |
-| 步驟二 | fetch.sh 執行 | `sonnet` | `Bash` | 純腳本執行 |
-| 步驟二 | Layer 萃取（RSS → Markdown） | `sonnet` | `general-purpose` | 需用 Write 工具寫 .md 檔 |
-| 步驟二 | update.sh 執行 | `sonnet` | `Bash` | 純腳本執行 |
-| 步驟三 | 動態發現所有 Mode | `sonnet` | `Bash` | 純目錄掃描，無需推理 |
-| 步驟四 | Qdrant 語意搜尋 | `sonnet` | `Bash` | 執行 embedding + 搜尋腳本 |
-| 步驟四 | Mode 報告產出 | `opus` | `general-purpose` | 需要跨來源綜合分析、趨勢判斷 |
-| 步驟五 | git commit + push | `sonnet` | `Bash` | 純腳本執行 |
+| 步驟 | 任務類型 | 指定模型 | 子代理類型 | 平行化 | 原因 |
+|------|----------|----------|------------|--------|------|
+| 步驟一 | 動態發現所有 Layer | `sonnet` | `Bash` | - | 純目錄掃描 |
+| 步驟二 | fetch.sh 執行 | `sonnet` | `Bash` | ✅ 可平行 | 各 Layer 獨立 |
+| 步驟二 | Layer 萃取 | `sonnet` | `general-purpose` | ✅ 可平行 | 需 Write 工具 |
+| 步驟二 | update.sh 執行 | `sonnet` | `Bash` | ✅ 可平行 | 各 Layer 獨立 |
+| 步驟三 | 動態發現所有 Mode | `sonnet` | `Bash` | - | 純目錄掃描 |
+| **步驟 4a** | Qdrant 語意搜尋 | `sonnet` | `Bash` | ✅ 可平行 | I/O 密集，無需推理 |
+| **步驟 4b** | Mode 報告產出 | `opus` | `general-purpose` | ✅ 可平行 | 跨來源綜合分析 |
+| 步驟五 | git commit + push | `sonnet` | `Bash` | - | 純腳本執行 |
 
-> **強制規則**：只有步驟四的 Mode 報告產出使用 `opus`，其餘所有步驟（含 Qdrant 搜尋與步驟五部署）一律使用 `sonnet`。
-> **子代理規則**：需要寫入檔案的 Task 必須使用 `general-purpose`（透過 Write 工具寫檔），純腳本執行使用 `Bash`。
+> **強制規則**：
+> - 只有步驟 4b（Mode 報告產出）使用 `opus`
+> - 其餘所有步驟（含步驟 4a Qdrant 搜尋）一律使用 `sonnet`
+> - 步驟 4a 必須全部完成後，才能開始步驟 4b
+>
+> **子代理規則**：需要寫入檔案的 Task 必須使用 `general-purpose`，純腳本執行使用 `Bash`。
 
 ### 平行分派策略
 
-- JSONL 萃取可平行分派多個 Task（例如：20 筆 JSONL 可一次分派 10 個 Task）
+**步驟二（Layer 處理）**：
 - 多個 Layer 的 fetch.sh 可平行執行（彼此獨立）
-- Mode 報告產出依序執行（後一 Mode 可能依賴前一 Mode 的輸出作為上下文）
+- JSONL 萃取可平行分派多個 Task（例如：20 筆 JSONL 可一次分派 10-20 個 Sonnet Task）
+- update.sh 可平行執行（各 Layer 獨立）
+
+**步驟四（Mode 報告）**：
+- 階段 4a：所有 Mode 的 Qdrant 查詢**平行執行**（Sonnet 處理 I/O）
+- 階段 4b：所有 Mode 的報告產出**平行執行**（Opus 處理推理）
+- 兩階段之間有依賴，必須等 4a 全部完成後才執行 4b
+
+**背景執行**：
+- fetch.sh、update.sh 可用 `run_in_background` 執行，主執行緒觀察進度
+- Qdrant 查詢 Task 可用 `run_in_background` 執行
 
 ---
 

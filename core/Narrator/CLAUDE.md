@@ -14,11 +14,26 @@ Narrator 負責讀取 Extractor Layer 產出的結構化資料，進行跨來源
 
 ## Qdrant 資料查詢
 
-### 查詢流程
+### 兩階段執行模式
+
+根據 `CLAUDE.md` 的平行化策略，Mode 報告分兩階段執行：
+
+| 階段 | 執行者 | 工作內容 |
+|------|--------|----------|
+| **4a** | Sonnet（平行） | Qdrant 語意搜尋，結果寫入 `/tmp/qdrant-{mode_name}.json` |
+| **4b** | Opus（平行） | 讀取 4a 結果，撰寫報告 |
+
+### 階段 4a：查詢流程（Sonnet 執行）
 
 1. **產生查詢向量**：使用 OpenAI text-embedding-3-small 將查詢文字轉為 embedding
 2. **語意搜尋**：呼叫 `qdrant_search` 函數搜尋相關資料
-3. **處理結果**：從搜尋結果的 payload 取得結構化資料
+3. **儲存結果**：將搜尋結果寫入 `/tmp/qdrant-{mode_name}.json`
+
+### 階段 4b：報告產出（Opus 執行）
+
+1. **讀取查詢結果**：從 `/tmp/qdrant-{mode_name}.json` 讀取已搜尋的資料
+2. **綜合分析**：基於搜尋結果進行跨來源分析
+3. **產出報告**：依照 Mode 輸出框架撰寫報告
 
 ### 查詢範例
 
