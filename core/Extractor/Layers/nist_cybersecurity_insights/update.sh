@@ -79,12 +79,12 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
     confidence="$(sed -n 's/^confidence: *//p' "$md_file" | head -1)"
 
     # 提取 L2 shift_summary（用於 embedding）
-    shift_summary="$(sed -n 's/^- \*\*shift_summary\*\*: *//p' "$md_file" | head -1)"
+    shift_summary="$(sed -n 's/^- \*\*shift_summary\*\*: *//p' "$md_file" | head -1)" || true
     # 備用：nist_cybersecurity_insights 的 L2 格式可能不同
-    [[ -z "$shift_summary" ]] && shift_summary="$(sed -n 's/^- \*\*變動摘要.*\*\*: *//p' "$md_file" | head -1)"
+    [[ -z "$shift_summary" ]] && shift_summary="$(sed -n 's/^- \*\*變動摘要.*\*\*: *//p' "$md_file" | head -1)" || true
 
     # 提取 L3 Risk Domains（用於 embedding）
-    risk_domains="$(sed -n '/^## L3/,/^## L4/p' "$md_file" | grep '^- ' | sed 's/^- //' | tr '\n' ', ' | sed 's/, $//')"
+    risk_domains="$(sed -n '/^## L3/,/^## L4/p' "$md_file" 2>/dev/null | grep '^- ' 2>/dev/null | sed 's/^- //' | tr '\n' ', ' | sed 's/, $//')" || true
 
     # 讀取完整內容
     content="$(cat "$md_file")"
@@ -102,11 +102,14 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
     }
 
     # 提取額外欄位（用於 payload 篩選）
-    rule_type="$(sed -n 's/^- \*\*rule_type\*\*: *//p' "$md_file" | head -1)"
-    [[ -z "$rule_type" ]] && rule_type="$(sed -n 's/^- \*\*規則類型\*\*: *//p' "$md_file" | head -1)"
-    affected_roles="$(sed -n 's/^- \*\*affected_roles\*\*: *//p' "$md_file" | head -1)"
-    [[ -z "$affected_roles" ]] && affected_roles="$(sed -n 's/^- \*\*影響角色\*\*:/,/^$/p' "$md_file" | grep '^ *- ' | sed 's/^ *- //' | tr '\n' ', ' | sed 's/, $//')"
-    enforcement_signal="$(sed -n 's/^- \*\*enforcement_signal\*\*: *//p' "$md_file" | head -1)"
+    rule_type="$(sed -n 's/^- \*\*rule_type\*\*: *//p' "$md_file" | head -1)" || true
+    [[ -z "$rule_type" ]] && { rule_type="$(sed -n 's/^- \*\*規則類型\*\*: *//p' "$md_file" | head -1)" || true; }
+    affected_roles="$(sed -n 's/^- \*\*affected_roles\*\*: *//p' "$md_file" | head -1)" || true
+    # 備用：從 L2 區塊提取影響角色（多行格式）
+    if [[ -z "$affected_roles" ]]; then
+      affected_roles="$(awk '/^\*\*affected_roles\*\*:|^- \*\*affected_roles\*\*:/{found=1;next} found && /^  - /{gsub(/^  - /,"");roles=roles $0 ", "} found && !/^  - /{exit} END{sub(/, $/,"",roles);print roles}' "$md_file" 2>/dev/null)" || true
+    fi
+    enforcement_signal="$(sed -n 's/^- \*\*enforcement_signal\*\*: *//p' "$md_file" | head -1)" || true
 
     # 建構 payload
     payload_json="$(jq -nc \

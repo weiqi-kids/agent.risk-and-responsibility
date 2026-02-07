@@ -90,10 +90,10 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
     confidence="$(sed -n 's/^confidence: *//p' "$md_file" | head -1)"
 
     # 提取 L2 shift_summary（用於 embedding）
-    shift_summary="$(sed -n 's/^- \*\*shift_summary\*\*: *//p' "$md_file" | head -1)"
+    shift_summary="$(sed -n 's/^- \*\*shift_summary\*\*: *//p' "$md_file" | head -1)" || true
 
     # 提取 L3 Risk Domains（用於 embedding）
-    risk_domains="$(sed -n '/^## L3/,/^## L4/p' "$md_file" | grep '^- ' | sed 's/^- //' | tr '\n' ', ' | sed 's/, $//')"
+    risk_domains="$(sed -n '/^## L3/,/^## L4/p' "$md_file" 2>/dev/null | grep '^- ' 2>/dev/null | sed 's/^- //' | tr '\n' ', ' | sed 's/, $//')" || true
 
     # 讀取完整內容
     content="$(cat "$md_file")"
@@ -111,9 +111,9 @@ if [[ -n "${QDRANT_URL:-}" ]]; then
     }
 
     # 提取額外欄位（用於 payload 篩選）
-    rule_type="$(sed -n 's/^- \*\*rule_type\*\*: *//p' "$md_file" | head -1)"
-    affected_roles="$(sed -n 's/^- \*\*affected_roles\*\*: *//p' "$md_file" | head -1)"
-    enforcement_signal="$(sed -n 's/^- \*\*enforcement_signal\*\*: *//p' "$md_file" | head -1)"
+    rule_type="$(sed -n 's/^- \*\*rule_type\*\*: *//p' "$md_file" | head -1)" || true
+    affected_roles="$(sed -n 's/^- \*\*affected_roles\*\*: *//p' "$md_file" | head -1)" || true
+    enforcement_signal="$(sed -n 's/^- \*\*enforcement_signal\*\*: *//p' "$md_file" | head -1)" || true
 
     # 建構 payload
     payload_json="$(jq -nc \
