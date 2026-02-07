@@ -31,8 +31,25 @@
 對每個 Mode 依序執行：
 
 1. 讀取該 Mode 的 `CLAUDE.md` 和 `core/Narrator/CLAUDE.md`
-2. 讀取 CLAUDE.md 中宣告的來源 Layer 資料（`docs/Extractor/{layer_name}/` 下的 `.md` 檔）
+2. **從 Qdrant 語意搜尋取得資料**：
+   - 根據 Mode 的主題關鍵字產生 embedding
+   - 使用 `qdrant_search` 搜尋相關資料（limit 依 Mode 需求設定）
+   - 搜尋結果包含 payload（source_url、title、date、category、original_content 等）
 3. 依照輸出框架產出報告到 `docs/Narrator/{mode_name}/`
+4. 更新該 Mode 的 `index.md`（嵌入最新報告內容）
+
+### 步驟五：提交並部署
+
+執行完所有 Mode 後：
+
+1. 檢查是否有變動：`git status --porcelain`
+2. 若有變動，執行：
+   ```bash
+   git add docs/Narrator/
+   git commit -m "chore: update reports $(date +%Y-%m-%d)"
+   git push
+   ```
+3. 等待 GitHub Actions 部署完成
 
 ### JSONL 處理規範
 
@@ -81,9 +98,11 @@
 | 步驟二 | Layer 萃取（RSS → Markdown） | `sonnet` | `general-purpose` | 需用 Write 工具寫 .md 檔 |
 | 步驟二 | update.sh 執行 | `sonnet` | `Bash` | 純腳本執行 |
 | 步驟三 | 動態發現所有 Mode | `sonnet` | `Bash` | 純目錄掃描，無需推理 |
+| 步驟四 | Qdrant 語意搜尋 | `sonnet` | `Bash` | 執行 embedding + 搜尋腳本 |
 | 步驟四 | Mode 報告產出 | `opus` | `general-purpose` | 需要跨來源綜合分析、趨勢判斷 |
+| 步驟五 | git commit + push | `sonnet` | `Bash` | 純腳本執行 |
 
-> **強制規則**：只有步驟四（Mode 報告產出）使用 `opus`，其餘所有步驟一律使用 `sonnet`。
+> **強制規則**：只有步驟四的 Mode 報告產出使用 `opus`，其餘所有步驟（含 Qdrant 搜尋與步驟五部署）一律使用 `sonnet`。
 > **子代理規則**：需要寫入檔案的 Task 必須使用 `general-purpose`（透過 Write 工具寫檔），純腳本執行使用 `Bash`。
 
 ### 平行分派策略
