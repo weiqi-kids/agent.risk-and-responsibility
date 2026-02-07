@@ -1,23 +1,183 @@
 ---
 layout: default
-title: Critical Infrastructure Resilience
-parent: 報告總覽
-nav_order: 4
+title: Critical Infrastructure
+nav_order: 5
 has_children: true
 ---
 
-# Critical Infrastructure Resilience — 關鍵基礎設施韌性
+# Critical Infrastructure Resilience — 2026-W06
 
-每週彙整全球關鍵基礎設施保護動態，供 CISO、OT 安全團隊、合規主管掌握韌性要求變化。
+> 本期追蹤 47 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規。
 
-## 來源
-- NIST Frameworks (critical_infrastructure)
-- NIST Cybersecurity Insights (critical_infrastructure)
-- EU Regulations (critical_infrastructure)
+## 免責聲明
 
-## 報告清單
+本報告由 AI 系統自動產出，基於公開資料源萃取與結構化分析。
+內容僅供參考，不構成法律或合規建議。所有資訊應以原始發布機構
+的正式文件為準。標註「推測」之內容為系統推論，尚未經人工驗證。
 
-{% assign reports = site.pages | where_exp: "page", "page.path contains 'Narrator/critical_infrastructure_resilience/' and page.path != 'docs/Narrator/critical_infrastructure_resilience/index.md'" | sort: "title" | reverse %}
-{% for report in reports %}
-- [{{ report.title | default: report.name }}]({{ report.url | relative_url }})
-{% endfor %}
+---
+
+## 本週重點
+
+1. **歐盟俄羅斯天然氣進口禁令生效** — Regulation (EU) 2026/261 建立俄羅斯天然氣進口禁令時程，管道天然氣自 2026 年 6 月 17 日起禁止進口，LNG 自 2026 年 4 月 25 日起禁止，成員國須於 2026 年 3 月 1 日前提交國家多元化計畫。（歐盟，regulation，mandatory）
+
+2. **歐洲 AI 超級工廠計畫啟動** — Council Regulation (EU) 2026/150 擴大 EuroHPC Joint Undertaking 職責，新增「AI gigafactories」建設與營運任務，財務承諾從 12 億歐元提升至 41.2 億歐元，成員國可於 2026 年 8 月 31 日前透過 RRF 資金參與。（歐盟，regulation，mandatory）
+
+3. **歐洲防衛工業計畫建立** — Regulation (EU) 2025/2643 建立 2025-2027 歐洲防衛工業計畫（EDIP），設立供應鏈韌性要求（外部元件成本不得超過 35%）及烏克蘭支持工具，強化歐盟防衛產業自主性。（歐盟，regulation，mandatory）
+
+4. **IoT 安全接入最終指引發布** — NIST 發布三份 IoT 安全接入最終出版物（CSWP 42、NISTIR 8350、SP 1800-36），建立設備信任機制與憑證管理標準，適用於所有 IoT 設備類型的完整生命週期管理。（美國，final，recommended）
+
+5. **對伊朗與俄羅斯制裁措施擴大** — 歐盟本週新增多項針對伊朗軍事支援俄羅斯的制裁（CFSP 2026/263、Regulation 2026/271），擴大無人機與飛彈零組件出口禁令，並將六名俄羅斯宣傳人員納入制裁名單（Regulation 2026/259）。（歐盟，amendment，mandatory）
+
+---
+
+## 區域動態比較
+
+### 美國（NIST）
+
+**IoT 安全指引持續演進**
+
+NIST 本期資料主要涵蓋 IoT 安全與關鍵基礎設施保護：
+
+- **CSWP 42、NISTIR 8350、SP 1800-36**（final）：IoT 安全接入三份最終出版物，建立設備信任、憑證管理與生命週期管理標準
+- **NIST IR 8259 修訂進程**：IoT 設備製造商基礎資安活動指引已進入五年回顧階段，準備更新以反映近年產業實務
+- **NIST SP 1334**（public_comment）：OT 環境可攜式儲存媒體網路安全風險指引草案，建立 USB 裝置管理標準
+- **NIST CSWP 51**（public_comment）：公共運輸網路安全框架社群概況草案，協助運輸業者同時管理 IT 與 OT 系統風險
+- **BGP RPKI 測試工具**（final）：BRIO 測試工具發布，支援路由安全機制驗證與路由洩漏緩解
+
+**聯邦投資回報研究**
+
+NIST.GCR.25-059 報告指出聯邦 IoT 基礎設施投資可獲 10-20 倍回報，識別十一項關鍵技術基礎設施領域。
+
+### 歐盟
+
+**能源安全與供應鏈韌性**
+
+本週歐盟發布重大能源安全法規，並持續強化對外制裁機制：
+
+- **Regulation (EU) 2026/261**（directly_applicable）：俄羅斯天然氣進口禁令，建立明確時程與國家多元化計畫要求，影響所有能源進口商與基礎設施營運商
+- **Council Regulation (EU) 2026/150**（directly_applicable）：擴大 EuroHPC Joint Undertaking 至 AI gigafactories，財務承諾提升至 41.2 億歐元
+- **Regulation (EU) 2025/2643**（directly_applicable）：歐洲防衛工業計畫（EDIP），外部元件成本限制 35%，強化供應鏈自主
+
+**制裁與限制性措施**
+
+- **CFSP 2026/263、Regulation 2026/271**：擴大對伊朗制裁，新增無人機與飛彈零組件出口禁令
+- **Regulation 2026/259**：新增六名俄羅斯宣傳人員至制裁名單
+- **CFSP 2025/2648**：對俄制裁延長至 2026 年 7 月 31 日
+- **Decision 2026/239**：突尼西亞制裁調整，三人除名並延長至 2027 年
+
+**技術性更正**
+
+多項 Directive 勘誤發布，包括再生能源（2018/2001）、飲用水（2020/2184）、車輛檢驗（2014/45、2014/47）、排放交易（2009/29）等，主要為術語統一與引用修正。
+
+---
+
+## 基礎設施領域矩陣
+
+| 領域 | 美國要求 | 歐盟要求 | 本週變動 |
+|------|----------|----------|----------|
+| 能源 | IoT 基礎設施投資指引（recommended） | 俄羅斯天然氣進口禁令（mandatory）、排放交易術語更正 | 歐盟：重大新規 |
+| 電信 | BGP RPKI 測試工具（recommended） | 無 | 美國：新測試工具 |
+| 金融 | 無 | 制裁措施擴大（伊朗、俄羅斯、突尼西亞） | 歐盟：制裁更新 |
+| 運輸 | 公共運輸 CSF Profile 草案（informational） | 海事安全規範更新、車輛檢驗術語更正 | 美國：徵求意見 |
+| 水務 | 無 | 飲用水指令術語更正 | 歐盟：技術更正 |
+| 資訊 | OT 可攜儲存媒體指引草案（recommended） | AI gigafactories 建設框架（mandatory） | 雙區域均有進展 |
+| 製造 | IoT 安全接入指引（recommended） | 防衛工業計畫（mandatory）、對伊朗出口禁令擴大 | 歐盟：供應鏈限制 |
+
+---
+
+## 責任變動追蹤
+
+| 來源 | 文件 | affected_roles | shift_type | shift_summary |
+|------|------|---------------|------------|---------------|
+| NIST | SP 1334 | OT/ICS 管理員、工業控制系統營運商 | new | OT 環境可攜式儲存媒體管理責任標準 |
+| NIST | CSWP 42, NISTIR 8350, SP 1800-36 | IoT 設備製造商、網路管理員、憑證管理團隊 | new | IoT 設備信任機制與憑證管理標準 |
+| NIST | CSWP 51 | 公共運輸業者、IT/OT 團隊 | new | 運輸業網路安全框架整合 |
+| NIST | BRIO 測試工具 | 網路工程師、ISP 業者 | new | BGP 安全機制驗證責任 |
+| EU | Regulation 2026/261 | 天然氣進口商、LNG 終端營運商、能源監管機構 | new | 俄羅斯天然氣進口禁令與國家多元化計畫義務 |
+| EU | Regulation 2026/150 | EuroHPC JU、成員國、AI gigafactory 聯盟 | expanded | AI 基礎設施建設與營運責任擴大 |
+| EU | Regulation 2025/2643 | 防衛產業製造商、採購機關 | new | 供應鏈韌性與外部元件成本限制義務 |
+| EU | CFSP 2026/263, Regulation 2026/271 | 出口商、海關、金融機構 | expanded | 對伊朗無人機與飛彈零組件出口禁令擴大 |
+| EU | Regulation 2026/259 | 金融機構、邊境管控機關 | expanded | 俄羅斯宣傳人員制裁名單新增 |
+| EU | Decision 2025/2642 | 承受移民壓力成員國、貢獻成員國 | expanded | 移民團結機制責任分擔擴大 |
+| EU | Decision 2025/2655 | 成員國、國際索賠委員會 | new | 烏克蘭戰爭損害國際索賠機制參與義務 |
+
+---
+
+## 義務與舉證要求
+
+### 新增義務摘要
+
+**能源安全**
+- 成員國須於 2026 年 3 月 1 日前提交國家多元化計畫
+- 進口商須取得事前授權，證明天然氣來源國與合約資格
+- 每月向國家主管機關與執委會報告進口量、入境點與合約詳情
+
+**AI 與運算基礎設施**
+- AI gigafactory 聯盟須符合技術、環境、安全標準
+- 受資助實體須在歐盟設立、不受非關聯第三國控制
+- 防衛產品外部元件成本不得超過 35%
+
+**IoT 安全**
+- 建立網路與 IoT 設備間的信任機制
+- 提供設備唯一網路憑證並管理完整生命週期
+- 實施可攜式儲存媒體管控與掃描程序
+
+**制裁合規**
+- 更新內部制裁資料庫以反映新增名單
+- 執行資產凍結與交易監控
+- 出口商須確認交易標的不屬於管制清單
+
+### 舉證要求摘要
+
+**能源領域**
+- 國家多元化計畫文件
+- 天然氣來源證明與合約資格文件
+- 月度進口量報告與入境點記錄
+
+**AI/運算基礎設施**
+- 企業設立地與控制權結構證明
+- 外部元件成本結構報告（≤35%）
+- 年度稽核報告與 SLA 文件
+
+**IoT 安全**
+- 信任建立協定與憑證配發日誌
+- 設備生命週期管理文件
+- 可攜式儲存媒體政策與掃描記錄
+
+**制裁合規**
+- 制裁合規監控紀錄
+- 交易審查與客戶盡職調查報告
+- 出口申報與海關查驗紀錄
+
+---
+
+## L5 — Evolution Signals
+
+- [系統推論] 歐盟正從「能源依賴管理」轉向「能源供應強制斷鏈」，俄羅斯天然氣進口禁令標誌著歐盟能源安全政策從市場調控轉向行政管制的根本性轉變，預期將加速替代能源基礎設施投資與跨境合作機制建設。
+
+- [系統推論] AI 算力基礎設施正被重新定義為「戰略資產」而非純商業設施，EuroHPC 擴展至 AI gigafactories、供應鏈安全審查要求、五年歐盟所有權保障等機制，顯示歐盟正將 AI 基礎設施納入類似關鍵基礎設施的治理框架。
+
+- [系統推論] 美國與歐盟在 IoT 安全領域呈現互補發展路徑 — NIST 持續深化設備端安全指引（安全接入、製造商責任），而歐盟則著重基礎設施層面（AI 算力、供應鏈韌性），預期兩區域將在跨境設備認證與供應鏈追溯方面尋求協調。
+
+---
+
+## 統計
+
+| 指標 | 數值 |
+|------|------|
+| 總變動數 | 47 |
+| 來源分布 | NIST Frameworks: 5, NIST Insights: 2, EU: 40 |
+| rule_type 分布 | new: 14, amendment: 16, revision: 2, draft: 2, final: 2, guidance: 2, regulation: 3, corrigendum: 6 |
+| enforcement_signal 分布 | mandatory: 32, recommended: 8, informational: 7 |
+| REVIEW_NEEDED | 0 筆 |
+
+---
+
+## 資料來源
+
+| Layer | Category | 筆數 | 時間範圍 |
+|-------|----------|------|----------|
+| nist_frameworks | critical_infrastructure | 5 | 2025-07-15 ~ 2025-11-25 |
+| nist_cybersecurity_insights | critical_infrastructure | 2 | 2024-11-21 ~ 2025-05-13 |
+| eu_regulations | critical_infrastructure | 40 | 2025-11-24 ~ 2026-02-04 |

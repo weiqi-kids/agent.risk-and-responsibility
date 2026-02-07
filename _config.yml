@@ -52,6 +52,8 @@ exclude:
   - "*.xml"
   - raw/
   - CLAUDE.md
+  - docs/Extractor/
+  - docs/explored.md
 
 # 預設值
 defaults:
@@ -59,11 +61,3 @@ defaults:
       path: "docs/Narrator"
     values:
       layout: default
-      nav_order: 1
-      parent: 報告
-  - scope:
-      path: "docs/Extractor"
-    values:
-      layout: default
-      nav_order: 2
-      parent: 資料

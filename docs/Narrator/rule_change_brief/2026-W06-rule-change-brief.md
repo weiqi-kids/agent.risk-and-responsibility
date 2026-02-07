@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Rule Change Brief — 2026-W06"
+title: "2026-W06"
 parent: Rule Change Brief
-grand_parent: 報告總覽
+nav_order: 1
 ---
 
 # Rule Change Brief — 2026-W06

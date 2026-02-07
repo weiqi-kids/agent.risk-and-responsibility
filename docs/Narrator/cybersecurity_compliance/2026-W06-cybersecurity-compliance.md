@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Cybersecurity Compliance — 2026-W06"
+title: "2026-W06"
 parent: Cybersecurity Compliance
-grand_parent: 報告總覽
+nav_order: 1
 ---
 
 # Cybersecurity Compliance Updates — 2026-W06

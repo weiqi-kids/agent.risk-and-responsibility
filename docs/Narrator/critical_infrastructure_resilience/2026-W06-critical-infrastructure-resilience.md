@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Critical Infrastructure Resilience — 2026-W06"
-parent: Critical Infrastructure Resilience
-grand_parent: 報告總覽
+title: "2026-W06"
+parent: Critical Infrastructure
+nav_order: 1
 ---
 
 # Critical Infrastructure Resilience — 2026-W06

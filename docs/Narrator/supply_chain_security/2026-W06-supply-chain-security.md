@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Supply Chain Security — 2026-W06"
+title: "2026-W06"
 parent: Supply Chain Security
-grand_parent: 報告總覽
+nav_order: 1
 ---
 
 # Supply Chain Security Trends — 2026-W06

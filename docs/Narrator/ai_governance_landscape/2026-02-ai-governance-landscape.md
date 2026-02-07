@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "AI Governance Landscape — 2026-02"
+title: "2026-02"
 parent: AI Governance Landscape
-grand_parent: 報告總覽
+nav_order: 1
 ---
 
 # AI Governance Landscape — 2026-02
