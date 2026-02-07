@@ -1,0 +1,69 @@
+title: Global Risk & Responsibility Intelligence
+description: 全球風險與責任情報系統 — 追蹤框架、法規與產業規則的變動
+theme: just-the-docs
+url: https://weiqi-kids.github.io
+baseurl: /agent.risk-and-responsibility
+
+# 導航結構
+nav_enabled: true
+nav_sort: case_insensitive
+
+# 搜尋
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+# 頁尾
+footer_content: "Global Risk & Responsibility Intelligence System"
+
+# 顏色主題
+color_scheme: light
+
+# 輔助連結
+aux_links:
+  "GitHub":
+    - "https://github.com/weiqi-kids/agent.risk-and-responsibility"
+
+# 標題錨點
+heading_anchors: true
+
+# 返回頂部
+back_to_top: true
+back_to_top_text: "回到頂部"
+
+# 排除不需要處理的檔案
+exclude:
+  - .env
+  - .env.example
+  - "*.sh"
+  - lib/
+  - core/
+  - scripts/
+  - dist/
+  - node_modules/
+  - .claude/
+  - "*.jsonl"
+  - "*.xml"
+  - raw/
+  - CLAUDE.md
+
+# 預設值
+defaults:
+  - scope:
+      path: "docs/Narrator"
+    values:
+      layout: default
+      nav_order: 1
+      parent: 報告
+  - scope:
+      path: "docs/Extractor"
+    values:
+      layout: default
+      nav_order: 2
+      parent: 資料

@@ -1,0 +1,28 @@
+# 環境設定
+.env
+
+# 原始資料（不入版控）
+*.xml
+*.jsonl
+raw/
+
+# 系統檔案
+.DS_Store
+.claude/
+*.log
+*.tmp
+
+# 舊版 HTML 輸出
+dist/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+# Ruby
+*.gem
+.bundle/
