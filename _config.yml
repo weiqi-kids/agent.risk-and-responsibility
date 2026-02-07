@@ -1,4 +1,4 @@
-title: Global Risk & Responsibility Intelligence
+title: Risk & Responsibility
 description: 全球風險與責任情報系統 — 追蹤框架、法規與產業規則的變動
 theme: just-the-docs
 url: https://weiqi-kids.github.io
@@ -20,7 +20,7 @@ search:
   button: false
 
 # 頁尾
-footer_content: "Global Risk & Responsibility Intelligence System"
+footer_content: "Risk & Responsibility Intelligence"
 
 # 顏色主題
 color_scheme: light
