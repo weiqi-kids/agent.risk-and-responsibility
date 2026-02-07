@@ -1,0 +1,26 @@
+[
+  {
+    "id": "index-md",
+    "title": "Rule Change Brief — 規則變動簡報",
+    "date": "",
+    "file": "index.md",
+    "item_count": "",
+    "source_mode": "rule_change_brief"
+  },
+  {
+    "id": "2026-W06-rule-change-brief-md",
+    "title": "Rule Change Brief — 2026-W06",
+    "date": "2026-W06",
+    "file": "2026-W06-rule-change-brief.md",
+    "item_count": "24",
+    "source_mode": "rule_change_brief"
+  },
+  {
+    "id": "2026-W05-rule-change-brief-md",
+    "title": "Rule Change Brief — 2026-W05",
+    "date": "2026-W05",
+    "file": "2026-W05-rule-change-brief.md",
+    "item_count": "41",
+    "source_mode": "rule_change_brief"
+  }
+]
