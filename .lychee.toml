@@ -1,0 +1,63 @@
+# Lychee link checker configuration
+# https://lychee.cli.rs/
+
+# Maximum number of concurrent requests
+max_concurrency = 16
+
+# Timeout for network requests in seconds
+timeout = 30
+
+# Number of retries for failed requests
+max_retries = 3
+
+# Wait time between retries in seconds
+retry_wait_time = 5
+
+# User agent string
+user_agent = "Mozilla/5.0 (compatible; lychee-link-checker; +https://github.com/weiqi-kids/agent.risk-and-responsibility)"
+
+# Accept these HTTP status codes as valid
+accept = [200, 204, 206, 301, 302, 303, 307, 308]
+
+# Exclude patterns
+exclude = [
+  # Local development
+  "localhost",
+  "127.0.0.1",
+  "0.0.0.0",
+
+  # Our own repo (avoid rate limits)
+  "github.com/weiqi-kids/agent.risk-and-responsibility",
+
+  # Known problematic patterns
+  "^mailto:",
+  "^tel:",
+  "^javascript:",
+
+  # Sites that block bots
+  "linkedin.com",
+]
+
+# Include patterns (only check these if specified)
+# include = []
+
+# Skip checking email addresses
+exclude_mail = true
+
+# Don't check fragments (anchors)
+include_fragments = false
+
+# Output format: compact, detailed, json, markdown
+format = "markdown"
+
+# Cache settings
+cache = true
+max_cache_age = "1d"
+
+# Headers to send with requests
+[headers]
+Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+
+# Remap URLs before checking
+# [remaps]
+# "https://old-domain.com/(.*)" = "https://new-domain.com/$1"
