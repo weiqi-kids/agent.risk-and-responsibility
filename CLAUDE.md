@@ -95,6 +95,13 @@
 - **Layer CLAUDE.md 的萃取邏輯**（作為 Task prompt 的一部分）
 - **core/Extractor/CLAUDE.md 的通用規則**（WebFetch、REVIEW_NEEDED 等）
 
+### JSONL 批次處理建議
+
+- 每個萃取 Task 建議處理 **8-10 筆** JSONL 資料
+- 避免一筆一個 Task（啟動開銷大，效率低）
+- 避免超過 15 筆（單一 Task 執行時間過長，失敗風險增加）
+- 批次內的多筆資料由同一個 Task 依序處理，各自產出獨立的 `.md` 檔
+
 ### 萃取前去重
 
 在萃取前，應檢查 `docs/Extractor/{layer_name}/` 下是否已存在相同 `source_url` 或 ID 的 `.md` 檔：
