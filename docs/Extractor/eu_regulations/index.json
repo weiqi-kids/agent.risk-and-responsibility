@@ -66,6 +66,28 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2026-01-30-mediterranean-black-sea-fishing-quotas-md",
+    "title": "Council Regulation (EU) 2026/266 fixing fishing opportunities for Mediterranean and Black Seas in 2026",
+    "category": "supply_chain",
+    "date": "2026-01-30",
+    "file": "supply_chain/2026-01-30-mediterranean-black-sea-fishing-quotas.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0266",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "supply_chain-2026-01-30-fishing-quotas-2026-2028-md",
+    "title": "Council Regulation (EU) 2026/249 fixing fishing opportunities for 2026-2028",
+    "category": "supply_chain",
+    "date": "2026-01-30",
+    "file": "supply_chain/2026-01-30-fishing-quotas-2026-2028.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0249",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2026-01-30-fishing-opportunities-mediterranean-black-sea-2026-md",
     "title": "Council Regulation (EU) 2026/266 fixing for 2026 the fishing opportunities for certain fish stocks in the Mediterranean and Black Seas",
     "category": "supply_chain",
@@ -594,6 +616,28 @@
     "review_needed": false
   },
   {
+    "id": "institutional_administration-2026-02-05-transport-community-maternity-leave-md",
+    "title": "Council Decision (EU) 2026/303 on Transport Community maternity leave rules",
+    "category": "institutional_administration",
+    "date": "2026-02-05",
+    "file": "institutional_administration/2026-02-05-transport-community-maternity-leave.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0303",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-30-mep-allowances-indexation-md",
+    "title": "Decision of the European Parliament Bureau on Members' allowances indexation for 2026",
+    "category": "institutional_administration",
+    "date": "2026-01-30",
+    "file": "institutional_administration/2026-01-30-mep-allowances-indexation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00685",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "institutional_administration-2026-01-30-european-parliament-members-statute-amendment-md",
     "title": "Decision of the Bureau of the European Parliament of 19 January 2026 amending the Implementing Measures for the Statute for Members",
     "category": "institutional_administration",
@@ -645,6 +689,17 @@
     "file": "institutional_administration/2026-01-23-advisory-committee-freedom-movement-italy-lavorato.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00542",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-23-advisory-committee-appointments-batch-md",
+    "title": "Council Decisions on Advisory Committee and Management Board member replacements (January 2026 batch)",
+    "category": "institutional_administration",
+    "date": "2026-01-23",
+    "file": "institutional_administration/2026-01-23-advisory-committee-appointments-batch.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00543",
+    "confidence": "中",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -891,6 +946,17 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-02-02-iran-sanctions-technical-correction-md",
+    "title": "Corrigendum to Council Implementing Regulation (EU) 2025/1980 concerning restrictive measures against Iran",
+    "category": "financial_compliance",
+    "date": "2026-02-02",
+    "file": "financial_compliance/2026-02-02-iran-sanctions-technical-correction.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R1980R(01)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-02-02-iran-sanctions-swift-code-corrigendum-md",
     "title": "Corrigendum to Council Implementing Regulation (EU) 2025/1980 concerning restrictive measures against Iran",
     "category": "financial_compliance",
@@ -898,6 +964,50 @@
     "file": "financial_compliance/2026-02-02-iran-sanctions-swift-code-corrigendum.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R1980R(01)",
     "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-02-02-iran-sanctions-cfsp-correction-md",
+    "title": "Corrigendum to Council Decision (CFSP) 2025/1978 concerning restrictive measures against Iran",
+    "category": "financial_compliance",
+    "date": "2026-02-02",
+    "file": "financial_compliance/2026-02-02-iran-sanctions-cfsp-correction.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D1978R(01)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-30-tunisia-sanctions-implementing-regulation-md",
+    "title": "Council Implementing Regulation (EU) 2026/238 on Tunisia sanctions implementation",
+    "category": "financial_compliance",
+    "date": "2026-01-30",
+    "file": "financial_compliance/2026-01-30-tunisia-sanctions-implementing-regulation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0238",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-30-tunisia-sanctions-amendment-md",
+    "title": "Council Decision (CFSP) 2026/239 amending restrictive measures concerning Tunisia",
+    "category": "financial_compliance",
+    "date": "2026-01-30",
+    "file": "financial_compliance/2026-01-30-tunisia-sanctions-amendment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0239",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-30-iran-sanctions-uav-components-md",
+    "title": "Council Regulation (EU) 2026/271 amending restrictive measures concerning Iran's military support to Russia",
+    "category": "financial_compliance",
+    "date": "2026-01-30",
+    "file": "financial_compliance/2026-01-30-iran-sanctions-uav-components.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0271",
+    "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -913,6 +1023,50 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-01-30-armenia-peace-facility-assistance-md",
+    "title": "Council Decision (CFSP) 2026/232 on European Peace Facility assistance to Armenia",
+    "category": "financial_compliance",
+    "date": "2026-01-30",
+    "file": "financial_compliance/2026-01-30-armenia-peace-facility-assistance.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0232",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-sudan-sanctions-implementation-md",
+    "title": "Council Implementing Regulation (EU) 2026/251 on Sudan sanctions for stability undermining activities",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-sudan-sanctions-implementation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0251",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-russia-destabilizing-implementing-regulation-md",
+    "title": "Council Implementing Regulation (EU) 2026/259 on Russia destabilizing activities",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-russia-destabilizing-implementing-regulation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0259",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-russia-destabilizing-activities-decision-md",
+    "title": "Council Decision (CFSP) 2026/260 amending restrictive measures on Russia's destabilising activities",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-russia-destabilizing-activities-decision.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0260",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-29-iran-sanctions-regulation-asset-freezes-md",
     "title": "Council Implementing Regulation (EU) 2026/267 - Iran restrictive measures asset freezes",
     "category": "financial_compliance",
@@ -920,6 +1074,39 @@
     "file": "financial_compliance/2026-01-29-iran-sanctions-regulation-asset-freezes.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0267",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-iran-sanctions-implementation-md",
+    "title": "Council Implementing Regulation (EU) 2026/262 on Iran sanctions for military support to Russia",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-iran-sanctions-implementation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0262",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-iran-military-support-decision-md",
+    "title": "Council Decision (CFSP) 2026/263 amending Iran military support sanctions",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-iran-military-support-decision.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0263",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-iran-general-sanctions-implementation-md",
+    "title": "Council Implementing Regulation (EU) 2026/267 on Iran general sanctions",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-iran-general-sanctions-implementation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0267",
+    "confidence": "中",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -1029,6 +1216,17 @@
     "date": "2026-01-23",
     "file": "financial_compliance/2026-01-23-macro-financial-assistance-jordan.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0188",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-23-jordan-macro-financial-assistance-md",
+    "title": "Decision (EU) 2026/188 providing EUR 500 million macro-financial assistance to Jordan",
+    "category": "financial_compliance",
+    "date": "2026-01-23",
+    "file": "financial_compliance/2026-01-23-jordan-macro-financial-assistance.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0188",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -1183,6 +1381,17 @@
     "date": "2025-12-30",
     "file": "financial_compliance/2025-12-30-council-regulation-eu-2025-2605-cct-duty-suspensions.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2605",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2025-12-30-compulsory-licensing-crisis-management-md",
+    "title": "Regulation (EU) 2025/2645 on compulsory licensing for crisis management",
+    "category": "financial_compliance",
+    "date": "2025-12-30",
+    "file": "financial_compliance/2025-12-30-compulsory-licensing-crisis-management.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2645",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -1430,6 +1639,17 @@
     "review_needed": false
   },
   {
+    "id": "digital_market-2025-12-30-consumer-dispute-resolution-adr-md",
+    "title": "Directive (EU) 2025/2647 amending alternative dispute resolution for consumer disputes",
+    "category": "digital_market",
+    "date": "2025-12-30",
+    "file": "digital_market/2025-12-30-consumer-dispute-resolution-adr.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025L2647",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "digital_market-2025-12-23-decision-bureau-european-parliament-amending-implementing-measures-statute-members-md",
     "title": "Decision of the Bureau of the European Parliament of 15 December 2025 amending the Implementing Measures for the Statute for Members of the European Parliament",
     "category": "digital_market",
@@ -1655,6 +1875,17 @@
     "category": "critical_infrastructure",
     "date": "2026-02-02",
     "file": "critical_infrastructure/2026-02-02-russian-gas-oil-phase-out.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0261",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-02-02-russian-energy-import-phaseout-md",
+    "title": "Regulation (EU) 2026/261 on phasing out Russian natural gas and oil imports",
+    "category": "critical_infrastructure",
+    "date": "2026-02-02",
+    "file": "critical_infrastructure/2026-02-02-russian-energy-import-phaseout.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0261",
     "confidence": "高",
     "source_layer": "eu_regulations",
