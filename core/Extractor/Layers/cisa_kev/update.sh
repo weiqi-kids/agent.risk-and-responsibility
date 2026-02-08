@@ -6,6 +6,12 @@
 
 set -euo pipefail
 
+# 處理 zsh glob 擴展失敗的情況（當傳入 *.md 但沒有匹配時）
+# 如果在 zsh 環境下執行，設定 null_glob 避免錯誤
+if [[ -n "${ZSH_VERSION:-}" ]]; then
+  setopt null_glob 2>/dev/null || true
+fi
+
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 
