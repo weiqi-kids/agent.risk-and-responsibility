@@ -1,0 +1,233 @@
+[
+  {
+    "id": "vulnerability-2026-02-05-CVE-2026-24423-md",
+    "title": "CVE-2026-24423 - SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-05",
+    "file": "vulnerability/2026-02-05-CVE-2026-24423.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-24423",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-05-CVE-2025-11953-md",
+    "title": "CVE-2025-11953 - React Native Community CLI OS Command Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-05",
+    "file": "vulnerability/2026-02-05-CVE-2025-11953.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-11953",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-03-CVE-2025-64328-md",
+    "title": "CVE-2025-64328 - Sangoma FreePBX OS Command Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-03",
+    "file": "vulnerability/2026-02-03-CVE-2025-64328.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-64328",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-03-CVE-2025-40551-md",
+    "title": "CVE-2025-40551 - SolarWinds Web Help Desk Deserialization of Untrusted Data Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-03",
+    "file": "vulnerability/2026-02-03-CVE-2025-40551.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-40551",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-03-CVE-2021-39935-md",
+    "title": "CVE-2021-39935 - GitLab Community and Enterprise Editions Server-Side Request Forgery (SSRF) Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-03",
+    "file": "vulnerability/2026-02-03-CVE-2021-39935.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2021-39935",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-03-CVE-2019-19006-md",
+    "title": "CVE-2019-19006 - Sangoma FreePBX Improper Authentication Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-03",
+    "file": "vulnerability/2026-02-03-CVE-2019-19006.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2019-19006",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-29-CVE-2026-1281-md",
+    "title": "CVE-2026-1281 - Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-29",
+    "file": "vulnerability/2026-01-29-CVE-2026-1281.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-1281",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-27-CVE-2026-24858-md",
+    "title": "CVE-2026-24858 - Fortinet Multiple Products Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-27",
+    "file": "vulnerability/2026-01-27-CVE-2026-24858.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-24858",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-26-CVE-2026-24061-md",
+    "title": "CVE-2026-24061 - GNU InetUtils Argument Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-26",
+    "file": "vulnerability/2026-01-26-CVE-2026-24061.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-24061",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-26-CVE-2026-23760-md",
+    "title": "CVE-2026-23760 - SmarterTools SmarterMail Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-26",
+    "file": "vulnerability/2026-01-26-CVE-2026-23760.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-23760",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-26-CVE-2026-21509-md",
+    "title": "CVE-2026-21509 - Microsoft Office Security Feature Bypass Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-26",
+    "file": "vulnerability/2026-01-26-CVE-2026-21509.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-21509",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-26-CVE-2025-52691-md",
+    "title": "CVE-2025-52691 - SmarterTools SmarterMail Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-26",
+    "file": "vulnerability/2026-01-26-CVE-2025-52691.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-52691",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-26-CVE-2018-14634-md",
+    "title": "CVE-2018-14634 - Linux Kernel Integer Overflow Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-26",
+    "file": "vulnerability/2026-01-26-CVE-2018-14634.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2018-14634",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-23-CVE-2024-37079-md",
+    "title": "CVE-2024-37079 - Broadcom VMware vCenter Server Out-of-bounds Write Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-23",
+    "file": "vulnerability/2026-01-23-CVE-2024-37079.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2024-37079",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-22-CVE-2025-68645-md",
+    "title": "CVE-2025-68645 - Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-22",
+    "file": "vulnerability/2026-01-22-CVE-2025-68645.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-68645",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-22-CVE-2025-54313-md",
+    "title": "CVE-2025-54313 - Prettier eslint-config-prettier Embedded Malicious Code Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-22",
+    "file": "vulnerability/2026-01-22-CVE-2025-54313.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-54313",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-22-CVE-2025-34026-md",
+    "title": "CVE-2025-34026 - Versa Concerto Improper Authentication Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-22",
+    "file": "vulnerability/2026-01-22-CVE-2025-34026.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-34026",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-22-CVE-2025-31125-md",
+    "title": "CVE-2025-31125 - Vite Vitejs Improper Access Control Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-22",
+    "file": "vulnerability/2026-01-22-CVE-2025-31125.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-31125",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-21-CVE-2026-20045-md",
+    "title": "CVE-2026-20045 - Cisco Unified Communications Products Code Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-21",
+    "file": "vulnerability/2026-01-21-CVE-2026-20045.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-20045",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-13-CVE-2026-20805-md",
+    "title": "CVE-2026-20805 - Microsoft Windows Information Disclosure Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-13",
+    "file": "vulnerability/2026-01-13-CVE-2026-20805.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-20805",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-01-12-CVE-2025-8110-md",
+    "title": "CVE-2025-8110 - Gogs Path Traversal Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-01-12",
+    "file": "vulnerability/2026-01-12-CVE-2025-8110.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-8110",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  }
+]

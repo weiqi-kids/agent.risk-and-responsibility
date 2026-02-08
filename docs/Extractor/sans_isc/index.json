@@ -1,0 +1,57 @@
+[
+  {
+    "id": "threat_analysis-2026-02-05-broken-phishing-urls-md",
+    "title": "Broken Phishing URLs",
+    "category": "threat_analysis",
+    "date": "2026-02-05",
+    "file": "threat_analysis/2026-02-05-broken-phishing-urls.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32686",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-02-03-detecting-monitoring-openclaw-md",
+    "title": "Detecting and Monitoring OpenClaw (clawdbot, moltbot)",
+    "category": "threat_analysis",
+    "date": "2026-02-03",
+    "file": "threat_analysis/2026-02-03-detecting-monitoring-openclaw.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32678",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-02-02-scanning-exposed-anthropic-models-md",
+    "title": "Scanning for exposed Anthropic Models",
+    "category": "threat_analysis",
+    "date": "2026-02-02",
+    "file": "threat_analysis/2026-02-02-scanning-exposed-anthropic-models.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32674",
+    "confidence": "中",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-01-30-google-presentations-phishing-md",
+    "title": "Google Presentations Abused for Phishing",
+    "category": "threat_analysis",
+    "date": "2026-01-30",
+    "file": "threat_analysis/2026-01-30-google-presentations-phishing.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32668",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-05-malicious-script-delivering-xworm-md",
+    "title": "Malicious Script Delivering More Maliciousness",
+    "category": "malware",
+    "date": "2026-02-05",
+    "file": "malware/2026-02-05-malicious-script-delivering-xworm.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32682",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  }
+]

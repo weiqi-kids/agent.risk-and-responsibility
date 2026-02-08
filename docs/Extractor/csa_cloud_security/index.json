@@ -1,0 +1,222 @@
+[
+  {
+    "id": "identity-2026-02-03-time-to-trust-phase-ai-autonomy-foundations-md",
+    "title": "New Survey from Cloud Security Alliance, Strata Identity Finds That Enterprises Are in a 'Time-to-Trust' Phase, As They Build Foundations for AI Autonomy",
+    "category": "identity",
+    "date": "2026-02-03",
+    "file": "identity/2026-02-03-time-to-trust-phase-ai-autonomy-foundations.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/cloud-security-alliance-strata-survey-finds-that-enterprises-are-in-time-to-trust-phase-as-they-build-ai-autonomy-foundations",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-01-27-non-human-identity-governance-iga-falls-short-md",
+    "title": "Non-Human Identity Governance: Why IGA Falls Short",
+    "category": "identity",
+    "date": "2026-01-27",
+    "file": "identity/2026-01-27-non-human-identity-governance-iga-falls-short.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/non-human-identity-governance-why-iga-falls-short",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-01-26-nhi-ai-security-survey-findings-md",
+    "title": "79% of IT Pros Feel Ill-Equipped to Prevent Attacks Via Non-Human Identities, Cloud Security Alliance and Oasis Security Survey Finds",
+    "category": "identity",
+    "date": "2026-01-26",
+    "file": "identity/2026-01-26-nhi-ai-security-survey-findings.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/79-of-it-pros-feel-ill-equipped-to-prevent-attacks-via-nhi-csa-oasis-survey-finds",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-01-21-compliance-automation-trust-by-design-md",
+    "title": "Beyond Badge-Selling: Why Compliance Automation Needs Trust by Design",
+    "category": "compliance",
+    "date": "2026-01-21",
+    "file": "compliance/2026-01-21-compliance-automation-trust-by-design.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/beyond-badge-selling-why-compliance-automation-needs-trust-by-design",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-01-13-global-privacy-trends-best-practices-md",
+    "title": "Global Privacy Trends and Best Practices for Compliance in 2026",
+    "category": "compliance",
+    "date": "2026-01-13",
+    "file": "compliance/2026-01-13-global-privacy-trends-best-practices.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/global-privacy-trends-and-best-practices-for-compliance-in-2026",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-01-27-bridging-gap-ccm-mitre-ctid-collaboration-md",
+    "title": "Bridging the Gap Between Cloud Security Controls and Adversary Behaviors: A CSA–MITRE CTID Collaboration",
+    "category": "cloud_security",
+    "date": "2026-01-27",
+    "file": "cloud_security/2026-01-27-bridging-gap-ccm-mitre-ctid-collaboration.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/bridging-the-gap-between-cloud-security-controls-and-adversary-behaviors-a-csa-mitre-collaboration",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-01-20-zero-trust-cloud-control-plane-security-md",
+    "title": "Zero Trust in the Cloud: Designing Security Assurance at the Control Plane",
+    "category": "cloud_security",
+    "date": "2026-01-20",
+    "file": "cloud_security/2026-01-20-zero-trust-cloud-control-plane-security.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/zero-trust-in-the-cloud-designing-security-assurance-at-the-control-plane",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-01-15-aws-european-sovereign-cloud-launch-md",
+    "title": "AWS Launches European Sovereign Cloud: What You Need to Know and What You Need to Do",
+    "category": "cloud_security",
+    "date": "2026-01-15",
+    "file": "cloud_security/2026-01-15-aws-european-sovereign-cloud-launch.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/aws-launches-european-sovereign-cloud-what-you-need-to-know-and-what-you-need-to-do",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-01-13-dns-txt-records-governance-security-md",
+    "title": "Why DNS TXT Records Deserve Governance in Security Programs",
+    "category": "cloud_security",
+    "date": "2026-01-13",
+    "file": "cloud_security/2026-01-13-dns-txt-records-governance-security.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/why-dns-txt-records-deserve-governance-in-security-programs",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-01-06-cloud-2026-ai-sovereign-hyperconnected-md",
+    "title": "Cloud 2026: The Shift to AI Driven, Sovereign and Hyperconnected Digital Ecosystems",
+    "category": "cloud_security",
+    "date": "2026-01-06",
+    "file": "cloud_security/2026-01-06-cloud-2026-ai-sovereign-hyperconnected.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/cloud-2026-the-shift-to-ai-driven-sovereign-and-hyperconnected-digital-ecosystems",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-01-13-saas-ai-security-2026-changes-md",
+    "title": "Why SaaS and AI Security Will Look Very Different in 2026",
+    "category": "best_practices",
+    "date": "2026-01-13",
+    "file": "best_practices/2026-01-13-saas-ai-security-2026-changes.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/why-saas-and-ai-security-will-look-very-different-in-2026",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-01-13-resolving-coordination-gap-cloud-security-md",
+    "title": "Resolving The Coordination Gap in Modern Cloud Security",
+    "category": "best_practices",
+    "date": "2026-01-13",
+    "file": "best_practices/2026-01-13-resolving-coordination-gap-cloud-security.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/resolving-the-coordination-gap-in-modern-cloud-security",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-01-09-first-question-security-ai-projects-md",
+    "title": "The First Question Security Should Ask on AI Projects",
+    "category": "best_practices",
+    "date": "2026-01-09",
+    "file": "best_practices/2026-01-09-first-question-security-ai-projects.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/the-first-question-security-should-ask-on-ai-projects",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-29-agentic-trust-framework-zero-trust-governance-md",
+    "title": "The Agentic Trust Framework: Zero Trust Governance for AI Agents",
+    "category": "ai_security",
+    "date": "2026-01-29",
+    "file": "ai_security/2026-01-29-agentic-trust-framework-zero-trust-governance.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/the-agentic-trust-framework-zero-trust-governance-for-ai-agents",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-26-leveling-up-autonomy-agentic-ai-md",
+    "title": "Leveling Up Autonomy in Agentic AI",
+    "category": "ai_security",
+    "date": "2026-01-26",
+    "file": "ai_security/2026-01-26-leveling-up-autonomy-agentic-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/levels-of-autonomy",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-21-ai-uncertainty-knowing-when-to-say-dont-know-md",
+    "title": "What if AI Knew When to Say 'I Don't Know'?",
+    "category": "ai_security",
+    "date": "2026-01-21",
+    "file": "ai_security/2026-01-21-ai-uncertainty-knowing-when-to-say-dont-know.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/what-if-ai-knew-when-to-say-i-don-t-know",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-13-from-security-to-proof-of-ai-trust-md",
+    "title": "From Security to Proof of AI Trust",
+    "category": "ai_security",
+    "date": "2026-01-13",
+    "file": "ai_security/2026-01-13-from-security-to-proof-of-ai-trust.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/from-security-to-proof-of-ai-trust",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-13-ai-governance-framework-cloud-native-systems-md",
+    "title": "AI Governance Framework Adoption in Cloud-Native AI Systems: Phased Approach and Considerations",
+    "category": "ai_security",
+    "date": "2026-01-13",
+    "file": "ai_security/2026-01-13-ai-governance-framework-cloud-native-systems.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ai-governance-framework-adoption-in-cloud-native-ai-systems-phased-approach-and-considerations",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-12-top-10-predictions-agentic-ai-md",
+    "title": "My Top 10 Predictions for Agentic AI in 2026",
+    "category": "ai_security",
+    "date": "2026-01-12",
+    "file": "ai_security/2026-01-12-top-10-predictions-agentic-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/my-top-10-predictions-for-agentic-ai-in-2026",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-06-ai-risks-hiding-in-apps-md",
+    "title": "What AI Risks Are Hiding in Your Apps?",
+    "category": "ai_security",
+    "date": "2026-01-06",
+    "file": "ai_security/2026-01-06-ai-risks-hiding-in-apps.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/what-ai-risks-are-hiding-in-your-apps",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  }
+]
