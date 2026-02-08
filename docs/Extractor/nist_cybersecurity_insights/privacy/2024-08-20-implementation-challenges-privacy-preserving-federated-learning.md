@@ -8,26 +8,26 @@ confidence: 中
 
 ## L1 — Rule Signal
 - **rule_type**: guidance
-- **issuing_body**: NIST Cybersecurity Insights Blog
-- **document_id**: N/A (blog post)
+- **issuing_body**: NIST
+- **document_id**: N/A
 - **status**: final
 
 ## L2 — Responsibility Structure
-- **affected_roles**: privacy engineers, federated learning developers, data scientists, researchers in privacy-enhancing technologies, organizations deploying PPFL systems
+- **affected_roles**: AI/ML developers, privacy engineers, organizations implementing federated learning
 - **shift_type**: clarified
-- **shift_summary**: 透過英美隱私強化技術競賽得獎者訪談，釐清隱私保護聯邦學習（PPFL）在威脅建模與實際部署中的實作挑戰
+- **shift_summary**: 闡明隱私保護聯邦學習（PPFL）在威脅建模與實際部署時面臨的實作挑戰，基於 UK-US PETs Prize Challenges 得獎團隊經驗
 
 ## L3 — Risk Domains
-- 隱私保護
-- AI 風險治理
+- 隱私保護技術（PETs）
+- 聯邦學習系統安全
+- 威脅建模
 
 ## L4 — Obligation & Evidence
 - **new_obligations**:
-  - 建立明確的 PPFL 威脅模型，定義系統保護範圍
-  - 考量實際部署情境中的威脅建模與風險評估
-  - 關注 PPFL 系統的實作挑戰與安全邊界
-- **evidence_requirements**: N/A (blog post 為技術討論)
+  - PPFL 系統需定義清楚的威脅模型
+- **evidence_requirements**:
+  - 無明確舉證要求
 - **enforcement_signal**: recommended
 
 ## Notes
-本文為 NIST 與英國 Responsible Technology Adoption Unit (RTA) 合作的隱私保護聯邦學習系列文章之一。描述超過 150 字且能判斷文章脈絡為技術指引與最佳實務分享，討論對象包括英國 ONS、Liverpool 大學等專家訪談。confidence 設為中。
+本文為 UK-US PETs Prize Challenges 系列訪談，討論隱私保護聯邦學習的實作挑戰，特別聚焦威脅建模與真實世界部署問題。訪談對象包括 University of Liverpool、UK ONS 和 Trūata 的研究人員。

@@ -8,26 +8,26 @@ confidence: 中
 
 ## L1 — Rule Signal
 - **rule_type**: guidance
-- **issuing_body**: NIST Cybersecurity Insights Blog
-- **document_id**: N/A (blog post)
+- **issuing_body**: NIST
+- **document_id**: N/A
 - **status**: final
 
 ## L2 — Responsibility Structure
-- **affected_roles**: privacy engineers, machine learning engineers, federated learning developers, data scientists working with PPFL
+- **affected_roles**: AI/ML developers, privacy engineers, organizations using federated learning
 - **shift_type**: expanded
-- **shift_summary**: 在隱私保護聯邦學習系統中，除了輸入資料隱私保護外，需擴展保護範圍至訓練完成的模型本身
+- **shift_summary**: 在討論完輸入隱私技術後，本文擴展至訓練模型的保護，需涵蓋水平與垂直資料分割情境以建構完整的 PPFL 系統
 
 ## L3 — Risk Domains
-- 隱私保護
-- AI 風險治理
+- 模型保護
+- 隱私保護技術
+- 聯邦學習安全
 
 ## L4 — Obligation & Evidence
 - **new_obligations**:
-  - 實作完整的隱私保護聯邦學習系統，涵蓋輸入隱私與模型保護
-  - 針對水平分割與垂直分割資料的不同情境採用適當技術
-  - 保護訓練模型免於推論攻擊與資訊洩漏
-- **evidence_requirements**: N/A (blog post 為技術指引)
+  - 完整的 PPFL 系統需同時保護輸入隱私與訓練模型
+- **evidence_requirements**:
+  - 無明確舉證要求
 - **enforcement_signal**: recommended
 
 ## Notes
-本文為 NIST 與英國 RTA 合作的隱私保護聯邦學習系列文章之一。描述超過 150 字且能判斷文章脈絡為系列技術指引，討論如何建立完整的 PPFL 系統。前兩篇文章涵蓋輸入隱私技術，本文聚焦模型保護。confidence 設為中。
+本文為 NIST 與 UK RTA（前 Centre for Data Ethics and Innovation）合作的隱私保護聯邦學習系列，涵蓋水平與垂直分割資料情境的模型保護技術。

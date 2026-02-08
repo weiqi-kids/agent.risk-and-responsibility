@@ -1,59 +1,46 @@
 ---
-title: "Nine Years and Counting: NICE RAMPS Communities Keep Expanding Opportunities in Cybersecurity Work and Learning"
 source_url: https://www.nist.gov/blogs/cybersecurity-insights/nine-years-and-counting-nice-ramps-communities-keep-expanding
+fetched_at: 2025-07-07
+title: "Nine Years and Counting: NICE RAMPS Communities Keep Expanding Opportunities in Cybersecurity Work and Learning"
 date: 2025-07-07
 category: workforce
+shift_type: expanded
+enforcement_signal: informational
 confidence: 中
 ---
 
-## L1: 基本資訊
+## 摘要
 
-- **規則類型**: Blog Post / Workforce Development Update
-- **發佈機構**: NIST Cybersecurity Insights Blog
-- **文件編號**: N/A
-- **當前狀態**: Published
+自 2016 年以來，美國網路安全人才發展生態系統歷經重大變化：網路安全職位增加超過 30 萬人、資訊安全學位授予數量成長超過三倍至近 35,000 個。NIST NICE Program Office 於 2016 年啟動的 RAMPS 計畫支援五個區域性網路安全人才合作夥伴關係，至今仍持續運作並支撐各地社群的網路安全人才網絡。
 
-## L2: 影響對象與變動摘要
+## 規範變動
 
-- **影響角色**:
-  - Cybersecurity workforce development organizations
-  - Regional talent networks
-  - Education and training providers
-  - Employers seeking cybersecurity talent
+### 擴大既有機制
+- **NICE RAMPS 計畫持續運作**：2016 年試點計畫支援的五個區域合作夥伴已運行九年
+- **人才網絡強化**：持續作為各社群的網路安全人才網絡錨點
 
-- **變動類型**: Program continuation and expansion
-- **變動摘要（一句中文）**: NIST NICE 計畫辦公室於 2016 年啟動的五個區域網路安全人力夥伴關係（RAMPS）持續運作至今，為社區提供人才網絡支援，期間美國網路安全就業人數增長超過 30 萬。
+### 執行面影響
+- **就業成長**：網路安全職位增加超過 300,000 人
+- **教育擴展**：資訊安全學位授予數量成長超過三倍
+- **技術與風險變化**：因應新技術與風險的人才需求持續演變
 
-## L3: 風險領域對應
+## 利害關係人影響
 
-- **主要領域**: Workforce Development
-- **次要領域**:
-  - Talent Pipeline Management
-  - Regional Cybersecurity Ecosystems
-  - Education and Training Coordination
+### 受影響對象
+- 網路安全人才培訓機構
+- 區域性人才合作夥伴
+- 網路安全求職者與在職人員
 
-## L4: 實務執行要點
+### 實務調適
+- 透過 RAMPS 社群網絡取得訓練與就業資源
+- 關注各區域合作夥伴的最新活動
 
-### 新增義務
-- 無具體新增義務（本文為計畫成果回顧）
+## 相關脈絡
 
-### 證據要求
-- 無具體證據要求
+- NIST NICE Program Office
+- NICE RAMPS 計畫
+- 網路安全人才發展生態系統
 
-### 執行信號
-- **計畫持續性**: RAMPS 計畫持續運作九年，顯示長期區域人力夥伴關係的有效性
-- **成長指標**:
-  - 自 2016 年起網路安全就業增長 30 萬人
-  - 資訊安全學位授予數量增長三倍至每年近 3.5 萬個
-- **生態系統穩定性**: 五個區域夥伴關係持續作為社區人才網絡錨點
+## 原始內容
 
-## Notes
-
-本文為 NIST NICE 計畫辦公室對 RAMPS（Regional Alliances and Multistakeholder Partnerships to Stimulate）計畫的九年成果回顧。文章強調區域網路安全人力夥伴關係在快速變化的技術環境中的韌性與持續性。
-
-**重要脈絡**:
-- 2016-2025 年間美國網路安全人力生態系統經歷重大變化
-- RAMPS 計畫作為聯邦支持的區域人才網絡協調機制
-- 文章展示 NIST 在人力發展領域的長期承諾
-
-**Blog 性質提醒**: 本文為 NIST 計畫辦公室對自身計畫的回顧性報導，屬於機構觀點而非政策指引。
+A lot has changed in America's cybersecurity workforce development ecosystem since 2016: employment in cybersecurity occupations has grown by more than 300,000 [1]; the number of information security degrees awarded annually has more than tripled to nearly 35,000 [2]; and a wide array of new technologies and risks have emerged. Five regional cybersecurity workforce partnerships supported by the 2016 RAMPS program pilot, administered by NIST's NICE Program Office, have weathered the changes in cybersecurity and continue to anchor cybersecurity talent networks in their communities to this day
