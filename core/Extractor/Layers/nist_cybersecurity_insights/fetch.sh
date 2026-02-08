@@ -28,10 +28,22 @@ rss_fetch "$FEED_URL" "$XML_FILE"
 rss_validate "$XML_FILE"
 
 # === 3. 轉換為 JSONL ===
-rss_extract_items_jsonl "$XML_FILE" > "$JSONL_FILE"
+rss_extract_items_jsonl "$XML_FILE" > "$JSONL_FILE.raw"
+
+ORIGINAL_COUNT=$(wc -l < "$JSONL_FILE.raw" | tr -d ' ')
+
+# === 3.5 過濾非萃取對象 ===
+# 過濾員工故事、宣傳系列等非政策/技術內容
+# 詳見 CLAUDE.md「內容過濾規則」
+FILTER_PATTERN="Staff Stories|Spotlight Series|Q&A with"
+
+jq -c --arg pattern "$FILTER_PATTERN" \
+  'select(.title | test($pattern; "i") | not)' \
+  "$JSONL_FILE.raw" > "$JSONL_FILE"
 
 ITEM_COUNT=$(wc -l < "$JSONL_FILE" | tr -d ' ')
-echo "Items extracted: $ITEM_COUNT"
+FILTERED=$((ORIGINAL_COUNT - ITEM_COUNT))
+echo "Items: $ORIGINAL_COUNT total, $FILTERED filtered (promotional), $ITEM_COUNT kept"
 
 # === 4. 記錄時間戳 ===
 date -u +"%Y-%m-%dT%H:%M:%SZ" > "$RAW_DIR/.last_fetch"

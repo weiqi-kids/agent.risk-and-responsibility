@@ -38,6 +38,8 @@
 
 本 Layer 的 RSS 來源包含各類 Blog 文章，但以下類型**不屬於萃取範圍**，應跳過：
 
+> **注意**：基礎過濾（Staff Stories、Spotlight Series、Q&A with）已在 `fetch.sh` 階段執行，這些內容不會進入 JSONL。
+
 ### 過濾對象（❌ 跳過，不萃取）
 
 - **員工故事/宣傳系列**：Staff Stories、Spotlight Series、個人訪談式內容
