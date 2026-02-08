@@ -9,7 +9,7 @@ nav_order: 1
 
 > **報告週期**: 2026-02-02 至 2026-02-08
 > **產出日期**: 2026-02-08
-> **資料來源**: NIST Frameworks, NIST Cybersecurity Insights
+> **資料來源**: NIST Frameworks, NIST Cybersecurity Insights, ISO Standards, CISA KEV, CSA Cloud Security
 > **追蹤動態**: 50 項
 
 ---
@@ -38,9 +38,17 @@ NIST 回應行政命令 14306「Sustaining Select Efforts to Strengthen the Nati
 
 NIST 於 2025-11-25 發布三份 IoT 安全接入最終出版物（CSWP 42、NISTIR 8350、SP 1800-36），經歷四年與產業夥伴合作，要求在 IoT 設備連接網路前建立信任機制並提供唯一網路憑證，透過可擴展自動化的信任網路層接入方式管理設備完整生命週期。（[來源](https://www.nist.gov/news-events/news/2025/11/final-nccoe-iot-secure-onboarding-publications-now-available)）
 
-### 5. NIST 成立 AI 製造與關鍵基礎設施中心 [美國/new]
+### 5. ISO/IEC 25706:2026 安全協定與資料模型標準發布 [國際/final]
 
-NIST 於 2025-12-22 宣布成立兩個 AI 經濟安全中心，分別負責製造業生產力提升與關鍵基礎設施網路威脅防護，並透過 MITRE 公司開發 AI 代理工具及建立技術評估機制。（[來源](https://www.nist.gov/news-events/news/2025/12/nist-launches-centers-ai-manufacturing-and-critical-infrastructure)）
+ISO 於 2026-02-03 發布 ISO/IEC 25706:2026，建立資訊技術安全協定與資料模型（SPDM）收集標準。此為 ISO/IEC JTC 1 技術委員會制定的第一版標準，屬於 ICS 35.030 資訊安全領域。雖為自願性標準，但特定行業或法規可能要求遵循。（[來源](https://www.iso.org/standard/91251.html)）
+
+### 6. CISA KEV 新增兩項關鍵漏洞修復義務 [美國/mandatory]
+
+CISA 於 2026-01-22 將 CVE-2025-31125（Vite Vitejs 存取控制不當）與 CVE-2025-34026（Versa Concerto 認證不當）加入已知被利用漏洞目錄。聯邦機構須於 **2026-02-12** 前完成修復。Vite Vitejs 漏洞影響明確暴露開發伺服器的應用程式；Versa Concerto 漏洞則允許攻擊者存取 SD-WAN 平台的管理端點。（[來源](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)）
+
+### 7. CSA 與 MITRE 合作建立雲端安全控制對照 [國際/guidance]
+
+Cloud Security Alliance 與 MITRE CTID 於 2026-01-27 發布合作成果，將 CSA Cloud Controls Matrix（CCM）控制項對應至 MITRE ATT&CK 框架。此整合協助雲端安全專業人員將標準化控制措施與已知攻擊者戰術技術知識庫連結。（[來源](https://cloudsecurityalliance.org/articles/bridging-the-gap-between-cloud-security-controls-and-adversary-behaviors-a-csa-mitre-collaboration)）
 
 ---
 
@@ -84,7 +92,32 @@ NIST 於 2025-12-22 宣布成立兩個 AI 經濟安全中心，分別負責製�
 
 **本期無 EU 資安法規動態**
 
-（本期 Qdrant 搜尋結果未包含 eu_regulations Layer 資料）
+（本期 Qdrant 搜尋結果未包含 eu_regulations Layer 之 cybersecurity 類別資料）
+
+### 國際標準組織（ISO）
+
+**資安專業人員能力標準更新**
+- **ISO/IEC 19896-1:2025**（final）：IT 安全符合性評估人員能力要求概覽與概念（第二版）
+- **ISO/IEC 19896-2:2026**（final）：依據 ISO/IEC 19790 與 ISO/IEC 24759 之測試與驗證人員知識技能要求（第二版）
+- **ISO/IEC 19896-3:2025**（final）：依據 ISO/IEC 15408 系列與 ISO/IEC 18045 之評估與審查人員知識技能要求（第二版）
+
+**安全協定與加密標準**
+- **ISO/IEC 25706:2026**（final）：安全協定與資料模型（SPDM）收集標準（2026-02-03 發布）
+- **ISO/IEC 29192-1:2012/Amd 1:2025**（amendment）：輕量級密碼學修訂
+- **ISO/IEC 27566-1:2025**（final）：年齡驗證系統框架
+
+### CISA 已知被利用漏洞（KEV）
+
+| CVE ID | 供應商/產品 | 漏洞類型 | 修復期限 |
+|--------|------------|----------|----------|
+| CVE-2025-31125 | Vite / Vitejs | 存取控制不當 | 2026-02-12 |
+| CVE-2025-34026 | Versa / Concerto | 認證不當 | 2026-02-12 |
+
+### Cloud Security Alliance
+
+**雲端安全控制與威脅對照**
+- **CSA CCM 對照 MITRE ATT&CK**（guidance）：整合 Cloud Controls Matrix 與 ATT&CK 框架
+- **Zero Trust 控制層設計**（guidance）：雲端控制層安全保證設計指引
 
 ---
 
@@ -101,6 +134,10 @@ NIST 於 2025-12-22 宣布成立兩個 AI 經濟安全中心，分別負責製�
 | TLS 可視性 | SP 1800-37 | — | TLS 1.3 加密環境下安全監控解決方案（final） |
 | 供應鏈追溯 | NIST IR 8536 | — | 製造業供應鏈追溯性元框架（draft） |
 | OT 環境安全 | OT 可攜式儲存媒體指引 | — | USB 裝置與外部媒體管理責任標準（draft） |
+| 漏洞修復 | CISA KEV（CVE-2025-31125, CVE-2025-34026） | — | 聯邦機構強制修復義務（mandatory，期限 2026-02-12） |
+| 雲端安全 | — | — | CSA CCM 對照 MITRE ATT&CK（guidance） |
+| 安全協定 | — | ISO/IEC 25706:2026 | SPDM 收集標準（final） |
+| 專業人員能力 | — | ISO/IEC 19896 系列 | IT 安全評估人員能力標準（final） |
 
 ---
 
@@ -121,6 +158,11 @@ NIST 於 2025-12-22 宣布成立兩個 AI 經濟安全中心，分別負責製�
 | NIST | AI 製造與關鍵基礎設施中心 | AI 開發者、製造業組織、關鍵基礎設施營運商、聯邦 R&D 中心 | new | 新設兩個 AI 經濟安全中心，開發 AI 代理工具與技術評估機制 |
 | NIST | NICE Framework Update | 資安人才、教育者、雇主、人力發展專業人員、HR 專業人員 | expanded | 新增一個工作角色、11 個新能力領域，更新任務、知識與技能要求 |
 | NIST | 人臉變形偵測指引 | 身分驗證團隊、生物辨識系統操作員、詐欺防範團隊、邊境安全人員、金融機構 | new | 組織在身份驗證系統中檢測合成人臉圖像和防範身份詐欺的責任標準 |
+| CISA | CVE-2025-31125 | 使用 Vite Vitejs 且開發伺服器暴露於網路的組織 | new | 強制修復存取控制不當漏洞（期限 2026-02-12） |
+| CISA | CVE-2025-34026 | 使用 Versa Concerto SD-WAN 的組織 | new | 強制修復認證不當漏洞（期限 2026-02-12） |
+| CSA/MITRE | CCM-ATT&CK 對照 | 雲端安全專業人員、威脅情報分析師、安全架構師 | new | 建立雲端控制措施與攻擊技術對照 |
+| ISO | ISO/IEC 25706:2026 | 安全協定實施人員、硬體安全工程師 | new | 發布 SPDM 收集標準 |
+| ISO | ISO/IEC 19896 系列 | IT 安全評估人員、驗證人員、審查人員 | new | 更新專業人員能力標準 |
 
 ---
 
@@ -174,6 +216,8 @@ NIST 於 2025-12-22 宣布成立兩個 AI 經濟安全中心，分別負責製�
 | 勒索軟體風險 | 勒索軟體風險評估文件、勒索軟體專屬事件回應計畫、備份與復原測試紀錄、CSF 2.0 對齊對應表 |
 | IoT 安全接入 | 信任建立協議、憑證發放日誌、網路層接入實作、唯一憑證指派紀錄、裝置生命週期管理文件、未授權連線防護措施 |
 | 輕量級密碼學 | 密碼學實作文件（含選用的 Ascon 變體與參數）、側通道攻擊抵抗測試報告、能源消耗評估與最佳化紀錄 |
+| 漏洞修復 | 修復驗證紀錄、修補程式部署文件、漏洞掃描結果 |
+| 雲端安全 | 控制措施對照文件、ATT&CK 技術覆蓋評估、防禦策略文件 |
 
 ---
 
@@ -199,6 +243,14 @@ SP 1800-37 的發布反映組織在強化加密（TLS 1.3）與維持安全監�
 
 OT 可攜式儲存媒體指引草案與公共運輸網路安全社群配置檔的徵詢，加上 AI 製造與關鍵基礎設施中心的成立，顯示 NIST 正擴展對工業控制系統與關鍵基礎設施的安全指引覆蓋。IT/OT 融合環境下的安全管理將成為 2026 年合規重點。
 
+### [系統推論] 漏洞修復時限持續壓縮，DevSecOps 整合需求加速
+
+CISA KEV 的兩項新增漏洞（CVE-2025-31125, CVE-2025-34026）均要求於三週內修復。Vite Vitejs 漏洞影響前端開發工具鏈，顯示攻擊面已擴展至開發環境。組織需將漏洞情報整合至 CI/CD 流程，實現自動化修補驗證。
+
+### [系統推論] 控制措施與攻擊技術對照成為標準實務
+
+CSA 與 MITRE 的合作標誌著安全控制措施評估從「符合性檢查」轉向「威脅導向驗證」。未來控制措施的有效性將以其對已知攻擊技術的覆蓋率衡量，而非單純的文件合規。
+
 ---
 
 ## 統計
@@ -206,10 +258,10 @@ OT 可攜式儲存媒體指引草案與公共運輸網路安全社群配置檔�
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| 來源分布 | NIST Frameworks: 30, NIST Insights: 20, EU: 0 |
-| rule_type 分布 | guidance: 12, draft: 8, revision: 4, final: 3, amendment: 1, new: 1, 其他/未標註: 21 |
-| enforcement_signal 分布 | recommended: 17, informational: 10, mandatory: 2, 未標註: 21 |
-| REVIEW_NEEDED | 0 筆 |
+| 來源分布 | NIST Frameworks: 25, NIST Insights: 15, ISO Standards: 6, CISA KEV: 2, CSA Cloud Security: 2 |
+| rule_type 分布 | guidance: 14, new: 8, draft: 6, final: 5, revision: 3, amendment: 2, event: 2, 其他: 10 |
+| enforcement_signal 分布 | recommended: 20, informational: 12, mandatory: 4, 未標註: 14 |
+| REVIEW_NEEDED | 2 筆 |
 
 ---
 
@@ -217,8 +269,11 @@ OT 可攜式儲存媒體指引草案與公共運輸網路安全社群配置檔�
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | cybersecurity/ai_risk/critical_infrastructure/supply_chain/identity/workforce | 30 | 2025-07-15 ~ 2026-01-28 |
-| nist_cybersecurity_insights | cybersecurity/ai_risk/workforce/policy_guidance/privacy/identity/critical_infrastructure | 20 | 2024-02-26 ~ 2026-01-27 |
+| nist_frameworks | cybersecurity, ai_risk, critical_infrastructure, supply_chain, identity | 25 | 2025-07-15 ~ 2026-01-28 |
+| nist_cybersecurity_insights | cybersecurity, ai_risk, workforce, policy_guidance, privacy | 15 | 2024-02-28 ~ 2026-01-27 |
+| iso_standards | information_security, other | 6 | 2025-11-19 ~ 2026-02-03 |
+| cisa_kev | vulnerability | 2 | 2026-01-22 |
+| csa_cloud_security | cloud_security | 2 | 2026-01-20 ~ 2026-01-27 |
 | eu_regulations | cybersecurity | 0 | — |
 
 ---

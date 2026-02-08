@@ -7,7 +7,7 @@ has_children: true
 
 # Rule Change Brief — 2026-W06
 
-> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、eu_regulations。
+> 本期追蹤 51 項框架與標準變動，涵蓋 nist_frameworks、eu_regulations、iso_standards。
 
 ## 免責聲明
 
@@ -70,7 +70,10 @@ has_children: true
 
 ### Supply Chain
 
-本期共 7 項資料，涵蓋軟體供應鏈安全與製造業追溯性。
+本期共 8 項資料，涵蓋軟體供應鏈安全、製造業追溯性與安全協定標準。
+
+**正式發布（final）：**
+- **ISO/IEC 25706:2026**（document_id: ISO/IEC 25706:2026, status: final, date: 2026-02-03）— 安全協定與資料模型（SPDM）技術標準集合，適用於 ICS 35.030 分類系統。
 
 **草案/公開徵詢：**
 - **SP 800-218r1（SSDF v1.2）**（document_id: SP 800-218r1, status: public_comment）— 安全軟體開發框架修訂版，回應行政命令 14306，公眾意見徵求期至 2026-01-30。
@@ -109,9 +112,9 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 50 |
-| rule_type 分布 | amendment: 12, guidance: 11, draft: 6, revision: 5, final: 2 |
-| enforcement_signal 分布 | mandatory: 17, recommended: 15, informational: 11 |
+| 總變動數 | 51 |
+| rule_type 分布 | amendment: 12, guidance: 11, draft: 6, revision: 5, final: 3, new: 2 |
+| enforcement_signal 分布 | mandatory: 17, recommended: 16, informational: 11 |
 | REVIEW_NEEDED | 2 筆 |
 
 ---

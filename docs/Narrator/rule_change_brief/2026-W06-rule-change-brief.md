@@ -7,7 +7,7 @@ nav_order: 3
 
 # Rule Change Brief — 2026-W06
 
-> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、eu_regulations。
+> 本期追蹤 51 項框架與標準變動，涵蓋 nist_frameworks、eu_regulations、iso_standards。
 
 ## 免責聲明
 
@@ -78,7 +78,10 @@ nav_order: 3
 
 ### Supply Chain
 
-本期共 7 項資料，涵蓋軟體供應鏈安全與製造業追溯性。
+本期共 8 項資料，涵蓋軟體供應鏈安全、製造業追溯性與安全協定標準。
+
+**正式發布（final）：**
+- **ISO/IEC 25706:2026**（document_id: ISO/IEC 25706:2026, status: final, date: 2026-02-03）— 安全協定與資料模型（SPDM）技術標準集合，由 ISO/IEC JTC 1 制定，適用於 ICS 35.030 分類系統。
 
 **草案/公開徵詢：**
 - **SP 800-218r1（SSDF v1.2）**（document_id: SP 800-218r1, status: public_comment）— 安全軟體開發框架修訂版，回應行政命令 14306，公眾意見徵求期至 2026-01-30。
@@ -138,6 +141,7 @@ nav_order: 3
 | SP 1800-37 (TLS 1.3) | 網路安全工程師、SOC 分析師、網路管理員、資安監控人員 | new | 新增 TLS 1.3 環境下網路可視性挑戰實務解決方案指引 |
 | NIST IR 8536 | 製造業組織、供應鏈管理者、合規官、採購團隊 | expanded | 製造業供應鏈追溯性元框架擴展可見性管理責任 |
 | BRIO (BGP RPKI) | 網路工程師、ISP 業者、網路管理員、路由器供應商 | new | 需採用開源測試工具驗證 BGP 安全機制實作 |
+| ISO/IEC 25706:2026 | ISO 標準實施人員、安全協定開發者、硬體安全模組供應商 | new | 安全協定與資料模型標準正式發布，適用於 ICS 35.030 分類系統 |
 | Regulation (EU) 2024/1183 Corrigendum | 電子註冊傳遞服務提供者、符合性評估機構、會員國數位身分主管機關 | clarified | 馬耳他語言版本術語修正，無實質義務變動 |
 
 ---
@@ -156,8 +160,8 @@ nav_order: 3
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 50 |
-| rule_type 分布 | amendment: 12, guidance: 11, draft: 6, revision: 5, final: 2, new: 1, event: 1, guidance_update: 1 |
+| 總變動數 | 51 |
+| rule_type 分布 | amendment: 12, guidance: 11, draft: 6, revision: 5, final: 3, new: 2, event: 1, guidance_update: 1 |
 | enforcement_signal 分布 | mandatory: 17, recommended: 15, informational: 11 |
 | REVIEW_NEEDED | 2 筆（SUSHI@NIST 工作坊） |
 
@@ -169,6 +173,7 @@ nav_order: 3
 |-------|------|----------|
 | nist_frameworks | 35 | 2024-02-26 ~ 2025-12-17 |
 | eu_regulations | 15 | 2022-10-18 ~ 2026-02-04 |
+| iso_standards | 1 | 2026-02-03 ~ 2026-02-03 |
 
 ---
 

@@ -7,7 +7,7 @@ has_children: true
 
 # AI Governance Landscape — 2026-02
 
-> 本期追蹤 11 項 AI 治理動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規。
+> 本期追蹤 15 項 AI 治理動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、CSA 雲端安全指引。
 
 ## 免責聲明
 
@@ -19,15 +19,15 @@ has_children: true
 
 ## 本月重點
 
-1. **NIST 發布首個 AI 網路安全框架配置檔草案（NISTIR 8596）**：2025 年 12 月發布，這是首個整合 CSF 與 AI RMF 的配置檔，涵蓋保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊三大領域。公眾意見徵集期間進行中。（美國／draft）
+1. **CSA 發布 Agentic Trust Framework（ATF）零信任治理框架**：2026 年 1 月 29 日發布，這是首個專為自主 AI 代理設計的零信任治理規範，要求企業在部署 AI 代理時實施結構化治理控制，同時維持代理自主性。（美國／guidance，recommended）
 
-2. **NIST 成立兩個 AI 經濟安全中心**：2025 年 12 月宣布，與 MITRE 公司合作，分別聚焦製造業 AI 生產力提升與關鍵基礎設施網路威脅防護，開發 AI 代理工具並建立技術評估機制。（美國／new）
+2. **EU AI Act 勘誤明確線上空間不在適用範圍**：2026 年 1 月 13 日生效的勘誤文件（CELEX:32024R1689R(02)）修正關鍵條文，明確排除線上空間（online spaces）適用，因其並非實體空間，將影響 AI 系統線上部署的合規判定。（歐盟／amendment，mandatory，binding_force: directly_applicable）
 
-3. **EU AI Act 勘誤明確線上空間不在適用範圍**：2026 年 1 月 13 日生效的勘誤文件（CELEX:32024R1689R(02)）修正關鍵條文，明確排除線上空間（online spaces）適用，因其並非實體空間，將影響 AI 系統線上部署的合規判定。（歐盟／amendment，binding_force: directly_applicable）
+3. **CSA 定義 AI 自主性層級治理框架**：2026 年 1 月 26 日發布，提出從簡單任務到自主程式碼執行、基礎設施管理、財務交易的自主性層級分類，要求組織依據不同層級建立相應治理機制。（美國／guidance，recommended）
 
-4. **NIST AISIC 發布 AI 代理工具分類法指引**：2025 年 8 月發布的工作坊成果，提出七種分類方法（功能性、存取模式、風險導向、可靠性、模態、監控、自主性），協助供應鏈溝通與風險評估。（美國／guidance）
+4. **NIST 持續推動 AI 經濟安全中心計畫**：2025 年 12 月宣布與 MITRE 合作成立兩個中心，分別聚焦製造業 AI 生產力提升與關鍵基礎設施網路威脅防護，開發 AI 代理工具並建立技術評估機制。（美國／new，informational）
 
-5. **NIST NCCoE 推動 Cyber AI Profile 工作坊系列**：2025 年 8-9 月舉辦三場虛擬工作會議，分別聚焦「保護 AI 系統元件」、「AI 賦能的網路防禦」、「抵禦 AI 驅動攻擊」，持續整合 CSF 2.0 與 AI 風險管理框架。（美國／guidance）
+5. **CSA 發布雲原生 AI 治理框架採用指南**：2026 年 1 月 13 日發布，針對分散式架構的 AI 治理挑戰，提出分階段採用方法與成熟度考量，強調敏感資料處理與可擴展性需求。（美國／guidance，recommended）
 
 ---
 
@@ -40,22 +40,30 @@ has_children: true
 | 文件 | document_id | status | 重點 |
 |------|------------|--------|------|
 | AI 網路安全框架配置檔草案 | NISTIR 8596 | public_comment | 首個整合 CSF 與 AI RMF 的配置檔，三大領域：保護 AI、使用 AI 防禦、抵禦 AI 攻擊 |
-| AI 代理工具分類法 | — | final | 七種分類方法（功能性、存取模式、風險導向等），改善供應鏈風險溝通 |
-| AI 經濟安全中心 | — | final | 與 MITRE 合作，聚焦製造業與關鍵基礎設施，開發 AI 代理工具 |
+| AI 代理工具分類法 | N/A | final | 七種分類方法（功能性、存取模式、風險導向等），改善供應鏈風險溝通 |
+| AI 經濟安全中心 | N/A | final | 與 MITRE 合作，聚焦製造業與關鍵基礎設施，開發 AI 代理工具 |
+| NCCoE Cyber AI Profile Working Session | N/A | final | 2025 年 8-9 月系列工作坊，涵蓋 AI 系統元件保護 |
 
-**NCCoE Cyber AI Profile 工作坊系列（2025 年 8-9 月）：**
+**NIST Cybersecurity Insights 洞察：**
 
-| 場次 | 日期 | 主題 |
+| 文件 | 日期 | 主題 |
 |------|------|------|
-| Securing AI System Components | 2025-08-05 | 保護 AI 系統元件，涵蓋資料、模型、基礎設施與應用程式層面 |
-| Conducting AI-enabled Cyber Defense | 2025-08-19 | AI 賦能的網路防禦，日誌分析與威脅偵測加速 |
-| Thwarting AI-enabled Cyber Attacks | 2025-09-02 | 抵禦 AI 驅動攻擊，對齊 CSF 2.0 類別與 AI 考量 |
+| Managing Cybersecurity and Privacy Risks in the Age of AI | 2024-09-19 | AI RMF 整合網路安全與隱私風險管理 |
+| Cybersecurity and AI: Integrating and Building on Existing NIST Guidelines | 2025-05-22 | CSF 與 AI RMF 整合工作坊回顧 |
 
-**洞察與政策分析：**
+### 美國（CSA Cloud Security Alliance）
 
-- **AI 時代風險管理計畫**：NIST 推動整合 AI RMF 管理網路安全與隱私風險，擴展傳統資安隱私職責至 AI 系統評估
-- **CSF 與 AI RMF 整合**：2025 年 4-5 月舉辦工作坊，探討三大情境（採用 AI 進行資安、防禦 AI 攻擊、保護 AI 系統）
-- **Cyber AI Profile 研討會**：2025 年 7 月回顧首次研討會成果，整合網路安全與 AI 社群需求
+本期新增 CSA 作為重要資料來源，發布 7 項 AI 安全治理指引：
+
+| 文件 | 日期 | 重點 |
+|------|------|------|
+| Agentic Trust Framework (ATF) | 2026-01-29 | 首個 AI 代理零信任治理規範 |
+| Leveling Up Autonomy in Agentic AI | 2026-01-26 | AI 自主性層級分類與治理 |
+| AI Governance Framework Adoption in Cloud-Native AI Systems | 2026-01-13 | 雲原生 AI 治理分階段採用方法 |
+| From Security to Proof of AI Trust | 2026-01-13 | AI 信任證明機制設計 |
+| What if AI Knew When to Say 'I Don't Know'? | 2026-01-21 | AI 不確定性校準與內在感知 |
+| What AI Risks Are Hiding in Your Apps? | 2026-01-06 | 應用程式嵌入式 AI 風險識別 |
+| Top 10 Predictions for Agentic AI in 2026 | 2026-01-12 | 2026 年 Agentic AI 趨勢預測 |
 
 ### 歐盟
 
@@ -72,10 +80,14 @@ has_children: true
 
 | 來源 | 文件 | affected_roles | shift_type | shift_summary |
 |------|------|---------------|------------|---------------|
+| CSA | Agentic Trust Framework | Security Engineers, Enterprise Architects, Business Leaders, AI System Developers | new | 首個 AI 代理零信任治理規範，要求在代理部署時實施結構化治理控制 |
+| CSA | Leveling Up Autonomy | AI System Architects, Security Engineers, Enterprise Risk Officers, Infrastructure Engineers | clarified | 組織需依據 AI 自主性層級建立對應治理機制 |
+| CSA | AI Governance Framework Adoption | AI Governance Officers, Cloud Architects, Security Engineers, Compliance Teams | new | 雲原生 AI 系統需採用結構化治理框架應對分散式架構挑戰 |
+| CSA | From Security to Proof of AI Trust | Security Engineers, Enterprise Architects, Business Leaders, Audit Teams, AI System Owners | expanded | 自主 AI 系統需建立信任證明機制，現有身份驗證與稽核協議需因應 AI 步調調整 |
+| CSA | What AI Risks Are Hiding in Your Apps? | Application Security Teams, AI Risk Officers, Security Operations, API Security Teams | expanded | 組織需識別嵌入式 AI 風險，Gartner 預測 2028 年 95%+ 企業使用 GenAI |
+| CSA | AI Uncertainty Calibration | AI System Developers, Security Engineers, AI Governance Teams, Product Managers | new | AI 系統需具備內在不確定性感知，非僅提示式信心表達 |
 | NIST | AI 代理工具分類法 | AI developers, AI system deployers, downstream users, researchers, AI supply chain participants | clarified | AI 系統開發者與部署者需採用標準化分類法描述代理工具的能力與限制 |
-| NIST | NISTIR 8596 草案 | Organizations at any stage of AI adoption, cybersecurity professionals, enterprise leadership, AI integration decision-makers | new | 建立首個 AI 網路安全框架配置檔，要求組織在採用 AI 時同步發展網路安全策略 |
 | NIST | AI 經濟安全中心 | AI developers, manufacturing organizations, critical infrastructure operators, federal R&D centers, technology evaluators | new | 新設兩個中心負責製造業與關鍵基礎設施的 AI 部署與技術評估 |
-| NIST | NCCoE Cyber AI Profile (Securing AI) | Cybersecurity leaders, CISOs, AI system implementers, risk management professionals, vendor management teams | expanded | 組織需擴展現有資安治理框架以涵蓋 AI 系統元件的威脅與脆弱性 |
 | NIST Insights | AI 時代風險管理 | AI developers, AI deployers, cybersecurity professionals, privacy engineers | expanded | 網路安全與隱私專業人員需整合 AI RMF 管理新風險 |
 | EU | AI Act 勘誤 | AI system providers, AI system deployers, online platform operators, national competent authorities | clarified | 明確排除線上空間適用範圍，修正原條文錯誤描述 |
 | EU | EuroHPC 勘誤 | AI startups, EuroHPC Initiative participants, EU member states | clarified | 術語修正（factory → facility），無實質義務變動 |
@@ -85,6 +97,18 @@ has_children: true
 ## 義務與舉證要求
 
 ### 新增義務摘要
+
+**美國 CSA 領域（Agentic AI 治理）：**
+
+- 對 AI 代理部署實施零信任原則
+- 建立自主 AI 行動的治理控制
+- 定義並文件化企業系統中的 AI 自主性層級
+- 評估自主操作（程式碼執行、基礎設施變更、財務交易）的風險概況
+- 開發超越傳統安全的 AI 信任證明機制
+- 調整身份驗證、存取控制與稽核協議以適應自主 AI 步調
+- 發現應用程式中嵌入的 AI 風險
+- 開發具備內在不確定性感知的 AI 系統（非僅效能導向的信心表達）
+- 區分 AI 產生不確定性語言的能力與知道何時應表達不確定性
 
 **美國 NIST 領域：**
 
@@ -106,6 +130,25 @@ has_children: true
 - 使用更新術語「artificial intelligence facility」（取代 factory）
 
 ### 舉證要求摘要
+
+**CSA 相關（Agentic AI）：**
+
+- ATF 實施文件
+- 基於零信任原則的 AI 代理存取策略
+- 自主行動的治理控制稽核日誌
+- AI 自主性層級分類文件
+- 匹配自主性層級的治理框架
+- 自主操作的風險評估
+- AI 信任框架文件
+- 自主 AI 行動的稽核軌跡
+- AI 系統的存取控制實施
+- AI 操作的信任驗證機制
+- 跨應用程式的 AI 使用清單
+- AI 交易監控與分析
+- GenAI 整合的風險評估
+- AI 服務的 API 安全控制
+- AI 不確定性校準方法論文件
+- 內在與提示式不確定性表達的測試結果
 
 **NIST 相關：**
 
@@ -130,11 +173,11 @@ has_children: true
 
 ## L5 — Evolution Signals
 
-1. [系統推論] **美歐 AI 治理策略呈現互補態勢**：美國 NIST 側重技術風險管理框架與實務指引的整合（CSF + AI RMF），透過 NCCoE 工作坊系列建立共識；歐盟則專注於法律適用範圍的精確界定（AI Act 勘誤），兩者皆強調「分類清晰」與「責任明確」的核心原則。
+1. [系統推論] **Agentic AI 治理成為 2026 年主導議題**：從 CSA 的 Agentic Trust Framework 到自主性層級分類，再到 NIST 的代理工具分類法，顯示自主 AI 系統的治理需求已從概念探討進入實務框架建構階段。企業需為「AI 代理執行有意義行動」建立結構化監督機制。
 
-2. [系統推論] **AI 代理（AI Agents）成為美國監管新焦點**：從 AISIC 工具分類法到 MITRE 合作的 AI 經濟安全中心，顯示自主性 AI 系統的風險管理需求日益迫切，特別是在製造業與關鍵基礎設施領域，預期未來將有更多針對代理行為的具體指引。
+2. [系統推論] **「信任證明」取代「安全防護」成為新典範**：CSA 多篇文章（From Security to Proof of AI Trust、AI Uncertainty Calibration）顯示，當 AI 系統以超越人類速度執行操作時，傳統安全協議（設計給人類速度、人類監督的情境）已不足夠。新典範強調 AI 系統需「證明其可信」而非「被動保護」。
 
-3. [系統推論] **「線上空間」與「實體空間」的監管邊界釐清**：EU AI Act 勘誤明確排除線上空間適用，可能影響全球 AI 法規的管轄權劃分方式，特別是對於跨境 AI 服務提供者的合規策略選擇。
+3. [系統推論] **美歐 AI 治理策略呈現互補態勢**：美國側重技術風險管理框架與實務指引的整合（CSF + AI RMF + CSA ATF），歐盟則專注於法律適用範圍的精確界定（AI Act 勘誤）。EU AI Act 排除線上空間適用可能影響全球 AI 法規的管轄權劃分方式。
 
 ---
 
@@ -142,10 +185,10 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 11 |
-| 來源分布 | NIST Frameworks: 6, NIST Insights: 3, EU: 2 |
-| rule_type 分布 | draft: 1, guidance: 3, new: 1, amendment: 2, event/workshop: 4 |
-| enforcement_signal 分布 | mandatory: 1, recommended: 4, informational: 6 |
+| 總變動數 | 15 |
+| 來源分布 | CSA: 7, NIST Frameworks: 4, NIST Insights: 2, EU: 2 |
+| rule_type 分布 | guidance: 9, amendment: 2, new: 1, other/null: 3 |
+| enforcement_signal 分布 | recommended: 9, informational: 3, mandatory: 1, other/null: 2 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -154,14 +197,18 @@ has_children: true
 
 | 標題 | 來源 | 日期 | Category | 連結 |
 |------|------|------|----------|------|
-| Draft NIST Guidelines Rethink Cybersecurity for the AI Era | NIST | 2025-12-16 | ai_risk | [連結](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era) |
-| NIST Launches Centers for AI in Manufacturing and Critical Infrastructure | NIST | 2025-12-22 | ai_risk | [連結](https://www.nist.gov/news-events/news/2025/12/nist-launches-centers-ai-manufacturing-and-critical-infrastructure) |
-| NIST NCCoE Cyber AI Profile: Thwarting AI-enabled Cyber Attacks | NIST | 2025-09-02 | ai_risk | [連結](https://www.nist.gov/news-events/events/2025/09/nist-nccoe-cyber-ai-profile-virtual-working-session-series-thwarting-ai) |
-| NIST NCCoE Cyber AI Profile: Conducting AI-enabled Cyber Defense | NIST | 2025-08-19 | ai_risk | [連結](https://www.nist.gov/news-events/events/2025/08/nist-nccoe-cyber-ai-profile-virtual-working-session-series-conducting-ai) |
-| NIST NCCoE Cyber AI Profile: Securing AI System Components | NIST | 2025-08-05 | ai_risk | [連結](https://www.nist.gov/news-events/events/2025/08/nist-nccoe-cyber-ai-profile-virtual-working-session-series-securing-ai) |
-| Lessons Learned from the Consortium: Tool Use in Agent Systems | NIST | 2025-08-05 | ai_risk | [連結](https://www.nist.gov/news-events/news/2025/08/lessons-learned-consortium-tool-use-agent-systems) |
-| Reflections from the First Cyber AI Profile Workshop | NIST Blog | 2025-07-31 | ai_risk | [連結](https://www.nist.gov/blogs/cybersecurity-insights/reflections-first-cyber-ai-profile-workshop) |
-| Cybersecurity and AI: Integrating and Building on Existing NIST Guidelines | NIST Blog | 2025-05-22 | ai_risk | [連結](https://www.nist.gov/blogs/cybersecurity-insights/cybersecurity-and-ai-integrating-and-building-existing-nist-guidelines) |
-| Managing Cybersecurity and Privacy Risks in the Age of AI | NIST Blog | 2024-09-19 | ai_risk | [連結](https://www.nist.gov/blogs/cybersecurity-insights/managing-cybersecurity-and-privacy-risks-age-artificial-intelligence) |
+| The Agentic Trust Framework: Zero Trust Governance for AI Agents | CSA | 2026-01-29 | ai_security | [連結](https://cloudsecurityalliance.org/articles/the-agentic-trust-framework-zero-trust-governance-for-ai-agents) |
+| Leveling Up Autonomy in Agentic AI | CSA | 2026-01-26 | ai_security | [連結](https://cloudsecurityalliance.org/articles/levels-of-autonomy) |
+| What if AI Knew When to Say 'I Don't Know'? | CSA | 2026-01-21 | ai_security | [連結](https://cloudsecurityalliance.org/articles/what-if-ai-knew-when-to-say-i-don-t-know) |
+| AI Governance Framework Adoption in Cloud-Native AI Systems | CSA | 2026-01-13 | ai_security | [連結](https://cloudsecurityalliance.org/articles/ai-governance-framework-adoption-in-cloud-native-ai-systems-phased-approach-and-considerations) |
+| From Security to Proof of AI Trust | CSA | 2026-01-13 | ai_security | [連結](https://cloudsecurityalliance.org/articles/from-security-to-proof-of-ai-trust) |
+| My Top 10 Predictions for Agentic AI in 2026 | CSA | 2026-01-12 | ai_security | [連結](https://cloudsecurityalliance.org/articles/my-top-10-predictions-for-agentic-ai-in-2026) |
+| What AI Risks Are Hiding in Your Apps? | CSA | 2026-01-06 | ai_security | [連結](https://cloudsecurityalliance.org/articles/what-ai-risks-are-hiding-in-your-apps) |
 | Corrigendum to Regulation (EU) 2024/1689 (AI Act) | EU | 2026-01-13 | ai_governance | [連結](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1689R(02)) |
 | Corrigendum to Council Regulation (EU) 2024/1732 (EuroHPC AI Initiative) | EU Council | 2026-01-27 | ai_governance | [連結](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1732R(02)) |
+| NIST Launches Centers for AI in Manufacturing and Critical Infrastructure | NIST | 2025-12-22 | ai_risk | [連結](https://www.nist.gov/news-events/news/2025/12/nist-launches-centers-ai-manufacturing-and-critical-infrastructure) |
+| Draft NIST Guidelines Rethink Cybersecurity for the AI Era | NIST | 2025-12-16 | ai_risk | [連結](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era) |
+| Lessons Learned from the Consortium: Tool Use in Agent Systems | NIST | 2025-08-05 | ai_risk | [連結](https://www.nist.gov/news-events/news/2025/08/lessons-learned-consortium-tool-use-agent-systems) |
+| NIST NCCoE Cyber AI Profile: Securing AI System Components | NIST | 2025-08-05 | ai_risk | [連結](https://www.nist.gov/news-events/events/2025/08/nist-nccoe-cyber-ai-profile-virtual-working-session-series-securing-ai) |
+| Cybersecurity and AI: Integrating and Building on Existing NIST Guidelines | NIST Blog | 2025-05-22 | ai_risk | [連結](https://www.nist.gov/blogs/cybersecurity-insights/cybersecurity-and-ai-integrating-and-building-existing-nist-guidelines) |
+| Managing Cybersecurity and Privacy Risks in the Age of AI | NIST Blog | 2024-09-19 | ai_risk | [連結](https://www.nist.gov/blogs/cybersecurity-insights/managing-cybersecurity-and-privacy-risks-age-artificial-intelligence) |
