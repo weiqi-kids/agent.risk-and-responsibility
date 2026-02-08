@@ -1,5 +1,16 @@
 [
   {
+    "id": "workforce-2025-12-02-nice-retrospective-shaping-cybersecuritys-future-md",
+    "title": "A NICE Retrospective on Shaping Cybersecurity's Future",
+    "category": "workforce",
+    "date": "2025-12-02",
+    "file": "workforce/2025-12-02-nice-retrospective-shaping-cybersecuritys-future.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/nice-retrospective-shaping-cybersecuritys-future",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "workforce-2025-12-02-nice-retrospective-shaping-cybersecurity-future-md",
     "title": "A NICE Retrospective on Shaping Cybersecurity's Future",
     "category": "workforce",
@@ -22,6 +33,17 @@
     "review_needed": false
   },
   {
+    "id": "workforce-2025-06-12-the-impact-of-artificial-intelligence-on-the-cybersecurity-workforce-md",
+    "title": "The Impact of Artificial Intelligence on the Cybersecurity Workforce",
+    "category": "workforce",
+    "date": "2025-06-12",
+    "file": "workforce/2025-06-12-the-impact-of-artificial-intelligence-on-the-cybersecurity-workforce.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/impact-artificial-intelligence-cybersecurity-workforce",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "workforce-2024-11-18-unlocking-cybersecurity-talent-power-apprenticeships-md",
     "title": "Unlocking Cybersecurity Talent: The Power of Apprenticeships",
     "category": "workforce",
@@ -29,6 +51,39 @@
     "file": "workforce/2024-11-18-unlocking-cybersecurity-talent-power-apprenticeships.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/unlocking-cybersecurity-talent-power-apprenticeships",
     "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "workforce-2024-11-18-cybersecurity-apprenticeships-talent-development-md",
+    "title": "",
+    "category": "workforce",
+    "date": "",
+    "file": "workforce/2024-11-18-cybersecurity-apprenticeships-talent-development.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/unlocking-cybersecurity-talent-power-apprenticeships",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "workforce-2024-10-28-staff-stories-cybersecurity-awareness-month-1-md",
+    "title": "",
+    "category": "workforce",
+    "date": "",
+    "file": "workforce/2024-10-28-staff-stories-cybersecurity-awareness-month-1.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "workforce-2024-10-23-staff-stories-cybersecurity-awareness-month-2-md",
+    "title": "",
+    "category": "workforce",
+    "date": "",
+    "file": "workforce/2024-10-23-staff-stories-cybersecurity-awareness-month-2.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024-0",
+    "confidence": "",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },
@@ -44,6 +99,17 @@
     "review_needed": false
   },
   {
+    "id": "workforce-2024-10-17-staff-stories-cybersecurity-awareness-month-3-md",
+    "title": "",
+    "category": "workforce",
+    "date": "",
+    "file": "workforce/2024-10-17-staff-stories-cybersecurity-awareness-month-3.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024-4",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "workforce-2024-10-15-staff-stories-spotlight-series-cybersecurity-awareness-month-2024-1-md",
     "title": "Staff Stories Spotlight Series: Cybersecurity Awareness Month 2024 - Shanée Dawkins",
     "category": "workforce",
@@ -55,6 +121,17 @@
     "review_needed": false
   },
   {
+    "id": "workforce-2024-10-15-staff-stories-cybersecurity-awareness-month-4-md",
+    "title": "",
+    "category": "workforce",
+    "date": "",
+    "file": "workforce/2024-10-15-staff-stories-cybersecurity-awareness-month-4.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024-1",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "workforce-2024-10-09-staff-stories-spotlight-series-cybersecurity-awareness-month-2024-2-md",
     "title": "Staff Stories Spotlight Series: Cybersecurity Awareness Month 2024 - Jeff Marron",
     "category": "workforce",
@@ -62,6 +139,28 @@
     "file": "workforce/2024-10-09-staff-stories-spotlight-series-cybersecurity-awareness-month-2024-2.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024-2",
     "confidence": "medium",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "workforce-2024-10-09-staff-stories-cybersecurity-awareness-month-5-md",
+    "title": "",
+    "category": "workforce",
+    "date": "",
+    "file": "workforce/2024-10-09-staff-stories-cybersecurity-awareness-month-5.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024-2",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "workforce-2024-10-01-staff-stories-spotlight-series-cybersecurity-awareness-month-2024-md",
+    "title": "Staff Stories Spotlight Series: Cybersecurity Awareness Month 2024",
+    "category": "workforce",
+    "date": "2024-10-01",
+    "file": "workforce/2024-10-01-staff-stories-spotlight-series-cybersecurity-awareness-month-2024.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/staff-stories-spotlight-series-cybersecurity-awareness-month-2024-3",
+    "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },
@@ -88,11 +187,33 @@
     "review_needed": false
   },
   {
+    "id": "workforce-2024-09-04-learning-sharing-and-exploring-nists-human-centered-cybersecurity-md",
+    "title": "Learning, Sharing, and Exploring with NIST's New Human-Centered Cybersecurity Community of Interest",
+    "category": "workforce",
+    "date": "2024-09-04",
+    "file": "workforce/2024-09-04-learning-sharing-and-exploring-nists-human-centered-cybersecurity.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/learning-sharing-and-exploring-nists-new-human-centered-cybersecurity",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "workforce-2024-05-09-latest-nice-framework-update-md",
     "title": "Latest NICE Framework Update Offers Improvements for the Cybersecurity Workforce",
     "category": "workforce",
     "date": "2024-05-09",
     "file": "workforce/2024-05-09-latest-nice-framework-update.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/latest-nice-framework-update-offers-improvements-cybersecurity",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "workforce-2024-05-09-latest-nice-framework-update-offers-improvements-cybersecurity-md",
+    "title": "Latest NICE Framework Update Offers Improvements for the Cybersecurity Workforce",
+    "category": "workforce",
+    "date": "2024-05-09",
+    "file": "workforce/2024-05-09-latest-nice-framework-update-offers-improvements-cybersecurity.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/latest-nice-framework-update-offers-improvements-cybersecurity",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
@@ -106,6 +227,28 @@
     "file": "workforce/2024-02-14-nist-celebrates-national-entrepreneurship-week.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/nist-celebrates-national-entrepreneurship-week",
     "confidence": "medium",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "supply_chain-2025-09-30-sharpening-focus-product-requirements-cybersecurity-risks-iot-md",
+    "title": "Sharpening the Focus on Product Requirements and Cybersecurity Risks - Updating Foundational Activities for IoT Product Manufacturers",
+    "category": "supply_chain",
+    "date": "2025-09-30",
+    "file": "supply_chain/2025-09-30-sharpening-focus-product-requirements-cybersecurity-risks-iot.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/sharpening-focus-product-requirements-and-cybersecurity-risks-updating",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "privacy-2026-01-27-data-privacy-week-nist-privacy-engineering-program-md",
+    "title": "Celebrating Data Privacy Week with NIST's Privacy Engineering Program",
+    "category": "privacy",
+    "date": "2026-01-27",
+    "file": "privacy/2026-01-27-data-privacy-week-nist-privacy-engineering-program.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/celebrating-data-privacy-week-nists-privacy-engineering-program",
+    "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },
@@ -132,11 +275,33 @@
     "review_needed": false
   },
   {
+    "id": "privacy-2025-01-27-privacy-preserving-federated-learning-future-collaboration-and-md",
+    "title": "Privacy-Preserving Federated Learning – Future Collaboration and Continued Research",
+    "category": "privacy",
+    "date": "2025-01-27",
+    "file": "privacy/2025-01-27-privacy-preserving-federated-learning-future-collaboration-and.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/privacy-preserving-federated-learning-future-collaboration-and",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "privacy-2024-12-05-data-pipeline-challenges-privacy-federated-learning-md",
     "title": "Data Pipeline Challenges of Privacy-Preserving Federated Learning",
     "category": "privacy",
     "date": "2024-12-05",
     "file": "privacy/2024-12-05-data-pipeline-challenges-privacy-federated-learning.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/data-pipeline-challenges-privacy-preserving-federated-learning",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "privacy-2024-12-05-data-pipeline-challenges-of-privacy-preserving-federated-learning-md",
+    "title": "Data Pipeline Challenges of Privacy-Preserving Federated Learning",
+    "category": "privacy",
+    "date": "2024-12-05",
+    "file": "privacy/2024-12-05-data-pipeline-challenges-of-privacy-preserving-federated-learning.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/data-pipeline-challenges-privacy-preserving-federated-learning",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
@@ -176,6 +341,17 @@
     "review_needed": false
   },
   {
+    "id": "privacy-2024-05-02-protecting-model-updates-privacy-preserving-federated-learning-part-two-md",
+    "title": "Protecting Model Updates in Privacy-Preserving Federated Learning: Part Two",
+    "category": "privacy",
+    "date": "2024-05-02",
+    "file": "privacy/2024-05-02-protecting-model-updates-privacy-preserving-federated-learning-part-two.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/protecting-model-updates-privacy-preserving-federated-learning-part-two",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "privacy-2024-05-02-protecting-model-updates-federated-learning-md",
     "title": "Protecting Model Updates in Privacy-Preserving Federated Learning: Part Two",
     "category": "privacy",
@@ -188,12 +364,12 @@
   },
   {
     "id": "privacy-2024-03-21-protecting-model-updates-privacy-preserving-federated-learning-md",
-    "title": "Protecting Model Updates in Privacy-Preserving Федerated Learning",
+    "title": "Protecting Model Updates in Privacy-Preserving Federated Learning",
     "category": "privacy",
     "date": "2024-03-21",
     "file": "privacy/2024-03-21-protecting-model-updates-privacy-preserving-federated-learning.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/protecting-model-updates-privacy-preserving-federated-learning",
-    "confidence": "medium",
+    "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },
@@ -204,7 +380,7 @@
     "date": "2024-02-27",
     "file": "privacy/2024-02-27-data-distribution-privacy-preserving-federated-learning.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/data-distribution-privacy-preserving-federated-learning",
-    "confidence": "medium",
+    "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },
@@ -215,6 +391,17 @@
     "date": "2025-05-05",
     "file": "policy_guidance/2025-05-05-small-businesses-create-big-impact-nist-celebrates-2025-national-small.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/small-businesses-create-big-impact-nist-celebrates-2025-national-small",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "policy_guidance-2024-12-19-nists-international-cybersecurity-and-privacy-engagement-update-new-md",
+    "title": "NIST's International Cybersecurity and Privacy Engagement Update – New Translations",
+    "category": "policy_guidance",
+    "date": "2024-12-19",
+    "file": "policy_guidance/2024-12-19-nists-international-cybersecurity-and-privacy-engagement-update-new.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/nists-international-cybersecurity-and-privacy-engagement-update-new",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
@@ -264,12 +451,34 @@
     "review_needed": false
   },
   {
+    "id": "policy_guidance-2024-06-12-nists-international-cybersecurity-and-privacy-engagement-update-mexico-md",
+    "title": "NIST's International Cybersecurity and Privacy Engagement Update – Mexico City, RSA Conference, and More",
+    "category": "policy_guidance",
+    "date": "2024-06-12",
+    "file": "policy_guidance/2024-06-12-nists-international-cybersecurity-and-privacy-engagement-update-mexico.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/nists-international-cybersecurity-and-privacy-engagement-update-mexico",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "policy_guidance-2024-06-12-nist-international-cybersecurity-privacy-engagement-update-mexico-rsa-md",
     "title": "NIST's International Cybersecurity and Privacy Engagement Update – Mexico City, RSA Conference, and More",
     "category": "policy_guidance",
     "date": "2024-06-12",
     "file": "policy_guidance/2024-06-12-nist-international-cybersecurity-privacy-engagement-update-mexico-rsa.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/nists-international-cybersecurity-and-privacy-engagement-update-mexico",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "policy_guidance-2024-02-28-updates-nists-interagency-international-cybersecurity-standardization-md",
+    "title": "Updates on NIST's Interagency International Cybersecurity Standardization Working Group",
+    "category": "policy_guidance",
+    "date": "2024-02-28",
+    "file": "policy_guidance/2024-02-28-updates-nists-interagency-international-cybersecurity-standardization.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/updates-nists-interagency-international-cybersecurity-standardization",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
@@ -308,6 +517,28 @@
     "review_needed": false
   },
   {
+    "id": "identity-2026-01-07-digital-identities-getting-to-know-verifiable-digital-credential-md",
+    "title": "Digital Identities - Getting to Know the Verifiable Digital Credential Ecosystem",
+    "category": "identity",
+    "date": "2026-01-07",
+    "file": "identity/2026-01-07-digital-identities-getting-to-know-verifiable-digital-credential.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/digital-identities-getting-know-verifiable-digital-credential-0",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2025-08-01-lets-get-digital-updated-identity-guidelines-revision-4-md",
+    "title": "Let's get Digital! Updated Digital Identity Guidelines are Here!",
+    "category": "identity",
+    "date": "2025-08-01",
+    "file": "identity/2025-08-01-lets-get-digital-updated-identity-guidelines-revision-4.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/lets-get-digital-updated-digital-identity-guidelines-are-here",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "identity-2025-08-01-digital-identity-guidelines-revision-4-md",
     "title": "Let's get Digital! Updated Digital Identity Guidelines are Here!",
     "category": "identity",
@@ -315,6 +546,17 @@
     "file": "identity/2025-08-01-digital-identity-guidelines-revision-4.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/lets-get-digital-updated-digital-identity-guidelines-are-here",
     "confidence": "高",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2024-11-13-verifiable-digital-credentials-ecosystem-md",
+    "title": "",
+    "category": "identity",
+    "date": "",
+    "file": "identity/2024-11-13-verifiable-digital-credentials-ecosystem.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/digital-identities-getting-know-verifiable-digital-credential-ecosystem",
+    "confidence": "",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },
@@ -336,6 +578,28 @@
     "date": "2024-05-22",
     "file": "identity/2024-05-22-check-your-wallet-mobile-drivers-licenses.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/check-your-wallet-how-mobile-drivers-licenses-are-changing-online",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2024-05-22-check-your-wallet-how-mobile-drivers-licenses-changing-online-md",
+    "title": "Check Your Wallet? How Mobile Driver's Licenses are Changing Online Transactions",
+    "category": "identity",
+    "date": "2024-05-22",
+    "file": "identity/2024-05-22-check-your-wallet-how-mobile-drivers-licenses-changing-online.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/check-your-wallet-how-mobile-drivers-licenses-are-changing-online",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2024-04-22-giving-nist-digital-identity-guidelines-boost-supplement-incorporating-md",
+    "title": "Giving NIST Digital Identity Guidelines a Boost: Supplement for Incorporating Syncable Authenticators",
+    "category": "identity",
+    "date": "2024-04-22",
+    "file": "identity/2024-04-22-giving-nist-digital-identity-guidelines-boost-supplement-incorporating.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/giving-nist-digital-identity-guidelines-boost-supplement-incorporating",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
@@ -363,6 +627,39 @@
     "review_needed": false
   },
   {
+    "id": "cybersecurity-2025-05-13-five-years-later-evolving-iot-cybersecurity-guidelines-md",
+    "title": "Five Years Later: Evolving IoT Cybersecurity Guidelines",
+    "category": "cybersecurity",
+    "date": "2025-05-13",
+    "file": "cybersecurity/2025-05-13-five-years-later-evolving-iot-cybersecurity-guidelines.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/five-years-later-evolving-iot-cybersecurity-guidelines",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2025-05-05-small-businesses-create-big-impact-nist-celebrates-2025-national-small-md",
+    "title": "Small Businesses Create Big Impact: NIST Celebrates 2025 National Small Business Week",
+    "category": "cybersecurity",
+    "date": "2025-05-05",
+    "file": "cybersecurity/2025-05-05-small-businesses-create-big-impact-nist-celebrates-2025-national-small.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/small-businesses-create-big-impact-nist-celebrates-2025-national-small",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2025-02-26-celebrating-1-year-of-csf-20-md",
+    "title": "Celebrating 1 Year of CSF 2.0",
+    "category": "cybersecurity",
+    "date": "2025-02-26",
+    "file": "cybersecurity/2025-02-26-celebrating-1-year-of-csf-20.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/celebrating-1-year-csf-20",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "cybersecurity-2025-02-26-celebrating-1-year-csf-20-md",
     "title": "Celebrating 1 Year of CSF 2.0",
     "category": "cybersecurity",
@@ -374,12 +671,56 @@
     "review_needed": false
   },
   {
+    "id": "cybersecurity-2024-11-21-iot-device-manufacturers-foundational-activities-revision-md",
+    "title": "",
+    "category": "cybersecurity",
+    "date": "",
+    "file": "cybersecurity/2024-11-21-iot-device-manufacturers-foundational-activities-revision.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/kicking-december-4th-workshop-nist-revisiting-and-revising-foundational",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2024-10-22-iot-advisory-board-adoption-barriers-report-md",
+    "title": "",
+    "category": "cybersecurity",
+    "date": "",
+    "file": "cybersecurity/2024-10-22-iot-advisory-board-adoption-barriers-report.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/iot-assignment-completed-report-barriers-us-iot-adoption",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2024-05-01-take-tour-nist-cybersecurity-framework-20-small-business-quick-start-md",
+    "title": "Take A Tour! NIST Cybersecurity Framework 2.0: Small Business Quick Start Guide",
+    "category": "cybersecurity",
+    "date": "2024-05-01",
+    "file": "cybersecurity/2024-05-01-take-tour-nist-cybersecurity-framework-20-small-business-quick-start.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/take-tour-nist-cybersecurity-framework-20-small-business-quick-start",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "cybersecurity-2024-05-01-nist-csf-2-small-business-guide-md",
     "title": "Take A Tour! NIST Cybersecurity Framework 2.0: Small Business Quick Start Guide",
     "category": "cybersecurity",
     "date": "2024-05-01",
     "file": "cybersecurity/2024-05-01-nist-csf-2-small-business-guide.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/take-tour-nist-cybersecurity-framework-20-small-business-quick-start",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2024-02-26-travel-update-nist-csf-20-herealong-many-helpful-resources-md",
+    "title": "Travel Update! The NIST CSF 2.0 is HERE…Along with Many Helpful Resources…",
+    "category": "cybersecurity",
+    "date": "2024-02-26",
+    "file": "cybersecurity/2024-02-26-travel-update-nist-csf-20-herealong-many-helpful-resources.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/travel-update-nist-csf-20-herealong-many-helpful-resources",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
@@ -407,6 +748,17 @@
     "review_needed": false
   },
   {
+    "id": "ai_risk-2025-07-31-reflections-from-the-first-cyber-ai-profile-workshop-md",
+    "title": "Reflections from the First Cyber AI Profile Workshop",
+    "category": "ai_risk",
+    "date": "2025-07-31",
+    "file": "ai_risk/2025-07-31-reflections-from-the-first-cyber-ai-profile-workshop.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/reflections-first-cyber-ai-profile-workshop",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "ai_risk-2025-07-31-reflections-first-cyber-ai-profile-workshop-md",
     "title": "Reflections from the First Cyber AI Profile Workshop",
     "category": "ai_risk",
@@ -429,6 +781,17 @@
     "review_needed": false
   },
   {
+    "id": "ai_risk-2025-05-22-cybersecurity-and-ai-integrating-and-building-on-existing-nist-guidelines-md",
+    "title": "Cybersecurity and AI: Integrating and Building on Existing NIST Guidelines",
+    "category": "ai_risk",
+    "date": "2025-05-22",
+    "file": "ai_risk/2025-05-22-cybersecurity-and-ai-integrating-and-building-on-existing-nist-guidelines.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/cybersecurity-and-ai-integrating-and-building-existing-nist-guidelines",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "ai_risk-2025-05-22-cybersecurity-and-ai-integrating-and-building-existing-nist-guidelines-md",
     "title": "Cybersecurity and AI: Integrating and Building on Existing NIST Guidelines",
     "category": "ai_risk",
@@ -440,11 +803,33 @@
     "review_needed": false
   },
   {
+    "id": "ai_risk-2024-10-08-privacy-preserving-federated-learning-scalability-md",
+    "title": "",
+    "category": "ai_risk",
+    "date": "",
+    "file": "ai_risk/2024-10-08-privacy-preserving-federated-learning-scalability.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/scalability-challenges-privacy-preserving-federated-learning",
+    "confidence": "",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "ai_risk-2024-09-19-managing-cybersecurity-and-privacy-risks-in-age-of-ai-md",
     "title": "Managing Cybersecurity and Privacy Risks in the Age of Artificial Intelligence: Launching a New Program at NIST",
     "category": "ai_risk",
     "date": "2024-09-19",
     "file": "ai_risk/2024-09-19-managing-cybersecurity-and-privacy-risks-in-age-of-ai.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/managing-cybersecurity-and-privacy-risks-age-artificial-intelligence",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "ai_risk-2024-09-19-managing-cybersecurity-and-privacy-risks-age-artificial-intelligence-md",
+    "title": "Managing Cybersecurity and Privacy Risks in the Age of Artificial Intelligence: Launching a New Program at NIST",
+    "category": "ai_risk",
+    "date": "2024-09-19",
+    "file": "ai_risk/2024-09-19-managing-cybersecurity-and-privacy-risks-age-artificial-intelligence.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/managing-cybersecurity-and-privacy-risks-age-artificial-intelligence",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
