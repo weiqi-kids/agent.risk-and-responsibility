@@ -2110,38 +2110,5 @@
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
-  },
-  {
-    "id": "32026R0150R-01-md",
-    "title": "Corrigendum to Council Regulation (EU) 2026/150 - European High-Performance Computing Joint Undertaking",
-    "category": "institutional_administration",
-    "date": "2026-02-06",
-    "file": "32026R0150R-01.md",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150R(01)",
-    "confidence": "高",
-    "source_layer": "eu_regulations",
-    "review_needed": false
-  },
-  {
-    "id": "32019L0879R-08-md",
-    "title": "Corrigendum to Directive (EU) 2019/879 - Loss-absorption and recapitalisation capacity of credit institutions",
-    "category": "financial_compliance",
-    "date": "2026-02-06",
-    "file": "32019L0879R-08.md",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0879R(08)",
-    "confidence": "高",
-    "source_layer": "eu_regulations",
-    "review_needed": false
-  },
-  {
-    "id": "32011R1233R-01-md",
-    "title": "Corrigendum to Regulation (EU) No 1233/2011 - Officially supported export credits",
-    "category": "financial_compliance",
-    "date": "2026-02-05",
-    "file": "32011R1233R-01.md",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1233R(01)",
-    "confidence": "高",
-    "source_layer": "eu_regulations",
-    "review_needed": false
   }
 ]
