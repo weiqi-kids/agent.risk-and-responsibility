@@ -73,10 +73,10 @@ flowchart TB
 | nist_frameworks | 2026-02-04 | 24 | ✅ |
 | nist_cybersecurity_insights | 2026-01-28 | 41 | ✅ |
 | eu_regulations | 2026-02-06 | 142 | ✅ |
-| cisa_kev | - | - | 🆕 |
-| sans_isc | - | - | 🆕 |
-| iso_standards | - | - | 🆕 |
-| csa_cloud_security | - | - | 🆕 |
+| cisa_kev | 2026-02-08 | 21 | ✅ |
+| sans_isc | 2026-02-08 | 5 | ✅ |
+| iso_standards | 2026-02-08 | 50 | ✅ |
+| csa_cloud_security | 2026-02-08 | 20 | ✅ |
 
 | Mode | 最後產出 | 狀態 |
 |------|----------|------|
