@@ -34,6 +34,21 @@
 
 > **嚴格限制：category 只能使用上述 8 個值。** 若有項目不屬於任何分類，選最接近的並在 Notes 說明。需要新增 category 時必須與使用者確認後寫入本檔案。
 
+## 內容過濾規則（fetch.sh 階段）
+
+以下內容在 `fetch.sh` 階段自動過濾，不進入 JSONL：
+
+### 過濾對象（❌ 不進入 JSONL）
+
+- **非英文 corrigenda**：description 含 `"does not concern the English version"`
+  - 這些是「翻譯語法修正」（如愛爾蘭文被動式、德文用詞順序）
+  - 不涉及法規實質變動，對合規分析無價值
+
+### 萃取對象（✅ 進入 JSONL）
+
+- 所有 Regulation、Directive、Decision 的實質內容
+- 涉及英文版本的 Corrigendum（實質修正）
+
 ## 萃取邏輯
 
 ### 步驟

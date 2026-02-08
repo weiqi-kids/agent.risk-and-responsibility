@@ -37,10 +37,22 @@ echo "Downloaded: $(wc -c < "$XML_FILE" | tr -d ' ') bytes"
 rss_validate "$XML_FILE"
 
 # === 3. 轉換為 JSONL ===
-rss_extract_items_jsonl "$XML_FILE" > "$JSONL_FILE"
+rss_extract_items_jsonl "$XML_FILE" > "$JSONL_FILE.raw"
+
+ORIGINAL_COUNT=$(wc -l < "$JSONL_FILE.raw" | tr -d ' ')
+
+# === 3.5 過濾非英文 corrigenda ===
+# 這些是「翻譯語法修正」，不涉及法規實質變動，對合規分析無價值
+# 特徵：description 含 "does not concern the English version"
+jq -c 'select(.description | test("does not concern the English version") | not)' \
+  "$JSONL_FILE.raw" > "$JSONL_FILE"
 
 ITEM_COUNT=$(wc -l < "$JSONL_FILE" | tr -d ' ')
-echo "Items extracted: $ITEM_COUNT"
+FILTERED=$((ORIGINAL_COUNT - ITEM_COUNT))
+echo "Items: $ORIGINAL_COUNT total, $FILTERED filtered (non-English corrigenda), $ITEM_COUNT kept"
+
+# 保留原始檔供參考，但加上 .raw 後綴
+# rm -f "$JSONL_FILE.raw"  # 取消註解可刪除原始檔
 
 # === 4. 記錄時間戳 ===
 date -u +"%Y-%m-%dT%H:%M:%SZ" > "$RAW_DIR/.last_fetch"
