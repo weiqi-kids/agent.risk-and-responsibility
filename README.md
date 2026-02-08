@@ -2,6 +2,8 @@
 
 > Risk & Responsibility Intelligence System — 全球風險與責任情報系統
 
+**最後更新：2026-02-08**
+
 基於多角色協作架構（Architect / Extractor / Narrator / Reviewer），持續觀測並結構化全球框架、法規與產業規則的變動，追蹤責任歸屬的演化。
 
 ## 核心問題
@@ -57,6 +59,10 @@ flowchart TB
 | NIST Information Technology News | RSS | 框架、標準、指引動態（SSDF、CSF、AI RMF 等） | nist_frameworks |
 | NIST Cybersecurity Insights Blog | RSS | 資安專家分析文章、政策評論、人才教育動態 | nist_cybersecurity_insights |
 | EUR-Lex Parliament & Council Legislation | RSS | 歐盟議會與理事會立法（Regulation/Directive/Decision） | eu_regulations |
+| CISA Known Exploited Vulnerabilities | JSON | 已知被利用漏洞清單、修補期限 | cisa_kev |
+| SANS ISC Handler's Diary | RSS | 每日威脅分析、安全事件、惡意軟體 | sans_isc |
+| ISO Open Data Platform | CSV | ISO 標準元資料（IT/安全/治理相關） | iso_standards |
+| Cloud Security Alliance Blog | RSS | 雲安全最佳實踐、AI 安全、合規框架 | csa_cloud_security |
 
 > 完整資料源評估紀錄見 [docs/explored.md](docs/explored.md)
 
@@ -67,6 +73,10 @@ flowchart TB
 | nist_frameworks | 2026-02-04 | 24 | ✅ |
 | nist_cybersecurity_insights | 2026-01-28 | 41 | ✅ |
 | eu_regulations | 2026-02-06 | 142 | ✅ |
+| cisa_kev | - | - | 🆕 |
+| sans_isc | - | - | 🆕 |
+| iso_standards | - | - | 🆕 |
+| csa_cloud_security | - | - | 🆕 |
 
 | Mode | 最後產出 | 狀態 |
 |------|----------|------|
@@ -76,7 +86,7 @@ flowchart TB
 | critical_infrastructure_resilience | 2026-W06 | ✅ |
 | cybersecurity_compliance | 2026-W06 | ✅ |
 
-> 健康度由完整流程執行後更新（2026-02-06）
+> 健康度由完整流程執行後更新（2026-02-08）
 
 ## 目錄結構
 
@@ -94,7 +104,11 @@ flowchart TB
 │   │   └── Layers/
 │   │       ├── nist_frameworks/       # NIST 框架動態 Layer
 │   │       ├── nist_cybersecurity_insights/  # NIST 資安洞察部落格 Layer
-│   │       └── eu_regulations/        # 歐盟法規動態 Layer
+│   │       ├── eu_regulations/        # 歐盟法規動態 Layer
+│   │       ├── cisa_kev/              # CISA 已知被利用漏洞 Layer
+│   │       ├── sans_isc/              # SANS ISC 威脅分析 Layer
+│   │       ├── iso_standards/         # ISO 標準動態 Layer
+│   │       └── csa_cloud_security/    # 雲安全聯盟 Layer
 │   └── Narrator/
 │       ├── CLAUDE.md                  # 綜合分析角色
 │       └── Modes/
@@ -115,9 +129,13 @@ flowchart TB
 ├── docs/
 │   ├── explored.md                    # 資料源探索紀錄
 │   ├── Extractor/
-│   │   ├── nist_frameworks/           # 萃取結果（24 筆 .md）
-│   │   ├── nist_cybersecurity_insights/  # 萃取結果（41 筆 .md）
-│   │   └── eu_regulations/            # 萃取結果（142 筆 .md）
+│   │   ├── nist_frameworks/           # 萃取結果
+│   │   ├── nist_cybersecurity_insights/  # 萃取結果
+│   │   ├── eu_regulations/            # 萃取結果
+│   │   ├── cisa_kev/                  # 萃取結果
+│   │   ├── sans_isc/                  # 萃取結果
+│   │   ├── iso_standards/             # 萃取結果
+│   │   └── csa_cloud_security/        # 萃取結果
 │   └── Narrator/
 │       ├── rule_change_brief/         # 規則變動簡報
 │       ├── ai_governance_landscape/   # AI 治理全景報告
@@ -146,3 +164,4 @@ flowchart TB
 | v1.1 | 2026-01-27 | 新增 nist_cybersecurity_insights Layer（NIST 資安洞察部落格）+ eu_regulations Layer（歐盟法規動態） |
 | v1.2 | 2026-02-05 | 新增 4 個跨 Layer 主題式 Mode（ai_governance_landscape、supply_chain_security、critical_infrastructure_resilience、cybersecurity_compliance）；資料利用率從 12% 提升至 53% |
 | v1.3 | 2026-02-07 | 整合 Jekyll + Just the Docs 主題，支援 GitHub Pages 自動部署 |
+| v1.4 | 2026-02-08 | 新增 4 個 Layer（cisa_kev、sans_isc、iso_standards、csa_cloud_security）；fetch.sh 預過濾優化 |

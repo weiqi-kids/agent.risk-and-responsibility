@@ -8,6 +8,9 @@ nav_order: 1
 
 追蹤全球框架、法規與產業規則的變動，觀察責任歸屬的演化。
 
+{: .label .label-green }
+**最後更新：2026-02-08**
+
 > How is the world redefining who must carry responsibility for emerging risks?
 
 ---
@@ -33,6 +36,10 @@ nav_order: 1
 | NIST Frameworks | 美國 | 框架、標準、指引 |
 | NIST Cybersecurity Insights | 美國 | 專家分析、政策評論 |
 | EUR-Lex | 歐盟 | Regulation、Directive、Decision |
+| CISA KEV | 美國 | 已知被利用漏洞 |
+| SANS ISC | 國際 | 威脅分析、安全事件 |
+| ISO Standards | 國際 | 標準元資料 |
+| CSA Blog | 國際 | 雲安全、AI 安全 |
 
 ---
 
