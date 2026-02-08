@@ -152,7 +152,8 @@ fi
 # === REVIEW_NEEDED 檢查 ===
 REVIEW_FILES=""
 for f in "${MD_FILES[@]}"; do
-  if [[ -f "$f" ]] && grep -q "\[REVIEW_NEEDED\]" "$f" 2>/dev/null; then
+  # 只匹配行首的 [REVIEW_NEEDED]，避免誤報 checklist 中的文字
+  if [[ -f "$f" ]] && grep -q "^\[REVIEW_NEEDED\]" "$f" 2>/dev/null; then
     REVIEW_FILES+="  - $f\n"
   fi
 done
