@@ -66,18 +66,22 @@
 
 > **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫，避免 Opus 等待網路回應。
 
-### 步驟五：提交並部署
+### 步驟五：更新時間戳、提交並部署
 
 執行完所有 Mode 後：
 
-1. 檢查是否有變動：`git status --porcelain`
-2. 若有變動，執行：
+1. **更新首頁時間戳**：
+   - `README.md`：更新 `**最後更新：YYYY-MM-DD**`
+   - `index.md`：更新 `**最後更新：YYYY-MM-DD**`
+   - `README.md` 系統健康度表格：更新各 Layer/Mode 的最後更新時間和資料筆數
+2. 檢查是否有變動：`git status --porcelain`
+3. 若有變動，執行：
    ```bash
-   git add docs/Narrator/
+   git add docs/ README.md index.md
    git commit -m "chore: update reports $(date +%Y-%m-%d)"
    git push
    ```
-3. 等待 GitHub Actions 部署完成
+4. 等待 GitHub Actions 部署完成
 
 ### JSONL 處理規範
 
