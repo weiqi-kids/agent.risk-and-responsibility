@@ -1,10 +1,3 @@
----
-layout: default
-title: Rule Change Brief
-nav_order: 2
-has_children: true
----
-
 # Rule Change Brief — 2026-W07
 
 > 本期追蹤 50 項框架與標準變動，涵蓋 eu_regulations、nist_frameworks、nist_cybersecurity_insights、iso_standards。
@@ -153,7 +146,3 @@ has_children: true
 | nist_frameworks | 2 | 2025-08-27 ~ 2026-01-28 |
 | nist_cybersecurity_insights | 1 | 2024-02-28 |
 | iso_standards | 4 | 2025-12-10 ~ 2025-12-10 |
-
----
-
-*報告產出時間：2026-02-13*

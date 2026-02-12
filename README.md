@@ -2,7 +2,7 @@
 
 > Risk & Responsibility Intelligence System — 全球風險與責任情報系統
 
-**最後更新：2026-02-08**
+**最後更新：2026-02-13**
 
 基於多角色協作架構（Architect / Extractor / Narrator / Reviewer），持續觀測並結構化全球框架、法規與產業規則的變動，追蹤責任歸屬的演化。
 
@@ -70,23 +70,23 @@ flowchart TB
 
 | Layer | 最後更新 | 資料筆數 | 狀態 |
 |-------|----------|----------|------|
-| nist_frameworks | 2026-02-04 | 24 | ✅ |
-| nist_cybersecurity_insights | 2026-01-28 | 41 | ✅ |
-| eu_regulations | 2026-02-06 | 142 | ✅ |
-| cisa_kev | 2026-02-08 | 21 | ✅ |
-| sans_isc | 2026-02-08 | 5 | ✅ |
-| iso_standards | 2026-02-08 | 50 | ✅ |
-| csa_cloud_security | 2026-02-08 | 20 | ✅ |
+| nist_frameworks | 2026-02-13 | 43 | ✅ |
+| nist_cybersecurity_insights | 2026-02-13 | 68 | ✅ |
+| eu_regulations | 2026-02-13 | 256 | ✅ |
+| cisa_kev | 2026-02-13 | 21 | ✅ |
+| sans_isc | 2026-02-13 | 11 | ✅ |
+| iso_standards | 2026-02-13 | 50 | ✅ |
+| csa_cloud_security | 2026-02-13 | 24 | ✅ |
 
 | Mode | 最後產出 | 狀態 |
 |------|----------|------|
-| rule_change_brief | 2026-W06 | ✅ |
+| rule_change_brief | 2026-W07 | ✅ |
 | ai_governance_landscape | 2026-02 | ✅ |
-| supply_chain_security | 2026-W06 | ✅ |
-| critical_infrastructure_resilience | 2026-W06 | ✅ |
-| cybersecurity_compliance | 2026-W06 | ✅ |
+| supply_chain_security | 2026-W07 | ✅ |
+| critical_infrastructure_resilience | 2026-W07 | ✅ |
+| cybersecurity_compliance | 2026-W07 | ✅ |
 
-> 健康度由完整流程執行後更新（2026-02-08）
+> 健康度由完整流程執行後更新（2026-02-13）
 
 ## 目錄結構
 

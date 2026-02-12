@@ -9,7 +9,7 @@ nav_order: 1
 追蹤全球框架、法規與產業規則的變動，觀察責任歸屬的演化。
 
 {: .label .label-green }
-**最後更新：2026-02-08**
+**最後更新：2026-02-13**
 
 > How is the world redefining who must carry responsibility for emerging risks?
 
@@ -17,15 +17,15 @@ nav_order: 1
 
 ## 最新報告
 
-### 本週更新（2026-W06）
+### 本週更新（2026-W07）
 
 | 報告 | 重點摘要 |
 |------|----------|
-| [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %}) | SP 800-53 Rev. 5.2.0 軟體更新控制、Ascon 輕量級密碼學標準 |
-| [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | NIST AI 網路安全框架草案、EU AI Act 線上空間適用範圍勘誤 |
-| [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | SSDF 1.2 更新、供應鏈追溯元框架草案 |
-| [Critical Infrastructure]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | 歐盟俄羅斯天然氣禁令、AI 超級工廠計畫、IoT 安全接入指引 |
-| [Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | SP 800-53 三項新增控制、TLS 1.3 可視性指引 |
+| [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %}) | ReArm Europe 國防投資、NIST SP 800-53 Rev. 5.2.0、EuroHPC AI 設施勘誤 |
+| [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | Agentic AI 治理框架、EU AI Gigafactories 41.2 億歐元投資、ISO AI 透明度標準 |
+| [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | SSDF 1.2 版最終準備、NIST IR 8536 製造追溯元框架、IoT 威脅建模強化 |
+| [Critical Infrastructure]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | ISO 資料中心韌性 KPI、能源韌性框架、NIST AI 製造中心啟動 |
+| [Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | NIST CSF 2.0 小型企業指南、AI 整合資安指引、NICE Framework 更新 |
 
 ---
 

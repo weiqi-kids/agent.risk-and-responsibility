@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Supply Chain Security
-nav_order: 4
-has_children: true
+title: "2026-W07"
+parent: Supply Chain Security
+nav_order: 1
 ---
 
 # Supply Chain Security Trends — 2026-W07
