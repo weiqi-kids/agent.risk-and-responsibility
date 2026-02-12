@@ -99,6 +99,17 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2026-01-30-fishing-opportunities-2026-2028-md",
+    "title": "Council Regulation fixing fishing opportunities for 2026-2028",
+    "category": "supply_chain",
+    "date": "2026-01-30",
+    "file": "supply_chain/2026-01-30-fishing-opportunities-2026-2028.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0249",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2026-01-30-fishing-opportunities-2026-2028-union-waters-md",
     "title": "Council Regulation (EU) 2026/249 fixing for 2026, 2027 and 2028 the fishing opportunities for certain fish stocks",
     "category": "supply_chain",
@@ -160,6 +171,28 @@
     "date": "2026-01-27",
     "file": "supply_chain/2026-01-27-moldova-road-freight-agreement.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0226",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "supply_chain-2026-01-27-council-decision-eu-2026-226-ukraine-road-freight-agreement-amendment-md",
+    "title": "Council Decision (EU) 2026/226 - EU-Ukraine Road Freight Agreement Amendment",
+    "category": "supply_chain",
+    "date": "2026-01-27",
+    "file": "supply_chain/2026-01-27-council-decision-eu-2026-226-ukraine-road-freight-agreement-amendment.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0226\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "supply_chain-2026-01-26-fishing-opportunities-mediterranean-black-seas-md",
+    "title": "Council Regulation (EU) 2026/266 of 26 January 2026 fixing for 2026 the fishing opportunities for certain fish stocks and groups of fish stocks applicable in the Mediterranean and Black Seas",
+    "category": "supply_chain",
+    "date": "2026-01-26",
+    "file": "supply_chain/2026-01-26-fishing-opportunities-mediterranean-black-seas.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0266",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -304,6 +337,17 @@
     "file": "supply_chain/2026-01-15-cryptoassets-capital-requirements-regulation.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2650",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "supply_chain-2026-01-14-eu-moldova-road-transport-agreement-continuation-md",
+    "title": "Council Decision (EU) 2026/106 of 18 September 2025 on the position to be taken on behalf of the European Union within the Joint Committee established by the Agreement between the European Union and the Republic of Moldova on the Carriage of Freight by Road, as regards the continuation of the Agreement",
+    "category": "supply_chain",
+    "date": "\"2026-01-14\"",
+    "file": "supply_chain/2026-01-14-eu-moldova-road-transport-agreement-continuation.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0106\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -627,6 +671,17 @@
     "review_needed": false
   },
   {
+    "id": "institutional_administration-2026-02-05-transport-community-maternity-leave-amendment-md",
+    "title": "Council Decision on Transport Community maternity leave rules amendment",
+    "category": "institutional_administration",
+    "date": "2026-02-05",
+    "file": "institutional_administration/2026-02-05-transport-community-maternity-leave-amendment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0303",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "institutional_administration-2026-01-30-mep-allowances-indexation-md",
     "title": "Decision of the European Parliament Bureau on Members' allowances indexation for 2026",
     "category": "institutional_administration",
@@ -644,6 +699,116 @@
     "date": "2026-01-30",
     "file": "institutional_administration/2026-01-30-european-parliament-members-statute-amendment.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00685",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-29-european-peace-facility-armenia-md",
+    "title": "Council Decision (CFSP) 2026/232 of 29 January 2026 on an assistance measure under the European Peace Facility to support the Armed Forces of the Republic of Armenia",
+    "category": "institutional_administration",
+    "date": "2026-01-29",
+    "file": "institutional_administration/2026-01-29-european-peace-facility-armenia.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0232",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-29-council-implementing-regulation-eu-2026-267-iran-restrictive-measures-md",
+    "title": "Council Implementing Regulation (EU) 2026/267 - Iran Restrictive Measures",
+    "category": "institutional_administration",
+    "date": "2026-01-29",
+    "file": "institutional_administration/2026-01-29-council-implementing-regulation-eu-2026-267-iran-restrictive-measures.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0267\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-29-council-implementing-regulation-eu-2026-259-russia-destabilising-activities-restrictive-measures-md",
+    "title": "Council Implementing Regulation (EU) 2026/259 - Russia Destabilising Activities Restrictive Measures",
+    "category": "institutional_administration",
+    "date": "2026-01-29",
+    "file": "institutional_administration/2026-01-29-council-implementing-regulation-eu-2026-259-russia-destabilising-activities-restrictive-measures.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0259\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-29-council-decision-cfsp-2026-263-iran-military-support-russia-restrictive-measures-md",
+    "title": "Council Decision (CFSP) 2026/263 - Iran Military Support to Russia Restrictive Measures",
+    "category": "institutional_administration",
+    "date": "2026-01-29",
+    "file": "institutional_administration/2026-01-29-council-decision-cfsp-2026-263-iran-military-support-russia-restrictive-measures.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0263\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-27-council-decision-eu-2026-222-australia-horizon-europe-negotiations-md",
+    "title": "Council Decision (EU) 2026/222 - Authorization for Australia Horizon Europe Participation Negotiations",
+    "category": "institutional_administration",
+    "date": "2026-01-27",
+    "file": "institutional_administration/2026-01-27-council-decision-eu-2026-222-australia-horizon-europe-negotiations.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0222\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-26-definitive-adoption-eu-euratom-2026-5-amending-budget-3-2025-md",
+    "title": "Definitive Adoption (EU, Euratom) 2026/5 - Amending Budget No 3 of 2025",
+    "category": "institutional_administration",
+    "date": "2026-01-26",
+    "file": "institutional_administration/2026-01-26-definitive-adoption-eu-euratom-2026-5-amending-budget-3-2025.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026B0005\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-23-council-decision-cedefop-malta-md",
+    "title": "Council Decision of 20 January 2026 replacing an alternate member of the Management Board of the European Centre for the Development of Vocational Training (Cedefop) for Malta",
+    "category": "institutional_administration",
+    "date": "2026-01-23",
+    "file": "institutional_administration/2026-01-23-council-decision-cedefop-malta.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00540",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-23-council-decision-advisory-committee-sweden-md",
+    "title": "Council Decision of 20 January 2026 replacing a member of the Advisory Committee on freedom of movement for workers for Sweden",
+    "category": "institutional_administration",
+    "date": "2026-01-23",
+    "file": "institutional_administration/2026-01-23-council-decision-advisory-committee-sweden.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00543",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-23-council-decision-advisory-committee-italy-temussi-md",
+    "title": "Council Decision of 20 January 2026 replacing a member of the Advisory Committee on freedom of movement for workers for Italy",
+    "category": "institutional_administration",
+    "date": "2026-01-23",
+    "file": "institutional_administration/2026-01-23-council-decision-advisory-committee-italy-temussi.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00541",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-23-council-decision-advisory-committee-italy-cafarda-md",
+    "title": "Council Decision of 20 January 2026 replacing a member of the Advisory Committee on freedom of movement for workers for Italy",
+    "category": "institutional_administration",
+    "date": "2026-01-23",
+    "file": "institutional_administration/2026-01-23-council-decision-advisory-committee-italy-cafarda.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00542",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -715,6 +880,39 @@
     "review_needed": false
   },
   {
+    "id": "institutional_administration-2026-01-22-council-decision-eu-osha-netherlands-md",
+    "title": "Council Decision of 20 January 2026 replacing a member of the Management Board of the European Agency for Safety and Health at Work for the Netherlands",
+    "category": "institutional_administration",
+    "date": "2026-01-22",
+    "file": "institutional_administration/2026-01-22-council-decision-eu-osha-netherlands.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00539",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-19-european-parliament-members-allowances-amendment-md",
+    "title": "Decision of the Bureau of the European Parliament of 19 January 2026 amending the Implementing Measures for the Statute for Members of the European Parliament",
+    "category": "institutional_administration",
+    "date": "2026-01-19",
+    "file": "institutional_administration/2026-01-19-european-parliament-members-allowances-amendment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00685",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-19-corrigendum-annual-solidarity-pool-md",
+    "title": "Corrigendum to Council Implementing Decision (EU) 2025/2642 of 19 December 2025 on the establishment of the Annual Solidarity Pool for 2026",
+    "category": "institutional_administration",
+    "date": "2026-01-19",
+    "file": "institutional_administration/2026-01-19-corrigendum-annual-solidarity-pool.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2642R(01)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "institutional_administration-2026-01-19-corrigendum-annual-solidarity-pool-2026-md",
     "title": "Corrigendum to Council Implementing Decision (EU) 2025/2642 of 19 December 2025 on the establishment of the Annual Solidarity Pool for 2026",
     "category": "institutional_administration",
@@ -722,6 +920,17 @@
     "file": "institutional_administration/2026-01-19-corrigendum-annual-solidarity-pool-2026.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2642R(01)",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-16-council-implementing-regulation-hamas-sanctions-md",
+    "title": "Council Implementing Regulation (EU) 2026/123 of 16 January 2026 implementing Regulation (EU) 2024/386 establishing restrictive measures against those who support, facilitate or enable violent actions by Hamas and the Palestinian Islamic Jihad",
+    "category": "institutional_administration",
+    "date": "\"2026-01-16\"",
+    "file": "institutional_administration/2026-01-16-council-implementing-regulation-hamas-sanctions.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0123\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -744,6 +953,50 @@
     "file": "institutional_administration/2026-01-16-council-decision-hamas-sanctions-extension.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0122",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-16-council-decision-cfsp-hamas-sanctions-amendment-md",
+    "title": "Council Decision (CFSP) 2026/122 of 16 January 2026 amending Decision (CFSP) 2024/385 establishing restrictive measures against those who support, facilitate or enable violent actions by Hamas and the Palestinian Islamic Jihad",
+    "category": "institutional_administration",
+    "date": "\"2026-01-16\"",
+    "file": "institutional_administration/2026-01-16-council-decision-cfsp-hamas-sanctions-amendment.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0122\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-13-european-parliament-budget-discharge-refusal-council-md",
+    "title": "Decision (EU) 2026/60 of the European Parliament of 22 October 2025 on discharge in respect of the implementation of the general budget of the European Union for the financial year 2023, Section II – European Council and Council",
+    "category": "institutional_administration",
+    "date": "\"2026-01-13\"",
+    "file": "institutional_administration/2026-01-13-european-parliament-budget-discharge-refusal-council.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026B0060\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-13-european-parliament-budget-discharge-asylum-agency-md",
+    "title": "Decision (EU) 2026/62 of the European Parliament of 22 October 2025 on discharge in respect of the implementation of the budget of the European Union Agency for Asylum for the financial year 2023",
+    "category": "institutional_administration",
+    "date": "\"2026-01-13\"",
+    "file": "institutional_administration/2026-01-13-european-parliament-budget-discharge-asylum-agency.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026B0062\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-13-european-parliament-accounts-closure-asylum-agency-md",
+    "title": "Decision (EU) 2026/63 of the European Parliament of 22 October 2025 on the closure of the accounts of the European Union Agency for Asylum for the financial year 2023",
+    "category": "institutional_administration",
+    "date": "\"2026-01-13\"",
+    "file": "institutional_administration/2026-01-13-european-parliament-accounts-closure-asylum-agency.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026B0063\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -781,6 +1034,17 @@
     "review_needed": false
   },
   {
+    "id": "institutional_administration-2026-01-12-council-implementing-regulation-guatemala-sanctions-md",
+    "title": "Council Implementing Regulation (EU) 2026/87 of 9 January 2026 implementing Regulation (EU) 2024/287 concerning restrictive measures in view of the situation in Guatemala",
+    "category": "institutional_administration",
+    "date": "\"2026-01-12\"",
+    "file": "institutional_administration/2026-01-12-council-implementing-regulation-guatemala-sanctions.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0087\"",
+    "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "institutional_administration-2026-01-12-council-implementing-regulation-eu-2026-87-guatemala-sanctions-md",
     "title": "Council Implementing Regulation (EU) 2026/87 implementing Regulation (EU) 2024/287 concerning restrictive measures in view of the situation in Guatemala",
     "category": "institutional_administration",
@@ -788,6 +1052,17 @@
     "file": "institutional_administration/2026-01-12-council-implementing-regulation-eu-2026-87-guatemala-sanctions.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0087",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-01-12-council-decision-cfsp-guatemala-sanctions-amendment-md",
+    "title": "Council Decision (CFSP) 2026/88 of 9 January 2026 amending Decision (CFSP) 2024/254 concerning restrictive measures in view of the situation in Guatemala",
+    "category": "institutional_administration",
+    "date": "\"2026-01-12\"",
+    "file": "institutional_administration/2026-01-12-council-decision-cfsp-guatemala-sanctions-amendment.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0088\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -979,6 +1254,39 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-02-02-enhanced-cooperation-ukraine-loan-md",
+    "title": "Council Decision authorizing enhanced cooperation for €90 billion loan to Ukraine",
+    "category": "financial_compliance",
+    "date": "2026-02-02",
+    "file": "financial_compliance/2026-02-02-enhanced-cooperation-ukraine-loan.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0258",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-02-02-corrigendum-iran-sanctions-swift-codes-md",
+    "title": "Corrigendum to Iran restrictive measures implementing regulation (SWIFT code corrections)",
+    "category": "financial_compliance",
+    "date": "2026-02-02",
+    "file": "financial_compliance/2026-02-02-corrigendum-iran-sanctions-swift-codes.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1980R(01)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-02-02-corrigendum-iran-cfsp-decision-swift-codes-md",
+    "title": "Corrigendum to CFSP Decision on Iran restrictive measures (SWIFT code corrections)",
+    "category": "financial_compliance",
+    "date": "2026-02-02",
+    "file": "financial_compliance/2026-02-02-corrigendum-iran-cfsp-decision-swift-codes.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1978R(01)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-30-tunisia-sanctions-implementing-regulation-md",
     "title": "Council Implementing Regulation (EU) 2026/238 on Tunisia sanctions implementation",
     "category": "financial_compliance",
@@ -986,6 +1294,17 @@
     "file": "financial_compliance/2026-01-30-tunisia-sanctions-implementing-regulation.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0238",
     "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-30-tunisia-sanctions-extension-delisting-md",
+    "title": "Council Decision amending Tunisia restrictive measures (extension and delisting)",
+    "category": "financial_compliance",
+    "date": "2026-01-30",
+    "file": "financial_compliance/2026-01-30-tunisia-sanctions-extension-delisting.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0239",
+    "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -1007,6 +1326,17 @@
     "date": "2026-01-30",
     "file": "financial_compliance/2026-01-30-iran-sanctions-uav-components.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0271",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-30-iran-sanctions-amendment-uav-missile-components-md",
+    "title": "Council Regulation amending Iran restrictive measures (UAV and missile components export ban)",
+    "category": "financial_compliance",
+    "date": "2026-01-30",
+    "file": "financial_compliance/2026-01-30-iran-sanctions-amendment-uav-missile-components.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0271",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -1034,12 +1364,45 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-01-29-tunisia-restrictive-measures-amendment-md",
+    "title": "Council Implementing Regulation (EU) 2026/238 of 29 January 2026 implementing Regulation (EU) No 101/2011 concerning restrictive measures directed against certain persons, entities and bodies in view of the situation in Tunisia",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-tunisia-restrictive-measures-amendment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0238",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-sudan-sanctions-regulation-md",
+    "title": "Council Implementing Regulation (EU) 2026/251 of 29 January 2026 implementing Regulation (EU) 2023/2147 concerning restrictive measures in view of activities undermining the stability and political transition of Sudan",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-sudan-sanctions-regulation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0251",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-29-sudan-sanctions-implementation-md",
     "title": "Council Implementing Regulation (EU) 2026/251 on Sudan sanctions for stability undermining activities",
     "category": "financial_compliance",
     "date": "2026-01-29",
     "file": "financial_compliance/2026-01-29-sudan-sanctions-implementation.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0251",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-sudan-sanctions-decision-md",
+    "title": "Council Decision (CFSP) 2026/254 of 29 January 2026 amending Decision (CFSP) 2023/2135 concerning restrictive measures in view of activities undermining the stability and political transition of Sudan",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-sudan-sanctions-decision.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0254",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -1067,6 +1430,17 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-01-29-russia-destabilising-activities-sanctions-md",
+    "title": "Council Decision (CFSP) 2026/260 of 29 January 2026 amending Decision (CFSP) 2024/2643 concerning restrictive measures in view of Russia's destabilising activities",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-russia-destabilising-activities-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0260",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-29-iran-sanctions-regulation-asset-freezes-md",
     "title": "Council Implementing Regulation (EU) 2026/267 - Iran restrictive measures asset freezes",
     "category": "financial_compliance",
@@ -1089,6 +1463,17 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-01-29-iran-military-support-sanctions-md",
+    "title": "Council Implementing Regulation (EU) 2026/262 of 29 January 2026 implementing Regulation (EU) 2023/1529 concerning restrictive measures in view of Iran's military support to Russia's war of aggression against Ukraine and to armed groups and entities in the Middle East and the Red Sea region",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-iran-military-support-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0262",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-29-iran-military-support-decision-md",
     "title": "Council Decision (CFSP) 2026/263 amending Iran military support sanctions",
     "category": "financial_compliance",
@@ -1096,6 +1481,17 @@
     "file": "financial_compliance/2026-01-29-iran-military-support-decision.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0263",
     "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-iran-human-rights-sanctions-md",
+    "title": "Council Implementing Decision (CFSP) 2026/265 of 29 January 2026 implementing Decision 2011/235/CFSP concerning restrictive measures directed against certain persons and entities in view of the situation in Iran",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-iran-human-rights-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0265",
+    "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -1118,6 +1514,17 @@
     "file": "financial_compliance/2026-01-29-council-implementing-regulation-2026-262-iran-sanctions.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0262",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-28-council-decision-eu-2026-231-eea-ccp-recovery-resolution-framework-md",
+    "title": "Council Decision (EU) 2026/231 - EEA Agreement Amendment for CCP Recovery and Resolution Framework",
+    "category": "financial_compliance",
+    "date": "2026-01-28",
+    "file": "financial_compliance/2026-01-28-council-decision-eu-2026-231-eea-ccp-recovery-resolution-framework.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0231\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -1228,6 +1635,17 @@
     "file": "financial_compliance/2026-01-23-jordan-macro-financial-assistance.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0188",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-23-decision-eu-2026-188-macro-financial-assistance-jordan-md",
+    "title": "Decision (EU) 2026/188 - Macro-Financial Assistance to the Hashemite Kingdom of Jordan",
+    "category": "financial_compliance",
+    "date": "2026-01-23",
+    "file": "financial_compliance/2026-01-23-decision-eu-2026-188-macro-financial-assistance-jordan.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0188\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -1672,6 +2090,17 @@
     "review_needed": false
   },
   {
+    "id": "data_protection-2026-02-09-decision-data-subjects-rights-restriction-restrictive-measures-md",
+    "title": "Decision No 2/2026 on data subjects' rights restriction for restrictive measures",
+    "category": "data_protection",
+    "date": "2026-02-09",
+    "file": "data_protection/2026-02-09-decision-data-subjects-rights-restriction-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00866",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "data_protection-2026-02-03-corrigendum-regulation-digital-identity-framework-2024-1183-md",
     "title": "Corrigendum to Regulation (EU) 2024/1183 on European Framework for Digital Identity",
     "category": "data_protection",
@@ -1881,6 +2310,17 @@
     "review_needed": false
   },
   {
+    "id": "critical_infrastructure-2026-02-02-russian-gas-oil-import-phase-out-md",
+    "title": "Regulation on phasing out Russian natural gas and preparing oil import phase-out",
+    "category": "critical_infrastructure",
+    "date": "2026-02-02",
+    "file": "critical_infrastructure/2026-02-02-russian-gas-oil-import-phase-out.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0261",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "critical_infrastructure-2026-02-02-russian-energy-import-phaseout-md",
     "title": "Regulation (EU) 2026/261 on phasing out Russian natural gas and oil imports",
     "category": "critical_infrastructure",
@@ -1965,6 +2405,17 @@
     "file": "critical_infrastructure/2026-01-29-corrigendum-directive-2020-2184-drinking-water.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32020L2184R(06)",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-01-26-council-decision-eu-2026-181-eu-switzerland-emissions-trading-annex-amendment-md",
+    "title": "Council Decision (EU) 2026/181 - EU-Switzerland Emissions Trading System Annex I Amendment",
+    "category": "critical_infrastructure",
+    "date": "2026-01-26",
+    "file": "critical_infrastructure/2026-01-26-council-decision-eu-2026-181-eu-switzerland-emissions-trading-annex-amendment.md",
+    "source_url": "\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0181\"",
+    "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -2074,6 +2525,17 @@
     "date": "2026-01-22",
     "file": "critical_infrastructure/2026-01-22-32026D0122-russia-sanctions-cfsp.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0122",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-01-19-eurohpc-amendment-ai-quantum-md",
+    "title": "Council Regulation (EU) 2026/150 of 16 January 2026 amending Regulation (EU) 2021/1173 on establishing the European High Performance Computing Joint Undertaking",
+    "category": "critical_infrastructure",
+    "date": "2026-01-19",
+    "file": "critical_infrastructure/2026-01-19-eurohpc-amendment-ai-quantum.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false

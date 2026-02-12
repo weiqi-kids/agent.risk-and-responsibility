@@ -1,5 +1,27 @@
 [
   {
+    "id": "vulnerability-2026-02-11-apple-patches-everything-february-2026-md",
+    "title": "Apple Patches Everything: February 2026",
+    "category": "vulnerability",
+    "date": "2026-02-11",
+    "file": "vulnerability/2026-02-11-apple-patches-everything-february-2026.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32706",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-microsoft-patch-tuesday-february-2026-md",
+    "title": "Microsoft Patch Tuesday - February 2026",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-microsoft-patch-tuesday-february-2026.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32700",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "threat_analysis-2026-02-05-broken-phishing-urls-md",
     "title": "Broken Phishing URLs",
     "category": "threat_analysis",
@@ -44,12 +66,56 @@
     "review_needed": false
   },
   {
+    "id": "malware-2026-02-12-four-seconds-to-botnet-analyzing-a-self-propagating-ssh-worm-with-cryptographically-signed-c2-md",
+    "title": "Four Seconds to Botnet - Analyzing a Self Propagating SSH Worm with Cryptographically Signed C2",
+    "category": "malware",
+    "date": "2026-02-12",
+    "file": "malware/2026-02-12-four-seconds-to-botnet-analyzing-a-self-propagating-ssh-worm-with-cryptographically-signed-c2.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32708",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-11-wsl-in-the-malware-ecosystem-md",
+    "title": "WSL in the Malware Ecosystem",
+    "category": "malware",
+    "date": "2026-02-11",
+    "file": "malware/2026-02-11-wsl-in-the-malware-ecosystem.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32704",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-09-yara-x-1-13-0-release-md",
+    "title": "YARA-X 1.13.0 Release",
+    "category": "malware",
+    "date": "2026-02-09",
+    "file": "malware/2026-02-09-yara-x-1-13-0-release.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32690",
+    "confidence": "中",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "malware-2026-02-05-malicious-script-delivering-xworm-md",
     "title": "Malicious Script Delivering More Maliciousness",
     "category": "malware",
     "date": "2026-02-05",
     "file": "malware/2026-02-05-malicious-script-delivering-xworm.md",
     "source_url": "https://isc.sans.edu/diary/rss/32682",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "incident_response-2026-02-09-quick-howto-extract-urls-from-rtf-files-md",
+    "title": "Quick Howto: Extract URLs from RTF files",
+    "category": "incident_response",
+    "date": "2026-02-09",
+    "file": "incident_response/2026-02-09-quick-howto-extract-urls-from-rtf-files.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32692",
     "confidence": "高",
     "source_layer": "sans_isc",
     "review_needed": false

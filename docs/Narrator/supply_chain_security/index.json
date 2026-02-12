@@ -1,10 +1,18 @@
 [
   {
     "id": "index-md",
-    "title": "Supply Chain Security Trends — 2026-W06",
+    "title": "Supply Chain Security Trends — 2026-W07",
     "date": "",
     "file": "index.md",
-    "item_count": "16",
+    "item_count": "12",
+    "source_mode": "supply_chain_security"
+  },
+  {
+    "id": "2026-W07-supply-chain-security-md",
+    "title": "Supply Chain Security Trends — 2026-W07",
+    "date": "2026-W07",
+    "file": "2026-W07-supply-chain-security.md",
+    "item_count": "12",
     "source_mode": "supply_chain_security"
   },
   {

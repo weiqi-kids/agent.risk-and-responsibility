@@ -33,6 +33,17 @@
     "review_needed": false
   },
   {
+    "id": "identity-2026-01-13-offboarding-saas-ai-data-security-layoffs-md",
+    "title": "Offboarding Under Pressure: How to Keep SaaS and AI Data Secure During Layoffs",
+    "category": "identity",
+    "date": "2026-01-13",
+    "file": "identity/2026-01-13-offboarding-saas-ai-data-security-layoffs.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/offboarding-under-pressure-how-to-keep-saas-and-ai-data-secure-during-layoffs",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "compliance-2026-01-21-compliance-automation-trust-by-design-md",
     "title": "Beyond Badge-Selling: Why Compliance Automation Needs Trust by Design",
     "category": "compliance",
@@ -143,12 +154,45 @@
     "review_needed": false
   },
   {
+    "id": "ai_security-2026-02-03-applying-maestro-agentic-ai-threat-models-md",
+    "title": "Applying MAESTRO to Real-World Agentic AI Threat Models: From Framework to CI/CD Pipeline",
+    "category": "ai_security",
+    "date": "2026-02-03",
+    "file": "ai_security/2026-02-03-applying-maestro-agentic-ai-threat-models.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/applying-maestro-to-real-world-agentic-ai-threat-models-from-framework-to-ci-cd-pipeline",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-30-logic-layer-prompt-control-injection-lpci-md",
+    "title": "Logic-Layer Prompt Control Injection (LPCI): A Novel Security Vulnerability Class in Agentic Systems",
+    "category": "ai_security",
+    "date": "2026-01-30",
+    "file": "ai_security/2026-01-30-logic-layer-prompt-control-injection-lpci.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/logic-layer-prompt-control-injection-lpci-a-novel-security-vulnerability-class-in-agentic-systems",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "ai_security-2026-01-29-agentic-trust-framework-zero-trust-governance-md",
     "title": "The Agentic Trust Framework: Zero Trust Governance for AI Agents",
     "category": "ai_security",
     "date": "2026-01-29",
     "file": "ai_security/2026-01-29-agentic-trust-framework-zero-trust-governance.md",
     "source_url": "https://cloudsecurityalliance.org/articles/the-agentic-trust-framework-zero-trust-governance-for-ai-agents",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-27-ai-splitting-cybersecurity-landscape-md",
+    "title": "The Great Divide: How AI Is Splitting the Cybersecurity Landscape",
+    "category": "ai_security",
+    "date": "2026-01-27",
+    "file": "ai_security/2026-01-27-ai-splitting-cybersecurity-landscape.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/the-great-divide-how-ai-is-splitting-the-cybersecurity-landscape",
     "confidence": "高",
     "source_layer": "csa_cloud_security",
     "review_needed": false
