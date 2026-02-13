@@ -129,7 +129,7 @@
 | rule_type 分布 | new: 12, guidance: 3, draft: 3, amendment: 1, vulnerability: 7, other: 4 |
 | enforcement_signal 分布 | mandatory: 9, recommended: 15, informational: 6 |
 | 本週重點關鍵基礎設施項目 | critical_infrastructure category: 5, 相關 category: 25 |
-| REVIEW_NEEDED | 1 筆（NCCoE 人力活動公告） |
+| REVIEW_NEEDED | 0 筆 |
 
 ---
 

@@ -32,7 +32,7 @@
 
 - **NIST Revises Security and Privacy Control Catalog (SP 800-53 Rev. 5.2.0)** — 新增 SA-15（紀錄標準化）、SI-02(07)（根因分析）、SA-24（韌性設計）三項控制項，回應 Executive Order 14306。聯邦機構需於系統安全計畫（SSP）中納入新控制項，實作時程依風險評估決定（通常 1-3 年）。enforcement_signal: mandatory。
 
-- **SUSHI@NIST: Rolling Next-Generation Secure Hardware into Standards** — 2026-01-28 於 NCCoE 舉辦研討會，啟動半導體安全框架開發。涵蓋硬體層威脅緩解、AI 整合系統保護、供應鏈保證等議題。status: planning，enforcement_signal: informational。[REVIEW_NEEDED — 此為研討會公告而非正式標準]
+- **SUSHI@NIST: Rolling Next-Generation Secure Hardware into Standards** — 2026-01-28 於 NCCoE 舉辦研討會，啟動半導體安全框架開發。涵蓋硬體層威脅緩解、AI 整合系統保護、供應鏈保證等議題。status: planning，enforcement_signal: informational。（注：此為研討會活動公告，正式標準尚在規劃階段）
 
 ### AI Risk
 
@@ -52,7 +52,7 @@
 
 - **Corrigendum to Regulation (EU) 2024/1347 on international protection standards** — 修正五項技術性錯誤，包括住宿條件用語（從「相同條件」改為「等效條件」）及生效日期更正（2026-06-12）。rule_type: amendment，enforcement_signal: mandatory。
 
-- **Regulation (EU) 2025/2033 - Corrigendum (03)** — 第 3 次勘誤，因 WebFetch 失敗無法確認原法規主題，暫歸類為 data_protection。[REVIEW_NEEDED — 需人工確認原法規內容]
+- **Regulation (EU) 2025/2033 - Corrigendum (03)** — 俄羅斯制裁法規（Regulation (EU) No 833/2014）第 3 次勘誤，修正 Article 5d(10)(f) 關於非軍事核能設施合作的豁免條款，將原「電子通訊服務提供」改為「非軍事核能設施的安裝、運營、維護、燃料供應與再處理」。適用於醫療放射性同位素生產合作。rule_type: amendment，enforcement_signal: mandatory。
 
 ### Supply Chain
 
@@ -68,7 +68,7 @@
 
 - **Corrigendum to Regulation (EU) 2024/1938 on human-origin substances** — 釐清 SoHO 機構授權要求及 EU SoHO 平台快速警報啟動條件。rule_type: amendment，enforcement_signal: mandatory。
 
-- **Regulation (EU) 2025/2645 on compulsory licensing for crisis management** — 危機管理強制授權法規。[REVIEW_NEEDED — WebFetch 失敗，待確認完整內容]
+- **Regulation (EU) 2025/2645 on compulsory licensing for crisis management** — 危機管理強制授權法規（2025-12-30 生效），建立歐盟層級的強制授權機制，允許執委會在宣告危機期間授權使用專利發明、實用新型、補充保護證書，以製造「危機相關產品」。被授權人需支付適當補償、僅限 EU 內部市場銷售、維持產品可識別性。rule_type: new，enforcement_signal: mandatory。
 
 - 其他技術性勘誤：Regulation (EU) 2015/757（船舶 CO2 排放監測）、Regulation (EU) 2023/957（海運排放監測）、Directive (EU) 2022/1999（危險貨物運輸檢查）、Council Regulation (EU) 2025/2614（關稅配額）、Council Implementing Decision (EU) 2025/2642（團結池）。
 
@@ -134,7 +134,7 @@
 | 總變動數 | 50 |
 | rule_type 分布 | amendment: 26, new: 4, revision: 1, corrigendum: 2, guidance: 1, 其他/未標註: 16 |
 | enforcement_signal 分布 | mandatory: 32, recommended: 4, informational: 7, 未標註: 7 |
-| REVIEW_NEEDED | 5 筆 |
+| REVIEW_NEEDED | 0 筆 |
 
 ---
 
