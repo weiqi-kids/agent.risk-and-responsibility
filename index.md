@@ -9,7 +9,7 @@ nav_order: 1
 追蹤全球框架、法規與產業規則的變動，觀察責任歸屬的演化。
 
 {: .label .label-green }
-**最後更新：2026-02-13**
+**最後更新：2026-02-14**
 
 > How is the world redefining who must carry responsibility for emerging risks?
 

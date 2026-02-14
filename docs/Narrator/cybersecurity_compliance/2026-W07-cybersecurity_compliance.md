@@ -1,10 +1,3 @@
----
-layout: default
-title: Cybersecurity Compliance
-nav_order: 6
-has_children: true
----
-
 # Cybersecurity Compliance Updates — 2026-W07
 
 > 本期追蹤 13 項資安合規動態，涵蓋 NIST 框架、NIST 洞察。

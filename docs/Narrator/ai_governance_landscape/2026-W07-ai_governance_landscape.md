@@ -1,10 +1,3 @@
----
-layout: default
-title: AI Governance Landscape
-nav_order: 3
-has_children: true
----
-
 # AI Governance Landscape — 2026-W07
 
 > 本期追蹤 40 項 AI 治理動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規，以及 CSA 雲端安全、ISO 標準與 SANS 威脅情報等延伸來源。
