@@ -649,6 +649,28 @@
     "review_needed": false
   },
   {
+    "id": "institutional_administration-2026-02-13-council-decision-cfsp-2026-354-eusr-belgrade-pristina-md",
+    "title": "Council Decision (CFSP) 2026/354 - Extending EUSR Mandate for Belgrade-Pristina Dialogue",
+    "category": "institutional_administration",
+    "date": "2026-02-13",
+    "file": "institutional_administration/2026-02-13-council-decision-cfsp-2026-354-eusr-belgrade-pristina.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0354",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-02-13-council-decision-cfsp-2026-345-eusr-human-rights-md",
+    "title": "Council Decision (CFSP) 2026/345 - Appointing EU Special Representative for Human Rights",
+    "category": "institutional_administration",
+    "date": "2026-02-13",
+    "file": "institutional_administration/2026-02-13-council-decision-cfsp-2026-345-eusr-human-rights.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0345",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "institutional_administration-2026-02-06-council-decision-transport-community-maternity-leave-md",
     "title": "Council Decision (EU) 2026/303 on Transport Community Maternity Leave Rules",
     "category": "institutional_administration",
@@ -1503,6 +1525,17 @@
     "file": "financial_compliance/2026-01-29-iran-general-sanctions-implementation.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0267",
     "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "financial_compliance-2026-01-29-council-implementing-regulation-eu-2026-267-iran-sanctions-md",
+    "title": "Council Implementing Regulation (EU) 2026/267 - Iran Restrictive Measures",
+    "category": "financial_compliance",
+    "date": "2026-01-29",
+    "file": "financial_compliance/2026-01-29-council-implementing-regulation-eu-2026-267-iran-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0267",
+    "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
   },

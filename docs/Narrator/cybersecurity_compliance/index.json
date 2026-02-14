@@ -4,7 +4,15 @@
     "title": "Cybersecurity Compliance Updates — 2026-W07",
     "date": "",
     "file": "index.md",
-    "item_count": "50",
+    "item_count": "13",
+    "source_mode": "cybersecurity_compliance"
+  },
+  {
+    "id": "2026-W07-cybersecurity_compliance-md",
+    "title": "Cybersecurity Compliance Updates — 2026-W07",
+    "date": "2026-W07",
+    "file": "2026-W07-cybersecurity_compliance.md",
+    "item_count": "13",
     "source_mode": "cybersecurity_compliance"
   },
   {

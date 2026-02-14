@@ -1,10 +1,18 @@
 [
   {
     "id": "index-md",
-    "title": "AI Governance Landscape — 2026-02",
+    "title": "AI Governance Landscape — 2026-W07",
     "date": "",
     "file": "index.md",
-    "item_count": "30",
+    "item_count": "40",
+    "source_mode": "ai_governance_landscape"
+  },
+  {
+    "id": "2026-W07-ai_governance_landscape-md",
+    "title": "AI Governance Landscape — 2026-W07",
+    "date": "2026-W07",
+    "file": "2026-W07-ai_governance_landscape.md",
+    "item_count": "40",
     "source_mode": "ai_governance_landscape"
   },
   {

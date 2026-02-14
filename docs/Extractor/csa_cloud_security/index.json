@@ -44,6 +44,17 @@
     "review_needed": false
   },
   {
+    "id": "compliance-2026-01-30-csa-star-cloud-identity-security-risks-md",
+    "title": "How CSA STAR Helps Cloud-First Organizations Tackle Modern Identity Security Risks",
+    "category": "compliance",
+    "date": "2026-01-30",
+    "file": "compliance/2026-01-30-csa-star-cloud-identity-security-risks.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/how-csa-star-helps-cloud-first-organizations-tackle-modern-identity-security-risks",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "compliance-2026-01-21-compliance-automation-trust-by-design-md",
     "title": "Beyond Badge-Selling: Why Compliance Automation Needs Trust by Design",
     "category": "compliance",

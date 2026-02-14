@@ -22,6 +22,17 @@
     "review_needed": false
   },
   {
+    "id": "threat_analysis-2026-02-13-ai-powered-knowledge-graph-apts-md",
+    "title": "AI-Powered Knowledge Graph Generator & APTs",
+    "category": "threat_analysis",
+    "date": "2026-02-13",
+    "file": "threat_analysis/2026-02-13-ai-powered-knowledge-graph-apts.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32712",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "threat_analysis-2026-02-05-broken-phishing-urls-md",
     "title": "Broken Phishing URLs",
     "category": "threat_analysis",

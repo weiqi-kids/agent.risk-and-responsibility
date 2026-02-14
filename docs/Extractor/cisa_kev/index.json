@@ -1,5 +1,115 @@
 [
   {
+    "id": "vulnerability-2026-02-12-CVE-2026-20700-md",
+    "title": "Apple Multiple Buffer Overflow Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-12",
+    "file": "vulnerability/2026-02-12-CVE-2026-20700.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-12-CVE-2025-40536-md",
+    "title": "SolarWinds Web Help Desk Security Control Bypass Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-12",
+    "file": "vulnerability/2026-02-12-CVE-2025-40536.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-12-CVE-2025-15556-md",
+    "title": "Notepad++ Download of Code Without Integrity Check Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-12",
+    "file": "vulnerability/2026-02-12-CVE-2025-15556.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-12-CVE-2024-43468-md",
+    "title": "Microsoft Configuration Manager SQL Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-12",
+    "file": "vulnerability/2026-02-12-CVE-2024-43468.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-CVE-2026-21533-md",
+    "title": "Microsoft Windows Improper Privilege Management Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-CVE-2026-21533.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-CVE-2026-21525-md",
+    "title": "Microsoft Windows NULL Pointer Dereference Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-CVE-2026-21525.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-CVE-2026-21519-md",
+    "title": "Microsoft Windows Type Confusion Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-CVE-2026-21519.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-CVE-2026-21514-md",
+    "title": "Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-CVE-2026-21514.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-CVE-2026-21513-md",
+    "title": "Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-CVE-2026-21513.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-10-CVE-2026-21510-md",
+    "title": "Microsoft Windows Shell Protection Mechanism Failure Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-10",
+    "file": "vulnerability/2026-02-10-CVE-2026-21510.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-02-05-CVE-2026-24423-md",
     "title": "CVE-2026-24423 - SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability",
     "category": "vulnerability",
