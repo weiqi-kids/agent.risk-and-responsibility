@@ -25,7 +25,41 @@
 ## 輸出框架
 
 ```markdown
+---
+layout: report
+title: "{YYYY}-{MM} AI Governance Landscape"
+parent: "AI Governance Landscape"
+nav_order: {MM}
+
+seo:
+  title: "{YYYY}-{MM} AI 治理全景 | NIST AI RMF、EU AI Act 最新動態"
+  description: "本月追蹤 {N} 項 AI 治理動態，涵蓋 NIST AI RMF、EU AI Act、高風險 AI 系統規範等重要更新。"
+  date_published: "{YYYY-MM-DD}"
+  date_modified: "{YYYY-MM-DD}"
+  article_section: "AI Governance Landscape"
+  keywords:
+    - "AI Governance"
+    - "AI RMF"
+    - "EU AI Act"
+    - "AI 治理"
+    - "人工智慧風險管理"
+  related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/{上月報告}/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/{本週報告}/"
+  faq:
+    - question: "本月有哪些重要的 AI 治理動態？"
+      answer: "（從本月重點摘要）"
+    - question: "美國與歐盟的 AI 監管有何差異？"
+      answer: "（從區域動態比較摘要）"
+    - question: "AI 系統開發者需要注意哪些新義務？"
+      answer: "（從義務與舉證要求摘要）"
+---
+
 # AI Governance Landscape — {YYYY}-{MM}
+
+<div class="key-takeaway">
+本月重點：（從「本月重點」提取 2-3 項最重要動態，簡潔描述）
+</div>
 
 > 本期追蹤 {N} 項 AI 治理動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規。
 
@@ -39,7 +73,16 @@
 
 ## 本月重點
 
+<p class="key-answer" data-question="本月有哪些重要的 AI 治理動態">
+  <strong>（最重要的 1 項動態）</strong>，（補充說明來源區域與影響）。
+</p>
+
 （3-5 項最重要的 AI 治理動態，每項 2-3 句話，標註來源區域與 rule_type）
+
+<blockquote class="expert-quote">
+  「（從資料來源引用相關聲明）」
+  <cite>（來源機構，如 NIST AI RMF Team / European Commission）</cite>
+</blockquote>
 
 ---
 
@@ -123,6 +166,7 @@
 
 發布前必須逐項確認：
 
+### 內容檢查
 - [ ] 免責聲明存在且完整
 - [ ] 本月重點不超過 5 項
 - [ ] 區域動態比較涵蓋所有來源區域
@@ -133,3 +177,14 @@
 - [ ] 沒有將 recommended 描述為 mandatory
 - [ ] 沒有混淆不同區域的監管要求
 - [ ] 所有 document_id 引用可追溯到 Layer 資料
+
+### SEO 檢查（參照 `core/Narrator/seo-integration.md`）
+- [ ] `layout: report`
+- [ ] `seo.title` 不超過 60 字且包含關鍵字
+- [ ] `seo.description` 不超過 155 字
+- [ ] `seo.keywords` 包含 5-8 個關鍵字
+- [ ] `seo.related_articles` 包含至少 2 個相關報告 URL
+- [ ] `seo.faq` 包含 3-5 個 Q&A
+- [ ] 報告開頭有 `.key-takeaway`
+- [ ] 「本月重點」開頭有 `.key-answer`（含 `data-question`）
+- [ ] 至少 1 個 `.expert-quote`

@@ -1,0 +1,9 @@
+{% comment %}
+Just the Docs 主題的 head 擴充點
+用於注入 SEO JSON-LD 和額外 Meta 標籤
+{% endcomment %}
+
+{% if page.layout == 'report' or page.seo %}
+  {% include seo-jsonld.html %}
+  {% include seo-meta.html %}
+{% endif %}

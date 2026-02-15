@@ -25,7 +25,41 @@
 ## 輸出框架
 
 ```markdown
+---
+layout: report
+title: "{YYYY}-W{WW} Supply Chain Security"
+parent: "Supply Chain Security"
+nav_order: {WW}
+
+seo:
+  title: "{YYYY}-W{WW} 供應鏈安全趨勢 | SBOM、SSDF、盡職調查最新動態"
+  description: "本週追蹤 {N} 項供應鏈安全動態，涵蓋 NIST SSDF、SBOM 要求、歐盟盡職調查指令等重要更新。"
+  date_published: "{YYYY-MM-DD}"
+  date_modified: "{YYYY-MM-DD}"
+  article_section: "Supply Chain Security"
+  keywords:
+    - "Supply Chain Security"
+    - "SBOM"
+    - "SSDF"
+    - "供應鏈安全"
+    - "盡職調查"
+  related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/supply_chain_security/{上週報告}/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/{本週報告}/"
+  faq:
+    - question: "本週有哪些重要的供應鏈安全動態？"
+      answer: "（從本週重點摘要）"
+    - question: "軟體供應商需要注意哪些新要求？"
+      answer: "（從供應鏈責任矩陣摘要）"
+    - question: "SBOM 相關義務有何變化？"
+      answer: "（從義務與舉證要求摘要）"
+---
+
 # Supply Chain Security Trends — {YYYY}-W{WW}
+
+<div class="key-takeaway">
+本週重點：（從「本週重點」提取 2-3 項最重要動態，簡潔描述）
+</div>
 
 > 本期追蹤 {N} 項供應鏈安全動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規。
 
@@ -39,7 +73,16 @@
 
 ## 本週重點
 
+<p class="key-answer" data-question="本週有哪些重要的供應鏈安全動態">
+  <strong>（最重要的 1 項動態）</strong>，（補充說明來源區域與影響）。
+</p>
+
 （3-5 項最重要的供應鏈安全動態，每項 2-3 句話，標註來源區域與 rule_type）
+
+<blockquote class="expert-quote">
+  「（從資料來源引用相關聲明）」
+  <cite>（來源機構）</cite>
+</blockquote>
 
 ---
 
@@ -143,6 +186,7 @@
 
 發布前必須逐項確認：
 
+### 內容檢查
 - [ ] 免責聲明存在且完整
 - [ ] 本週重點不超過 5 項
 - [ ] 區域動態比較涵蓋所有來源區域
@@ -154,3 +198,14 @@
 - [ ] 沒有將 recommended 描述為 mandatory
 - [ ] 沒有混淆不同區域的供應鏈責任要求
 - [ ] 所有 document_id 引用可追溯到 Layer 資料
+
+### SEO 檢查（參照 `core/Narrator/seo-integration.md`）
+- [ ] `layout: report`
+- [ ] `seo.title` 不超過 60 字且包含關鍵字
+- [ ] `seo.description` 不超過 155 字
+- [ ] `seo.keywords` 包含 5-8 個關鍵字
+- [ ] `seo.related_articles` 包含至少 2 個相關報告 URL
+- [ ] `seo.faq` 包含 3-5 個 Q&A
+- [ ] 報告開頭有 `.key-takeaway`
+- [ ] 「本週重點」開頭有 `.key-answer`（含 `data-question`）
+- [ ] 至少 1 個 `.expert-quote`

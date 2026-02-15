@@ -55,9 +55,24 @@ exclude:
   - docs/Extractor/
   - docs/explored.md
 
+# 外掛
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO 擴充設定
+twitter:
+  card: summary_large_image
+
+social:
+  name: Risk & Responsibility Intelligence
+  links:
+    - https://github.com/weiqi-kids/agent.risk-and-responsibility
+
 # 預設值
 defaults:
   - scope:
       path: "docs/Narrator"
     values:
-      layout: default
+      layout: report
+      image: /assets/og-default.png

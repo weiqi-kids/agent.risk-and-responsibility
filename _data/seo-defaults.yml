@@ -1,0 +1,43 @@
+# SEO 預設值
+# 當報告未指定特定值時使用這些預設值
+
+# 預設 OG 圖片
+og_image: "https://risk.weiqi.kids/assets/og-default.png"
+og_image_alt: "Risk & Responsibility Intelligence - 全球風險與責任情報系統"
+og_image_width: 1200
+og_image_height: 630
+
+# 圖片授權資訊
+image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+image_credit: "Risk & Responsibility Intelligence"
+
+# 預設 Meta 描述模板
+meta_description_template: "追蹤全球框架、法規與產業規則的變動，觀察責任歸屬的演化。"
+
+# 預設關鍵字（所有報告共通）
+default_keywords:
+  - "Risk Management"
+  - "Cybersecurity"
+  - "AI Governance"
+  - "Compliance"
+  - "NIST"
+  - "EU Regulations"
+  - "ISO Standards"
+
+# 語言設定
+language: "zh-TW"
+locale: "zh_TW"
+
+# 網站類型
+site_type: "WebSite"
+article_type: "Article"
+
+# Speakable CSS 選擇器（語音搜尋用）
+speakable_selectors:
+  - ".article-summary"
+  - ".speakable-content"
+  - ".key-takeaway"
+  - ".key-answer"
+  - ".expert-quote"
+  - ".actionable-steps li"
+  - ".faq-answer-content"

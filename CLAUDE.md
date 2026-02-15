@@ -59,9 +59,10 @@
 ```
 
 每個 Task 執行：
-1. 讀取該 Mode 的 `CLAUDE.md` 和 `core/Narrator/CLAUDE.md`
+1. 讀取該 Mode 的 `CLAUDE.md`、`core/Narrator/CLAUDE.md`、`core/Narrator/seo-integration.md`
 2. 讀取暫存的 Qdrant 搜尋結果
 3. 依照輸出框架產出報告到 `docs/Narrator/{mode_name}/`
+   - **SEO 整合**：報告使用 `layout: report`，包含完整 `seo:` front matter 和 SGE 標記
 4. 更新該 Mode 的 `index.md`（嵌入最新報告內容）
 
 > **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫，避免 Opus 等待網路回應。

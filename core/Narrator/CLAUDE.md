@@ -34,6 +34,27 @@ Narrator 負責讀取 Extractor Layer 產出的結構化資料，進行跨來源
 1. **讀取查詢結果**：從 `/tmp/qdrant-{mode_name}.json` 讀取已搜尋的資料
 2. **綜合分析**：基於搜尋結果進行跨來源分析
 3. **產出報告**：依照 Mode 輸出框架撰寫報告
+4. **SEO 整合**：依照 `core/Narrator/seo-integration.md` 填寫 SEO front matter 和 SGE 標記
+
+#### SEO 整合要求
+
+報告產出時必須遵循 `core/Narrator/seo-integration.md` 的規範：
+
+**Front Matter 必填欄位**：
+- `layout: report`（取代 `layout: default`）
+- `seo.title`：60 字內，含關鍵字
+- `seo.description`：155 字內
+- `seo.date_published` / `seo.date_modified`：ISO 8601 格式
+- `seo.keywords`：5-8 個關鍵字
+- `seo.related_articles`：至少 2 個相關報告 URL
+- `seo.faq`：3-5 個 Q&A
+
+**SGE 標記必填**：
+- `.key-takeaway`：報告開頭重點摘要
+- `.key-answer`：每個 H2 開頭的直接答案（含 `data-question`）
+- `.expert-quote`：至少 1 個專家引言
+- `.actionable-steps`：若有建議措施
+- `.comparison-table`：若有比較表格
 
 ### 查詢範例
 
@@ -87,8 +108,9 @@ echo "$RESULTS" | jq '.result[] | {
 每個 Mode 的 CLAUDE.md 必須包含：
 - Mode 定義表（目的、受眾、來源 Layer）
 - 輸出框架（報告結構）
+- SEO 欄位規範（參照 `seo-integration.md`）
 - 免責聲明
-- 自我審核 Checklist
+- 自我審核 Checklist（含 SEO 檢查項目）
 
 ## 目前可用 Mode
 

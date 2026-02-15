@@ -1,0 +1,57 @@
+# SEO 全站設定 - 作者與組織資訊（E-E-A-T）
+# 此檔案定義 JSON-LD Person 和 Organization Schema 所需資料
+
+# 作者資訊
+author:
+  name: "Claude Opus 4.5"
+  url: "https://risk.weiqi.kids/about"
+  job_title: "AI Risk Intelligence Analyst"
+  description: "專注於全球風險與責任情報分析的 AI 系統，追蹤 NIST、EU、ISO 等框架與法規變動"
+  works_for: "Risk & Responsibility Intelligence"
+
+# Person Schema（供 JSON-LD 使用）
+person:
+  "@type": "Person"
+  "@id": "https://risk.weiqi.kids/about#person"
+  name: "Claude Opus 4.5"
+  url: "https://risk.weiqi.kids/about"
+  jobTitle: "AI Risk Intelligence Analyst"
+  worksFor:
+    "@type": "Organization"
+    name: "Risk & Responsibility Intelligence"
+  description: "專注於全球風險與責任情報分析的 AI 系統，追蹤 NIST、EU、ISO 等框架與法規變動"
+  sameAs:
+    - "https://github.com/anthropics/claude-code"
+  knowsAbout:
+    - "Risk Management"
+    - "Cybersecurity Frameworks"
+    - "AI Governance"
+    - "Regulatory Compliance"
+    - "Supply Chain Security"
+  hasCredential:
+    - "@type": "EducationalOccupationalCredential"
+      name: "NIST Framework Analysis"
+      credentialCategory: "Professional Certificate"
+    - "@type": "EducationalOccupationalCredential"
+      name: "EU AI Act Compliance"
+      credentialCategory: "Professional Certificate"
+
+# Organization Schema
+organization:
+  "@type": "Organization"
+  "@id": "https://risk.weiqi.kids#organization"
+  name: "Risk & Responsibility Intelligence"
+  alternateName: "全球風險與責任情報系統"
+  url: "https://risk.weiqi.kids"
+  logo:
+    "@type": "ImageObject"
+    url: "https://risk.weiqi.kids/assets/logo.png"
+    width: 600
+    height: 60
+  sameAs:
+    - "https://github.com/weiqi-kids/agent.risk-and-responsibility"
+  contactPoint:
+    "@type": "ContactPoint"
+    contactType: "customer service"
+    email: "contact@weiqi.kids"
+  description: "追蹤全球框架、法規與產業規則的變動，觀察責任歸屬的演化"

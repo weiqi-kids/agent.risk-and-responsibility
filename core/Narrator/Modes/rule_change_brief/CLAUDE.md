@@ -20,7 +20,41 @@
 ## 輸出框架
 
 ```markdown
+---
+layout: report
+title: "{YYYY}-W{WW} Rule Change Brief"
+parent: "Rule Change Brief"
+nav_order: {WW}
+
+seo:
+  title: "{YYYY}-W{WW} 規則變動簡報 | NIST 框架與標準最新動態"
+  description: "本期追蹤 {N} 項框架與標準變動，涵蓋 NIST SP 800-53、CSF 等重要更新。資安主管與法遵團隊必讀。"
+  date_published: "{YYYY-MM-DD}"
+  date_modified: "{YYYY-MM-DD}"
+  article_section: "Rule Change Brief"
+  keywords:
+    - "NIST Framework"
+    - "規則變動"
+    - "資安合規"
+    - "SP 800-53"
+    - "Cybersecurity"
+  related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/{上週報告}/"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/{本週報告}/"
+  faq:
+    - question: "本期有哪些重要的規則變動？"
+      answer: "（從本期重點摘要）"
+    - question: "這些變動對組織有什麼影響？"
+      answer: "（從責任變動追蹤摘要）"
+    - question: "如何追蹤最新規則變動？"
+      answer: "Risk & Responsibility Intelligence 每週更新 Rule Change Brief，涵蓋 NIST、EU、ISO 等主要框架與標準動態。"
+---
+
 # Rule Change Brief — {YYYY}-W{WW}
+
+<div class="key-takeaway">
+本期重點：（從「本期重點」提取 2-3 項最重要變動，簡潔描述）
+</div>
 
 > 本期追蹤 {N} 項框架與標準變動，涵蓋 {來源 Layer 列表}。
 
@@ -34,7 +68,16 @@
 
 ## 本期重點
 
+<p class="key-answer" data-question="本期有哪些重要的規則變動">
+  <strong>（最重要的 1 項變動）</strong>，（補充說明 rule_type 和影響）。
+</p>
+
 （3-5 項最重要的變動，每項 2-3 句話，標註 rule_type 和 enforcement_signal）
+
+<blockquote class="expert-quote">
+  「（從資料來源引用相關聲明）」
+  <cite>（來源機構）</cite>
+</blockquote>
 
 ---
 
@@ -119,6 +162,7 @@
 
 發布前必須逐項確認：
 
+### 內容檢查
 - [ ] 免責聲明存在且完整
 - [ ] 本期重點不超過 5 項
 - [ ] 每個風險領域都有段落（含「本期無變動」）
@@ -128,3 +172,14 @@
 - [ ] 沒有將 draft 文件描述為已生效的法規
 - [ ] 沒有將 recommended 描述為 mandatory
 - [ ] 所有 document_id 引用可追溯到 Layer 資料
+
+### SEO 檢查（參照 `core/Narrator/seo-integration.md`）
+- [ ] `layout: report`
+- [ ] `seo.title` 不超過 60 字且包含關鍵字
+- [ ] `seo.description` 不超過 155 字
+- [ ] `seo.keywords` 包含 5-8 個關鍵字
+- [ ] `seo.related_articles` 包含至少 2 個相關報告 URL
+- [ ] `seo.faq` 包含 3-5 個 Q&A
+- [ ] 報告開頭有 `.key-takeaway`
+- [ ] 「本期重點」開頭有 `.key-answer`（含 `data-question`）
+- [ ] 至少 1 個 `.expert-quote`
