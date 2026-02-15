@@ -7,6 +7,10 @@ has_children: true
 
 # Supply Chain Security Trends — 2026-W07
 
+<div class="key-takeaway">
+本週重點：NIST SSDF 1.2 版公開徵詢期截止，進入最終版本準備階段；歐盟無森林砍伐商品盡職調查延期至 2026-12-30；ISO/IEC 25706:2026 SPDM 硬體安全驗證標準發布，填補硬體層面供應鏈安全空白。
+</div>
+
 > **報告週期**：2026-02-09 至 2026-02-15
 >
 > 本期追蹤 15 項供應鏈安全動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準。
@@ -19,6 +23,10 @@ has_children: true
 
 ## 本週重點
 
+<p class="key-answer" data-question="本週有哪些重要的供應鏈安全動態">
+  <strong>NIST SSDF 1.2 版（SP 800-218r1）公開徵詢期已於 2026-01-30 截止</strong>，預期近期發布最終版本。此修訂受 Executive Order 14306 推動，軟體供應商應提前準備合規文件。
+</p>
+
 1. **SSDF 1.2 版徵詢期結束，進入最終版本準備階段**（美國，revision）— NIST SP 800-218r1 安全軟體開發框架 1.2 版公開徵求意見期已於 2026-01-30 截止，預期將進入最終版本發布流程。此次更新新增改進的實務作法與任務範例，受 Executive Order 14306 推動。
 
 2. **歐盟無森林砍伐商品盡職調查延期至 2026 年底**（歐盟，revision，mandatory）— Regulation (EU) 2025/2650 修訂無森林砍伐商品盡職調查義務，主要應用日期延後 12 個月至 2026-12-30。微小型初級生產者可提交「一次性簡化聲明」取代完整盡職調查，降低合規門檻。
@@ -28,6 +36,11 @@ has_children: true
 4. **NIST IR 8536 製造業供應鏈追溯性元框架持續推進**（美國，draft）— NIST NCCoE 持續推進製造業供應鏈追溯性元框架第二版草案，強調透過可信任儲存庫（trusted repositories）實現產品來源驗證與供應鏈完整性評估。
 
 5. **ISO SPDM 標準發布：硬體供應鏈安全驗證基準**（國際，new）— ISO/IEC 25706:2026（SPDM）於 2026-02-03 發布，為設備間安全身份驗證與資料交換提供標準化協議，填補硬體層面的供應鏈安全驗證空白。
+
+<blockquote class="expert-quote">
+  「SSDF Version 1.2 introduces new and improved practices, tasks, and examples for secure software development, expanding guidance for software producers and acquirers to mitigate vulnerability risks throughout the software development lifecycle.」
+  <cite>NIST</cite>
+</blockquote>
 
 ---
 
@@ -190,5 +203,5 @@ NIST IR 8536 的可信任儲存庫概念，結合 IoT 製造商基礎活動的�
 
 ---
 
-*報告產出時間：2026-02-14*
+*報告產出時間：2026-02-15*
 *資料查詢方式：Qdrant 語意搜尋（queries: NIST supply chain security SSDF SBOM C-SCRM, NIST cybersecurity insights supply chain, EU supply chain due diligence）*

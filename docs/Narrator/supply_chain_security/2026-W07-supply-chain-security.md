@@ -1,11 +1,43 @@
 ---
-layout: default
-title: "2026-W07"
-parent: Supply Chain Security
-nav_order: 1
+layout: report
+title: "2026-W07 Supply Chain Security"
+parent: "Supply Chain Security"
+nav_order: 7
+
+seo:
+  title: "2026-W07 供應鏈安全趨勢 | SSDF 1.2、SBOM、盡職調查最新動態"
+  description: "本週追蹤 15 項供應鏈安全動態，涵蓋 NIST SSDF 1.2 徵詢期截止、歐盟無森林砍伐商品盡職調查延期、ISO SPDM 標準發布。"
+  date_published: "2026-02-15"
+  date_modified: "2026-02-15"
+  article_section: "Supply Chain Security"
+  keywords:
+    - "Supply Chain Security"
+    - "SBOM"
+    - "SSDF"
+    - "供應鏈安全"
+    - "盡職調查"
+    - "NIST IR 8536"
+    - "ISO SPDM"
+    - "數位產品護照"
+  related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/supply_chain_security/2026-W06-supply-chain-security/"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
+  faq:
+    - question: "2026-W07 有哪些重要的供應鏈安全動態？"
+      answer: "2026-W07 重點包括 NIST SSDF 1.2 版（SP 800-218r1）公開徵詢期於 2026-01-30 截止、歐盟無森林砍伐商品盡職調查延期至 2026-12-30、NIST IR 8536 製造業供應鏈追溯性元框架持續推進，以及 ISO/IEC 25706:2026 SPDM 硬體安全驗證標準發布。"
+    - question: "軟體供應商需要注意哪些新要求？"
+      answer: "軟體供應商應關注 SSDF 1.2 版的強化要求，包括漏洞減少指標、安全開發實踐文件、根因分析報告與供應商溝通紀錄。採購方將要求供應商提供 SSDF 合規證明與 SBOM。"
+    - question: "SBOM 相關義務有何變化？"
+      answer: "依 SSDF 1.2 要求，軟體供應商須維護軟體物料清單（SBOM）並提供給採購方，SBOM 須涵蓋第三方元件、開源依賴與版本資訊。採購方須驗證供應商提供的 SBOM 完整性。"
+    - question: "歐盟盡職調查義務有何變化？"
+      answer: "Regulation (EU) 2025/2650 將無森林砍伐商品盡職調查義務的主要應用日期延後 12 個月至 2026-12-30。微小型初級生產者可提交一次性簡化聲明取代完整盡職調查，降低合規門檻。"
 ---
 
 # Supply Chain Security Trends — 2026-W07
+
+<div class="key-takeaway">
+本週重點：NIST SSDF 1.2 版公開徵詢期截止，進入最終版本準備階段；歐盟無森林砍伐商品盡職調查延期至 2026-12-30；ISO/IEC 25706:2026 SPDM 硬體安全驗證標準發布，填補硬體層面供應鏈安全空白。
+</div>
 
 > **報告週期**：2026-02-09 至 2026-02-15
 >
@@ -19,6 +51,10 @@ nav_order: 1
 
 ## 本週重點
 
+<p class="key-answer" data-question="本週有哪些重要的供應鏈安全動態">
+  <strong>NIST SSDF 1.2 版（SP 800-218r1）公開徵詢期已於 2026-01-30 截止</strong>，預期近期發布最終版本。此修訂受 Executive Order 14306 推動，軟體供應商應提前準備合規文件。
+</p>
+
 1. **SSDF 1.2 版徵詢期結束，進入最終版本準備階段**（美國，revision）— NIST SP 800-218r1 安全軟體開發框架 1.2 版公開徵求意見期已於 2026-01-30 截止，預期將進入最終版本發布流程。此次更新新增改進的實務作法與任務範例，受 Executive Order 14306 推動。
 
 2. **歐盟無森林砍伐商品盡職調查延期至 2026 年底**（歐盟，revision，mandatory）— Regulation (EU) 2025/2650 修訂無森林砍伐商品盡職調查義務，主要應用日期延後 12 個月至 2026-12-30。微小型初級生產者可提交「一次性簡化聲明」取代完整盡職調查，降低合規門檻。
@@ -29,21 +65,65 @@ nav_order: 1
 
 5. **ISO SPDM 標準發布：硬體供應鏈安全驗證基準**（國際，new）— ISO/IEC 25706:2026（SPDM）於 2026-02-03 發布，為設備間安全身份驗證與資料交換提供標準化協議，填補硬體層面的供應鏈安全驗證空白。
 
+<blockquote class="expert-quote">
+  「SSDF Version 1.2 introduces new and improved practices, tasks, and examples for secure software development, expanding guidance for software producers and acquirers to mitigate vulnerability risks throughout the software development lifecycle.」
+  <cite>NIST</cite>
+</blockquote>
+
 ---
 
 ## 區域動態比較
 
 ### 美國（NIST）
 
+<p class="key-answer" data-question="NIST 本週有哪些供應鏈安全動態">
+  <strong>SSDF 1.2 版進入最終階段</strong>，SP 800-218r1 公開徵求意見期已截止，預期近期發布最終版本。軟體供應商應提前準備合規文件。
+</p>
+
 本週期 NIST 供應鏈相關動態以軟體開發安全框架進展為主：
 
-| 框架/指引 | 文件編號 | 狀態 | 重點內容 |
-|----------|---------|------|---------|
-| **SSDF 1.2 版** | SP 800-218r1 | public_comment（徵詢期 2026-01-30 截止） | 安全軟體開發實務擴充，漏洞根因分析與供應商溝通詞彙標準化，受 EO 14306 推動 |
-| **供應鏈追溯性元框架** | NIST IR 8536 | public_comment（第二版草案） | 製造業可信任儲存庫、產品來源驗證、供應鏈完整性評估 |
-| **IoT 製造商基礎活動** | IR 8259（修訂中） | public_comment | 新增 Activity 0、分拆 Activity 3/4、上市前威脅建模、AI 功能治理 |
-| **勒索軟體風險管理** | IR 8374 | revision | 更新至 CSF 2.0 版本，擴展勒索軟體防禦與復原責任結構 |
-| **軟體開發安全指南** | — | draft | NIST 聯盟軟體開發生命週期安全實踐責任標準 |
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>框架/指引</th>
+      <th>文件編號</th>
+      <th>狀態</th>
+      <th>重點內容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>SSDF 1.2 版</strong></td>
+      <td>SP 800-218r1</td>
+      <td>public_comment（徵詢期 2026-01-30 截止）</td>
+      <td>安全軟體開發實務擴充，漏洞根因分析與供應商溝通詞彙標準化，受 EO 14306 推動</td>
+    </tr>
+    <tr>
+      <td><strong>供應鏈追溯性元框架</strong></td>
+      <td>NIST IR 8536</td>
+      <td>public_comment（第二版草案）</td>
+      <td>製造業可信任儲存庫、產品來源驗證、供應鏈完整性評估</td>
+    </tr>
+    <tr>
+      <td><strong>IoT 製造商基礎活動</strong></td>
+      <td>IR 8259（修訂中）</td>
+      <td>public_comment</td>
+      <td>新增 Activity 0、分拆 Activity 3/4、上市前威脅建模、AI 功能治理</td>
+    </tr>
+    <tr>
+      <td><strong>勒索軟體風險管理</strong></td>
+      <td>IR 8374</td>
+      <td>revision</td>
+      <td>更新至 CSF 2.0 版本，擴展勒索軟體防禦與復原責任結構</td>
+    </tr>
+    <tr>
+      <td><strong>軟體開發安全指南</strong></td>
+      <td>—</td>
+      <td>draft</td>
+      <td>NIST 聯盟軟體開發生命週期安全實踐責任標準</td>
+    </tr>
+  </tbody>
+</table>
 
 **重點觀察**：
 
@@ -53,15 +133,54 @@ nav_order: 1
 
 ### 歐盟
 
+<p class="key-answer" data-question="歐盟本週有哪些供應鏈安全動態">
+  <strong>盡職調查時程調整</strong>：Regulation (EU) 2025/2650 將無森林砍伐商品盡職調查義務的主要應用日期延後 12 個月，給予業者更多準備時間。
+</p>
+
 本週期歐盟供應鏈相關法規動態聚焦於盡職調查義務調整與產品法規技術修正：
 
-| 法規 | 文件編號 | 類型 | 重點內容 |
-|-----|---------|------|---------|
-| **無森林砍伐商品盡職調查** | Regulation (EU) 2025/2650 | revision | 應用日期延後至 2026-12-30，簡化微小型初級生產者義務 |
-| **無森林砍伐商品** | Regulation (EU) 2023/1115 Corrigendum | amendment | 地理座標精度、市場禁令條件用語、畜牧設施術語澄清 |
-| **永續產品生態設計** | Regulation (EU) 2024/1781 Corrigendum | amendment | 數位產品護照要求、受關注物質定義、標示顯示要求澄清 |
-| **建築產品行銷規則** | Regulation (EU) 2024/3110 Corrigendum | amendment | 強制性門檻值與自願性門檻值適用情境澄清 |
-| **單次使用塑膠產品** | Directive (EU) 2019/904 Corrigendum | amendment | 生產者責任範圍澄清為「棄置廢棄物」而非所有「廢棄物」 |
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>法規</th>
+      <th>文件編號</th>
+      <th>類型</th>
+      <th>重點內容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>無森林砍伐商品盡職調查</strong></td>
+      <td>Regulation (EU) 2025/2650</td>
+      <td>revision</td>
+      <td>應用日期延後至 2026-12-30，簡化微小型初級生產者義務</td>
+    </tr>
+    <tr>
+      <td><strong>無森林砍伐商品</strong></td>
+      <td>Regulation (EU) 2023/1115 Corrigendum</td>
+      <td>amendment</td>
+      <td>地理座標精度、市場禁令條件用語、畜牧設施術語澄清</td>
+    </tr>
+    <tr>
+      <td><strong>永續產品生態設計</strong></td>
+      <td>Regulation (EU) 2024/1781 Corrigendum</td>
+      <td>amendment</td>
+      <td>數位產品護照要求、受關注物質定義、標示顯示要求澄清</td>
+    </tr>
+    <tr>
+      <td><strong>建築產品行銷規則</strong></td>
+      <td>Regulation (EU) 2024/3110 Corrigendum</td>
+      <td>amendment</td>
+      <td>強制性門檻值與自願性門檻值適用情境澄清</td>
+    </tr>
+    <tr>
+      <td><strong>單次使用塑膠產品</strong></td>
+      <td>Directive (EU) 2019/904 Corrigendum</td>
+      <td>amendment</td>
+      <td>生產者責任範圍澄清為「棄置廢棄物」而非所有「廢棄物」</td>
+    </tr>
+  </tbody>
+</table>
 
 **重點觀察**：
 
@@ -73,15 +192,64 @@ nav_order: 1
 
 ## 供應鏈責任矩陣
 
-| 角色 | 美國（NIST）要求 | 歐盟要求 | 本週變動趨勢 |
-|------|-----------------|---------|-------------|
-| **軟體供應商** | SSDF 1.2 實務作法（徵詢期截止）、漏洞根因分析、SBOM 揭露 | 數位產品護照資訊揭露（持續） | SSDF 進入最終版本準備階段 |
-| **採購方** | 要求供應商提供 SSDF 合規證明、威脅建模文件 | 供應鏈盡職調查資訊保留 | 供應商評估標準強化 |
-| **系統整合商** | 供應鏈追溯性機制（IR 8536）、SPDM 合規 | — | 追溯性標準進入草案階段 |
-| **製造商** | 上市前威脅建模（IR 8259）、供應鏈可見性 | 永續設計受關注物質申報、建築產品門檻值 | 威脅建模成為標準要求 |
-| **農產品操作者/貿易商** | — | 無森林砍伐盡職調查（延期至 2026-12-30） | 應用日期延後，準備時間增加 |
-| **塑膠產品生產者** | — | 棄置廢棄物生產者責任（Directive 2019/904） | 責任範圍澄清 |
-| **IoT 產品製造商** | IR 8259 修訂版基礎活動、EOL 安全政策、部署者責任釐清 | EU CRA 準備（預期） | 責任界線明確化 |
+<p class="key-answer" data-question="供應鏈各角色有哪些責任變化">
+  <strong>軟體供應商責任擴大</strong>：SSDF 1.2 進入最終版本準備階段，採購方將開始要求供應商提供 SSDF 合規證明與威脅建模文件。
+</p>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>角色</th>
+      <th>美國（NIST）要求</th>
+      <th>歐盟要求</th>
+      <th>本週變動趨勢</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>軟體供應商</strong></td>
+      <td>SSDF 1.2 實務作法（徵詢期截止）、漏洞根因分析、SBOM 揭露</td>
+      <td>數位產品護照資訊揭露（持續）</td>
+      <td>SSDF 進入最終版本準備階段</td>
+    </tr>
+    <tr>
+      <td><strong>採購方</strong></td>
+      <td>要求供應商提供 SSDF 合規證明、威脅建模文件</td>
+      <td>供應鏈盡職調查資訊保留</td>
+      <td>供應商評估標準強化</td>
+    </tr>
+    <tr>
+      <td><strong>系統整合商</strong></td>
+      <td>供應鏈追溯性機制（IR 8536）、SPDM 合規</td>
+      <td>—</td>
+      <td>追溯性標準進入草案階段</td>
+    </tr>
+    <tr>
+      <td><strong>製造商</strong></td>
+      <td>上市前威脅建模（IR 8259）、供應鏈可見性</td>
+      <td>永續設計受關注物質申報、建築產品門檻值</td>
+      <td>威脅建模成為標準要求</td>
+    </tr>
+    <tr>
+      <td><strong>農產品操作者/貿易商</strong></td>
+      <td>—</td>
+      <td>無森林砍伐盡職調查（延期至 2026-12-30）</td>
+      <td>應用日期延後，準備時間增加</td>
+    </tr>
+    <tr>
+      <td><strong>塑膠產品生產者</strong></td>
+      <td>—</td>
+      <td>棄置廢棄物生產者責任（Directive 2019/904）</td>
+      <td>責任範圍澄清</td>
+    </tr>
+    <tr>
+      <td><strong>IoT 產品製造商</strong></td>
+      <td>IR 8259 修訂版基礎活動、EOL 安全政策、部署者責任釐清</td>
+      <td>EU CRA 準備（預期）</td>
+      <td>責任界線明確化</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -105,6 +273,10 @@ nav_order: 1
 ## 義務與舉證要求
 
 ### 新增義務摘要
+
+<p class="key-answer" data-question="SBOM 相關義務有何變化">
+  <strong>SBOM 成為軟體供應鏈標準要求</strong>：依 SSDF 1.2 要求，軟體供應商須維護軟體物料清單並提供給採購方，涵蓋第三方元件、開源依賴與版本資訊。
+</p>
 
 **SBOM 相關義務**：
 - 依 SSDF 1.2 要求，軟體供應商須維護軟體物料清單（SBOM）並提供給採購方
@@ -138,6 +310,10 @@ nav_order: 1
 ---
 
 ## L5 — Evolution Signals
+
+<p class="key-answer" data-question="供應鏈安全的未來趨勢是什麼">
+  <strong>軟體供應鏈透明度正從建議轉向強制</strong>：SSDF 1.2 版受 Executive Order 14306 推動，軟體供應商將面臨強制性合規要求。
+</p>
 
 > 以下為基於現有法規與框架動態的趨勢推論，標註「[系統推論]」。
 
@@ -190,5 +366,5 @@ NIST IR 8536 的可信任儲存庫概念，結合 IoT 製造商基礎活動的�
 
 ---
 
-*報告產出時間：2026-02-14*
+*報告產出時間：2026-02-15*
 *資料查詢方式：Qdrant 語意搜尋（queries: NIST supply chain security SSDF SBOM C-SCRM, NIST cybersecurity insights supply chain, EU supply chain due diligence）*

@@ -1,6 +1,45 @@
+---
+layout: report
+title: "2026-W07 Cybersecurity Compliance"
+parent: "Cybersecurity Compliance"
+nav_order: 7
+
+seo:
+  title: "2026-W07 資安合規動態 | ISO/IEC TS 27103:2026、SSDF 1.2、AI 網路安全框架"
+  description: "本週追蹤 50 項資安合規動態，涵蓋 ISO/IEC TS 27103:2026 網路安全框架整合指引、NIST SSDF 1.2 安全軟體開發框架更新、AI 時代網路安全草案、CISA KEV 漏洞修復義務等。"
+  date_published: "2026-02-15"
+  date_modified: "2026-02-15"
+  article_section: "Cybersecurity Compliance"
+  keywords:
+    - "Cybersecurity Compliance"
+    - "NIST CSF"
+    - "ISO 27103"
+    - "SSDF"
+    - "資安合規"
+    - "SP 800-53"
+    - "AI Cybersecurity"
+    - "CISA KEV"
+  related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W06-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief/"
+  faq:
+    - question: "2026-W07 有哪些重要的資安合規動態？"
+      answer: "2026-W07 週報追蹤 50 項資安合規動態，重點包括 ISO/IEC TS 27103:2026 發布（網路安全框架整合指引）、NIST SSDF 1.2 公開徵詢、NISTIR 8596 AI 網路安全框架草案、SP 800-53 修補管理控制項更新等。"
+    - question: "ISO/IEC TS 27103:2026 是什麼？"
+      answer: "ISO/IEC TS 27103:2026 於 2026-02-06 發布，提供如何在網路安全框架中整合運用 ISO/IEC 標準的指引，取代舊版 Technical Specification 72437，協助組織將國際標準對應至 NIST CSF 等網路安全框架。"
+    - question: "NIST 對 AI 網路安全有什麼新要求？"
+      answer: "NIST 於 2025-12-16 發布 NISTIR 8596 草案，為首個 AI 網路安全框架配置檔，整合 CSF 與 AI RMF，涵蓋三大領域：保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊。公開意見徵詢已於 2026-01-30 截止。"
+    - question: "CISA KEV 本週有哪些漏洞需要修復？"
+      answer: "CISA KEV 於 2026-01-22 新增 CVE-2025-31125（Vite Vitejs 存取控制不當漏洞），聯邦機構須於 2026-02-12 前完成修復。此漏洞影響明確暴露開發伺服器的應用程式。"
+---
+
 # Cybersecurity Compliance Updates — 2026-W07
 
-> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架、NIST 洞察、ISO 標準、CSA 雲端安全及 CISA 漏洞資訊。
+<div class="key-takeaway">
+本期重點：ISO/IEC TS 27103:2026 發布網路安全框架整合指引、NIST SSDF 1.2 安全軟體開發框架公開徵詢、AI 網路安全框架 NISTIR 8596 草案進入最終徵詢階段、SP 800-53 修補管理控制項持續強化。
+</div>
+
+> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架、NIST 洞察、ISO 標準、CISA KEV、CSA 雲端安全。
 
 ## 免責聲明
 
@@ -12,107 +51,213 @@
 
 ## 本週重點
 
-1. **CISA 強制漏洞修補要求**：CVE-2026-24858 針對 Fortinet 多項產品的身份驗證繞過漏洞，聯邦機構須於 2026-01-30 前完成緩解措施（enforcement_signal: mandatory）。
+<p class="key-answer" data-question="本週有哪些重要的資安合規動態">
+  <strong>ISO/IEC TS 27103:2026 於 2026-02-06 發布</strong>，提供網路安全框架整合運用 ISO/IEC 標準的最新指引，協助組織將國際標準對應至 NIST CSF 等框架（國際/recommended）。
+</p>
 
-2. **NIST SSDF 1.2 版公開徵求意見**：安全軟體開發框架進行重大修訂，新增改進的實務作法、任務與範例，建立採購方與供應商間的共同語彙（rule_type: revision, enforcement_signal: mandatory）。
+### 1. ISO/IEC TS 27103:2026 網路安全框架整合指引發布 [國際/revision]
 
-3. **CSA 與 MITRE 合作整合雲端安全控制與攻擊者行為**：CSA CCM 控制措施與 MITRE ATT&CK 框架整合，協助雲端安全專業人員將標準化控制措施對應至攻擊者戰術與技術（2026-01-27）。
+ISO 於 2026-02-06 發布 ISO/IEC TS 27103:2026，更新如何在網路安全框架中整合運用 ISO/IEC 標準的指引，取代舊版 Technical Specification 72437。此技術規範協助組織將 ISO/IEC 27000 系列標準對應至 NIST CSF 等網路安全框架，提供跨標準的整合路徑。（[來源](https://www.iso.org/standard/85057.html)）
 
-4. **ISO/IEC 27566-1:2025 年齡保證系統框架發布**：首版標準建立年齡保證系統框架，定義核心特性包括隱私與安全要求（rule_type: new）。
+### 2. ISO/IEC 25706:2026 安全協定與資料模型標準發布 [國際/new]
 
-5. **NIST 隱私工程計畫慶祝資料隱私週**：闡述 2026 年隱私風險管理指引發展方向，持續與利害關係人社群合作（2026-01-27）。
+ISO 於 2026-02-03 發布 ISO/IEC 25706:2026，建立資訊技術安全協定與資料模型（SPDM）收集標準。此為 ISO/IEC JTC 1 技術委員會制定的第一版標準，屬於 ICS 35.030 資訊安全領域，為硬體安全通訊協定提供標準化基礎。（[來源](https://www.iso.org/standard/91251.html)）
+
+### 3. NIST SSDF 1.2 安全軟體開發框架公開徵詢 [美國/revision]
+
+NIST 於 2025-12-17 發布 Secure Software Development Framework (SSDF) Version 1.2 草案，新增與改善安全軟體開發實務、任務與範例，擴展軟體生產者與採購者在整個軟體開發生命週期中降低漏洞風險的指引。此為回應 Executive Order 14306 強化國家網路安全的配套措施。（[來源](https://www.nist.gov/news-events/news/2025/12/secure-software-development-framework-ssdf-version-12-available-public)）
+
+### 4. NISTIR 8596 AI 網路安全框架草案 [美國/draft]
+
+NIST 於 2025-12-16 發布首個 AI 網路安全框架配置檔草案（NISTIR 8596），整合 CSF 與 AI RMF，要求組織在採用 AI 時必須同步發展網路安全策略。涵蓋三大領域：保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊。公開意見徵詢已於 2026-01-30 截止。（[來源](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era)）
+
+### 5. CISA KEV 漏洞修復義務 [美國/mandatory]
+
+CISA 於 2026-01-22 將 CVE-2025-31125（Vite Vitejs 存取控制不當漏洞）加入已知被利用漏洞目錄。聯邦機構須於 2026-02-12 前完成修復。此漏洞影響明確暴露開發伺服器的應用程式，顯示攻擊面已擴展至開發環境。（[來源](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)）
+
+<blockquote class="expert-quote">
+  「ISO/IEC TS 27103 提供如何將 ISO 和 IEC 標準應用於網路安全框架的指引，協助組織在既有框架基礎上整合國際標準要求。」
+  <cite>ISO/IEC JTC 1/SC 27</cite>
+</blockquote>
 
 ---
 
 ## 區域動態比較
 
-### 美國（NIST / CISA）
+### 美國（NIST）
 
-**NIST 框架動態（20 筆）**
+**安全軟體開發**
+- **SSDF Version 1.2**（document_id: NIST SSDF 1.2, status: public_comment）
+  - 擴展安全軟體開發實務、任務與範例
+  - 強化軟體生產者與採購者漏洞風險緩解指引
+  - enforcement_signal: recommended
 
-| 文件 | 狀態 | 重點 |
-|------|------|------|
-| SSDF 1.2 | revision (公開徵求意見) | 安全軟體開發框架擴充，新增實務作法與範例 |
-| NIST IR 8349 | final | IoT 裝置網路行為描述與 MUD 規範支援 |
-| NIST IR 8523 | final | 刑事司法資訊系統多因素驗證實作要求 |
-| CMVP White Paper | draft | 加密模組驗證計畫自動化流程 |
-| NIST SP 800-232 | recommended | 輕量加密標準（Ascon-Based） |
-| CSF 2.0 Govern Function | webinar | 深入探討 CSF 2.0 治理功能 |
-| Transit Cybersecurity Framework | recommended | CSWP 51 交通運輸資安框架社群設定檔 |
-| Mobile Drivers Licenses | draft | 行動駕照保證要求與隱私風險評估 |
-| NCCoE IoT Secure Onboarding | final | IoT 安全上線出版物 |
-| Cyber AI Profile | workshop series | AI 賦能網路防禦與攻擊防禦 |
+**AI 與網路安全整合**
+- **NISTIR 8596**（document_id: NISTIR 8596, status: draft）
+  - 首個 AI 網路安全配置檔，整合 CSF 與 AI RMF
+  - 涵蓋保護 AI 系統、AI 強化防禦、抵禦 AI 攻擊
+  - 公開意見徵詢已截止（2026-01-30）
+  - enforcement_signal: recommended
 
-**NIST Cybersecurity Insights（18 筆）**
+**軟體修補管理**
+- **SP 800-53 Release 5.2.0**（document_id: SP 800-53 Rev. 5.2.0, status: final）
+  - 回應 Executive Order 14306 強化國家網路安全
+  - 新增 SA-15、SI-02(07)、SA-24 控制項
+  - enforcement_signal: mandatory（聯邦機構依 FISMA 須遵循）
 
-重點議題涵蓋：
-- CSF 2.0 小型企業快速入門指南（guidance）
-- Cybersecurity and AI 整合指引（ai_risk）
-- NICE Framework 更新擴展資安人才發展（revision）
-- 國際資安與隱私合作進展（policy_guidance）
-- 人本網路安全社群（HCC CoI）建立
-- 隱私工程計畫與 AI 時代風險管理
+**勒索軟體風險管理**
+- **NIST IR 8374 Revision 1**（document_id: NIST IR 8374 Rev 1, status: public_comment）
+  - 勒索軟體風險管理框架對齊 CSF 2.0
+  - 擴展防禦、偵測、復原責任結構
+  - enforcement_signal: recommended
 
-**CISA 已知遭利用漏洞（1 筆）**
+**加密與密碼學**
+- **SP 1800-37**（document_id: SP 1800-37, status: final）
+  - TLS 1.3 環境網路可視性解決方案
+  - enforcement_signal: recommended
 
-- **CVE-2026-24858**：Fortinet 多項產品身份驗證繞過漏洞
-  - enforcement_signal: **mandatory**
-  - 聯邦機構修補期限：2026-01-30
-  - 受影響對象：使用 Fortinet 產品的組織、IT 管理員、網路基礎設施團隊
+**漏洞修復**
+- **CISA KEV**（CVE-2025-31125）
+  - Vite Vitejs 存取控制不當漏洞
+  - 修復期限：2026-02-12
+  - enforcement_signal: mandatory
 
-### 國際標準（ISO）
+### 歐盟
 
-**ISO 標準（10 筆）**
+本期無歐盟資安法規動態。
 
-| 標準編號 | 發布日期 | 主題 |
-|----------|----------|------|
-| ISO/IEC 27566-1:2025 | 2025-12-12 | 年齡保證系統框架 |
-| ISO/IEC 27566-2 | 2026-01-16 | IT 安全符合性評估人員能力要求（測試與驗證） |
-| ISO/IEC 27566-3 | 2025-11-19 | IT 安全符合性評估人員能力要求（評估與審查） |
-| ISO/IEC 29134 Amd 1 | 2025-12-12 | 輕量加密修正案 |
-| ISO TS SPDM | 2026-02-03 | 安全協定與資料模型集合 |
-| ISO 27799 | 2025-12-18 | 醫療資訊學資訊安全控制 |
-| ISO 22300 系列 | 2025-11-19 | 供應與價值鏈信任框架 |
-| ISO 22396 | 2025-11-19 | 基礎設施韌性指引 |
-| ISO 22399 | 2026-01-08 | 能源韌性框架與原則 |
+### 國際標準組織（ISO）
 
-### 雲端安全（CSA）
+**網路安全框架整合**
+- **ISO/IEC TS 27103:2026**（revision，2026-02-06 發布）
+  - 更新網路安全框架中 ISO/IEC 標準整合指引
+  - 取代舊版 Technical Specification 72437
+  - enforcement_signal: recommended
 
-- **CSA-MITRE CTID 合作**（2026-01-27）
-  - 整合 CSA Cloud Controls Matrix (CCM) 與 MITRE ATT&CK
-  - 橋接標準化雲端安全控制與攻擊者戰術知識庫
-  - 受影響對象：雲端安全專業人員、安全架構師、威脅情報分析師
+**安全協定標準**
+- **ISO/IEC 25706:2026**（new，2026-02-03 發布）
+  - 安全協定與資料模型（SPDM）收集標準
+  - ICS 35.030 資訊安全領域
+  - enforcement_signal: recommended
+
+**資安專業人員能力標準**
+- **ISO/IEC 19896 系列**（2025-11-19 ~ 2026-01-16 發布）
+  - Part 1: 概覽與概念
+  - Part 2: 依 ISO/IEC 19790 與 24759 之測試驗證人員能力
+  - Part 3: 依 ISO/IEC 15408 系列與 18045 之評估審查人員能力
+  - enforcement_signal: recommended
+
+**醫療資訊安全**
+- **ISO 27799:2025**（new，2025-12-18 發布）
+  - 醫療資訊學 — 基於 ISO/IEC 27002 的健康資訊安全控制
+  - enforcement_signal: recommended
+
+**年齡驗證系統**
+- **ISO/IEC 27566-1:2025**（new，2025-12-12 發布）
+  - 年齡驗證系統框架
+  - enforcement_signal: recommended
+
+### CSA 雲端安全
+
+- **CSA CCM 對照 MITRE ATT&CK**（guidance，2026-01-27）
+  - 整合 Cloud Controls Matrix 與 ATT&CK 框架
+  - 建立雲端安全控制與攻擊者行為對照
+  - enforcement_signal: recommended
 
 ---
 
 ## 控制措施對照
 
-| 控制領域 | NIST 對應 | ISO 對應 | 變動摘要 |
-|----------|-----------|----------|----------|
-| 存取控制 | NIST IR 8523 (MFA for CJIS) | ISO/IEC 27566 系列 | 新增刑事司法系統 MFA 要求；IT 安全評估人員能力標準化 |
-| 軟體開發安全 | SSDF 1.2 | — | 擴充安全開發實務作法與採購語彙 |
-| 加密控制 | SP 800-232 (Ascon), CMVP | ISO/IEC 19790 | 輕量加密標準最終版；加密模組驗證自動化 |
-| IoT 安全 | IR 8349, NCCoE IoT Onboarding | — | 裝置網路行為描述標準化；安全上線最終指引 |
-| 隱私保護 | Privacy Engineering Program | ISO/IEC 27566-1 (age assurance) | 隱私風險管理持續發展；年齡保證系統框架 |
-| 韌性管理 | Transit CSF Profile (CSWP 51) | ISO 22396, 22399 | 交通運輸資安框架；基礎設施與能源韌性標準 |
-| 身分驗證 | SP 800-63B Supplement (Passkeys) | — | 同步式驗證器過渡期指引 |
-| 漏洞管理 | — | — | CVE-2026-24858 強制修補（Fortinet） |
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>控制領域</th>
+      <th>NIST 對應</th>
+      <th>ISO 對應</th>
+      <th>變動摘要</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>框架整合</td>
+      <td>CSF 2.0</td>
+      <td>ISO/IEC TS 27103:2026</td>
+      <td>更新 ISO/IEC 標準與網路安全框架整合指引</td>
+    </tr>
+    <tr>
+      <td>安全軟體開發</td>
+      <td>SSDF Version 1.2</td>
+      <td>—</td>
+      <td>擴展生產者與採購者漏洞風險緩解指引</td>
+    </tr>
+    <tr>
+      <td>AI 網路安全</td>
+      <td>NISTIR 8596（CSF + AI RMF）</td>
+      <td>—</td>
+      <td>首個 AI 網路安全配置檔草案</td>
+    </tr>
+    <tr>
+      <td>修補管理</td>
+      <td>SP 800-53 SA-15, SI-02(07), SA-24</td>
+      <td>—</td>
+      <td>新增修補失敗根因分析、事件紀錄標準化、網路韌性設計</td>
+    </tr>
+    <tr>
+      <td>勒索軟體防護</td>
+      <td>IR 8374（CSF 2.0 Profile）</td>
+      <td>—</td>
+      <td>對齊 CSF 2.0 框架結構</td>
+    </tr>
+    <tr>
+      <td>加密流量監控</td>
+      <td>SP 1800-37</td>
+      <td>—</td>
+      <td>TLS 1.3 環境可視性解決方案</td>
+    </tr>
+    <tr>
+      <td>安全協定</td>
+      <td>—</td>
+      <td>ISO/IEC 25706:2026</td>
+      <td>SPDM 收集標準第一版</td>
+    </tr>
+    <tr>
+      <td>專業人員能力</td>
+      <td>NICE Framework</td>
+      <td>ISO/IEC 19896 系列</td>
+      <td>資安評估人員能力標準更新</td>
+    </tr>
+    <tr>
+      <td>醫療資訊安全</td>
+      <td>—</td>
+      <td>ISO 27799:2025</td>
+      <td>基於 ISO/IEC 27002 的健康資訊安全控制</td>
+    </tr>
+    <tr>
+      <td>雲端安全</td>
+      <td>—</td>
+      <td>CSA CCM + MITRE ATT&CK</td>
+      <td>控制措施與攻擊技術對照</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## 責任變動追蹤
 
-| 來源 | 文件 | affected_roles | shift_summary |
-|------|------|---------------|---------------|
-| NIST | SSDF 1.2 | Software developers, software development organizations, software acquirers, procurement teams, supply chain security managers | 擴充安全軟體開發框架，建立採購方與供應商間的共同語彙 |
-| NIST | IR 8349 | IoT device manufacturers, developers, network operators, cloud providers, network administrators | IoT 裝置製造商與網路管理者需採用標準化方法描述裝置網路行為 |
-| NIST | IR 8523 | 刑事司法資訊系統管理員, 執法機關 IT 人員, 身分驗證架構師 | 新增刑事司法資訊系統多因素驗證實作要求 |
-| NIST | CMVP White Paper | 加密模組開發者, CMVP 驗證實驗室, 產品安全工程師, 聯邦機構採購人員 | 新增加密模組驗證計畫自動化流程的支援與實作責任 |
-| NIST | Mobile DL Resources | 數位身分驗證人員, 州政府 DMV 管理者, 行動應用開發者, 隱私保護官 | 新增行動駕照保證要求與隱私風險評估實作指引 |
-| NIST | NICE Framework | cybersecurity_workforce, educators, employers, workforce_development_professionals | NICE 框架更新，新增工作角色與能力領域 |
-| CISA | CVE-2026-24858 | Organizations using Fortinet products, IT administrators, security teams | 聯邦機構須於 2026-01-30 前完成 Fortinet 漏洞修補 |
-| CSA | CCM-ATT&CK Integration | Cloud Security Professionals, Security Architects, Threat Intelligence Analysts | 整合雲端安全控制與攻擊者行為知識庫 |
-| ISO | ISO/IEC 27566 系列 | 資訊安全管理人員, CISO, 合規人員, ISO 標準實施人員 | IT 安全符合性評估人員能力要求標準化 |
+| 來源 | 文件 | affected_roles | shift_type | shift_summary |
+|------|------|---------------|------------|---------------|
+| ISO | ISO/IEC TS 27103:2026 | 資安標準實施人員、合規人員、資安架構師 | revised | 更新網路安全框架整合 ISO/IEC 標準的指引 |
+| ISO | ISO/IEC 25706:2026 | 硬體安全工程師、安全協定實施人員 | new | 發布 SPDM 收集標準第一版 |
+| NIST | SSDF Version 1.2 | 軟體生產者、開發者、採購者、聯邦機構、供應鏈廠商 | expanded | 擴展安全軟體開發實務與漏洞風險緩解 |
+| NIST | NISTIR 8596 | AI 採用組織、資安專業人員、企業領導、AI 整合決策者 | new | 建立首個 AI 網路安全框架配置檔 |
+| NIST | SP 800-53 Rev 5.2.0 | 聯邦機構系統管理員、軟體開發商、維運團隊 | expanded | 新增修補管理、韌性設計、紀錄標準化控制項 |
+| NIST | IR 8374 Rev 1 | 資安團隊、事件回應團隊、風險管理人員、備份管理員 | expanded | 勒索軟體風險管理對齊 CSF 2.0 |
+| NIST | SP 1800-37 | 網路安全工程師、SOC 分析師、網路管理員 | new | TLS 1.3 可視性挑戰解決方案 |
+| CISA | CVE-2025-31125 | 使用 Vite Vitejs 且開發伺服器暴露於網路的組織 | new | 強制修復存取控制不當漏洞（期限 2026-02-12） |
+| ISO | ISO/IEC 19896 系列 | IT 安全評估人員、驗證人員、審查人員 | new | 更新專業人員能力標準 |
+| ISO | ISO 27799:2025 | 醫療機構資安人員、醫療 IT 管理員 | new | 醫療資訊安全控制要求 |
+| CSA | CCM-ATT&CK 對照 | 雲端安全專業人員、威脅情報分析師、安全架構師 | new | 建立雲端控制措施與攻擊技術對照 |
 
 ---
 
@@ -120,40 +265,64 @@
 
 ### 新增義務摘要
 
-**強制性義務（mandatory）**
-- **CVE-2026-24858 修補**：使用 Fortinet 產品的聯邦機構須於 2026-01-30 前完成緩解措施
-- **SSDF 1.2 合規**：軟體開發組織需依據更新後的框架建立安全開發實務
+<p class="key-answer" data-question="事件通報義務有何最新變化">
+  <strong>本週無新增事件通報義務變化</strong>，但 CISA KEV 要求聯邦機構於 2026-02-12 前修復 CVE-2025-31125 漏洞，顯示漏洞修復時限持續壓縮。
+</p>
 
-**建議性義務（recommended）**
-- IoT 裝置製造商採用 MUD 規範描述裝置網路行為（IR 8349）
-- 刑事司法資訊系統實施多因素驗證（IR 8523）
-- 採用輕量加密標準 Ascon（SP 800-232）
-- 組織參考 CSA CCM-ATT&CK 整合指引評估雲端安全控制
+**框架整合（ISO/IEC TS 27103:2026）**
+- 組織應參考最新指引對應 ISO/IEC 標準至所採用的網路安全框架
+- 評估既有控制措施與國際標準要求的差距
+- 更新標準對應文件以反映 2026 版本變更
 
-**資訊性指引（informational）**
-- CSF 2.0 小型企業快速入門指南
-- 隱私工程計畫持續發展方向
-- 國際資安標準化工作進展
+**安全軟體開發（SSDF 1.2）**
+- 實施新增與改善的安全軟體開發實務
+- 軟體生產者需降低整個開發生命週期的漏洞風險
+- 採購者需於採購規格中納入 SSDF 要求
+
+**AI 網路安全（NISTIR 8596）**
+- 在採用 AI 時同步制定網路安全策略
+- 保護組織基礎設施內的 AI 系統
+- 使用 AI 強化防禦性網路安全作業
+- 建立對抗 AI 驅動網路攻擊的韌性
+
+**漏洞修復（CISA KEV）**
+- 聯邦機構須於 2026-02-12 前修復 CVE-2025-31125
+- 驗證開發伺服器未暴露於網路
+- 更新 Vite Vitejs 至修補版本
 
 ### 舉證要求摘要
 
-| 領域 | 舉證要求 |
-|------|----------|
-| 軟體開發 | SSDF 1.2 符合性紀錄、安全開發生命週期文件 |
-| IoT 安全 | 裝置網路行為描述文件、MUD 規範實作紀錄 |
-| 身分驗證 | MFA 實施紀錄、驗證系統稽核日誌（CJIS 環境） |
-| 漏洞管理 | Fortinet 產品修補紀錄與時程證明 |
-| ISO 符合性 | ISO 標準符合性稽核報告、管理系統文件 |
+| 義務領域 | 舉證要求 |
+|----------|----------|
+| 框架整合 | 標準對應文件、差距分析報告、整合實施紀錄 |
+| 安全軟體開發 | SSDF 實務實施紀錄、漏洞風險緩解措施文件、開發生命週期安全檢查點紀錄 |
+| AI 網路安全 | AI 網路安全策略文件、AI 系統安全評估、防禦性 AI 能力實作、AI 驅動威脅韌性措施 |
+| 漏洞修復 | 修復驗證紀錄、修補程式部署文件、漏洞掃描結果 |
+| 專業人員能力 | 人員能力評估紀錄、ISO/IEC 19896 對照驗證 |
 
 ---
 
 ## L5 — Evolution Signals
 
-- [系統推論] **AI 與資安框架整合加速**：NIST 同時推進 CSF 與 AI RMF 整合 profiles，建立 Cyber AI Profile workshop 系列，顯示 AI 賦能資安（AI for cybersecurity）與 AI 系統保護（security for AI）正成為框架發展雙主軸。
+<p class="key-answer" data-question="NIST 與歐盟的資安要求有何差異">
+  <strong>本週觀察顯示 NIST 與 ISO 正朝向框架整合發展</strong>，ISO/IEC TS 27103:2026 提供 ISO/IEC 標準與 NIST CSF 等框架的整合指引，降低組織同時遵循多套標準的複雜度。歐盟本期無新增資安法規動態。
+</p>
 
-- [系統推論] **軟體供應鏈安全責任標準化**：SSDF 1.2 版公開徵求意見，強調建立「採購方與供應商間的共同語彙」，顯示軟體供應鏈安全正從技術指引轉向可稽核的責任分配機制。
+### [系統推論] 國際標準與區域框架整合趨勢加速
 
-- [系統推論] **輕量加密與硬體安全標準趨勢**：SP 800-232 Ascon 標準、SUSHI@NIST 硬體安全倡議、ISO 輕量加密修正案等動態，反映物聯網與嵌入式系統安全需求推動加密標準演進。
+ISO/IEC TS 27103:2026 的發布標誌著國際標準組織正積極建立與 NIST CSF 等區域框架的對應橋樑。組織未來將更容易在單一控制措施實作中同時滿足 ISO 27001 與 NIST CSF 要求，減少重複評估與稽核的負擔。
+
+### [系統推論] AI 網路安全從概念進入標準化階段
+
+NISTIR 8596 公開意見徵詢截止後，預計 2026 年上半年將發布最終版本。結合 NCCoE Cyber AI Profile 工作坊的持續進行，AI 網路安全將從概念討論進入可實施的框架階段。組織應開始評估 AI 系統的網路安全風險，為未來合規要求做準備。
+
+### [系統推論] 安全軟體開發責任持續強化
+
+SSDF 1.2 與 SP 800-53 修補管理控制項的同步更新，顯示軟體供應鏈安全正從 recommended 推向實質強制。組織與開發者間責任分工的明確化，預示未來合規稽核將更關注軟體來源可追溯性與修補程式驗證。
+
+### [系統推論] 漏洞修復時限持續壓縮，開發環境成為攻擊目標
+
+CVE-2025-31125（Vite Vitejs）進入 CISA KEV，顯示攻擊者已將開發工具鏈納入攻擊面。前端開發工具的安全性不再僅是開發團隊的內部議題，而是組織安全態勢的一部分。建議將開發環境納入漏洞管理範圍。
 
 ---
 
@@ -162,9 +331,9 @@
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| 來源分布 | NIST Frameworks: 20, NIST Insights: 18, ISO Standards: 10, CSA: 1, CISA KEV: 1 |
-| rule_type 分布 | guidance: 11, new: 10, draft: 3, final: 2, revision: 2, amendment: 1, 其他/空值: 21 |
-| enforcement_signal 分布 | recommended: 22, informational: 9, mandatory: 2, 空值/null: 17 |
+| 來源分布 | NIST Frameworks: 23, NIST Insights: 17, ISO Standards: 8, CSA Cloud Security: 1, CISA KEV: 1 |
+| rule_type 分布 | guidance: 13, new: 7, draft: 8, revision: 5, amendment: 2, final: 1, null/其他: 14 |
+| enforcement_signal 分布 | recommended: 23, informational: 10, mandatory: 3, null/未標註: 14 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -173,8 +342,14 @@
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | cybersecurity, ai_risk, identity, supply_chain, critical_infrastructure | 20 | 2025-07-30 ~ 2026-01-28 |
-| nist_cybersecurity_insights | cybersecurity, ai_risk, workforce, policy_guidance, identity, privacy | 18 | 2024-02-28 ~ 2026-01-27 |
-| iso_standards | information_security, other | 10 | 2025-11-19 ~ 2026-02-03 |
+| nist_frameworks | cybersecurity | 23 | 2025-07-15 ~ 2026-01-28 |
+| nist_cybersecurity_insights | cybersecurity | 17 | 2024-02-28 ~ 2026-01-27 |
+| iso_standards | information_security | 8 | 2025-11-19 ~ 2026-02-06 |
 | csa_cloud_security | cloud_security | 1 | 2026-01-27 |
-| cisa_kev | vulnerability | 1 | 2026-01-27 |
+| cisa_kev | vulnerability | 1 | 2026-01-22 |
+| eu_regulations | cybersecurity | 0 | — |
+
+---
+
+*報告產出：Narrator Mode - cybersecurity_compliance*
+*資料擷取時間點：2026-02-15*
