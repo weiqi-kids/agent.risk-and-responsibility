@@ -33,6 +33,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-02-11-iso-iec-23090-18-2024-amd-2-2026-point-cloud-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-02-11-iso-iec-23090-18-2024-amd-2-2026-point-cloud.md",
+    "source_url": "https://www.iso.org/standard/87627.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-02-06-iso-iec-8808-2026-md",
     "title": "ISO/IEC 8808:2026 — Information technology for learning, education and training — Online course information model",
     "category": "other",
@@ -40,6 +51,17 @@
     "file": "other/2026-02-06-iso-iec-8808-2026.md",
     "source_url": "https://www.iso.org/standard/83800.html",
     "confidence": "中",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-06-iso-iec-8808-2026-online-course-model-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-02-06-iso-iec-8808-2026-online-course-model.md",
+    "source_url": "https://www.iso.org/standard/83800.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -66,6 +88,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-02-03-iso-iec-29170-3-2026-image-quality-assessment-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-02-03-iso-iec-29170-3-2026-image-quality-assessment.md",
+    "source_url": "https://www.iso.org/standard/90208.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-02-03-iso-iec-25706-2026-md",
     "title": "Information technology — Security protocol and data model (SPDM) collection",
     "category": "other",
@@ -88,6 +121,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-02-03-iso-iec-23008-3-2026-3d-audio-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-02-03-iso-iec-23008-3-2026-3d-audio.md",
+    "source_url": "https://www.iso.org/standard/90199.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-02-02-iso-iec-22460-3-2026-md",
     "title": "Cards and security devices for personal identification — ISO UAS licence and drone or UAS security module — Part 3: Digital UAS or drone licence",
     "category": "other",
@@ -95,6 +139,17 @@
     "file": "other/2026-02-02-iso-iec-22460-3-2026.md",
     "source_url": "https://www.iso.org/standard/88973.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-02-iso-iec-22460-3-2026-drone-licence-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-02-02-iso-iec-22460-3-2026-drone-licence.md",
+    "source_url": "https://www.iso.org/standard/88973.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -110,6 +165,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-30-iso-ts-7446-2026-biorisk-management-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-30-iso-ts-7446-2026-biorisk-management.md",
+    "source_url": "https://www.iso.org/standard/82795.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-30-iso-iec-21134-2026-md",
     "title": "Information technology — Computer graphics, image processing and environmental data representation — Benchmarking of integrated indoor localization and tracking methods using dead reckoning",
     "category": "other",
@@ -117,6 +183,17 @@
     "file": "other/2026-01-30-iso-iec-21134-2026.md",
     "source_url": "https://www.iso.org/standard/86651.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-30-iso-iec-21134-2026-indoor-localization-benchmarking-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-30-iso-iec-21134-2026-indoor-localization-benchmarking.md",
+    "source_url": "https://www.iso.org/standard/86651.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -132,6 +209,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-28-iso-iec-tr-9858-2026-learning-analytics-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-28-iso-iec-tr-9858-2026-learning-analytics.md",
+    "source_url": "https://www.iso.org/standard/83610.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-28-iso-iec-9995-3-2026-md",
     "title": "Information technology — Keyboard layouts for text and office systems — Part 3: Latin International keyboard layout",
     "category": "other",
@@ -139,6 +227,17 @@
     "file": "other/2026-01-28-iso-iec-9995-3-2026.md",
     "source_url": "https://www.iso.org/standard/82494.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-28-iso-iec-9995-3-2026-latin-keyboard-layout-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-28-iso-iec-9995-3-2026-latin-keyboard-layout.md",
+    "source_url": "https://www.iso.org/standard/82494.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -154,6 +253,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-28-iso-iec-30113-62-2026-multi-point-gestures-screen-readers-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-28-iso-iec-30113-62-2026-multi-point-gestures-screen-readers.md",
+    "source_url": "https://www.iso.org/standard/85750.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-26-iso-iec-4933-2026-md",
     "title": "Information technology — User interfaces — Unifying input actions across devices",
     "category": "other",
@@ -161,6 +271,17 @@
     "file": "other/2026-01-26-iso-iec-4933-2026.md",
     "source_url": "https://www.iso.org/standard/80527.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-26-iso-iec-4933-2026-unified-input-actions-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-26-iso-iec-4933-2026-unified-input-actions.md",
+    "source_url": "https://www.iso.org/standard/80527.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -176,6 +297,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-23-iso-iec-9995-9-2026-keyboard-multilingual-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-23-iso-iec-9995-9-2026-keyboard-multilingual.md",
+    "source_url": "https://www.iso.org/standard/88990.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-23-iso-iec-9995-2-2026-md",
     "title": "Information technology — Keyboard layouts for text and office systems — Part 2: Alphanumeric section",
     "category": "other",
@@ -183,6 +315,17 @@
     "file": "other/2026-01-23-iso-iec-9995-2-2026.md",
     "source_url": "https://www.iso.org/standard/88611.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-23-iso-iec-9995-2-2026-keyboard-alphanumeric-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-23-iso-iec-9995-2-2026-keyboard-alphanumeric.md",
+    "source_url": "https://www.iso.org/standard/88611.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -198,6 +341,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-23-iso-16483-2026-sustainable-mobility-indicators-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-23-iso-16483-2026-sustainable-mobility-indicators.md",
+    "source_url": "https://www.iso.org/standard/84604.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-22-iso-iec-23090-23-2026-md",
     "title": "Information technology — Coded representation of immersive media — Part 23: Conformance and reference software for MPEG immersive video",
     "category": "other",
@@ -205,6 +359,17 @@
     "file": "other/2026-01-22-iso-iec-23090-23-2026.md",
     "source_url": "https://www.iso.org/standard/91381.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-22-iso-iec-23090-23-2026-miv-conformance-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-22-iso-iec-23090-23-2026-miv-conformance.md",
+    "source_url": "https://www.iso.org/standard/91381.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -220,6 +385,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-16-iso-iec-9995-11-2026-dead-keys-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-16-iso-iec-9995-11-2026-dead-keys.md",
+    "source_url": "https://www.iso.org/standard/82497.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-16-iso-iec-9995-1-2026-md",
     "title": "Information technology — Keyboard layouts for text and office systems — Part 1: General principles governing keyboard layouts",
     "category": "other",
@@ -227,6 +403,17 @@
     "file": "other/2026-01-16-iso-iec-9995-1-2026.md",
     "source_url": "https://www.iso.org/standard/88610.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-16-iso-iec-9995-1-2026-keyboard-general-principles-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-16-iso-iec-9995-1-2026-keyboard-general-principles.md",
+    "source_url": "https://www.iso.org/standard/88610.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -264,6 +451,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-14-iso-pas-45007-2026-climate-change-ohs-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-14-iso-pas-45007-2026-climate-change-ohs.md",
+    "source_url": "https://www.iso.org/standard/89309.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-09-iso-iec-15417-2007-amd-1-2026-md",
     "title": "Information technology — Automatic identification and data capture techniques — Code 128 bar code symbology specification — Amendment 1",
     "category": "other",
@@ -275,6 +473,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-09-iso-iec-15417-2007-amd-1-2026-code128-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-09-iso-iec-15417-2007-amd-1-2026-code128.md",
+    "source_url": "https://www.iso.org/standard/87124.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-08-iso-22366-2026-md",
     "title": "Security and resilience — Community resilience — Framework and principles for energy resilience",
     "category": "other",
@@ -282,6 +491,17 @@
     "file": "other/2026-01-08-iso-22366-2026.md",
     "source_url": "https://www.iso.org/standard/83384.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-08-iso-22366-2026-energy-resilience-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2026-01-08-iso-22366-2026-energy-resilience.md",
+    "source_url": "https://www.iso.org/standard/83384.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -330,6 +550,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-12-17-iso-iec-23093-2-2025-iomt-api-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-12-17-iso-iec-23093-2-2025-iomt-api.md",
+    "source_url": "https://www.iso.org/standard/86430.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-12-17-iso-iec-22121-3-2025-md",
     "title": "Information technology — Virtual keyboards user interfaces — Part 3: Virtual keyboards interactions",
     "category": "other",
@@ -341,6 +572,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-12-17-iso-iec-22121-3-2025-virtual-keyboard-interactions-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-12-17-iso-iec-22121-3-2025-virtual-keyboard-interactions.md",
+    "source_url": "https://www.iso.org/standard/84714.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-12-12-iso-iec-ts-29196-2025-md",
     "title": "Information technology — Guidance for biometric enrolment",
     "category": "other",
@@ -348,6 +590,17 @@
     "file": "other/2025-12-12-iso-iec-ts-29196-2025.md",
     "source_url": "https://www.iso.org/standard/87547.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-12-12-iso-iec-ts-29196-2025-biometric-enrolment-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-12-12-iso-iec-ts-29196-2025-biometric-enrolment.md",
+    "source_url": "https://www.iso.org/standard/87547.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -374,6 +627,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-12-12-iso-iec-19583-27-2025-metadata-hts-mapping-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-12-12-iso-iec-19583-27-2025-metadata-hts-mapping.md",
+    "source_url": "https://www.iso.org/standard/87315.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-12-10-iso-iec-4932-2025-md",
     "title": "Information Technology — Learning, education and training — Access for All (AfA) metadata for accessibility core properties",
     "category": "other",
@@ -381,6 +645,17 @@
     "file": "other/2025-12-10-iso-iec-4932-2025.md",
     "source_url": "https://www.iso.org/standard/80519.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-12-10-iso-iec-4932-2025-accessibility-metadata-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-12-10-iso-iec-4932-2025-accessibility-metadata.md",
+    "source_url": "https://www.iso.org/standard/80519.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -396,6 +671,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-12-02-iso-iec-11801-1-2017-amd-1-2025-cabling-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-12-02-iso-iec-11801-1-2017-amd-1-2025-cabling.md",
+    "source_url": "https://www.iso.org/standard/93480.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-11-26-iso-iec-17629-2025-md",
     "title": "Information technology — Office equipment — Method for measuring first print out time for digital printing devices",
     "category": "other",
@@ -403,6 +689,17 @@
     "file": "other/2025-11-26-iso-iec-17629-2025.md",
     "source_url": "https://www.iso.org/standard/85426.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-11-26-iso-iec-17629-2025-printer-fpot-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-26-iso-iec-17629-2025-printer-fpot.md",
+    "source_url": "https://www.iso.org/standard/85426.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -418,6 +715,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-11-21-iso-iec-9995-10-2025-keyboard-glyph-representation-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-21-iso-iec-9995-10-2025-keyboard-glyph-representation.md",
+    "source_url": "https://www.iso.org/standard/88991.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-11-20-iso-iec-23090-16-2025-md",
     "title": "Information technology — Coded representation of immersive media — Part 16: Reference software for versatile video coding",
     "category": "other",
@@ -425,6 +733,17 @@
     "file": "other/2025-11-20-iso-iec-23090-16-2025.md",
     "source_url": "https://www.iso.org/standard/90189.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-11-20-iso-iec-23090-16-2025-vvc-reference-software-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-20-iso-iec-23090-16-2025-vvc-reference-software.md",
+    "source_url": "https://www.iso.org/standard/90189.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -440,6 +759,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-11-20-iso-iec-19798-2025-toner-yield-colour-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-20-iso-iec-19798-2025-toner-yield-colour.md",
+    "source_url": "https://www.iso.org/standard/88925.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-11-20-iso-iec-19752-2025-md",
     "title": "Information technology — Office equipment — Method for the determination of toner cartridge yield for monochromatic electrophotographic printers and multi-function devices that contain printer components",
     "category": "other",
@@ -447,6 +777,17 @@
     "file": "other/2025-11-20-iso-iec-19752-2025.md",
     "source_url": "https://www.iso.org/standard/88924.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-11-20-iso-iec-19752-2025-toner-yield-mono-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-20-iso-iec-19752-2025-toner-yield-mono.md",
+    "source_url": "https://www.iso.org/standard/88924.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -462,6 +803,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-11-19-iso-iec-9995-4-2025-keyboard-numeric-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-19-iso-iec-9995-4-2025-keyboard-numeric.md",
+    "source_url": "https://www.iso.org/standard/88612.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-11-19-iso-iec-23093-1-2025-md",
     "title": "Information technology — Internet of media things — Part 1: Architecture",
     "category": "other",
@@ -469,6 +821,17 @@
     "file": "other/2025-11-19-iso-iec-23093-1-2025.md",
     "source_url": "https://www.iso.org/standard/86429.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-11-19-iso-iec-23093-1-2025-iomt-architecture-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-19-iso-iec-23093-1-2025-iomt-architecture.md",
+    "source_url": "https://www.iso.org/standard/86429.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -506,6 +869,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-11-19-iso-iec-15420-2025-ean-upc-barcode-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-19-iso-iec-15420-2025-ean-upc-barcode.md",
+    "source_url": "https://www.iso.org/standard/84892.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-11-19-iso-22373-2025-md",
     "title": "Security and resilience — Authenticity, integrity and trust for products and documents — Framework for establishing trustworthy supply and value chains",
     "category": "other",
@@ -517,6 +891,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2025-11-19-iso-22373-2025-trustworthy-supply-chains-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-19-iso-22373-2025-trustworthy-supply-chains.md",
+    "source_url": "https://www.iso.org/standard/50276.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2025-11-19-iso-22372-2025-md",
     "title": "Security and resilience — Community resilience — Guidelines for infrastructure resilience",
     "category": "other",
@@ -524,6 +909,17 @@
     "file": "other/2025-11-19-iso-22372-2025.md",
     "source_url": "https://www.iso.org/standard/50275.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-11-19-iso-22372-2025-infrastructure-resilience-md",
+    "title": "",
+    "category": "other",
+    "date": "",
+    "file": "other/2025-11-19-iso-22372-2025-infrastructure-resilience.md",
+    "source_url": "https://www.iso.org/standard/50275.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -561,6 +957,39 @@
     "review_needed": false
   },
   {
+    "id": "it_governance-2026-02-05-iso-19135-2026-registration-governance-md",
+    "title": "",
+    "category": "it_governance",
+    "date": "",
+    "file": "it_governance/2026-02-05-iso-19135-2026-registration-governance.md",
+    "source_url": "https://www.iso.org/standard/87753.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "it_governance-2026-02-03-iso-iec-ts-22237-31-2026-data-centre-resilience-kpi-md",
+    "title": "",
+    "category": "it_governance",
+    "date": "",
+    "file": "it_governance/2026-02-03-iso-iec-ts-22237-31-2026-data-centre-resilience-kpi.md",
+    "source_url": "https://www.iso.org/standard/88711.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "it_governance-2026-01-16-iso-iec-30134-2-2026-pue-md",
+    "title": "",
+    "category": "it_governance",
+    "date": "",
+    "file": "it_governance/2026-01-16-iso-iec-30134-2-2026-pue.md",
+    "source_url": "https://www.iso.org/standard/85172.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "information_security-2026-02-10-iso-iec-27565-2026-md",
     "title": "ISO/IEC 27565:2026 — Information security, cybersecurity and privacy protection — Guidelines on privacy preservation based on zero-knowledge proofs",
     "category": "information_security",
@@ -568,6 +997,17 @@
     "file": "information_security/2026-02-10-iso-iec-27565-2026.md",
     "source_url": "https://www.iso.org/standard/80398.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-02-10-iso-iec-27565-2026-zero-knowledge-proofs-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2026-02-10-iso-iec-27565-2026-zero-knowledge-proofs.md",
+    "source_url": "https://www.iso.org/standard/80398.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -583,6 +1023,39 @@
     "review_needed": false
   },
   {
+    "id": "information_security-2026-02-06-iso-iec-ts-27103-2026-cybersecurity-framework-guidance-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2026-02-06-iso-iec-ts-27103-2026-cybersecurity-framework-guidance.md",
+    "source_url": "https://www.iso.org/standard/85057.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-02-03-iso-iec-25706-2026-spdm-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2026-02-03-iso-iec-25706-2026-spdm.md",
+    "source_url": "https://www.iso.org/standard/91251.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-01-16-iso-iec-19896-2-2026-cryptographic-module-testers-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2026-01-16-iso-iec-19896-2-2026-cryptographic-module-testers.md",
+    "source_url": "https://www.iso.org/standard/84988.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "information_security-2025-12-18-iso-27799-2025-md",
     "title": "Health informatics — Information security controls in health based on ISO/IEC 27002",
     "category": "information_security",
@@ -594,6 +1067,28 @@
     "review_needed": false
   },
   {
+    "id": "information_security-2025-12-18-iso-27799-2025-health-security-controls-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2025-12-18-iso-27799-2025-health-security-controls.md",
+    "source_url": "https://www.iso.org/standard/84647.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2025-12-12-iso-iec-29192-1-2012-amd-1-2025-lightweight-crypto-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2025-12-12-iso-iec-29192-1-2012-amd-1-2025-lightweight-crypto.md",
+    "source_url": "https://www.iso.org/standard/86889.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "information_security-2025-12-12-iso-iec-27566-1-2025-md",
     "title": "Information security, cybersecurity and privacy protection — Age assurance systems — Part 1: Framework",
     "category": "information_security",
@@ -601,6 +1096,39 @@
     "file": "information_security/2025-12-12-iso-iec-27566-1-2025.md",
     "source_url": "https://www.iso.org/standard/88143.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2025-12-12-iso-iec-27566-1-2025-age-assurance-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2025-12-12-iso-iec-27566-1-2025-age-assurance.md",
+    "source_url": "https://www.iso.org/standard/88143.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2025-11-19-iso-iec-19896-3-2025-common-criteria-evaluators-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2025-11-19-iso-iec-19896-3-2025-common-criteria-evaluators.md",
+    "source_url": "https://www.iso.org/standard/84989.html",
+    "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2025-11-19-iso-iec-19896-1-2025-competence-overview-md",
+    "title": "",
+    "category": "information_security",
+    "date": "",
+    "file": "information_security/2025-11-19-iso-iec-19896-1-2025-competence-overview.md",
+    "source_url": "https://www.iso.org/standard/84987.html",
+    "confidence": "",
     "source_layer": "iso_standards",
     "review_needed": false
   }

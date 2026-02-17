@@ -55,6 +55,17 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2026-02-02-phase-out-russian-gas-oil-imports-md",
+    "title": "Regulation (EU) 2026/261: Phasing Out Russian Natural Gas and Oil Imports",
+    "category": "supply_chain",
+    "date": "2026-02-02",
+    "file": "supply_chain/2026-02-02-phase-out-russian-gas-oil-imports.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0261",
+    "confidence": "",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2026-01-30-soho-regulation-technical-correction-md",
     "title": "Corrigendum to Regulation (EU) 2024/1938 on quality and safety standards of human-origin substances for human application",
     "category": "supply_chain",
@@ -1551,6 +1562,17 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-01-28-eea-ccp-recovery-resolution-framework-md",
+    "title": "Council Decision (EU) 2026/231: EEA Framework for CCP Recovery and Resolution",
+    "category": "financial_compliance",
+    "date": "2026-01-28",
+    "file": "financial_compliance/2026-01-28-eea-ccp-recovery-resolution-framework.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0231",
+    "confidence": "",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-28-council-decision-eu-2026-231-eea-ccp-recovery-resolution-framework-md",
     "title": "Council Decision (EU) 2026/231 - EEA Agreement Amendment for CCP Recovery and Resolution Framework",
     "category": "financial_compliance",
@@ -2002,6 +2024,17 @@
     "review_needed": false
   },
   {
+    "id": "digital_market-2026-01-20-eu-singapore-digital-trade-agreement-md",
+    "title": "Agreement on Digital Trade between the European Union and Singapore",
+    "category": "digital_market",
+    "date": "2026-01-20",
+    "file": "digital_market/2026-01-20-eu-singapore-digital-trade-agreement.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0125",
+    "confidence": "",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "digital_market-2026-01-20-digital-trade-agreement-singapore-md",
     "title": "Council Decision (EU) 2026/125 - Digital Trade Agreement with Singapore",
     "category": "digital_market",
@@ -2130,6 +2163,17 @@
     "file": "data_protection/2026-02-09-decision-data-subjects-rights-restriction-restrictive-measures.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00866",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "data_protection-2026-02-09-council-decision-gdpr-restrictions-sanctions-md",
+    "title": "Decision No 2/2026: GDPR Rights Restrictions for EU Sanctions",
+    "category": "data_protection",
+    "date": "2026-02-09",
+    "file": "data_protection/2026-02-09-council-decision-gdpr-restrictions-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00866",
+    "confidence": "",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -2570,6 +2614,17 @@
     "file": "critical_infrastructure/2026-01-19-eurohpc-amendment-ai-quantum.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150",
     "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-01-19-eurohpc-ai-gigafactory-quantum-amendment-md",
+    "title": "Regulation (EU) 2026/150: Amending EuroHPC Joint Undertaking for AI Gigafactories and Quantum Computing",
+    "category": "critical_infrastructure",
+    "date": "2026-01-19",
+    "file": "critical_infrastructure/2026-01-19-eurohpc-ai-gigafactory-quantum-amendment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150",
+    "confidence": "",
     "source_layer": "eu_regulations",
     "review_needed": false
   },

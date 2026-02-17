@@ -1,5 +1,16 @@
 [
   {
+    "id": "vulnerability-2026-02-13-CVE-2026-1731-md",
+    "title": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-13",
+    "file": "vulnerability/2026-02-13-CVE-2026-1731.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-02-12-CVE-2026-20700-md",
     "title": "Apple Multiple Buffer Overflow Vulnerability",
     "category": "vulnerability",
