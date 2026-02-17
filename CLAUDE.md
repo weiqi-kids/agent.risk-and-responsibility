@@ -67,7 +67,7 @@
 
 > **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫，避免 Opus 等待網路回應。
 
-### 步驟五：更新時間戳、提交並部署
+### 步驟五：更新時間戳
 
 執行完所有 Mode 後：
 
@@ -75,14 +75,77 @@
    - `README.md`：更新 `**最後更新：YYYY-MM-DD**`
    - `index.md`：更新 `**最後更新：YYYY-MM-DD**`
    - `README.md` 系統健康度表格：更新各 Layer/Mode 的最後更新時間和資料筆數
-2. 檢查是否有變動：`git status --porcelain`
-3. 若有變動，執行：
+
+### 步驟六：完成檢查
+
+**每當回報「完成」時，必須先執行以下檢查，全部通過才能回報完成。**
+
+#### 6.1 連結檢查
+
+- [ ] 所有新增/修改的內部連結正常，無 404
+- [ ] 所有新增/修改的外部連結正常（source_url 可達）
+
+#### 6.2 SEO/AEO 檢查
+
+依照 `core/Narrator/seo-integration.md` 確認：
+
+- [ ] `layout: report` 已設定
+- [ ] `seo.title` ≤ 60 字，含關鍵字
+- [ ] `seo.description` ≤ 155 字
+- [ ] `seo.faq` 包含 3-5 個 Q&A
+- [ ] `.key-takeaway` 存在於報告開頭
+- [ ] 每個 H2 有 `.key-answer`（含 `data-question`）
+- [ ] 至少 1 個 `.expert-quote`
+
+#### 6.3 內容更新確認
+
+- [ ] 列出本次預計修改的所有檔案
+- [ ] 逐一確認每個檔案都已正確更新
+- [ ] 修改內容與任務要求一致
+- [ ] 無遺漏項目
+
+#### 6.4 SOP 完成度檢查
+
+- [ ] 回顧原始任務需求
+- [ ] 原訂步驟每個都已執行
+- [ ] 無遺漏的待辦項目
+- [ ] 無「之後再處理」的項目
+
+#### 6.5 檢查報告格式
+
+完成檢查後，輸出以下格式：
+
+```
+## 完成檢查報告
+
+| 類別 | 狀態 | 問題（如有） |
+|------|------|-------------|
+| 連結檢查 | ✅/❌ | |
+| SEO/AEO | ✅/❌ | |
+| 內容更新 | ✅/❌ | |
+| SOP 完成度 | ✅/❌ | |
+
+**總結**：X/4 項通過，狀態：通過/未通過
+```
+
+#### 6.6 檢查未通過時
+
+1. **不回報完成**
+2. 列出所有未通過項目
+3. 立即修正問題
+4. 重新執行檢查
+5. 全部通過才能說「完成」
+
+### 步驟七：提交並部署
+
+1. 檢查是否有變動：`git status --porcelain`
+2. 若有變動，執行：
    ```bash
    git add docs/ README.md index.md
    git commit -m "chore: update reports $(date +%Y-%m-%d)"
    git push
    ```
-4. 等待 GitHub Actions 部署完成
+3. 等待 GitHub Actions 部署完成
 
 ### JSONL 處理規範
 
@@ -129,10 +192,14 @@
 │   ├── Task(Bash, sonnet)           → 目錄掃描、fetch.sh、update.sh
 │   └── Task(general-purpose, sonnet) → Layer 萃取（需 Write tool）
 │
-└── 步驟四：Mode 報告（兩階段）
-    ├── 階段 4a：Task(Bash, sonnet) × N     → 平行 Qdrant 查詢（I/O 密集）
-    │   └── 等待全部完成...
-    └── 階段 4b：Task(general-purpose, opus) × N → 平行報告產出（推理密集）
+├── 步驟四：Mode 報告（兩階段）
+│   ├── 階段 4a：Task(Bash, sonnet) × N     → 平行 Qdrant 查詢（I/O 密集）
+│   │   └── 等待全部完成...
+│   └── 階段 4b：Task(general-purpose, opus) × N → 平行報告產出（推理密集）
+│
+├── 步驟五～六：完成檢查（頂層 CLI 直接執行）
+│
+└── 步驟七：Git commit + push
 ```
 
 ### 指派表
@@ -146,7 +213,9 @@
 | 步驟三 | 動態發現所有 Mode | `sonnet` | `Bash` | - | 純目錄掃描 |
 | **步驟 4a** | Qdrant 語意搜尋 | `sonnet` | `Bash` | ✅ 可平行 | I/O 密集，無需推理 |
 | **步驟 4b** | Mode 報告產出 | `opus` | `general-purpose` | ✅ 可平行 | 跨來源綜合分析 |
-| 步驟五 | git commit + push | `sonnet` | `Bash` | - | 純腳本執行 |
+| 步驟五 | 更新時間戳 | `sonnet` | `Bash` | - | 純檔案更新 |
+| 步驟六 | 完成檢查 | - | 頂層 CLI | - | 品質關卡 |
+| 步驟七 | git commit + push | `sonnet` | `Bash` | - | 純腳本執行 |
 
 > **強制規則**：
 > - 只有步驟 4b（Mode 報告產出）使用 `opus`
