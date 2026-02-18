@@ -8,7 +8,7 @@ seo:
   title: "2026-W08 規則變動簡報 | NIST SP 800-53 Rev. 5.2.0 與 AI 網路安全框架草案"
   description: "本期追蹤 50 項框架與標準變動，重點包括 NIST SP 800-53 Rev. 5.2.0 新增三項控制項回應 Executive Order 14306、NISTIR 8596 首個 AI 網路安全框架配置檔草案、SSDF Version 1.2 安全軟體開發框架修訂。"
   date_published: "2026-02-17"
-  date_modified: "2026-02-17"
+  date_modified: "2026-02-18"
   article_section: "Rule Change Brief"
   keywords:
     - "NIST SP 800-53"
@@ -41,7 +41,7 @@ seo:
 本期重點：NIST SP 800-53 Rev. 5.2.0 新增三項控制項（SA-15、SI-02(07)、SA-24）回應 Executive Order 14306、NISTIR 8596 首個 AI 網路安全框架配置檔草案發布、SSDF Version 1.2 擴展安全軟體開發實踐指引。
 </div>
 
-> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、eu_regulations、csa_cloud_security 等資料源。
+> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、csa_cloud_security 等資料源。
 
 ## 免責聲明
 
@@ -212,10 +212,10 @@ IoT 設備網路安全指引持續修訂，BGP 路由安全測試工具發布。
 - 影響對象：網路工程師、ISP 業者
 - enforcement_signal：recommended
 
-**EU Council Decision 2025/2624**（new，2025-12-15）
-- 主題：ICAO 標準與建議實踐框架延長至 2028-12-31
-- 影響對象：民航安全、空中交通管理相關機構
-- enforcement_signal：mandatory
+**IoT 安全入門出版品最終版**（final，2025-11-25）
+- 主題：NCCoE IoT 安全入門指引
+- 影響對象：IoT 設備製造商、企業採購團隊
+- enforcement_signal：recommended
 
 ---
 
@@ -303,10 +303,9 @@ IoT 設備網路安全指引持續修訂，BGP 路由安全測試工具發布。
 
 | Layer | 筆數 | 時間範圍 |
 |-------|------|----------|
-| nist_frameworks | 20 | 2025-07-22 ~ 2026-01-28 |
-| nist_cybersecurity_insights | 18 | 2024-02-28 ~ 2026-01-27 |
-| iso_standards | 6 | 2025-11-14 ~ 2026-02-05 |
-| cisa_kev | 2 | 2026-01-22 ~ 2026-01-27 |
-| eu_regulations | 2 | 2025-12-15 ~ 2026-01-27 |
-| csa_cloud_security | 1 | 2026-01-27 |
-| **總計** | **50** | **2024-02-28 ~ 2026-02-05** |
+| nist_frameworks | 25 | 2025-07-15 ~ 2026-01-28 |
+| nist_cybersecurity_insights | 19 | 2024-02-26 ~ 2026-01-27 |
+| csa_cloud_security | 3 | 2026-01-20 ~ 2026-01-27 |
+| cisa_kev | 2 | 2026-01-22 |
+| iso_standards | 1 | 2026-02-06 |
+| **總計** | **50** | **2024-02-26 ~ 2026-02-06** |

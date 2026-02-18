@@ -3,38 +3,78 @@ title: "From Security to Proof of AI Trust"
 source_url: https://cloudsecurityalliance.org/articles/from-security-to-proof-of-ai-trust
 date: 2026-01-13
 category: ai_security
-confidence: 中
+confidence: 高
 ---
 
 ## L1 — Rule Signal
 - **rule_type**: guidance
 - **issuing_body**: Cloud Security Alliance (CSA)
-- **document_id**: N/A
+- **document_id**: —
 - **status**: final
 
 ## L2 — Responsibility Structure
-- **affected_roles**: Security Engineers, Enterprise Architects, Business Leaders, Audit Teams, AI System Owners
+- **affected_roles**: AI 系統開發者、安全團隊、IAM 架構師、稽核團隊、CFO、董事會
 - **shift_type**: expanded
-- **shift_summary**: Autonomous and semi-autonomous AI systems executing real operations require proof of trust mechanisms, as existing identity, access, and audit protocols were designed for human-paced, human-supervised actions
+- **shift_summary**: 組織必須從*假設* AI 安全運作轉向**證明**它做了什麼、為何做以及在何種約束下,透過簽署意圖、範圍授權與證據為基礎的歸因
 
 ## L3 — Risk Domains
 - AI Security
-- Trust Frameworks
 - Identity and Access Management
-- Audit and Compliance
+- Audit & Accountability
+- Data Governance
+- Autonomous Systems
 
 ## L4 — Obligation & Evidence
 - **new_obligations**:
-  - Develop proof of AI trust mechanisms beyond traditional security
-  - Adapt identity, access, and audit protocols for autonomous AI pace
-  - Build confidence in foundations as AI systems touch real systems and data
-  - Establish governance for AI calling APIs, managing workflows, accessing financial systems
+  - **簽署意圖**——代理加密簽署聲明操作,確保歸因:*誰、何時、什麼 payload、為何*
+  - **範圍授權**——一個操作、一個身分、一個時刻;無廣泛「廚房水槽」token
+  - **降低持續權限**——更短壽命憑證;及時提升
+  - **資料層控制**——監控透過檢索、嵌入與輸出階段移動的內容
+  - 在聚合點(工具呼叫、API 呼叫)使用 **AI 閘道**,但無法涵蓋每個內部邊緣
+  - 權限必須精確範圍;廣泛角色創造不受控爆炸半徑
+  - 稽核軌跡從不完整日誌重建轉向證據為基礎、歸因明確
+  - 將治理框架為乘數——實現 CFO/董事會批准自動化、降低事件蔓延、強化監管態勢
 - **evidence_requirements**:
-  - AI trust framework documentation
-  - Audit trails for autonomous AI actions
-  - Access control implementations for AI systems
-  - Trust validation mechanisms for AI operations
+  - 代理簽署意圖記錄(加密簽章)
+  - 範圍授權與短壽命憑證日誌
+  - 資料層監控日誌(檢索、嵌入、輸出)
+  - AI 閘道使用與限制文件
+  - 證據為基礎的稽核軌跡(非僅重建)
+  - 治理作為業務推動者的證明(董事會批准、監管態勢)
 - **enforcement_signal**: recommended
 
+## 核心轉變
+文章論證組織必須停止*假設* AI 安全運作並開始**證明**它做了什麼、為何做以及在何種約束下。如作者框架:從「信任到證明」。
+
+## 自主 AI 系統的挑戰
+| 挑戰 | 細節 |
+|------|------|
+| **憑證風險** | 為人類設計的長壽命 token 當代理瞬間串聯請求時變成高風險 |
+| **IAM 不匹配** | 傳統身分框架未為行為「隨輸入、情境與提示變化」的系統建立 |
+| **資料層驚喜** | 檢索功能返回過量資料;嵌入將敏感情境折疊至意外位置 |
+| **提示/輸入操縱** | 有毒資料可「悄悄操縱模型決策」 |
+| **稽核缺口** | 日誌部分、時間軸不對齊,事件後歸因不明確 |
+
+## 信任保證的建議方法
+1. **簽署意圖**——代理加密簽署聲明操作,確保歸因:*誰、何時、什麼 payload、為何*
+2. **範圍授權**——一個操作、一個身分、一個時刻;無廣泛「廚房水槽」token
+3. **降低持續權限**——更短壽命憑證;及時提升
+4. **資料層控制**——監控透過檢索、嵌入與輸出階段移動的內容
+5. **AI 閘道**——在聚合點(工具呼叫、API 呼叫)有用,但無法涵蓋每個內部邊緣
+
+## 身分與稽核框架的影響
+**身分**:
+- 現有 IAM 假設可預測、人類驅動的工作流程——自主代理打破此假設
+- 權限必須精確範圍;廣泛角色創造不受控爆炸半徑
+- 雲服務供應商正轉向情境感知、更短壽命憑證作為基線
+
+**稽核**:
+- 簽署意圖轉化事後檢討:歸因變成證據為基礎,而非從不完整日誌重建
+- 「證明,而非直覺」是區分可信 AI 計畫與昂貴實驗的關鍵(引用 Gartner AI TRiSM 框架)
+- 組織從「保證到證據,從一廂情願到追蹤性」轉變
+
+**業務成果**:
+治理框架為乘數——實現 CFO/董事會批准自動化、降低事件蔓延、強化監管態勢——而非純粹成本中心。
+
 ## Notes
-Reflects reality that autonomous AI systems operate at pace and scale beyond human team capacity. Traditional security protocols assumed human supervision and human-paced actions, creating fundamental gap for agentic systems.
+自主與半自主 AI 系統不再僅預測詞彙或標記圖像。它們呼叫 API、推動工作流程、觸碰金融系統,並在環境間以無人類團隊能匹配的速度移動資料。每個人都能看到上行空間,但不舒服的問題緊隨熱情:當我們讓自主系統觸碰真實系統與真實資料時,我們對基礎有多大信心?大多數身分、存取與稽核流程假設人類正在驅動。

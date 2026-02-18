@@ -8,7 +8,7 @@ seo:
   title: "2026-W08 資安合規動態 | NIST SP 800-53 Rev. 5.2.0、CSF 2.0 勒索軟體社群輪廓更新"
   description: "本週追蹤 50 項資安合規動態，涵蓋 NIST SP 800-53 Rev. 5.2.0 新增控制項、NIST IR 8374 勒索軟體風險管理、CSF 2.0 Govern 功能深度探討及 CISA KEV 漏洞通報。"
   date_published: "2026-02-17"
-  date_modified: "2026-02-17"
+  date_modified: "2026-02-18"
   article_section: "Cybersecurity Compliance"
   keywords:
     - "Cybersecurity Compliance"
@@ -36,10 +36,10 @@ seo:
 # Cybersecurity Compliance Updates — 2026-W08
 
 <div class="key-takeaway">
-本週重點：NIST SP 800-53 Rev. 5.2.0 正式發布，新增三項控制項強化軟體更新與修補管理；NIST IR 8374 勒索軟體風險管理社群輪廓基於 CSF 2.0 更新；CSA 與 MITRE 合作整合 CCM 與 ATT&CK 框架；CISA 新增多項已知遭利用漏洞（KEV），聯邦機構須於 2026-02-12 前完成修補。
+本週重點：NIST SP 800-53 Rev. 5.2.0 正式發布，新增三項控制項強化軟體更新與修補管理；NIST IR 8374 勒索軟體風險管理社群輪廓基於 CSF 2.0 更新；CSA 與 MITRE 合作整合 CCM 與 ATT&CK 框架；CISA 新增 2 項已知遭利用漏洞（KEV），聯邦機構須於 2026-02-12 前完成修補。
 </div>
 
-> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架、NIST 洞察、CISA KEV、CSA 雲端安全等來源。
+> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架（25）、NIST 洞察（19）、CSA 雲端安全（3）、CISA KEV（2）、ISO 標準（1）。
 
 ## 免責聲明
 
@@ -73,10 +73,9 @@ seo:
    - 提供雲端安全控制措施與對手策略技術的對照
    - 支援威脅情報驅動的防禦策略
 
-4. **CISA KEV 新增多項高優先漏洞**（美國，new，mandatory）
-   - CVE-2025-31125：Vite Vitejs 不當存取控制
-   - CVE-2025-34026：Versa Concerto SD-WAN 驗證繞過
-   - CVE-2026-24858：Fortinet 多產品驗證繞過
+4. **CISA KEV 新增高優先漏洞**（美國，new，mandatory）
+   - CVE-2025-31125：Vite Vitejs 不當存取控制漏洞
+   - CVE-2025-34026：Versa Concerto 驗證繞過漏洞
    - 聯邦機構修補截止日：2026-02-12
 
 5. **NIST IR 8349 最終版發布 — IoT 設備網路行為特徵化**（美國，final，recommended）
@@ -205,7 +204,7 @@ CSF 2.0 Webinar Series 針對新增的 Govern 功能類別進行深度探討，�
 | NIST | IR 8349 | IoT 製造商、網路運營商、雲端服務供應商 | clarified | IoT 安全責任從事後異常偵測前移至事前行為定義與控制 |
 | NIST | SP 800-218r1 | 軟體生產者、開發者、採購者 | expanded | 擴展 SDLC 全生命週期安全實踐與漏洞風險緩解責任 |
 | NIST | NISTIR 8596 | AI 採用組織、資安專業人員 | new | 建立首個 AI 網路安全框架配置檔，要求同步發展 AI 採用與網路安全策略 |
-| CISA | KEV 目錄 | 聯邦機構、IT 管理員、資安團隊 | new | 新增漏洞修補義務，聯邦機構須於指定期限前完成修補或停用產品 |
+| CISA | KEV 目錄（2 筆） | 聯邦機構、IT 管理員、資安團隊 | new | 新增漏洞修補義務（CVE-2025-31125、CVE-2025-34026），聯邦機構須於 2026-02-12 前完成修補 |
 | CSA/MITRE | CCM-ATT&CK 對應 | 雲端安全專業人員、威脅情報分析師 | new | 整合控制措施與對手行為知識庫，建立威脅驅動防禦策略責任 |
 
 ---
@@ -277,11 +276,11 @@ CSF 2.0 Webinar Series 針對新增的 Govern 功能類別進行深度探討，�
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| 來源分布 | NIST Frameworks: 22, NIST Insights: 19, CISA KEV: 8, CSA Cloud Security: 1 |
-| category 分布 | cybersecurity: 14, vulnerability: 8, ai_risk: 6, policy_guidance: 6, workforce: 5, critical_infrastructure: 5, supply_chain: 4, cloud_security: 1, identity: 1 |
-| rule_type 分布 | guidance: 15, draft: 8, final: 6, revision: 5, new: 8, event: 4, 其他: 4 |
-| enforcement_signal 分布 | recommended: 20, informational: 12, mandatory: 10, 未標註: 8 |
-| REVIEW_NEEDED | 1 筆 |
+| 來源分布 | NIST Frameworks: 25, NIST Insights: 19, CSA Cloud Security: 3, CISA KEV: 2, ISO Standards: 1 |
+| category 分布 | cybersecurity: 14, ai_risk: 8, policy_guidance: 6, workforce: 5, supply_chain: 5, critical_infrastructure: 4, vulnerability: 2, cloud_security: 2, privacy: 1, information_security: 1, identity: 1, best_practices: 1 |
+| rule_type 分布 | guidance: 18, draft: 8, null/未標註: 16, revision: 3, new: 3, final: 1, amendment: 1 |
+| enforcement_signal 分布 | recommended: 19, informational: 11, null/未標註: 16, mandatory: 4 |
+| REVIEW_NEEDED | 0 筆 |
 
 ---
 
@@ -289,7 +288,10 @@ CSF 2.0 Webinar Series 針對新增的 Govern 功能類別進行深度探討，�
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | cybersecurity, ai_risk, supply_chain, critical_infrastructure | 22 | 2025-07-15 ~ 2026-01-28 |
-| nist_cybersecurity_insights | cybersecurity, policy_guidance, ai_risk, workforce, supply_chain, critical_infrastructure | 19 | 2024-02-26 ~ 2025-12-02 |
-| cisa_kev | vulnerability | 8 | 2026-01-13 ~ 2026-02-03 |
-| csa_cloud_security | cloud_security | 1 | 2026-01-27 |
+| nist_frameworks | cybersecurity, ai_risk, supply_chain, critical_infrastructure | 25 | 2025-07-22 ~ 2026-01-28 |
+| nist_cybersecurity_insights | cybersecurity, policy_guidance, ai_risk, workforce, supply_chain, critical_infrastructure, privacy | 19 | 2024-05-01 ~ 2026-01-27 |
+| csa_cloud_security | cloud_security, best_practices | 3 | 2026-01-20 ~ 2026-01-27 |
+| cisa_kev | vulnerability | 2 | 2026-01-22 |
+| iso_standards | information_security | 1 | 2026-02-06 |
+
+> 備註：本週 Qdrant 語意搜尋結果未涵蓋 eu_regulations Layer 的資料，歐盟資安合規動態請參閱獨立的 EU 法規報告。

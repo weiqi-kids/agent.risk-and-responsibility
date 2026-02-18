@@ -5,13 +5,13 @@ nav_order: 2
 has_children: true
 ---
 
-# Rule Change Brief — 2026-W07
+# Rule Change Brief — 2026-W08
 
 <div class="key-takeaway">
-本期重點：NIST SP 800-53 Rev. 5.2.0 新增三項控制項回應 EO 14306、ISO/IEC TS 27103:2026 發布網路安全框架整合指引、歐盟持續發布 2024 年法規勘誤。聯邦機構與跨國企業需關注控制項實作時程與多框架合規整合。
+本期重點：NIST SP 800-53 Rev. 5.2.0 新增三項控制項（SA-15、SI-02(07)、SA-24）回應 Executive Order 14306、NISTIR 8596 首個 AI 網路安全框架配置檔草案發布、SSDF Version 1.2 擴展安全軟體開發實踐指引。
 </div>
 
-> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards。
+> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、csa_cloud_security 等資料源。
 
 ## 免責聲明
 
@@ -24,22 +24,22 @@ has_children: true
 ## 本期重點
 
 <p class="key-answer" data-question="本期有哪些重要的規則變動">
-  <strong>NIST SP 800-53 Rev. 5.2.0 新增三項控制項</strong>，回應 Executive Order 14306，聯邦機構需依 FISMA 合規要求實作 SA-15（事件紀錄標準化）、SI-02(07)（修補失敗根因分析）、SA-24（網路韌性設計）。
+  <strong>NIST SP 800-53 Rev. 5.2.0 於 2025-08-27 正式發布</strong>，回應 Executive Order 14306 新增三項控制項，強化軟體更新與修補管理，將聯邦資訊系統的安全責任從「被動修補」擴展至「主動韌性設計與系統化失敗分析」。
 </p>
 
-1. **NIST SP 800-53 Rev. 5.2.0 控制項更新** — 回應 Executive Order 14306 新增三項控制項：SA-15（事件紀錄標準化格式）、SI-02(07)（更新失敗根因分析）、SA-24（網路韌性設計）。聯邦機構需於系統安全計畫（SSP）中納入新控制項。rule_type: revision，enforcement_signal: mandatory。
+1. **NIST SP 800-53 Rev. 5.2.0（final）**：新增 SA-15（日誌語法標準化）、SI-02(07)（軟體更新失敗根本原因分析）、SA-24（網路韌性設計）三項控制項，enforcement_signal 為 mandatory。
 
-2. **ISO/IEC TS 27103:2026 發布** — 新版技術規範提供組織在網路安全框架中整合運用 ISO/IEC 標準的實務指引，取代舊版標準（ID 72437）。對正在實施 ISO 27001、NIST CSF 或其他網路安全框架的組織具重要參考價值。rule_type: revision，enforcement_signal: recommended，發布日期 2026-02-06。
+2. **NISTIR 8596 AI 網路安全框架配置檔草案（draft）**：首個整合 CSF 與 AI RMF 的框架草案，涵蓋保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊三大領域。
 
-3. **NIST SP 800-232 輕量級密碼學標準定案** — Ascon 系列演算法成為 IoT、RFID 標籤、醫療植入物等資源受限裝置的密碼學標準。rule_type: final，enforcement_signal: recommended。
+3. **SSDF Version 1.2（SP 800-218r1）（revision）**：擴展安全軟體開發實踐、任務與範例，強化軟體生產者與採購者在弱點風險緩解方面的指引。
 
-4. **NISTIR 8596 AI 網路安全框架草案** — 首個 AI 網路安全框架配置檔，涵蓋保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊三大領域。公開徵詢已於 2026-01-30 截止。
+4. **NIST SP 800-232 輕量級密碼學標準（final）**：ASCON 演算法族正式發布，為 IoT 設備、植入式醫療裝置、RFID 標籤等資源受限設備提供標準化密碼學保護。
 
-5. **SSDF v1.2 安全軟體開發框架草案** — SP 800-218r1 擴充安全軟體開發實務作法與範例，回應 EO 14306。rule_type: revision，status: public_comment。
+5. **CISA KEV 強制修復弱點**：CVE-2025-31125（Vite 存取控制不當）、CVE-2025-34026（Versa Concerto 認證不當）列入已知遭利用弱點清單。
 
 <blockquote class="expert-quote">
-  「新增的控制項直接回應 Executive Order 14306，強調安全軟體開發實務，協助組織理解其在確保系統軟體安全方面的角色。」
-  <cite>NIST 資安專家 Victoria Pillitteri</cite>
+  「新增的控制項回應 Executive Order 14306，強化聯邦系統的網路韌性設計。」
+  <cite>NIST Cybersecurity Framework Team</cite>
 </blockquote>
 
 ---
@@ -48,37 +48,37 @@ has_children: true
 
 ### Cybersecurity
 
-本期有 12 項資安相關變動，以 NIST SP 800-53 Rev. 5.2.0 控制項更新、SP 800-232 輕量級密碼學標準定案、ISO/IEC TS 27103:2026 框架整合指引為重點。
+本期有 14 項資安相關變動，以 NIST SP 800-53 Rev. 5.2.0 控制項更新、SP 800-232 輕量級密碼學標準定案為重點。
 
 ### AI Risk
 
-本期有 4 項 AI 風險相關變動，以 NISTIR 8596 AI 網路安全框架草案為核心，顯示 AI 治理框架正進入整合收斂期。
+本期有 8 項 AI 風險相關變動，以 NISTIR 8596 AI 網路安全框架草案、Cyber AI Profile Workshop 系列為核心。
 
 ### Privacy
 
-本期有 3 項隱私相關變動，以 NIST 隱私工程計畫持續推進與 ISO/IEC 27566-1:2025 年齡驗證系統框架為主。
+本期有 1 項隱私相關變動，以 NIST 隱私工程計劃 2026 年工作展望為主。
 
 ### Supply Chain
 
-本期有 6 項供應鏈相關變動，以 SSDF v1.2 草案、NIST IR 8536 供應鏈追溯框架、ISO 22373:2025 供應鏈信任框架為重點。
+本期有 5 項供應鏈相關變動，以 SSDF Version 1.2 草案、NIST IR 8536 供應鏈追溯框架為重點。
 
 ### Identity
 
-本期有 4 項身分認證相關變動，以 NIST IR 8523 刑事司法系統 MFA 與 SP 800-63B 同步認證器補充指引為重點。
+本期有 1 項身分認證相關變動，以 SP 800-63B 同步式驗證器補充指引為主。
 
 ### Critical Infrastructure
 
-本期有 5 項關鍵基礎設施相關變動，以 IoT 安全指引演進、ISO 韌性標準為重點。
+本期有 4 項關鍵基礎設施相關變動，以 IoT 安全指引演進、BGP 路由安全測試工具為重點。
 
 ---
 
 ## L5 — Evolution Signals
 
-- [系統推論] **行政命令驅動的合規壓力持續升級** — SP 800-53 Rev. 5.2.0 與 SSDF v1.2 均直接回應 EO 14306，多項草案的公開徵詢期已於 2026-01-30 截止，預示 2026 年 Q1-Q2 將有多項標準正式生效。
+- [系統推論] **軟體供應鏈安全治理體系成形** — NIST SP 800-53 控制項新增、SSDF 修訂到軟體開發安全指南，均回應 Executive Order 14306，形成完整的軟體安全治理體系。
 
-- [系統推論] **ISO 與 NIST 框架整合趨勢明確** — ISO/IEC TS 27103:2026 的發布顯示國際標準組織正積極提供框架整合指引，降低多框架合規的重複工作負擔。
+- [系統推論] **AI 網路安全整合趨勢明確** — NISTIR 8596 首次建立 CSF 與 AI RMF 的整合框架，AI 風險管理正從獨立領域轉向與傳統資安框架的深度整合。
 
-- [系統推論] **輕量級密碼學標準進入實作階段** — NIST SP 800-232 Ascon 標準定案與 ISO/IEC 29192-1 修訂顯示，資源受限裝置的密碼學保護已進入標準化實作階段。
+- [系統推論] **IoT 設備安全責任持續轉向製造商** — NIST IR 8259 修訂新增 Activity 0，將製造商責任從「產品交付後」擴展至「設計階段」。
 
 ---
 
@@ -87,8 +87,8 @@ has_children: true
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| rule_type 分布 | new: 15, revision: 6, final: 8, draft: 5, amendment: 6, guidance: 8, 其他: 2 |
-| enforcement_signal 分布 | mandatory: 8, recommended: 28, informational: 12, 未標註: 2 |
+| rule_type 分布 | draft: 9, final: 8, guidance: 10, revision: 7, amendment: 4, new: 4, event: 3, 其他: 5 |
+| enforcement_signal 分布 | mandatory: 5, recommended: 20, informational: 12, 未標註: 13 |
 | REVIEW_NEEDED | 1 筆 |
 
 ---
@@ -97,12 +97,14 @@ has_children: true
 
 | Layer | 筆數 | 時間範圍 |
 |-------|------|----------|
-| nist_frameworks | 18 | 2025-07-22 ~ 2025-12-17 |
-| nist_cybersecurity_insights | 12 | 2024-02-26 ~ 2026-01-27 |
-| iso_standards | 20 | 2025-11-19 ~ 2026-02-06 |
+| nist_frameworks | 25 | 2025-07-15 ~ 2026-01-28 |
+| nist_cybersecurity_insights | 19 | 2024-02-26 ~ 2026-01-27 |
+| csa_cloud_security | 3 | 2026-01-20 ~ 2026-01-27 |
+| cisa_kev | 2 | 2026-01-22 |
+| iso_standards | 1 | 2026-02-06 |
 
 ---
 
-[閱讀完整報告](/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief/)
+[閱讀完整報告](/docs/Narrator/rule_change_brief/2026-W08-rule-change-brief/)
 
-*報告產出時間：2026-02-15*
+*報告產出時間：2026-02-18*

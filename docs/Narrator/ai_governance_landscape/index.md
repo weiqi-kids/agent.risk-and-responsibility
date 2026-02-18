@@ -11,7 +11,7 @@ has_children: true
 本月重點：EU AI Act 勘誤明確線上空間不適用（directly_applicable）、EuroHPC 擴展至 AI Gigafactories 投資 41.2 億歐元強化技術主權、NIST 發布首個 AI 網路安全框架配置檔草案（NISTIR 8596）、CSA 連續發布 Agentic AI 治理指引標誌 AI 代理治理成為獨立領域。
 </div>
 
-> 本期追蹤 20 項 AI 治理動態，涵蓋 NIST 框架（4 項）、NIST 洞察（3 項）、歐盟法規（4 項）、CSA 雲端安全（9 項）。
+> 本期追蹤 22 項 AI 治理動態，涵蓋 NIST 框架（4 項）、NIST 洞察（3 項）、歐盟法規（4 項）、CSA 雲端安全（11 項）。
 
 ## 免責聲明
 
@@ -50,10 +50,12 @@ has_children: true
 
 ### 美國（CSA Cloud Security Alliance）
 
-本期 CSA 發布 9 項 AI 安全治理指引，成為最活躍的指引來源：
+本期 CSA 發布 11 項 AI 安全治理指引，成為最活躍的指引來源：
 
 | 文件 | 日期 | Category | 重點 |
 |------|------|----------|------|
+| AI Security: IAM Delivered at Agent Velocity | 2026-02-11 | ai_security | AI 代理以每分鐘 5,000 次操作運行，傳統同意式授權架構已不適用 |
+| Applying MAESTRO to Real-World Agentic AI Threat Models | 2026-02-03 | ai_security | MAESTRO 7 層架構威脅建模框架，整合至 CI/CD pipeline |
 | Time-to-Trust Survey | 2026-02-03 | identity | IAM 架構需擴展以容納 AI 代理 |
 | Agentic Trust Framework (ATF) | 2026-01-29 | ai_security | 首個 AI 代理零信任治理規範 |
 | 提升代理式 AI 的自主性等級 | 2026-01-26 | ai_security | AI 自主性層級分類與治理 |
@@ -84,10 +86,10 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 20 |
-| 來源分布 | CSA: 9, EU: 4, NIST Frameworks: 4, NIST Insights: 3 |
-| rule_type 分布 | guidance: 11, amendment: 3, new: 1, draft: 1, corrigendum: 1, unknown: 3 |
-| enforcement_signal 分布 | recommended: 10, mandatory: 2, informational: 4, unknown: 4 |
+| 總變動數 | 22 |
+| 來源分布 | CSA: 11, EU: 4, NIST Frameworks: 4, NIST Insights: 3 |
+| rule_type 分布 | guidance: 13, amendment: 3, new: 2, draft: 1, corrigendum: 1, unknown: 2 |
+| enforcement_signal 分布 | recommended: 12, mandatory: 2, informational: 4, unknown: 4 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -96,11 +98,11 @@ has_children: true
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| csa_cloud_security | ai_security, identity, compliance, best_practices | 9 | 2026-01-06 ~ 2026-02-03 |
+| csa_cloud_security | ai_security, identity, compliance, best_practices | 11 | 2026-01-06 ~ 2026-02-11 |
 | eu_regulations | ai_governance, critical_infrastructure | 4 | 2026-01-13 ~ 2026-01-27 |
 | nist_frameworks | ai_risk | 4 | 2025-08-05 ~ 2025-12-22 |
 | nist_cybersecurity_insights | ai_risk | 3 | 2024-09-19 ~ 2025-07-31 |
 
 ---
 
-*報告產出時間：2026-02-17*
+*報告產出時間：2026-02-18*

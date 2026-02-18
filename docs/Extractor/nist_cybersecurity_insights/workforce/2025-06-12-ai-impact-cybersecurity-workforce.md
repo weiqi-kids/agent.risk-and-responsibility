@@ -8,24 +8,35 @@ confidence: 中
 
 ## L1 — Rule Signal
 - **rule_type**: guidance
-- **issuing_body**: NIST NICE Program
-- **document_id**: NIST SP 800-181 rev.1 (NICE Workforce Framework for Cybersecurity)
-- **status**: final
+- **issuing_body**: NIST
+- **document_id**: NICE Workforce Framework for Cybersecurity (NIST SP 800-181 rev.1), AI Security Competency Area (draft)
+- **status**: draft (AI Security Competency Area 開放公眾意見徵集)
 
 ## L2 — Responsibility Structure
-- **affected_roles**: cybersecurity workforce, federal departments and agencies, industry employers, education and training providers, certification bodies
+- **affected_roles**: 網路安全從業人員、資安架構師、資安分析師、組織領導層、人力資源部門、教育訓練提供者
 - **shift_type**: expanded
-- **shift_summary**: NICE Workforce Framework 2020 年修訂後允許更有效且快速更新以反映新興技術影響，NICE 持續與 stakeholders 對話以理解 AI 如何影響國家數位工作本質，並更新 Framework Components
+- **shift_summary**: NICE Framework 新增 AI Security Competency Area，並在現有 Work Roles 中融入 AI 相關的 Task、Knowledge、Skill（TKS）陳述；從業人員需培養 AI 風險認知、AI 系統防護、AI 工具應用、法規意識等新能力
 
 ## L3 — Risk Domains
-- AI impact on cybersecurity work roles
-- Workforce skill gap evolution
-- Emerging technology workforce readiness
+- Talent & Skills（AI 時代的網路安全技能要求）
+- AI Risk Governance（保護 AI 系統、透過 AI 強化資安）
+- Compliance & Regulation（AI 相關法律與合規要求）
 
 ## L4 — Obligation & Evidence
-- **new_obligations**: N/A (framework update process in progress, specific obligations TBD)
-- **evidence_requirements**: N/A
-- **enforcement_signal**: informational
+- **new_obligations**:
+  - 網路安全從業人員應理解 AI 帶來的機會與威脅（AI 風險認知）
+  - 從業人員應具備確保 AI 基礎設施不受網路攻擊的能力（AI 系統防護）
+  - 從業人員應善用 AI 輔助日常資安工作（AI 工具應用）
+  - 從業人員應掌握 AI 相關法律與合規要求（法規意識）
+  - 組織應從策略角度評估 AI 對目標與人力的影響，包含法規遵循與風險機會分析
+  - 教育訓練提供者應將 AI Security Competency Area 納入課程設計
+- **evidence_requirements**:
+  - AI 相關技能的訓練紀錄
+  - AI Security Competency Area 的課程對應文件
+  - AI 系統防護的實施文件
+  - AI 工具應用的案例記錄
+  - AI 相關法規遵循的評估報告
+- **enforcement_signal**: recommended
 
 ## Notes
-本文說明 NICE 如何透過與聯邦機構、產業、教育訓練認證提供者、國際代表的對話，理解 AI 對網路安全工作的影響，並據此更新 NICE Framework Components。文中未提及具體更新內容或時程。Description 足夠判斷文章主題，未使用 WebFetch。
+本文說明 AI 對網路安全工作的三大影響面向：1) 保護 AI（Security of AI）；2) 透過 AI 強化資安（Security through AI）；3) 策略與組織層面評估。NICE Framework 因應 AI 的兩大更新方向為：1) 新增 AI Security Competency Area（目前開放公眾意見徵集）；2) 在現有 Work Roles 中融入 AI 相關 TKS 陳述。資料來源包括 NIST AI RMF 1.0、DoD DCWF、NSF/NSA CyberAI Project 等。Confidence 評為「中」是因為 AI Security Competency Area 仍處於公眾意見徵集階段，最終內容可能有調整。

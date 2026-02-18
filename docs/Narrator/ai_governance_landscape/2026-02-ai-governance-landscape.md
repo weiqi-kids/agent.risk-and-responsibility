@@ -6,9 +6,9 @@ nav_order: 2
 
 seo:
   title: "2026-02 AI 治理全景 | EU AI Act 勘誤、NIST AI 網路安全框架草案、Agentic AI 治理"
-  description: "2026 年 2 月 AI 治理月報：追蹤 20 項 AI 治理動態，涵蓋 EU AI Act 勘誤、EuroHPC AI Gigafactories、NISTIR 8596 草案、CSA Agentic Trust Framework 等重要更新。"
+  description: "2026 年 2 月 AI 治理月報：追蹤 22 項 AI 治理動態，涵蓋 EU AI Act 勘誤、EuroHPC AI Gigafactories、NISTIR 8596 草案、CSA MAESTRO 威脅建模框架、Agentic IAM 等重要更新。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-17"
+  date_modified: "2026-02-18"
   article_section: "AI Governance Landscape"
   keywords:
     - "AI Governance"
@@ -39,7 +39,7 @@ seo:
 本月重點：EU AI Act 勘誤明確線上空間不適用（directly_applicable）、EuroHPC 擴展至 AI Gigafactories 投資 41.2 億歐元強化技術主權、NIST 發布首個 AI 網路安全框架配置檔草案（NISTIR 8596）、CSA 連續發布 Agentic AI 治理指引標誌 AI 代理治理成為獨立領域。
 </div>
 
-> 本期追蹤 20 項 AI 治理動態，涵蓋 NIST 框架（4 項）、NIST 洞察（3 項）、歐盟法規（4 項）、CSA 雲端安全（9 項）。
+> 本期追蹤 22 項 AI 治理動態，涵蓋 NIST 框架（4 項）、NIST 洞察（3 項）、歐盟法規（4 項）、CSA 雲端安全（11 項）。
 
 ## 免責聲明
 
@@ -68,6 +68,11 @@ seo:
 <blockquote class="expert-quote">
   「組織在採用 AI 時必須同步發展網路安全策略，涵蓋保護 AI 系統、使用 AI 強化防禦操作，以及建立對抗 AI 驅動攻擊的韌性。」
   <cite>NIST, Draft NISTIR 8596 (2025-12-16)</cite>
+</blockquote>
+
+<blockquote class="expert-quote">
+  「執行時控制是新邊界（Runtime control is the new perimeter）。AI 代理以每分鐘 5,000 次操作的速度運行，傳統以人為核心的同意式授權架構已不適用，必須轉向自動化、政策驅動的即時執行授權。」
+  <cite>Cloud Security Alliance, AI Security: IAM Delivered at Agent Velocity (2026-02-11)</cite>
 </blockquote>
 
 ---
@@ -99,10 +104,12 @@ seo:
 
 ### 美國（CSA Cloud Security Alliance）
 
-本期 CSA 發布 9 項 AI 安全治理指引，成為最活躍的指引來源：
+本期 CSA 發布 11 項 AI 安全治理指引，成為最活躍的指引來源：
 
 | 文件 | 日期 | Category | 重點 |
 |------|------|----------|------|
+| AI Security: IAM Delivered at Agent Velocity | 2026-02-11 | ai_security | AI 代理以每分鐘 5,000 次操作運行，傳統同意式授權架構已不適用，必須轉向自動化政策驅動的即時執行授權 |
+| Applying MAESTRO to Real-World Agentic AI Threat Models | 2026-02-03 | ai_security | MAESTRO 7 層架構威脅建模框架，整合至 CI/CD pipeline，傳統 SAST/STRIDE 無法識別 agentic AI 跨層信任邊界違規 |
 | Time-to-Trust Survey | 2026-02-03 | identity | IAM 架構需擴展以容納 AI 代理，傳統 IAM 框架不足以應對 agentic workforce |
 | Agentic Trust Framework (ATF) | 2026-01-29 | ai_security | 首個 AI 代理零信任治理規範 |
 | 提升代理式 AI 的自主性等級 | 2026-01-26 | ai_security | AI 自主性層級分類與治理 |
@@ -147,6 +154,8 @@ seo:
 | EU | Council Regulation 2026/150 | EuroHPC JU, Member States, AI gigafactory consortia, SMEs, start-ups, researchers | expanded | 擴展 EuroHPC 至 AI gigafactories 與量子技術，41.2 億歐元投資強化技術主權 |
 | EU | EuroHPC AI Initiative Corrigendum | AI startups, EuroHPC participants, Member States | clarified | 術語更正（factory-facility），無實質義務變更 |
 | CSA | Agentic Trust Framework (ATF) | Security Engineers, Enterprise Architects, Business Leaders, AI System Developers | new | 引入 AI 代理專用 Zero Trust 治理規範 |
+| CSA | AI Security: IAM Delivered at Agent Velocity | 安全/IAM 團隊、SOC 團隊、合規/GRC 團隊、執行領導層 | expanded | AI 代理以每分鐘 5,000 次操作運行，傳統同意式授權架構已不適用 |
+| CSA | MAESTRO Real-World Threat Models | 安全團隊、開發人員、AppSec 團隊、雲端架構師 | new | 傳統威脅建模工具無法識別 agentic AI 跨層信任邊界違規，需採用 MAESTRO 框架 |
 | CSA | Time-to-Trust Survey | CISO, IAM Architects, Security Engineers, Enterprise Architects | expanded | IAM 架構需擴展以容納 AI 代理 |
 | CSA | From Security to Proof of AI Trust | Security Engineers, Enterprise Architects, Audit Teams, AI System Owners | expanded | 自主 AI 系統需建立信任證明機制 |
 | CSA | What if AI Knew When to Say I Don't Know | AI System Developers, Security Engineers, AI Governance Teams, Product Managers | new | AI 系統需內建不確定性校準機制 |
@@ -188,6 +197,9 @@ seo:
 **產業指引（CSA）**：
 - 建立 AI 代理專用 Zero Trust 治理框架（ATF）
 - 擴展 IAM 架構以容納 AI 代理，因傳統 IAM 框架不足以應對 agentic workforce
+- 實施細粒度授權（relationship-based access controls）與任務範圍憑證（5-15 分鐘短期 token）
+- 採用 MAESTRO 框架進行 agentic AI 威脅建模，整合至 CI/CD pipeline
+- 對 RAG/記憶體系統視為潛在注入向量進行建模
 - 識別與管理應用程式內嵌 AI 風險
 - 建立 AI 系統不確定性校準機制
 - 安全團隊需以「Why」問題引導 AI 專案，避免 FOMO 驅動採用
@@ -213,6 +225,10 @@ seo:
 - ATF 實施文件與稽核日誌
 - IAM 架構評估報告
 - AI agent 身分管理政策
+- 即時授權決策記錄與代理操作稽核軌跡
+- 機器可讀的 MAESTRO layer 分類
+- 自動化威脅掃描結果整合至 CI/CD pipeline
+- 跨層威脅鏈追蹤記錄
 - AI 系統不確定性校準文件
 - 應用程式 AI 風險評估報告
 
@@ -236,10 +252,10 @@ seo:
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 20 |
-| 來源分布 | CSA: 9, EU: 4, NIST Frameworks: 4, NIST Insights: 3 |
-| rule_type 分布 | guidance: 11, amendment: 3, new: 1, draft: 1, corrigendum: 1, unknown: 3 |
-| enforcement_signal 分布 | recommended: 10, mandatory: 2, informational: 4, unknown: 4 |
+| 總變動數 | 22 |
+| 來源分布 | CSA: 11, EU: 4, NIST Frameworks: 4, NIST Insights: 3 |
+| rule_type 分布 | guidance: 13, amendment: 3, new: 2, draft: 1, corrigendum: 1, unknown: 2 |
+| enforcement_signal 分布 | recommended: 12, mandatory: 2, informational: 4, unknown: 4 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -248,11 +264,11 @@ seo:
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| csa_cloud_security | ai_security, identity, compliance, best_practices | 9 | 2026-01-06 ~ 2026-02-03 |
+| csa_cloud_security | ai_security, identity, compliance, best_practices | 11 | 2026-01-06 ~ 2026-02-11 |
 | eu_regulations | ai_governance, critical_infrastructure | 4 | 2026-01-13 ~ 2026-01-27 |
 | nist_frameworks | ai_risk | 4 | 2025-08-05 ~ 2025-12-22 |
 | nist_cybersecurity_insights | ai_risk | 3 | 2024-09-19 ~ 2025-07-31 |
 
 ---
 
-*報告產出時間：2026-02-17*
+*報告產出時間：2026-02-18*

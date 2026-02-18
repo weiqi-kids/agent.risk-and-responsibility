@@ -5,13 +5,13 @@ nav_order: 5
 has_children: true
 ---
 
-# Critical Infrastructure Resilience — 2026-W07
+# Critical Infrastructure Resilience — 2026-W08
 
 <div class="key-takeaway">
-本週重點：ISO/TC 292 發布基礎設施韌性指南（ISO 22372:2025）與能源韌性框架（ISO 22366:2026），ISO/IEC JTC 1 發布資料中心韌性 KPI 標準第二版（ISO/IEC TS 22237-31:2026）。本週高相關度資料量較少（3 筆），無新增強制性法規或 NIST 指引。
+本週重點：歐盟通過多項能源社群決議強化反詐欺合作與環境法規整合、EuroHPC 擴展至 AI Gigafactories、EDIP 建立歐洲防衛工業框架、飲用水指令技術勘誤；美國 NIST 發布 IoT 安全接入最終指引，Transit Cybersecurity Framework 與 OT 可攜式儲存媒體指引持續徵詢中。
 </div>
 
-> 本期追蹤 3 項高相關度關鍵基礎設施韌性動態，來源為 ISO 國際標準。本週無新增 NIST 框架或歐盟法規發布。
+> 本期追蹤 13 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規。
 
 ## 免責聲明
 
@@ -24,21 +24,27 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的基礎設施韌性動態">
-  <strong>ISO 發布三項韌性相關標準</strong>，涵蓋基礎設施韌性、能源韌性及資料中心韌性指標，為組織建立韌性管理體系提供國際標準參考框架。
+  <strong>歐盟能源社群通過反詐欺合作決議</strong>，要求契約方與 OLAF、EPPO 合作，同時通過環境法規整合修正案；EuroHPC 擴展至 AI Gigafactories 強化歐盟 AI 基礎設施；NIST 發布 IoT 安全接入最終指引。
 </p>
 
-1. **ISO 22372:2025 — 基礎設施韌性指南（2025-11-19, final, recommended）**
-   ISO/TC 292 發布基礎設施韌性通用指南，適用於所有類型與規模的組織。標準涵蓋建立、維護、監控與改善基礎設施韌性的指引，支援多元利害關係人的協同決策。（ICS 代碼: 03.100.01）
+1. **Council Decision (EU) 2026/69 — 能源社群反詐欺合作（2026-01-16, Council Decision, mandatory）**
+   歐盟理事會通過能源社群部長級理事會立場決議，建立契約方（阿爾巴尼亞、波士尼亞、喬治亞、科索沃、摩爾多瓦、蒙特內哥羅、北馬其頓、塞爾維亞、烏克蘭）與 OLAF、EPPO 的反詐欺合作機制，核定違規裁定並實施 2026-2027 預算框架。
 
-2. **ISO 22366:2026 — 能源韌性框架與原則（2026-01-08, final, recommended）**
-   ISO/TC 292 發布能源韌性框架，提供組織應對破壞性事件（包括自然災害與人為干擾）的韌性工程與管理原則。標準涵蓋能源供應網絡的社會與技術考量，適用於參與能源供應網絡的組織。（ICS 代碼: 03.100.01）
+2. **Council Regulation (EU) 2026/150 — EuroHPC 擴展至 AI Gigafactories（2026-01-23, amendment, mandatory）**
+   修正 EuroHPC Joint Undertaking 規章，將範圍從高效能運算擴展至 AI Gigafactories（大規模 AI 基礎設施）與量子運算技術。新增職責包括建立與營運 AI 超級工廠、授予「EuroHPC AI and Compute Infrastructure Seal」、管理會員國 RRF 貢獻與存取時間分配。
 
-3. **ISO/IEC TS 22237-31:2026 — 資料中心韌性 KPI（2026-02-03, final, recommended）**
-   ISO/IEC JTC 1/SC 39 發布資料中心韌性關鍵績效指標技術規範第二版，定義電力配送與環境控制的韌性、可靠性與容錯能力指標。標準涵蓋可維護性（Maintainability）、可復原性（Recoverability）與脆弱性（Vulnerability）等 KPI。（ICS 代碼: 35.020）
+3. **Council Decision (EU) 2026/70 — 能源社群環境法規整合（2026-01-09, new, mandatory）**
+   授權執委會提出能源社群條約修正案，將歐盟環境保護法規（鳥類指令 2009/147/EC、棲地指令 92/43/EEC、水框架指令 2000/60/EC）整合至能源社群成員國，對網絡能源活動施加場址保育義務與水質管理要求。
+
+4. **NIST NCCoE IoT Secure Onboarding — 最終出版物（2025-11-25, final, recommended）**
+   發布三份 IoT 安全接入最終出版物，要求在 IoT 設備連接網路前建立信任機制並提供唯一網路憑證，透過可擴展自動化的信任網路層接入方式管理設備完整生命週期。
+
+5. **Regulation (EU) 2025/2643 — 歐洲防衛工業計畫 EDIP（2025-12-29, regulation, mandatory）**
+   建立全新歐洲防衛工業計畫框架，為 2025-2027 年防衛產業提供財務支持，包含共同採購行動、工業強化行動及烏克蘭支持工具。受資助實體須滿足歐盟設立要求、控制權限制（不得受非關聯第三國控制）及外部元件成本上限（35%）。
 
 <blockquote class="expert-quote">
-  「This document provides guidelines for establishing, maintaining, monitoring and improving infrastructure resilience to help ensure the continuity and robustness of essential services.」
-  <cite>ISO 22372:2025 Scope</cite>
+  「The position to be taken on behalf of the Union shall support enhanced cooperation with OLAF and EPPO, approve breach determinations against contracting parties, and implement the 2026-2027 budget framework with binding contribution schedules.」
+  <cite>Council Decision (EU) 2026/69</cite>
 </blockquote>
 
 ---
@@ -48,34 +54,37 @@ has_children: true
 ### 美國（NIST）
 
 <p class="key-answer" data-question="NIST 本週有哪些基礎設施韌性相關更新">
-  <strong>本週無新發布</strong>，持續關注既有進展。
+  <strong>NCCoE 發布 IoT 安全接入最終出版物</strong>，Transit Cybersecurity Framework 與 OT 可攜式儲存媒體指引持續徵詢中。
 </p>
 
-**持續追蹤項目**：
-- **NIST CSWP 51 — Transit Cybersecurity Framework Community Profile**：公眾意見徵詢已於 2025 年 9 月截止，預計後續發布最終版本
-- **NIST SP 1334 — OT 環境可攜式儲存媒體指引（draft）**：針對工業控制系統的 USB 裝置管理指南，仍在徵詢階段
+**最終發布**：
+- **NCCoE IoT Secure Onboarding Publications（SP 1800-36, 2025-11-25, final）**：三份出版物定義 IoT 設備安全接入的信任建立機制與憑證管理流程，適用於 IoT 製造商、網路管理員與部署團隊
+
+**草案徵詢中**：
+- **NIST CSWP 51 — Transit Cybersecurity Framework Community Profile（2025-08-20, draft）**：公共運輸業者網路安全態勢強化指南，平衡 IT/OT 系統風險與營運需求
+- **NIST SP 1334 — OT 環境可攜式儲存媒體指引（2025-07-15, draft）**：針對工業控制系統的 USB 裝置與外部媒體管理責任標準
+
+**持續追蹤**：
+- **NIST IR 8259 修訂版**：擴大 IoT 製造商 pre-market 與 post-market 活動範圍，新增 Activity 0（威脅建模與初始風險評估）
 
 ### 歐盟
 
 <p class="key-answer" data-question="歐盟本週有哪些基礎設施韌性相關立法">
-  <strong>本週無新發布</strong>，既有法規持續執行。
+  <strong>能源社群決議與 EuroHPC 擴展為本週焦點</strong>，EDIP 防衛工業計畫建立新的供應鏈安全框架。
 </p>
 
-**持續追蹤項目**：
-- **Regulation (EU) 2026/261 — 俄羅斯天然氣進口禁令**：成員國須於 **2026 年 3 月 1 日前**提交國家多元化計畫（重要截止日）
-- **Council Decision (EU) 2026/70 — 能源社群環境法規整合**：五年內整合鳥類指令、棲地指令、水框架指令至能源社群
+**能源領域**：
+- **Council Decision (EU) 2026/69**：能源社群反詐欺合作與 2026-2027 預算框架（mandatory）
+- **Council Decision (EU) 2026/70**：能源社群環境法規整合，五年內納入鳥類、棲地、水框架指令（mandatory）
 
-### 國際標準（ISO）
+**運算基礎設施**：
+- **Council Regulation (EU) 2026/150**：EuroHPC 擴展至 AI Gigafactories 與量子運算（mandatory）
 
-<p class="key-answer" data-question="ISO 本週發布哪些韌性相關標準">
-  <strong>本週主要動態</strong>：ISO/TC 292 與 ISO/IEC JTC 1 發布三項韌性標準。
-</p>
+**防衛產業**：
+- **Regulation (EU) 2025/2643 (EDIP)**：歐洲防衛工業計畫，含歐盟控制權限制與外部元件成本上限（mandatory）
 
-| 標準編號 | 技術委員會 | 發布日 | 重點 |
-|----------|-----------|--------|------|
-| ISO 22372:2025 | ISO/TC 292 | 2025-11-19 | 基礎設施韌性通用指南 |
-| ISO 22366:2026 | ISO/TC 292 | 2026-01-08 | 能源韌性框架與原則 |
-| ISO/IEC TS 22237-31:2026 | ISO/IEC JTC 1/SC 39 | 2026-02-03 | 資料中心韌性 KPI（第二版） |
+**水務**：
+- **Directive (EU) 2020/2184 Corrigendum（2026-01-29, amendment）**：飲用水品質指令技術勘誤，修正 Article 8(5) 段落引用
 
 ---
 
@@ -83,13 +92,11 @@ has_children: true
 
 | 領域 | 美國要求 | 歐盟要求 | 本週變動 |
 |------|----------|----------|----------|
-| 能源 | 無本週變動 | 2026/261 俄羅斯天然氣禁令持續執行（3/1 截止） | **ISO 22366:2026**：能源韌性框架（recommended） |
-| 電信 | 無本週變動 | 無本週變動 | 無 |
-| 金融 | 無本週變動 | 無本週變動 | 無 |
-| 運輸 | CSWP 51 持續徵詢 | 無本週變動 | 無 |
-| 水務 | 無本週變動 | 無本週變動 | 無 |
-| 資料中心 | 無本週變動 | 無本週變動 | **ISO/IEC TS 22237-31:2026**：韌性 KPI（recommended） |
-| 通用基礎設施 | 無本週變動 | 無本週變動 | **ISO 22372:2025**：韌性指南（recommended） |
+| 能源 | 無新要求 | 能源社群反詐欺合作、環境法規整合 | Council Decision (EU) 2026/69, 2026/70 |
+| 電信 | 無新要求 | 無新要求 | 無 |
+| 金融 | 無新要求 | 無新要求（EDIP 側重防衛產業） | 無 |
+| 運輸 | Transit Cybersecurity Framework（draft） | 無新要求 | NIST CSWP 51 持續徵詢 |
+| 水務 | 無新要求 | 飲用水指令技術勘誤 | Directive (EU) 2020/2184 Corrigendum |
 
 ---
 
@@ -97,48 +104,14 @@ has_children: true
 
 | 來源 | 文件 | affected_roles | shift_type | shift_summary |
 |------|------|---------------|------------|---------------|
-| ISO | ISO 22372:2025 | 基礎設施韌性管理人員、風險管理人員、營運持續規劃人員 | new | 建立基礎設施韌性通用指引框架 |
-| ISO | ISO 22366:2026 | 能源供應網絡參與者、能源公司、公用事業營運者 | new | 建立能源韌性框架與原則 |
-| ISO | ISO/IEC TS 22237-31:2026 | 資料中心設施管理人員、基礎設施規劃者、IT 營運團隊 | new | 定義資料中心韌性 KPI 量化標準 |
-
----
-
-## 義務與舉證要求
-
-### 新增義務摘要（自願性）
-
-**基礎設施韌性（ISO 22372:2025）**
-- 建立基礎設施韌性管理流程
-- 定期審查與改善韌性措施
-- 支援多元利害關係人協同決策
-
-**能源韌性（ISO 22366:2026）**
-- 建立能源韌性框架
-- 評估破壞性事件的影響與復原能力
-- 整合社會與技術考量於韌性規劃
-
-**資料中心韌性（ISO/IEC TS 22237-31:2026）**
-- 評估電力配送韌性等級
-- 評估環境控制韌性等級
-- 量測可維護性、可復原性與脆弱性 KPI
-
-### 舉證要求摘要
-
-| 標準 | 舉證要求 |
-|------|----------|
-| ISO 22372:2025 | 韌性管理計畫、利害關係人參與紀錄、持續改善文件 |
-| ISO 22366:2026 | 能源韌性評估報告、破壞性事件應變計畫、復原能力測試紀錄 |
-| ISO/IEC TS 22237-31:2026 | 韌性等級計算文件、KPI 量測紀錄、電力與環境控制評估報告 |
-
----
-
-## L5 — Evolution Signals
-
-- [系統推論] **ISO/TC 292 韌性標準體系擴展**：ISO 22372（基礎設施韌性）與 ISO 22366（能源韌性）連續發布，顯示 ISO/TC 292 正建立完整的韌性管理標準體系。預期未來可能發布更多領域專屬韌性標準（如水務、運輸）。
-
-- [系統推論] **資料中心韌性標準進入第二版成熟期**：ISO/IEC TS 22237-31:2026 發布第二版，顯示資料中心韌性 KPI 標準已累積足夠實務回饋進行修訂。隨著 AI 算力需求爆發，資料中心韌性標準可能成為關鍵基礎設施評估的重要參考。
-
-- [系統推論] **本週資料量偏低可能反映週期性因素**：本週僅有 3 項高相關度資料，主要為 ISO 標準。NIST 與歐盟的關鍵基礎設施相關發布可能集中於特定時期（如季初或法規生效前），建議持續追蹤。
+| EU | Council Decision (EU) 2026/69 | Energy Community contracting parties, OLAF, EPPO | new | 建立反詐欺合作機制與 2026-2027 預算框架 |
+| EU | Council Regulation (EU) 2026/150 | EuroHPC Joint Undertaking, AI infrastructure operators | expansion | EuroHPC 擴展至 AI Gigafactories 與量子運算 |
+| EU | Council Decision (EU) 2026/70 | Energy Community parties, protected area authorities | new | 能源社群整合歐盟環境保護法規 |
+| EU | Regulation (EU) 2025/2643 (EDIP) | Defence industry entities, EU procurement bodies | new | 建立歐洲防衛工業計畫與供應鏈控制要求 |
+| EU | Directive (EU) 2020/2184 Corrigendum | Water suppliers, competent authorities | amendment | 修正飲用水指令段落引用 |
+| NIST | NCCoE IoT Secure Onboarding | IoT manufacturers, network administrators | final | IoT 設備安全接入信任機制與憑證管理 |
+| NIST | Transit Cybersecurity Framework | Transit operators, IT/OT teams | draft | 公共運輸業者網路安全態勢指南 |
+| NIST | SP 1334 OT Portable Storage | ICS administrators, OT engineers | draft | OT 環境 USB 裝置管理責任標準 |
 
 ---
 
@@ -146,11 +119,11 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 3 |
-| 來源分布 | ISO Standards: 3, NIST Frameworks: 0, EU Regulations: 0 |
-| rule_type 分布 | new: 3 |
-| enforcement_signal 分布 | recommended: 3 |
-| REVIEW_NEEDED | 0 筆 |
+| 總變動數 | 13 |
+| 來源分布 | NIST Frameworks: 3, NIST Insights: 2, EU Regulations: 8 |
+| rule_type 分布 | final: 1, draft: 3, new: 2, amendment: 2, regulation: 1, Council Decision: 1, 其他: 3 |
+| enforcement_signal 分布 | mandatory: 7, recommended: 4, informational: 1, 未標註: 1 |
+| REVIEW_NEEDED | 1 筆（EDIP 2025/2643 重複條目，已有完整版本涵蓋） |
 
 ---
 
@@ -158,15 +131,10 @@ has_children: true
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| iso_standards | other/resilience | 3 | 2025-11-19 ~ 2026-02-03 |
-| nist_frameworks | critical_infrastructure | 0 | — |
-| nist_cybersecurity_insights | critical_infrastructure | 0 | — |
-| eu_regulations | critical_infrastructure | 0 | — |
-
-**報告時間範圍**：2026-02-09 至 2026-02-15 為本週重點；本週高相關度資料僅包含 ISO 標準。
-
-**資料量說明**：本週 Qdrant 語意搜尋返回 30 筆結果，但高相關度（score >= 0.49）結果僅 3 筆，均為 ISO 韌性標準。其餘結果相關度較低或屬於其他領域（如資訊安全、雲端安全）。
+| nist_frameworks | critical_infrastructure | 3 | 2025-07-15 ~ 2025-11-25 |
+| nist_cybersecurity_insights | critical_infrastructure | 2 | 2025-05-13 ~ 2025-09-30 |
+| eu_regulations | critical_infrastructure | 8 | 2025-12-11 ~ 2026-01-29 |
 
 ---
 
-[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W07-critical-infrastructure-resilience/)
+[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W08-critical-infrastructure-resilience/)

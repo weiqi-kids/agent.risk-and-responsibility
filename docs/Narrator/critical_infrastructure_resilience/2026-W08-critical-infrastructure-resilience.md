@@ -236,7 +236,7 @@ seo:
 | 來源分布 | NIST Frameworks: 3, NIST Insights: 2, EU Regulations: 8 |
 | rule_type 分布 | final: 1, draft: 3, new: 2, amendment: 2, regulation: 1, Council Decision: 1, 其他: 3 |
 | enforcement_signal 分布 | mandatory: 7, recommended: 4, informational: 1, 未標註: 1 |
-| REVIEW_NEEDED | 0 筆 |
+| REVIEW_NEEDED | 1 筆（EDIP 2025/2643 重複條目，已有完整版本涵蓋） |
 
 ---
 
