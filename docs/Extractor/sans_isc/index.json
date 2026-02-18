@@ -1,5 +1,16 @@
 [
   {
+    "id": "vulnerability-2026-02-11-apple-patches-february-2026-md",
+    "title": "Apple Patches Everything: February 2026",
+    "category": "vulnerability",
+    "date": "2026-02-11",
+    "file": "vulnerability/2026-02-11-apple-patches-february-2026.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32706",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-02-11-apple-patches-everything-february-2026-md",
     "title": "Apple Patches Everything: February 2026",
     "category": "vulnerability",
@@ -22,11 +33,33 @@
     "review_needed": false
   },
   {
+    "id": "threat_analysis-2026-02-17-fake-incident-report-phishing-metamask-md",
+    "title": "Fake Incident Report Used in Phishing Campaign",
+    "category": "threat_analysis",
+    "date": "2026-02-17",
+    "file": "threat_analysis/2026-02-17-fake-incident-report-phishing-metamask.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32722",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "threat_analysis-2026-02-13-ai-powered-knowledge-graph-apts-md",
     "title": "AI-Powered Knowledge Graph Generator & APTs",
     "category": "threat_analysis",
     "date": "2026-02-13",
     "file": "threat_analysis/2026-02-13-ai-powered-knowledge-graph-apts.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32712",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-02-13-ai-knowledge-graph-apt-analysis-md",
+    "title": "AI-Powered Knowledge Graph Generator & APTs",
+    "category": "threat_analysis",
+    "date": "2026-02-13",
+    "file": "threat_analysis/2026-02-13-ai-knowledge-graph-apt-analysis.md",
     "source_url": "https://isc.sans.edu/diary/rss/32712",
     "confidence": "高",
     "source_layer": "sans_isc",
@@ -77,6 +110,28 @@
     "review_needed": false
   },
   {
+    "id": "malware-2026-02-16-64-bit-malware-trend-analysis-md",
+    "title": "2026 64-Bits Malware Trend",
+    "category": "malware",
+    "date": "2026-02-16",
+    "file": "malware/2026-02-16-64-bit-malware-trend-analysis.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32718",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-12-ssh-worm-four-seconds-to-botnet-md",
+    "title": "Four Seconds to Botnet - Analyzing a Self Propagating SSH Worm with Cryptographically Signed C2",
+    "category": "malware",
+    "date": "2026-02-12",
+    "file": "malware/2026-02-12-ssh-worm-four-seconds-to-botnet.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32708",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "malware-2026-02-12-four-seconds-to-botnet-analyzing-a-self-propagating-ssh-worm-with-cryptographically-signed-c2-md",
     "title": "Four Seconds to Botnet - Analyzing a Self Propagating SSH Worm with Cryptographically Signed C2",
     "category": "malware",
@@ -93,6 +148,17 @@
     "category": "malware",
     "date": "2026-02-11",
     "file": "malware/2026-02-11-wsl-in-the-malware-ecosystem.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32704",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-11-wsl-in-malware-ecosystem-md",
+    "title": "WSL in the Malware Ecosystem",
+    "category": "malware",
+    "date": "2026-02-11",
+    "file": "malware/2026-02-11-wsl-in-malware-ecosystem.md",
     "source_url": "https://isc.sans.edu/diary/rss/32704",
     "confidence": "高",
     "source_layer": "sans_isc",

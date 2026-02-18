@@ -33,6 +33,17 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2025-12-17-ssdf-v1-2-public-comment-md",
+    "title": "Secure Software Development Framework (SSDF) Version 1.2 is Available for Public Comment",
+    "category": "supply_chain",
+    "date": "2025-12-17",
+    "file": "supply_chain/2025-12-17-ssdf-v1-2-public-comment.md",
+    "source_url": "https://www.nist.gov/news-events/news/2025/12/secure-software-development-framework-ssdf-version-12-available-public",
+    "confidence": "高",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2025-09-18-pqc-migration-mappings-risk-framework-md",
     "title": "New Draft White Paper | PQC Migration: Mappings to Risk Framework Docs",
     "category": "supply_chain",
@@ -82,6 +93,17 @@
     "category": "privacy",
     "date": "2025-12-17",
     "file": "privacy/smart-speakers-telehealth-security.md",
+    "source_url": "https://www.nist.gov/news-events/news/2025/12/securing-smart-speakers-home-health-care-nist-offers-new-guidelines",
+    "confidence": "高",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "privacy-2025-12-17-smart-speakers-telehealth-security-md",
+    "title": "Securing Smart Speakers for Home Health Care: NIST Offers New Guidelines",
+    "category": "privacy",
+    "date": "2025-12-17",
+    "file": "privacy/2025-12-17-smart-speakers-telehealth-security.md",
     "source_url": "https://www.nist.gov/news-events/news/2025/12/securing-smart-speakers-home-health-care-nist-offers-new-guidelines",
     "confidence": "高",
     "source_layer": "nist_frameworks",
@@ -150,6 +172,17 @@
     "file": "identity/2025-09-04-mdl-project-resources-draft.md",
     "source_url": "https://www.nist.gov/news-events/news/2025/09/new-nist-nccoe-mobile-drivers-licenses-project-resources-now-available",
     "confidence": "",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2025-09-04-mdl-project-drafts-md",
+    "title": "New NIST NCCoE Mobile Drivers Licenses Project Resources Now Available!",
+    "category": "identity",
+    "date": "2025-09-04",
+    "file": "identity/2025-09-04-mdl-project-drafts.md",
+    "source_url": "https://www.nist.gov/news-events/news/2025/09/new-nist-nccoe-mobile-drivers-licenses-project-resources-now-available",
+    "confidence": "高",
     "source_layer": "nist_frameworks",
     "review_needed": false
   },
@@ -315,6 +348,17 @@
     "file": "cybersecurity/2025-09-18-pqc-migration-mappings-draft.md",
     "source_url": "https://www.nist.gov/news-events/news/2025/09/new-draft-white-paper-pqc-migration-mappings-risk-framework-docs",
     "confidence": "",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2025-09-17-tls-1-3-visibility-final-md",
+    "title": "Now Available: NIST Final SP 1800-37, Addressing Visibility Challenges with TLS 1.3",
+    "category": "cybersecurity",
+    "date": "2025-09-17",
+    "file": "cybersecurity/2025-09-17-tls-1-3-visibility-final.md",
+    "source_url": "https://www.nist.gov/news-events/news/2025/09/now-available-nist-final-sp-1800-37-addressing-visibility-challenges-tls-13",
+    "confidence": "高",
     "source_layer": "nist_frameworks",
     "review_needed": false
   },

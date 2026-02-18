@@ -1,7 +1,51 @@
 [
   {
+    "id": "vulnerability-2026-02-17-CVE-2026-2441-md",
+    "title": "CVE-2026-2441 - Google Chromium CSS Use-After-Free Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-17",
+    "file": "vulnerability/2026-02-17-CVE-2026-2441.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-17-CVE-2024-7694-md",
+    "title": "CVE-2024-7694 - TeamT5 ThreatSonar Anti-Ransomware Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-17",
+    "file": "vulnerability/2026-02-17-CVE-2024-7694.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-17-CVE-2020-7796-md",
+    "title": "CVE-2020-7796 - Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-17",
+    "file": "vulnerability/2026-02-17-CVE-2020-7796.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
+    "id": "vulnerability-2026-02-17-CVE-2008-0015-md",
+    "title": "CVE-2008-0015 - Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-17",
+    "file": "vulnerability/2026-02-17-CVE-2008-0015.md",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "confidence": "高",
+    "source_layer": "cisa_kev",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-02-13-CVE-2026-1731-md",
-    "title": "BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
+    "title": "CVE-2026-1731 - BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA) OS Command Injection Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-13",
     "file": "vulnerability/2026-02-13-CVE-2026-1731.md",
@@ -12,7 +56,7 @@
   },
   {
     "id": "vulnerability-2026-02-12-CVE-2026-20700-md",
-    "title": "Apple Multiple Buffer Overflow Vulnerability",
+    "title": "CVE-2026-20700 - Apple Multiple Buffer Overflow Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-12",
     "file": "vulnerability/2026-02-12-CVE-2026-20700.md",
@@ -23,7 +67,7 @@
   },
   {
     "id": "vulnerability-2026-02-12-CVE-2025-40536-md",
-    "title": "SolarWinds Web Help Desk Security Control Bypass Vulnerability",
+    "title": "CVE-2025-40536 - SolarWinds Web Help Desk Security Control Bypass Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-12",
     "file": "vulnerability/2026-02-12-CVE-2025-40536.md",
@@ -34,7 +78,7 @@
   },
   {
     "id": "vulnerability-2026-02-12-CVE-2025-15556-md",
-    "title": "Notepad++ Download of Code Without Integrity Check Vulnerability",
+    "title": "CVE-2025-15556 - Notepad++ Download of Code Without Integrity Check Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-12",
     "file": "vulnerability/2026-02-12-CVE-2025-15556.md",
@@ -45,7 +89,7 @@
   },
   {
     "id": "vulnerability-2026-02-12-CVE-2024-43468-md",
-    "title": "Microsoft Configuration Manager SQL Injection Vulnerability",
+    "title": "CVE-2024-43468 - Microsoft Configuration Manager SQL Injection Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-12",
     "file": "vulnerability/2026-02-12-CVE-2024-43468.md",
@@ -56,7 +100,7 @@
   },
   {
     "id": "vulnerability-2026-02-10-CVE-2026-21533-md",
-    "title": "Microsoft Windows Improper Privilege Management Vulnerability",
+    "title": "CVE-2026-21533 - Microsoft Windows Improper Privilege Management Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-CVE-2026-21533.md",
@@ -67,7 +111,7 @@
   },
   {
     "id": "vulnerability-2026-02-10-CVE-2026-21525-md",
-    "title": "Microsoft Windows NULL Pointer Dereference Vulnerability",
+    "title": "CVE-2026-21525 - Microsoft Windows NULL Pointer Dereference Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-CVE-2026-21525.md",
@@ -78,7 +122,7 @@
   },
   {
     "id": "vulnerability-2026-02-10-CVE-2026-21519-md",
-    "title": "Microsoft Windows Type Confusion Vulnerability",
+    "title": "CVE-2026-21519 - Microsoft Windows Type Confusion Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-CVE-2026-21519.md",
@@ -89,7 +133,7 @@
   },
   {
     "id": "vulnerability-2026-02-10-CVE-2026-21514-md",
-    "title": "Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulnerability",
+    "title": "CVE-2026-21514 - Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-CVE-2026-21514.md",
@@ -100,7 +144,7 @@
   },
   {
     "id": "vulnerability-2026-02-10-CVE-2026-21513-md",
-    "title": "Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability",
+    "title": "CVE-2026-21513 - Microsoft MSHTML Framework Protection Mechanism Failure Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-CVE-2026-21513.md",
@@ -111,7 +155,7 @@
   },
   {
     "id": "vulnerability-2026-02-10-CVE-2026-21510-md",
-    "title": "Microsoft Windows Shell Protection Mechanism Failure Vulnerability",
+    "title": "CVE-2026-21510 - Microsoft Windows Shell Protection Mechanism Failure Vulnerability",
     "category": "vulnerability",
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-CVE-2026-21510.md",
@@ -126,7 +170,7 @@
     "category": "vulnerability",
     "date": "2026-02-05",
     "file": "vulnerability/2026-02-05-CVE-2026-24423.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-24423",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -137,7 +181,7 @@
     "category": "vulnerability",
     "date": "2026-02-05",
     "file": "vulnerability/2026-02-05-CVE-2025-11953.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-11953",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -148,7 +192,7 @@
     "category": "vulnerability",
     "date": "2026-02-03",
     "file": "vulnerability/2026-02-03-CVE-2025-64328.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-64328",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -159,7 +203,7 @@
     "category": "vulnerability",
     "date": "2026-02-03",
     "file": "vulnerability/2026-02-03-CVE-2025-40551.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-40551",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -170,7 +214,7 @@
     "category": "vulnerability",
     "date": "2026-02-03",
     "file": "vulnerability/2026-02-03-CVE-2021-39935.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2021-39935",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -181,7 +225,7 @@
     "category": "vulnerability",
     "date": "2026-02-03",
     "file": "vulnerability/2026-02-03-CVE-2019-19006.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2019-19006",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -192,7 +236,7 @@
     "category": "vulnerability",
     "date": "2026-01-29",
     "file": "vulnerability/2026-01-29-CVE-2026-1281.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-1281",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -203,7 +247,7 @@
     "category": "vulnerability",
     "date": "2026-01-27",
     "file": "vulnerability/2026-01-27-CVE-2026-24858.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-24858",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -214,7 +258,7 @@
     "category": "vulnerability",
     "date": "2026-01-26",
     "file": "vulnerability/2026-01-26-CVE-2026-24061.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-24061",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -225,7 +269,7 @@
     "category": "vulnerability",
     "date": "2026-01-26",
     "file": "vulnerability/2026-01-26-CVE-2026-23760.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-23760",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -236,7 +280,7 @@
     "category": "vulnerability",
     "date": "2026-01-26",
     "file": "vulnerability/2026-01-26-CVE-2026-21509.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-21509",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -247,7 +291,7 @@
     "category": "vulnerability",
     "date": "2026-01-26",
     "file": "vulnerability/2026-01-26-CVE-2025-52691.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-52691",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -258,7 +302,7 @@
     "category": "vulnerability",
     "date": "2026-01-26",
     "file": "vulnerability/2026-01-26-CVE-2018-14634.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2018-14634",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -269,7 +313,7 @@
     "category": "vulnerability",
     "date": "2026-01-23",
     "file": "vulnerability/2026-01-23-CVE-2024-37079.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2024-37079",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -280,7 +324,7 @@
     "category": "vulnerability",
     "date": "2026-01-22",
     "file": "vulnerability/2026-01-22-CVE-2025-68645.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-68645",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -291,7 +335,7 @@
     "category": "vulnerability",
     "date": "2026-01-22",
     "file": "vulnerability/2026-01-22-CVE-2025-54313.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-54313",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -302,7 +346,7 @@
     "category": "vulnerability",
     "date": "2026-01-22",
     "file": "vulnerability/2026-01-22-CVE-2025-34026.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-34026",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -313,7 +357,7 @@
     "category": "vulnerability",
     "date": "2026-01-22",
     "file": "vulnerability/2026-01-22-CVE-2025-31125.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2025-31125",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false
@@ -324,7 +368,7 @@
     "category": "vulnerability",
     "date": "2026-01-21",
     "file": "vulnerability/2026-01-21-CVE-2026-20045.md",
-    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog#CVE-2026-20045",
+    "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
     "confidence": "高",
     "source_layer": "cisa_kev",
     "review_needed": false

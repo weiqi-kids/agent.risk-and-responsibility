@@ -209,6 +209,17 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2026-01-26-eu-swiss-ets-linking-update-md",
+    "title": "Council Decision (EU) 2026/181 — EU-瑞士溫室氣體排放交易系統連結協定修正",
+    "category": "supply_chain",
+    "date": "2026-01-26",
+    "file": "supply_chain/2026-01-26-eu-swiss-ets-linking-update.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0181",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2026-01-24-corrigendum-regulation-2025-2614-deforestation-free-products-md",
     "title": "Corrigendum to Council Regulation (EU) 2025/2614 amending Regulation (EU) 2021/2283 on autonomous tariff quotas",
     "category": "supply_chain",
@@ -1595,6 +1606,17 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-01-28-ccp-recovery-resolution-eea-md",
+    "title": "Council Decision (EU) 2026/231 — 中央交易對手方復原與清算框架納入 EEA 協定",
+    "category": "financial_compliance",
+    "date": "2026-01-28",
+    "file": "financial_compliance/2026-01-28-ccp-recovery-resolution-eea.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0231",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-01-27-celex-32025r1494r03-corrigendum-md",
     "title": "Corrigendum to Council Regulation (EU) 2025/1494 — Restrictive Measures Against Russian Federation",
     "category": "financial_compliance",
@@ -2025,12 +2047,12 @@
   },
   {
     "id": "digital_market-2026-01-20-eu-singapore-digital-trade-agreement-md",
-    "title": "Agreement on Digital Trade between the European Union and Singapore",
+    "title": "Agreement on Digital Trade between EU and Singapore — 數位貿易協定",
     "category": "digital_market",
     "date": "2026-01-20",
     "file": "digital_market/2026-01-20-eu-singapore-digital-trade-agreement.md",
-    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0125",
-    "confidence": "",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:22026A00126",
+    "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -2151,6 +2173,17 @@
     "date": "2025-12-23",
     "file": "digital_market/2025-12-23-corrigendum-to-council-regulation-ec-no-6-2002-on-community-designs.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32002R0006R(13)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "data_protection-2026-02-09-gdpr-restrictive-measures-implementation-md",
+    "title": "Decision No 2/2026 — GDPR 實施規則：限制性措施中的資料主體權利限縮",
+    "category": "data_protection",
+    "date": "2026-02-09",
+    "file": "data_protection/2026-02-09-gdpr-restrictive-measures-implementation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00866",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
@@ -2372,6 +2405,17 @@
     "file": "critical_infrastructure/2026-02-03-corrigendum-directive-periodic-vehicle-inspection-2014-45.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0045R(08)",
     "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-02-02-russian-gas-oil-phaseout-md",
+    "title": "Regulation (EU) 2026/261 — 逐步淘汰俄羅斯天然氣與石油進口，強化能源依賴監控",
+    "category": "critical_infrastructure",
+    "date": "2026-02-02",
+    "file": "critical_infrastructure/2026-02-02-russian-gas-oil-phaseout.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0261",
+    "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
@@ -2877,6 +2921,17 @@
     "date": "2026-01-27",
     "file": "ai_governance/2026-01-27-celex-32024r1732r02-corrigendum.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1732R(02)",
+    "confidence": "高",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "ai_governance-2026-01-19-eurohpc-ai-gigafactory-md",
+    "title": "Regulation (EU) 2026/150 — 歐洲高效能運算聯合企業修正：新增 AI Gigafactory 與量子運算支柱",
+    "category": "ai_governance",
+    "date": "2026-01-19",
+    "file": "ai_governance/2026-01-19-eurohpc-ai-gigafactory.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150",
     "confidence": "高",
     "source_layer": "eu_regulations",
     "review_needed": false
