@@ -26,18 +26,25 @@
 掃描 `core/Narrator/Modes/*/`，排除含有 `.disabled` 檔案的目錄。
 每個有效 Mode 目錄應包含 `CLAUDE.md`。
 
-### 步驟四：執行所有 Mode（兩階段）
+### 步驟四：執行所有 Mode（三階段）
+
+> **Mode 分類**：
+> - **一般 Mode**：從 Qdrant 查詢資料產出報告
+> - **Meta-mode**：彙整其他 Mode 的報告（如 `executive_summary`），需在一般 Mode 完成後執行
 
 #### 階段 4a：Qdrant 查詢（Sonnet 平行執行）
 
-對所有 Mode **平行**執行 Qdrant 語意搜尋：
+對所有**一般 Mode**（排除 meta-mode）平行執行 Qdrant 語意搜尋：
 
 ```
 頂層 CLI 同時分派多個 Sonnet Task：
-├── Task(Bash, sonnet) → Mode A 的 Qdrant 查詢
-├── Task(Bash, sonnet) → Mode B 的 Qdrant 查詢
-├── Task(Bash, sonnet) → Mode C 的 Qdrant 查詢
-└── ...
+├── Task(Bash, sonnet) → rule_change_brief 的 Qdrant 查詢
+├── Task(Bash, sonnet) → ai_governance_landscape 的 Qdrant 查詢
+├── Task(Bash, sonnet) → ai_implementation_guide 的 Qdrant 查詢
+├── Task(Bash, sonnet) → supply_chain_security 的 Qdrant 查詢
+├── Task(Bash, sonnet) → critical_infrastructure_resilience 的 Qdrant 查詢
+└── Task(Bash, sonnet) → cybersecurity_compliance 的 Qdrant 查詢
+（不包含 executive_summary，它是 meta-mode）
 ```
 
 每個 Task 執行：
@@ -46,16 +53,18 @@
 3. 執行 `qdrant_search` 取得搜尋結果
 4. 將結果寫入暫存檔 `/tmp/qdrant-{mode_name}.json`
 
-#### 階段 4b：報告產出（Opus 平行執行）
+#### 階段 4b：一般 Mode 報告產出（Opus 平行執行）
 
-收集所有 Qdrant 查詢結果後，對所有 Mode **平行**產出報告：
+收集所有 Qdrant 查詢結果後，對所有**一般 Mode** 平行產出報告：
 
 ```
 頂層 CLI 同時分派多個 Opus Task：
-├── Task(general-purpose, opus) → Mode A 報告（讀取 /tmp/qdrant-mode-a.json）
-├── Task(general-purpose, opus) → Mode B 報告
-├── Task(general-purpose, opus) → Mode C 報告
-└── ...
+├── Task(general-purpose, opus) → rule_change_brief 報告
+├── Task(general-purpose, opus) → ai_governance_landscape 報告
+├── Task(general-purpose, opus) → ai_implementation_guide 報告
+├── Task(general-purpose, opus) → supply_chain_security 報告
+├── Task(general-purpose, opus) → critical_infrastructure_resilience 報告
+└── Task(general-purpose, opus) → cybersecurity_compliance 報告
 ```
 
 每個 Task 執行：
@@ -65,7 +74,22 @@
    - **SEO 整合**：報告使用 `layout: report`，包含完整 `seo:` front matter 和 SGE 標記
 4. 更新該 Mode 的 `index.md`（嵌入最新報告內容）
 
-> **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫，避免 Opus 等待網路回應。
+#### 階段 4c：Meta-mode 報告產出（Opus 循序執行）
+
+**等待階段 4b 全部完成後**，執行 meta-mode：
+
+```
+頂層 CLI 執行：
+└── Task(general-purpose, opus) → executive_summary 報告
+```
+
+`executive_summary` Task 執行：
+1. 讀取 `core/Narrator/Modes/executive_summary/CLAUDE.md`
+2. 讀取本週各 Mode 的報告（從 `docs/Narrator/*/` 取得 `.key-takeaway` 內容）
+3. 依照輸出框架產出 Top 3 摘要報告
+4. 更新 `docs/Narrator/executive_summary/index.md`
+
+> **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫。Meta-mode 在最後執行，確保能讀取到所有一般 Mode 的產出。
 
 ### 步驟五：更新時間戳
 
@@ -192,10 +216,12 @@
 │   ├── Task(Bash, sonnet)           → 目錄掃描、fetch.sh、update.sh
 │   └── Task(general-purpose, sonnet) → Layer 萃取（需 Write tool）
 │
-├── 步驟四：Mode 報告（兩階段）
-│   ├── 階段 4a：Task(Bash, sonnet) × N     → 平行 Qdrant 查詢（I/O 密集）
+├── 步驟四：Mode 報告（三階段）
+│   ├── 階段 4a：Task(Bash, sonnet) × N     → 平行 Qdrant 查詢（排除 meta-mode）
 │   │   └── 等待全部完成...
-│   └── 階段 4b：Task(general-purpose, opus) × N → 平行報告產出（推理密集）
+│   ├── 階段 4b：Task(general-purpose, opus) × N → 平行報告產出（一般 Mode）
+│   │   └── 等待全部完成...
+│   └── 階段 4c：Task(general-purpose, opus)     → Meta-mode 報告（executive_summary）
 │
 ├── 步驟五～六：完成檢查（頂層 CLI 直接執行）
 │
@@ -211,16 +237,18 @@
 | 步驟二 | Layer 萃取 | `sonnet` | `general-purpose` | ✅ 可平行 | 需 Write 工具 |
 | 步驟二 | update.sh 執行 | `sonnet` | `Bash` | ✅ 可平行 | 各 Layer 獨立 |
 | 步驟三 | 動態發現所有 Mode | `sonnet` | `Bash` | - | 純目錄掃描 |
-| **步驟 4a** | Qdrant 語意搜尋 | `sonnet` | `Bash` | ✅ 可平行 | I/O 密集，無需推理 |
-| **步驟 4b** | Mode 報告產出 | `opus` | `general-purpose` | ✅ 可平行 | 跨來源綜合分析 |
+| **步驟 4a** | Qdrant 語意搜尋 | `sonnet` | `Bash` | ✅ 可平行 | I/O 密集，排除 meta-mode |
+| **步驟 4b** | 一般 Mode 報告產出 | `opus` | `general-purpose` | ✅ 可平行 | 跨來源綜合分析 |
+| **步驟 4c** | Meta-mode 報告產出 | `opus` | `general-purpose` | - | 依賴 4b 產出，最後執行 |
 | 步驟五 | 更新時間戳 | `sonnet` | `Bash` | - | 純檔案更新 |
 | 步驟六 | 完成檢查 | - | 頂層 CLI | - | 品質關卡 |
 | 步驟七 | git commit + push | `sonnet` | `Bash` | - | 純腳本執行 |
 
 > **強制規則**：
-> - 只有步驟 4b（Mode 報告產出）使用 `opus`
+> - 步驟 4b 和 4c（Mode 報告產出）使用 `opus`
 > - 其餘所有步驟（含步驟 4a Qdrant 搜尋）一律使用 `sonnet`
 > - 步驟 4a 必須全部完成後，才能開始步驟 4b
+> - 步驟 4b 必須全部完成後，才能開始步驟 4c（meta-mode 依賴一般 Mode 產出）
 >
 > **子代理規則**：需要寫入檔案的 Task 必須使用 `general-purpose`，純腳本執行使用 `Bash`。
 
@@ -232,9 +260,10 @@
 - update.sh 可平行執行（各 Layer 獨立）
 
 **步驟四（Mode 報告）**：
-- 階段 4a：所有 Mode 的 Qdrant 查詢**平行執行**（Sonnet 處理 I/O）
-- 階段 4b：所有 Mode 的報告產出**平行執行**（Opus 處理推理）
-- 兩階段之間有依賴，必須等 4a 全部完成後才執行 4b
+- 階段 4a：一般 Mode 的 Qdrant 查詢**平行執行**（Sonnet 處理 I/O，排除 meta-mode）
+- 階段 4b：一般 Mode 的報告產出**平行執行**（Opus 處理推理）
+- 階段 4c：Meta-mode（executive_summary）報告產出（Opus，循序執行）
+- 階段之間有依賴：4a → 4b → 4c，必須依序等待完成
 
 **背景執行**：
 - fetch.sh、update.sh 可用 `run_in_background` 執行，主執行緒觀察進度
