@@ -2,6 +2,7 @@
 layout: default
 title: 專有名詞
 nav_order: 100
+permalink: /glossary/
 ---
 
 # 專有名詞解釋

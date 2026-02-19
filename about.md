@@ -2,6 +2,7 @@
 layout: default
 title: 關於本站
 nav_order: 99
+permalink: /about/
 ---
 
 # 關於 Risk & Responsibility Intelligence

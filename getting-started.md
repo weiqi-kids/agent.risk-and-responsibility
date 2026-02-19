@@ -2,6 +2,7 @@
 layout: default
 title: 快速開始
 nav_order: 2
+permalink: /getting-started/
 ---
 
 # 快速開始
