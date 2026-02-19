@@ -37,6 +37,8 @@ seo:
 
 # Rule Change Brief — 2026-W08
 
+[下載 PDF 版本](/assets/pdf/2026-W08-rule-change-brief.pdf){: .btn .btn-primary }
+
 <div class="key-takeaway">
 本期重點：NIST SP 800-53 Rev. 5.2.0 新增三項控制項（SA-15、SI-02(07)、SA-24）回應 Executive Order 14306、NISTIR 8596 首個 AI 網路安全框架配置檔草案發布、SSDF Version 1.2 擴展安全軟體開發實踐指引。
 </div>
