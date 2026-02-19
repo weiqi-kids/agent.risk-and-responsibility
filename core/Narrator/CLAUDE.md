@@ -116,11 +116,14 @@ echo "$RESULTS" | jq '.result[] | {
 
 | Mode | 說明 | 來源 Layer | 頻率 |
 |------|------|-----------|------|
+| `executive_summary` | 高階決策摘要，一頁式重點彙整 | 彙整其他 Mode（meta-mode） | 每週 |
 | `rule_change_brief` | 規則變動簡報，彙整框架與標準的最新變動 | `nist_frameworks` | 每週 |
 | `ai_governance_landscape` | AI 治理全景，跨區域 AI 治理動態 | `nist_frameworks`(ai_risk)、`nist_cybersecurity_insights`(ai_risk)、`eu_regulations`(ai_governance) | 每月 |
 | `supply_chain_security` | 供應鏈安全趨勢，全球供應鏈責任變化 | `nist_frameworks`(supply_chain)、`nist_cybersecurity_insights`(supply_chain)、`eu_regulations`(supply_chain) | 每週 |
 | `critical_infrastructure_resilience` | 關鍵基礎設施韌性，基礎設施保護動態 | `nist_frameworks`(critical_infrastructure)、`nist_cybersecurity_insights`(critical_infrastructure)、`eu_regulations`(critical_infrastructure) | 每週 |
 | `cybersecurity_compliance` | 資安合規動態，資安框架與法規變化 | `nist_frameworks`(cybersecurity)、`nist_cybersecurity_insights`(cybersecurity)、`eu_regulations`(cybersecurity) | 每週 |
+
+> **執行順序注意**：`executive_summary` 為 meta-mode，必須在所有其他 Mode 完成後執行。
 
 ## 可用 Layer 清單
 
