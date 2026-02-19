@@ -1,0 +1,36 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% assign reports = site.pages | where_exp: "page", "page.path contains 'docs/Narrator/'" | where_exp: "page", "page.path contains '202'" | sort: "path" | reverse %}
+    {% for page in reports limit:20 %}
+    {% if page.title and page.title != "" %}
+    <item>
+      <title>{{ page.title | xml_escape }}</title>
+      <link>{{ site.url }}{{ page.url | replace: '.html', '/' }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ page.url | replace: '.html', '/' }}</guid>
+      {% if page.seo.date_published %}
+      <pubDate>{{ page.seo.date_published | date_to_rfc822 }}</pubDate>
+      {% endif %}
+      {% if page.seo.description %}
+      <description>{{ page.seo.description | xml_escape }}</description>
+      {% elsif page.description %}
+      <description>{{ page.description | xml_escape }}</description>
+      {% else %}
+      <description>{{ page.title | xml_escape }}</description>
+      {% endif %}
+      {% if page.parent %}
+      <category>{{ page.parent | xml_escape }}</category>
+      {% endif %}
+    </item>
+    {% endif %}
+    {% endfor %}
+  </channel>
+</rss>

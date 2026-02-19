@@ -3,6 +3,7 @@
 
 # 原始資料（不入版控）
 *.xml
+!feed.xml
 *.jsonl
 raw/
 

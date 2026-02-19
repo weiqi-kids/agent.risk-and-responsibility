@@ -7,5 +7,5 @@ gem "webrick", "~> 1.8"
 group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
-  gem "jekyll-feed"
+  # jekyll-feed 已改用自訂 feed.xml 模板
 end

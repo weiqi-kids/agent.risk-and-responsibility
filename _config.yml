@@ -59,12 +59,7 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-
-# RSS Feed 設定
-feed:
-  path: feed.xml
-  posts_limit: 20
+  # jekyll-feed 已改用自訂 feed.xml 模板
 
 # SEO 擴充設定
 twitter:
