@@ -91,7 +91,68 @@
 
 > **效能優勢**：Sonnet 平行處理 I/O 密集的 API 呼叫，Opus 專注於需要推理的報告撰寫。Meta-mode 在最後執行，確保能讀取到所有一般 Mode 的產出。
 
-### 步驟五：更新時間戳
+### 步驟五：網站改版分析（Revamp）
+
+> 完整規範 → 見 `revamp/CLAUDE.md`
+
+執行完整的 6 階段改版分析流程，產出優化建議：
+
+```
+頂層 CLI 依序執行：
+├── 5a: 0-positioning（品牌定位分析）
+│   ├── Task(general-purpose, opus) → Writer 產出定位文件
+│   └── Task(general-purpose, sonnet) → Reviewer 檢查
+├── 5b: 1-discovery（網站健檢）
+│   ├── Task(Bash, sonnet) → 執行 site-audit.sh
+│   ├── Task(general-purpose, opus) → Writer 產出盤點報告
+│   └── Task(general-purpose, sonnet) → Reviewer 檢查
+├── 5c: 2-competitive（競品分析）
+│   ├── Task(Bash, sonnet) → 執行 competitive-audit.sh（如有競品 URL）
+│   ├── Task(general-purpose, opus) → Writer 產出競品報告
+│   └── Task(general-purpose, sonnet) → Reviewer 檢查
+├── 5d: 3-analysis（差距分析）
+│   ├── Task(general-purpose, opus) → Writer 產出差距報告
+│   └── Task(general-purpose, sonnet) → Reviewer 檢查
+├── 5e: 4-strategy（策略規劃）
+│   ├── Task(general-purpose, opus) → Writer 產出改版計劃
+│   └── Task(general-purpose, sonnet) → Reviewer 檢查
+├── 5f: 5-content-spec（內容規格）
+│   ├── Task(general-purpose, opus) → Writer 產出內容規格書
+│   └── Task(general-purpose, sonnet) → Reviewer 檢查
+└── 5g: final-review（整合驗收）
+    └── Task(general-purpose, opus) → 產出驗收報告與優化建議清單
+```
+
+#### 各階段執行細節
+
+每個階段依序執行：
+
+1. **讀取該階段 CLAUDE.md**：`revamp/{階段}/CLAUDE.md`
+2. **Writer 產出**：依照規範產出該階段文件
+3. **Reviewer 檢查**：讀取 `revamp/{階段}/review/CLAUDE.md`，檢查 Writer 產出
+4. **通過後進入下一階段**：若未通過，Writer 修正後重新送審
+
+#### Revamp 輸出位置
+
+| 階段 | 輸出檔案 |
+|------|----------|
+| 0-positioning | `docs/revamp/positioning.md` |
+| 1-discovery | `docs/revamp/discovery.md` |
+| 2-competitive | `docs/revamp/competitive.md` |
+| 3-analysis | `docs/revamp/analysis.md` |
+| 4-strategy | `docs/revamp/strategy.md` |
+| 5-content-spec | `docs/revamp/content-spec.md` |
+| final-review | `docs/revamp/final-review.md` |
+
+#### 優化建議彙整
+
+`final-review` 完成後，產出 `docs/revamp/action-items.md`，包含：
+
+- **P0 必須修正**：阻礙核心功能的問題
+- **P1 建議改善**：明顯提升體驗的項目
+- **P2 可考慮**：錦上添花的優化
+
+### 步驟六：更新時間戳
 
 執行完所有 Mode 後：
 
@@ -100,16 +161,16 @@
    - `index.md`：更新 `**最後更新：YYYY-MM-DD**`
    - `README.md` 系統健康度表格：更新各 Layer/Mode 的最後更新時間和資料筆數
 
-### 步驟六：完成檢查
+### 步驟七：完成檢查
 
 **每當回報「完成」時，必須先執行以下檢查，全部通過才能回報完成。**
 
-#### 6.1 連結檢查
+#### 7.1 連結檢查
 
 - [ ] 所有新增/修改的內部連結正常，無 404
 - [ ] 所有新增/修改的外部連結正常（source_url 可達）
 
-#### 6.2 SEO/AEO 檢查
+#### 7.2 SEO/AEO 檢查
 
 依照 `core/Narrator/seo-integration.md` 確認：
 
@@ -121,21 +182,28 @@
 - [ ] 每個 H2 有 `.key-answer`（含 `data-question`）
 - [ ] 至少 1 個 `.expert-quote`
 
-#### 6.3 內容更新確認
+#### 7.3 內容更新確認
 
 - [ ] 列出本次預計修改的所有檔案
 - [ ] 逐一確認每個檔案都已正確更新
 - [ ] 修改內容與任務要求一致
 - [ ] 無遺漏項目
 
-#### 6.4 SOP 完成度檢查
+#### 7.4 SOP 完成度檢查
 
 - [ ] 回顧原始任務需求
 - [ ] 原訂步驟每個都已執行
 - [ ] 無遺漏的待辦項目
 - [ ] 無「之後再處理」的項目
 
-#### 6.5 檢查報告格式
+#### 7.5 Revamp 完成度檢查
+
+- [ ] 6 個階段都已完成 Writer + Reviewer 流程
+- [ ] 所有 Reviewer 檢查都已通過
+- [ ] `docs/revamp/action-items.md` 已產出
+- [ ] P0 項目已標註並安排後續處理
+
+#### 7.6 檢查報告格式
 
 完成檢查後，輸出以下格式：
 
@@ -148,11 +216,22 @@
 | SEO/AEO | ✅/❌ | |
 | 內容更新 | ✅/❌ | |
 | SOP 完成度 | ✅/❌ | |
+| Revamp 完成度 | ✅/❌ | |
 
-**總結**：X/4 項通過，狀態：通過/未通過
+**總結**：X/5 項通過，狀態：通過/未通過
+
+## Revamp 優化建議摘要
+
+| 優先級 | 項目數 | 重點項目 |
+|--------|--------|----------|
+| P0 | X | [列出前 3 項] |
+| P1 | X | [列出前 3 項] |
+| P2 | X | [列出前 3 項] |
+
+詳見：`docs/revamp/action-items.md`
 ```
 
-#### 6.6 檢查未通過時
+#### 7.7 檢查未通過時
 
 1. **不回報完成**
 2. 列出所有未通過項目
@@ -160,7 +239,7 @@
 4. 重新執行檢查
 5. 全部通過才能說「完成」
 
-### 步驟七：提交並部署
+### 步驟八：提交並部署
 
 1. 檢查是否有變動：`git status --porcelain`
 2. 若有變動，執行：
@@ -223,9 +302,17 @@
 │   │   └── 等待全部完成...
 │   └── 階段 4c：Task(general-purpose, opus)     → Meta-mode 報告（executive_summary）
 │
-├── 步驟五～六：完成檢查（頂層 CLI 直接執行）
+├── 步驟五：Revamp 改版分析（6 階段）
+│   ├── 5a-5f：每階段依序執行
+│   │   ├── Task(general-purpose, opus)   → Writer 產出文件
+│   │   └── Task(general-purpose, sonnet) → Reviewer 檢查
+│   └── 5g：Task(general-purpose, opus)   → Final Review + action-items
 │
-└── 步驟七：Git commit + push
+├── 步驟六：更新時間戳（Sonnet）
+│
+├── 步驟七：完成檢查（頂層 CLI 直接執行）
+│
+└── 步驟八：Git commit + push
 ```
 
 ### 指派表
@@ -240,15 +327,21 @@
 | **步驟 4a** | Qdrant 語意搜尋 | `sonnet` | `Bash` | ✅ 可平行 | I/O 密集，排除 meta-mode |
 | **步驟 4b** | 一般 Mode 報告產出 | `opus` | `general-purpose` | ✅ 可平行 | 跨來源綜合分析 |
 | **步驟 4c** | Meta-mode 報告產出 | `opus` | `general-purpose` | - | 依賴 4b 產出，最後執行 |
-| 步驟五 | 更新時間戳 | `sonnet` | `Bash` | - | 純檔案更新 |
-| 步驟六 | 完成檢查 | - | 頂層 CLI | - | 品質關卡 |
-| 步驟七 | git commit + push | `sonnet` | `Bash` | - | 純腳本執行 |
+| **步驟 5** | Revamp Writer | `opus` | `general-purpose` | - | 深度分析，依序執行 |
+| **步驟 5** | Revamp Reviewer | `sonnet` | `general-purpose` | - | 依據清單檢查 |
+| **步驟 5** | site-audit.sh | `sonnet` | `Bash` | - | 純 I/O 操作 |
+| 步驟六 | 更新時間戳 | `sonnet` | `Bash` | - | 純檔案更新 |
+| 步驟七 | 完成檢查 | - | 頂層 CLI | - | 品質關卡 |
+| 步驟八 | git commit + push | `sonnet` | `Bash` | - | 純腳本執行 |
 
 > **強制規則**：
 > - 步驟 4b 和 4c（Mode 報告產出）使用 `opus`
+> - 步驟 5 Revamp Writer 使用 `opus`，Reviewer 使用 `sonnet`
 > - 其餘所有步驟（含步驟 4a Qdrant 搜尋）一律使用 `sonnet`
 > - 步驟 4a 必須全部完成後，才能開始步驟 4b
 > - 步驟 4b 必須全部完成後，才能開始步驟 4c（meta-mode 依賴一般 Mode 產出）
+> - 步驟 4c 必須完成後，才能開始步驟 5（Revamp 需要分析已產出的報告）
+> - 步驟 5 各階段依序執行（每階段 Writer → Reviewer 通過後才進入下一階段）
 >
 > **子代理規則**：需要寫入檔案的 Task 必須使用 `general-purpose`，純腳本執行使用 `Bash`。
 
@@ -264,6 +357,11 @@
 - 階段 4b：一般 Mode 的報告產出**平行執行**（Opus 處理推理）
 - 階段 4c：Meta-mode（executive_summary）報告產出（Opus，循序執行）
 - 階段之間有依賴：4a → 4b → 4c，必須依序等待完成
+
+**步驟五（Revamp 改版分析）**：
+- 各階段**循序執行**（每階段依賴前一階段產出）
+- 每階段內部：Writer → Reviewer → 通過後進入下一階段
+- 不可平行化（階段間有依賴關係）
 
 **背景執行**：
 - fetch.sh、update.sh 可用 `run_in_background` 執行，主執行緒觀察進度
@@ -281,6 +379,59 @@
 - 「只跑萃取」→ 假設 `docs/Extractor/{layer_name}/raw/` 已有 JSONL 資料，只做萃取 + update
 
 > 指定執行時，模型指派規則仍然生效。Layer 相關任務使用 `sonnet`，Mode 相關任務使用 `opus`。
+
+---
+
+## 網站改版流程
+
+> 結構化的網站改版流程，包含品牌定位、健檢、競品分析、策略規劃等階段。
+> 完整規範 → 見 `revamp/CLAUDE.md`
+
+### 流程總覽
+
+```
+0-Positioning → 1-Discovery → 2-Competitive → 3-Analysis → 4-Strategy → 5-Content-Spec → 執行 → Final-Review
+     ↓              ↓             ↓              ↓            ↓              ↓                       ↓
+  Review ✓      Review ✓      Review ✓      Review ✓     Review ✓       Review ✓                Review ✓
+```
+
+### 使用時機
+
+| 情境 | 說明 |
+|------|------|
+| **定期改版** | 每季度或年度進行網站全面改版時 |
+| **SEO 優化** | 需要系統性提升 SEO 表現時 |
+| **品牌重塑** | 品牌定位或目標受眾改變時 |
+| **效能優化** | 網站效能或使用者體驗需要改善時 |
+
+### 各階段說明
+
+| 階段 | 目的 | 輸出 |
+|------|------|------|
+| **0-positioning** | 釐清品牌定位、核心價值 | 定位文件 |
+| **1-discovery** | 盤點現有內容 + 技術健檢 | 健檢報告 + KPI |
+| **2-competitive** | 分析競爭對手 | 競品分析報告 |
+| **3-analysis** | 受眾分析 + 內容差距 | 差距分析報告 |
+| **4-strategy** | 改版計劃 + 優先級排序 | 改版計劃書 |
+| **5-content-spec** | 每頁內容規格 | 內容規格書 |
+| **final-review** | 驗收執行結果 | 驗收報告 |
+
+### 自動化工具
+
+`revamp/tools/` 目錄提供以下腳本（使用本地 Lighthouse，不受 API 配額限制）：
+
+| 工具 | 用途 | 範例 |
+|------|------|------|
+| `site-audit.sh` | 完整網站健檢（效能、安全、SEO） | `./revamp/tools/site-audit.sh https://example.com` |
+| `competitive-audit.sh` | 批次競品比較 | `./revamp/tools/competitive-audit.sh https://our-site.com https://competitor.com` |
+
+### 模型指派
+
+| 任務類型 | 指定模型 | 原因 |
+|----------|----------|------|
+| Writer（各階段產出） | `opus` | 需要深度分析和策略思考 |
+| Reviewer（檢查審核） | `sonnet` | 依據清單檢查，不需複雜推理 |
+| 工具腳本執行 | `sonnet` | 純 I/O 操作 |
 
 ---
 
@@ -372,6 +523,10 @@ OPENAI_API_KEY=sk-...
 | 「執行 {layer_name}」 | 只執行指定 Layer |
 | 「執行 {mode_name}」 | 只執行指定 Mode 報告 |
 | 「回報專案現況」 | 顯示 Layer/Mode 統計與健康度 |
+| 「執行網站改版」 | 啟動完整 revamp 流程（0-positioning → final-review） |
+| 「執行改版 {階段}」 | 只執行指定階段（如 `執行改版 1-discovery`） |
+| 「網站健檢」 | 使用 `site-audit.sh` 執行技術健檢 |
+| 「競品分析」 | 使用 `competitive-audit.sh` 比較競品 |
 
 ### 執行後回報
 
