@@ -17,7 +17,7 @@ nav_order: 2
 | **企業決策者** | [Executive Summary]({% link docs/Narrator/executive_summary/index.md %}) | 每週 |
 | **資安主管 / CISO** | [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %})、[Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | 每週 |
 | **法遵 / 合規主管** | [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %})、[AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | 每週/每月 |
-| **AI/ML 產品團隊** | [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %})、AI Implementation Guide | 每月 |
+| **AI/ML 產品團隊** | [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %})、[AI Implementation Guide]({% link docs/Narrator/ai_implementation_guide/index.md %}) | 每月 |
 | **採購 / 供應商管理** | [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | 每週 |
 | **OT / ICS 安全** | [Critical Infrastructure Resilience]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | 每週 |
 
@@ -52,6 +52,21 @@ nav_order: 2
 每月彙整全球 AI 治理動態，涵蓋 NIST AI RMF、EU AI Act 等跨區域發展。
 
 **適合**：AI 風險管理團隊、法遵主管
+
+---
+
+### AI Implementation Guide — AI 實作技術指引
+{: .fs-5 }
+
+每月產出技術實作指引，幫助 AI/ML 工程團隊將治理要求落地。
+
+**特色**：
+- 實作清單（必做與建議項目）
+- 框架映射（AI RMF ↔ CSF ↔ ISO 42001）
+- 程式碼/配置範例
+- 常見實作陷阱
+
+**適合**：AI/ML 工程師、資料科學家、MLOps 工程師
 
 ---
 

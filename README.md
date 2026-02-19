@@ -8,7 +8,7 @@
 
 ## 核心問題
 
-> How is the world redefining who must carry responsibility for emerging risks?
+> 當新興風險出現時，全球如何重新定義責任歸屬？
 
 ## 架構概覽
 
