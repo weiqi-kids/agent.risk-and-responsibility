@@ -67,6 +67,39 @@ AI 工程師、產品經理，需要了解 AI 治理要求與實務落實方式�
 
 ---
 
+## 為什麼選擇 Risk & Responsibility Intelligence
+
+### 開源透明
+
+本專案完全開源，所有原始碼公開於 GitHub。您可以檢視資料萃取邏輯、報告產出流程，確保資訊的可追溯性。
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/weiqi-kids/agent.risk-and-responsibility)
+
+### 獨特的責任追蹤分類
+
+我們提供競品未見的「責任變動追蹤」功能，系統性追蹤責任歸屬如何隨法規演化：
+
+| 欄位 | 說明 |
+|------|------|
+| `shift_type` | 責任轉移類型（擴大、縮小、新增、轉移） |
+| `affected_roles` | 受影響的角色清單（CISO、DPO、供應商等） |
+| `shift_summary` | 責任變動摘要 |
+
+透過這些結構化欄位，您可以快速識別哪些變動將影響貴組織的責任分配。
+
+### 多法規整合
+
+一站式追蹤跨框架法規變動，無需分別關注各個來源：
+
+- **NIST**：CSF 2.0、SP 800 系列、AI RMF
+- **歐盟**：AI Act、DORA、NIS2 Directive
+- **國際標準**：ISO 27001、ISO 27701、ISO 42001
+- **威脅情報**：CISA KEV、SANS ISC
+
+每週報告整合所有來源，讓您用最少時間掌握最完整資訊。
+
+---
+
 ## 免責聲明
 
 本站所有報告由 AI 系統自動產出，基於公開資料源萃取與結構化分析。

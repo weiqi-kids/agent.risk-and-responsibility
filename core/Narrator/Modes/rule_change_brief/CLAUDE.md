@@ -66,6 +66,22 @@ seo:
 
 ---
 
+<div class="report-meta">
+
+## 報告資訊
+
+| 項目 | 內容 |
+|------|------|
+| 產出方式 | AI 自動產出（Claude Opus 4.5） |
+| 審核狀態 | <span class="badge-reviewed">已通過自動審核</span> |
+| 審核依據 | CLAUDE.md 自我審核 Checklist |
+| 資料來源 | {N} 個權威來源（NIST、EUR-Lex 等） |
+| 資料時間 | {earliest_date} ~ {latest_date} |
+
+</div>
+
+---
+
 ## 本期重點
 
 <p class="key-answer" data-question="本期有哪些重要的規則變動">
@@ -164,6 +180,7 @@ seo:
 
 ### 內容檢查
 - [ ] 免責聲明存在且完整
+- [ ] 報告資訊區塊存在（產出方式、審核狀態、資料來源、資料時間）
 - [ ] 本期重點不超過 5 項
 - [ ] 每個風險領域都有段落（含「本期無變動」）
 - [ ] 責任變動追蹤表格完整（所有項目的 L2 欄位都列入）

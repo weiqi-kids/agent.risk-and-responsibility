@@ -11,6 +11,9 @@ nav_order: 1
 {: .label .label-green }
 **最後更新：2026-02-18**
 
+[訂閱 RSS](/feed.xml){: .btn .btn-primary }
+[關於本站](/about/){: .btn }
+
 ---
 
 ## 快速導覽

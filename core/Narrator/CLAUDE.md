@@ -104,6 +104,34 @@ echo "$RESULTS" | jq '.result[] | {
 | critical_infrastructure_resilience | critical infrastructure resilience protection | 30 |
 | cybersecurity_compliance | cybersecurity compliance framework NIST | 50 |
 
+## 通用報告區塊
+
+所有 Mode 報告必須包含以下通用區塊：
+
+### 報告資訊（審核者標記）
+
+**位置**：免責聲明下方、本期重點上方
+
+所有報告必須包含此區塊，提升 E-E-A-T 可信度：
+
+```markdown
+## 報告資訊
+
+| 項目 | 內容 |
+|------|------|
+| 產出方式 | AI 自動產出（Claude Opus 4.5） |
+| 審核狀態 | ✅ 已通過自動審核 |
+| 審核依據 | CLAUDE.md 自我審核 Checklist |
+| 資料來源 | {N} 個權威來源（NIST、EUR-Lex、CISA 等） |
+| 資料時間 | {YYYY-MM-DD} ~ {YYYY-MM-DD} |
+```
+
+**動態欄位填寫規則**：
+- `{N}`：從 Qdrant 查詢結果計算不重複 source_url 數量
+- `{date_range}`：取 Qdrant 查詢結果中的最早和最晚日期
+
+---
+
 ## Mode 定義
 
 每個 Mode 的 CLAUDE.md 必須包含：
@@ -111,6 +139,7 @@ echo "$RESULTS" | jq '.result[] | {
 - 輸出框架（報告結構）
 - SEO 欄位規範（參照 `seo-integration.md`）
 - 免責聲明
+- **報告資訊區塊**（見上方「通用報告區塊」）
 - 自我審核 Checklist（含 SEO 檢查項目）
 
 ## 目前可用 Mode

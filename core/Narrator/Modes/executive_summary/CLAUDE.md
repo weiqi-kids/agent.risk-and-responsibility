@@ -73,6 +73,22 @@ seo:
 
 ---
 
+<div class="report-meta">
+
+## 報告資訊
+
+| 項目 | 內容 |
+|------|------|
+| 產出方式 | AI 自動產出（Claude Opus 4.5） |
+| 審核狀態 | <span class="badge-reviewed">已通過自動審核</span> |
+| 審核依據 | CLAUDE.md 自我審核 Checklist |
+| 資料來源 | 彙整 {N} 份專題報告 |
+| 資料時間 | {YYYY-MM-DD} |
+
+</div>
+
+---
+
 ## Top 3 This Week
 
 <p class="key-answer" data-question="本週最重要的風險管理動態是什麼">
@@ -159,6 +175,7 @@ seo:
 
 ### 內容檢查
 - [ ] 免責聲明存在且完整
+- [ ] 報告資訊區塊存在（產出方式、審核狀態、資料來源、資料時間）
 - [ ] Top 3 固定 3 項，不多不少
 - [ ] 每項重點有建議行動（1 句話）
 - [ ] 每項重點有詳細閱讀連結

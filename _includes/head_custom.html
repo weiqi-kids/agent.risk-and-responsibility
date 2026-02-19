@@ -7,3 +7,28 @@ Just the Docs 主題的 head 擴充點
   {% include seo-jsonld.html %}
   {% include seo-meta.html %}
 {% endif %}
+
+{% comment %}
+TBT 優化：延遲非關鍵功能的初始化
+將搜尋功能推遲到頁面互動後執行，降低 Total Blocking Time
+{% endcomment %}
+<script>
+(function() {
+  // 延遲搜尋功能初始化
+  function deferSearchInit() {
+    var searchInput = document.querySelector('.search-input');
+    if (searchInput) {
+      // 搜尋輸入框在使用者互動前不需要 focus
+      searchInput.removeAttribute('autofocus');
+    }
+  }
+
+  // 使用 requestIdleCallback 在瀏覽器空閒時執行
+  if ('requestIdleCallback' in window) {
+    requestIdleCallback(deferSearchInit, { timeout: 2000 });
+  } else {
+    // 降級方案：延遲 100ms 執行
+    setTimeout(deferSearchInit, 100);
+  }
+})();
+</script>

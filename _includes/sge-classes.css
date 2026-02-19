@@ -145,3 +145,58 @@
   padding: 0.75rem 0;
   line-height: 1.6;
 }
+
+/* .report-meta - 報告資訊區塊（審核者標記） */
+.report-meta {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.report-meta h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1em;
+  color: #374151;
+}
+
+.report-meta table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+}
+
+.report-meta td {
+  padding: 0.5rem 0;
+  border: none;
+  line-height: 1.5;
+}
+
+.report-meta td:first-child {
+  font-weight: 500;
+  color: #6b7280;
+  width: 30%;
+}
+
+/* .badge-reviewed - 審核狀態標記 */
+.badge-reviewed {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+.badge-pending {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #212529;
+  font-size: 0.85em;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}

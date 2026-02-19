@@ -8,7 +8,7 @@ baseurl: ""
 nav_enabled: true
 nav_sort: case_insensitive
 
-# 搜尋
+# 搜尋（button: true 改善 TBT）
 search_enabled: true
 search:
   heading_level: 2
@@ -17,7 +17,7 @@ search:
   preview_words_after: 10
   tokenizer_separator: /[\s/]+/
   rel_url: true
-  button: false
+  button: true
 
 # 頁尾
 footer_content: "Risk & Responsibility Intelligence"
@@ -59,6 +59,12 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
+
+# RSS Feed 設定
+feed:
+  path: feed.xml
+  posts_limit: 20
 
 # SEO 擴充設定
 twitter:

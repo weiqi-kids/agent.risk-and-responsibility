@@ -70,6 +70,22 @@ seo:
 
 ---
 
+<div class="report-meta">
+
+## 報告資訊
+
+| 項目 | 內容 |
+|------|------|
+| 產出方式 | AI 自動產出（Claude Opus 4.5） |
+| 審核狀態 | <span class="badge-reviewed">已通過自動審核</span> |
+| 審核依據 | CLAUDE.md 自我審核 Checklist |
+| 資料來源 | {N} 個權威來源（NIST、CSA 等） |
+| 資料時間 | {earliest_date} ~ {latest_date} |
+
+</div>
+
+---
+
 ## 本月實作清單
 
 <p class="key-answer" data-question="本月有哪些 AI 實作要點">
@@ -233,6 +249,7 @@ seo:
 
 ### 內容檢查
 - [ ] 免責聲明存在且完整
+- [ ] 報告資訊區塊存在（產出方式、審核狀態、資料來源、資料時間）
 - [ ] 本月實作清單包含必做與建議項目
 - [ ] 每個實作項目標註來源框架
 - [ ] 框架映射表正確（AI RMF ↔ CSF ↔ ISO 42001）
