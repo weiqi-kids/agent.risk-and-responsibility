@@ -1,0 +1,173 @@
+{
+  "id": "nist-csf",
+  "name": "NIST CSF 2.0",
+  "version": "2.0",
+  "description": "NIST Cybersecurity Framework 2.0 成熟度自評",
+  "sections": [
+    {
+      "name": "Govern (治理)",
+      "description": "建立組織網路安全風險管理的治理架構",
+      "questions": [
+        {
+          "text": "組織是否有明確的網路安全政策並定期更新？",
+          "options": [
+            { "label": "無政策", "value": 0 },
+            { "label": "有非正式政策", "value": 33 },
+            { "label": "有正式政策但未定期更新", "value": 66 },
+            { "label": "有正式政策且定期審查更新", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有指定網路安全負責人（如 CISO）？",
+          "options": [
+            { "label": "無指定人員", "value": 0 },
+            { "label": "有人兼任", "value": 50 },
+            { "label": "有專職人員", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有網路安全風險管理委員會或類似機制？",
+          "options": [
+            { "label": "無", "value": 0 },
+            { "label": "非正式討論", "value": 33 },
+            { "label": "有定期會議", "value": 66 },
+            { "label": "有正式委員會且與董事會連結", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Identify (識別)",
+      "description": "識別組織的關鍵資產、系統和風險",
+      "questions": [
+        {
+          "text": "組織是否有完整的資產清單（硬體、軟體、資料）？",
+          "options": [
+            { "label": "無清單", "value": 0 },
+            { "label": "有部分清單", "value": 33 },
+            { "label": "有完整清單但未定期更新", "value": 66 },
+            { "label": "有完整清單且自動化管理", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有進行定期的風險評估？",
+          "options": [
+            { "label": "從未進行", "value": 0 },
+            { "label": "僅在事件後進行", "value": 25 },
+            { "label": "每年進行一次", "value": 50 },
+            { "label": "每季或更頻繁進行", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否了解供應鏈中的網路安全風險？",
+          "options": [
+            { "label": "未評估", "value": 0 },
+            { "label": "有基本了解", "value": 50 },
+            { "label": "有系統性評估與管理", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Protect (保護)",
+      "description": "實施適當的保護措施",
+      "questions": [
+        {
+          "text": "組織是否有實施多因素驗證（MFA）？",
+          "options": [
+            { "label": "未實施", "value": 0 },
+            { "label": "部分系統有實施", "value": 50 },
+            { "label": "所有關鍵系統都有實施", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有定期進行安全意識培訓？",
+          "options": [
+            { "label": "無培訓", "value": 0 },
+            { "label": "新進人員培訓", "value": 33 },
+            { "label": "年度培訓", "value": 66 },
+            { "label": "持續培訓與測試", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有實施資料加密？",
+          "options": [
+            { "label": "未加密", "value": 0 },
+            { "label": "傳輸中加密", "value": 50 },
+            { "label": "傳輸中與靜態皆加密", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect (偵測)",
+      "description": "及時發現網路安全事件",
+      "questions": [
+        {
+          "text": "組織是否有安全事件監控機制（SIEM、SOC 等）？",
+          "options": [
+            { "label": "無監控", "value": 0 },
+            { "label": "有基本日誌記錄", "value": 33 },
+            { "label": "有集中監控", "value": 66 },
+            { "label": "有 24/7 SOC 或託管服務", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有進行弱點掃描或滲透測試？",
+          "options": [
+            { "label": "從未進行", "value": 0 },
+            { "label": "偶爾進行", "value": 33 },
+            { "label": "定期掃描", "value": 66 },
+            { "label": "持續掃描加定期滲透測試", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Respond (回應)",
+      "description": "對已識別的網路安全事件採取行動",
+      "questions": [
+        {
+          "text": "組織是否有事件回應計畫（IRP）？",
+          "options": [
+            { "label": "無計畫", "value": 0 },
+            { "label": "有非正式程序", "value": 33 },
+            { "label": "有正式計畫", "value": 66 },
+            { "label": "有計畫且定期演練", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有與外部單位（執法、CERT）的溝通管道？",
+          "options": [
+            { "label": "無", "value": 0 },
+            { "label": "有但未測試", "value": 50 },
+            { "label": "有且定期聯繫", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recover (復原)",
+      "description": "維持韌性計畫並在事件後恢復正常運作",
+      "questions": [
+        {
+          "text": "組織是否有業務持續計畫（BCP）和災難復原計畫（DRP）？",
+          "options": [
+            { "label": "無計畫", "value": 0 },
+            { "label": "有基本備份", "value": 33 },
+            { "label": "有正式計畫", "value": 66 },
+            { "label": "有計畫且定期測試", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有進行事件後檢討（Post-Incident Review）？",
+          "options": [
+            { "label": "從未進行", "value": 0 },
+            { "label": "重大事件後進行", "value": 50 },
+            { "label": "所有事件都進行且改進", "value": 100 }
+          ]
+        }
+      ]
+    }
+  ]
+}

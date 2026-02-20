@@ -1,13 +1,23 @@
 {% comment %}
 Just the Docs 主題的 head 擴充點
-用於注入 SEO JSON-LD 和額外 Meta 標籤
+用於注入 SEO JSON-LD、Meta 標籤、Mermaid 圖表支援
 
 TBT 優化說明：
 - 主要優化已移至 _includes/head.html（加 defer 到 JS）
-- 此處保留 SEO 相關注入
+- Mermaid 使用 type="module" 非阻塞載入
 {% endcomment %}
 
 {% if page.layout == 'report' or page.seo %}
   {% include seo-jsonld.html %}
   {% include seo-meta.html %}
 {% endif %}
+
+{% comment %} Mermaid.js 圖表支援（S9 視覺化） {% endcomment %}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral',
+    securityLevel: 'loose'
+  });
+</script>

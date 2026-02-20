@@ -1,0 +1,16 @@
+{% comment %}
+報告目錄元件（S7 動態目錄）
+使用 Kramdown 內建 {:toc} 功能自動生成
+
+使用方式：在報告 markdown 中加入 {% include report-toc.html %}
+注意：報告標題需加 {: .no_toc } 排除
+{% endcomment %}
+
+<details open markdown="block" class="toc-wrapper">
+  <summary class="toc-title">
+    目錄
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>

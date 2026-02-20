@@ -200,3 +200,225 @@
   padding: 0.25rem 0.75rem;
   border-radius: 4px;
 }
+
+/* ==================== */
+/* S7 動態目錄（TOC）樣式 */
+/* ==================== */
+
+.toc-wrapper {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.toc-wrapper[open] {
+  padding-bottom: 0.5rem;
+}
+
+.toc-title {
+  font-weight: 600;
+  color: #374151;
+  cursor: pointer;
+  padding: 0.25rem 0;
+}
+
+.toc-title:hover {
+  color: #2563eb;
+}
+
+.toc-wrapper > ol,
+.toc-wrapper > ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.toc-wrapper li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.toc-wrapper a {
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.toc-wrapper a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* ==================== */
+/* S9 Mermaid 圖表樣式 */
+/* ==================== */
+
+.mermaid {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+/* 圖表容器 */
+.chart-container {
+  background-color: #fafafa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+.chart-container .mermaid {
+  margin: 0;
+}
+
+/* 圖表標題 */
+.chart-title {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* ==================== */
+/* S8 合規自評工具樣式 */
+/* ==================== */
+
+.compliance-tool {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.compliance-tool h2 {
+  margin-top: 0;
+  color: #1e293b;
+}
+
+.compliance-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.compliance-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.compliance-question {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.compliance-question label {
+  display: block;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 0.75rem;
+}
+
+.compliance-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.compliance-options input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.compliance-options label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.compliance-options label:hover {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+.compliance-options input[type="radio"]:checked + label,
+.compliance-options label:has(input[type="radio"]:checked) {
+  border-color: #2563eb;
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.compliance-result {
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  border: 2px solid #10b981;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.compliance-result h3 {
+  margin-top: 0;
+  color: #065f46;
+}
+
+.compliance-score {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #059669;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.compliance-score-label {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.compliance-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.compliance-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.compliance-btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.compliance-btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.compliance-btn-secondary {
+  background-color: white;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.compliance-btn-secondary:hover {
+  background-color: #f3f4f6;
+}

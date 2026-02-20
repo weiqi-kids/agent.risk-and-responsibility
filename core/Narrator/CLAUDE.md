@@ -130,6 +130,55 @@ echo "$RESULTS" | jq '.result[] | {
 - `{N}`：從 Qdrant 查詢結果計算不重複 source_url 數量
 - `{date_range}`：取 Qdrant 查詢結果中的最早和最晚日期
 
+### 目錄（TOC）
+
+**位置**：報告資訊下方、本期重點上方
+
+所有報告必須包含可收合的目錄元件：
+
+```markdown
+{% include report-toc.html %}
+```
+
+報告標題需加 `{: .no_toc }` 排除於目錄中：
+
+```markdown
+# Rule Change Brief — 2026-W08 {: .no_toc }
+```
+
+---
+
+### 視覺化圖表（Mermaid）
+
+報告可包含 Mermaid 圖表以視覺化呈現：
+
+**時間軸**（適用於 rule_change_brief）：
+````markdown
+```mermaid
+timeline
+    title 本期框架發布時程
+    2025-07-31 : NIST IR 8536
+    2025-12-17 : SSDF Version 1.2
+```
+````
+
+**關係圖**（適用於責任變動追蹤）：
+````markdown
+```mermaid
+graph TD
+    A[政策/行政命令] --> B[框架/標準]
+    B --> C[影響對象]
+
+    style A fill:#f9f,stroke:#333
+    style B fill:#bbf,stroke:#333
+```
+````
+
+**使用時機**：
+- 報告涉及 3 個以上時間節點時，加入時間軸
+- 報告涉及 3 個以上角色/實體的關係時，加入關係圖
+- 圖表應置於相關段落內（如「責任變動追蹤」區塊）
+
 ---
 
 ## Mode 定義

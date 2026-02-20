@@ -1,0 +1,144 @@
+{
+  "id": "supply-chain",
+  "name": "供應鏈安全",
+  "version": "2024",
+  "description": "軟體供應鏈安全成熟度評估（SSDF、SBOM、第三方風險）",
+  "sections": [
+    {
+      "name": "軟體開發安全（SSDF）",
+      "description": "基於 NIST SSDF 的安全軟體開發實踐",
+      "questions": [
+        {
+          "text": "組織是否有安全軟體開發生命週期（SSDLC）流程？",
+          "options": [
+            { "label": "無", "value": 0 },
+            { "label": "有非正式流程", "value": 33 },
+            { "label": "有正式流程", "value": 66 },
+            { "label": "有正式流程且持續改進", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否進行程式碼安全審查？",
+          "options": [
+            { "label": "無審查", "value": 0 },
+            { "label": "偶爾人工審查", "value": 33 },
+            { "label": "有自動化掃描", "value": 66 },
+            { "label": "自動化加人工審查", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否對軟體建置環境進行保護？",
+          "options": [
+            { "label": "無特別保護", "value": 0 },
+            { "label": "基本存取控制", "value": 50 },
+            { "label": "隔離環境加完整日誌", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "軟體物料清單（SBOM）",
+      "description": "軟體組成透明度管理",
+      "questions": [
+        {
+          "text": "組織是否為其軟體產品產生 SBOM？",
+          "options": [
+            { "label": "無", "value": 0 },
+            { "label": "部分產品有", "value": 50 },
+            { "label": "所有產品都有", "value": 100 }
+          ]
+        },
+        {
+          "text": "SBOM 是否採用標準格式（SPDX、CycloneDX）？",
+          "options": [
+            { "label": "無 SBOM 或自訂格式", "value": 0 },
+            { "label": "使用標準格式", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有機制追蹤 SBOM 中的弱點？",
+          "options": [
+            { "label": "無追蹤", "value": 0 },
+            { "label": "手動追蹤", "value": 50 },
+            { "label": "自動化弱點監控", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "第三方風險管理",
+      "description": "供應商與開源元件的風險評估",
+      "questions": [
+        {
+          "text": "組織是否對關鍵供應商進行安全評估？",
+          "options": [
+            { "label": "無評估", "value": 0 },
+            { "label": "簽約前評估", "value": 50 },
+            { "label": "定期重新評估", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有管理開源軟體使用的政策？",
+          "options": [
+            { "label": "無政策", "value": 0 },
+            { "label": "有但未強制執行", "value": 50 },
+            { "label": "有政策且自動化檢查", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否追蹤開源元件的授權合規？",
+          "options": [
+            { "label": "未追蹤", "value": 0 },
+            { "label": "手動追蹤", "value": 50 },
+            { "label": "自動化授權掃描", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "事件回應",
+      "description": "供應鏈安全事件的應變能力",
+      "questions": [
+        {
+          "text": "組織是否有供應鏈安全事件的回應計畫？",
+          "options": [
+            { "label": "無計畫", "value": 0 },
+            { "label": "有通用事件計畫", "value": 50 },
+            { "label": "有專屬供應鏈事件計畫", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否能快速識別受影響的產品/系統（如 Log4Shell 類事件）？",
+          "options": [
+            { "label": "無法快速識別", "value": 0 },
+            { "label": "需要數天", "value": 33 },
+            { "label": "可在 24 小時內識別", "value": 66 },
+            { "label": "可在數小時內識別", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "合規與驗證",
+      "description": "符合法規與產業標準",
+      "questions": [
+        {
+          "text": "組織是否符合相關供應鏈安全法規（如 EO 14028、NIS2）？",
+          "options": [
+            { "label": "不適用或未評估", "value": 0 },
+            { "label": "部分符合", "value": 50 },
+            { "label": "完全符合且有文件", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否對軟體進行簽章驗證？",
+          "options": [
+            { "label": "無簽章", "value": 0 },
+            { "label": "部分軟體有簽章", "value": 50 },
+            { "label": "所有發布軟體都有簽章", "value": 100 }
+          ]
+        }
+      ]
+    }
+  ]
+}

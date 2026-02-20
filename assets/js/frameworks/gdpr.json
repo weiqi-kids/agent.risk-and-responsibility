@@ -1,0 +1,150 @@
+{
+  "id": "gdpr",
+  "name": "GDPR",
+  "version": "2016/679",
+  "description": "歐盟一般資料保護規範合規檢核",
+  "sections": [
+    {
+      "name": "法律依據與透明度",
+      "description": "資料處理的合法性基礎",
+      "questions": [
+        {
+          "text": "組織處理個人資料是否都有合法依據（同意、契約、法律義務等）？",
+          "options": [
+            { "label": "不確定", "value": 0 },
+            { "label": "部分有", "value": 50 },
+            { "label": "全部都有且有文件記錄", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有提供清晰的隱私權政策？",
+          "options": [
+            { "label": "無", "value": 0 },
+            { "label": "有但不完整", "value": 50 },
+            { "label": "有完整且易於理解的政策", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否在收集資料時告知資料主體其權利？",
+          "options": [
+            { "label": "未告知", "value": 0 },
+            { "label": "部分告知", "value": 50 },
+            { "label": "完整告知所有權利", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "資料主體權利",
+      "description": "保障個人對其資料的控制權",
+      "questions": [
+        {
+          "text": "組織是否能在 30 天內回應資料主體的存取請求？",
+          "options": [
+            { "label": "無流程", "value": 0 },
+            { "label": "有流程但可能超時", "value": 50 },
+            { "label": "有自動化流程可確保時效", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有機制讓資料主體刪除其資料（被遺忘權）？",
+          "options": [
+            { "label": "無機制", "value": 0 },
+            { "label": "有手動流程", "value": 50 },
+            { "label": "有系統化刪除機制", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否支援資料可攜權（Data Portability）？",
+          "options": [
+            { "label": "不支援", "value": 0 },
+            { "label": "可手動匯出", "value": 50 },
+            { "label": "提供標準格式自動匯出", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "資料安全",
+      "description": "技術與組織措施保護個人資料",
+      "questions": [
+        {
+          "text": "組織是否實施適當的技術安全措施保護個人資料？",
+          "options": [
+            { "label": "基本措施", "value": 33 },
+            { "label": "符合業界標準", "value": 66 },
+            { "label": "超越標準並定期評估", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有資料外洩通報機制？",
+          "options": [
+            { "label": "無機制", "value": 0 },
+            { "label": "有內部通報流程", "value": 50 },
+            { "label": "可在 72 小時內通報監管機關", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有進行隱私影響評估（DPIA）？",
+          "options": [
+            { "label": "從未進行", "value": 0 },
+            { "label": "高風險處理才進行", "value": 50 },
+            { "label": "所有新專案都進行", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "組織措施",
+      "description": "內部管理與合規架構",
+      "questions": [
+        {
+          "text": "組織是否有指定資料保護長（DPO）？",
+          "options": [
+            { "label": "無", "value": 0 },
+            { "label": "有人兼任", "value": 50 },
+            { "label": "有專職 DPO", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織是否有維護處理活動記錄（Records of Processing）？",
+          "options": [
+            { "label": "無記錄", "value": 0 },
+            { "label": "有部分記錄", "value": 50 },
+            { "label": "有完整且更新的記錄", "value": 100 }
+          ]
+        },
+        {
+          "text": "組織員工是否有接受 GDPR 相關培訓？",
+          "options": [
+            { "label": "無培訓", "value": 0 },
+            { "label": "新進人員培訓", "value": 50 },
+            { "label": "定期培訓與更新", "value": 100 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "跨境傳輸",
+      "description": "個人資料的國際傳輸規範",
+      "questions": [
+        {
+          "text": "組織是否有將個人資料傳輸至歐盟以外？",
+          "options": [
+            { "label": "無跨境傳輸", "value": 100 },
+            { "label": "有，使用 SCCs 或 BCRs", "value": 75 },
+            { "label": "有，但未有適當保障", "value": 25 }
+          ]
+        },
+        {
+          "text": "若使用雲端服務，是否確認資料儲存位置與傳輸合規？",
+          "options": [
+            { "label": "不確定", "value": 0 },
+            { "label": "有確認但未文件化", "value": 50 },
+            { "label": "有完整的雲端合規評估", "value": 100 }
+          ]
+        }
+      ]
+    }
+  ]
+}
