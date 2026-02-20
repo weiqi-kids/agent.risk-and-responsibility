@@ -1,0 +1,202 @@
+/* SGE (Search Generative Experience) 標記樣式 */
+/* 這些 CSS class 對應 speakable 選擇器，用於 AI 答案引擎優化 */
+
+/* .key-answer - 每個 H2 開頭的直接答案 */
+.key-answer {
+  background-color: #f0f7ff;
+  border-left: 4px solid #0066cc;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0 1.5rem 0;
+  font-size: 1.05em;
+  line-height: 1.6;
+}
+
+.key-answer strong {
+  color: #0052a3;
+}
+
+/* .key-takeaway - 文章重點摘要 */
+.key-takeaway {
+  background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+  border: 2px solid #f59e0b;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.key-takeaway::before {
+  content: "重點摘要";
+  display: inline-block;
+  background-color: #f59e0b;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+}
+
+/* .expert-quote - 專家引言 */
+.expert-quote {
+  border-left: 4px solid #6b7280;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background-color: #f9fafb;
+  font-style: italic;
+  color: #374151;
+}
+
+.expert-quote cite {
+  display: block;
+  margin-top: 0.75rem;
+  font-style: normal;
+  font-size: 0.9em;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.expert-quote cite::before {
+  content: "— ";
+}
+
+/* .actionable-steps - 行動步驟清單 */
+.actionable-steps {
+  background-color: #eff6ff;
+  border-radius: 8px;
+  padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+  margin: 1.5rem 0;
+  counter-reset: step-counter;
+  list-style: none;
+}
+
+.actionable-steps li {
+  counter-increment: step-counter;
+  margin-bottom: 1rem;
+  padding-left: 2.5rem;
+  position: relative;
+  line-height: 1.5;
+}
+
+.actionable-steps li:last-child {
+  margin-bottom: 0;
+}
+
+.actionable-steps li::before {
+  content: "步驟 " counter(step-counter);
+  position: absolute;
+  left: 0;
+  font-weight: 600;
+  color: #2563eb;
+  font-size: 0.85em;
+}
+
+/* .comparison-table - 比較表格 */
+.comparison-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 0.95em;
+}
+
+.comparison-table th {
+  background-color: #f3f4f6;
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #374151;
+}
+
+.comparison-table td {
+  border: 1px solid #d1d5db;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+}
+
+.comparison-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.comparison-table tr:hover {
+  background-color: #f3f4f6;
+}
+
+/* .article-summary - 文章摘要（通常在開頭） */
+.article-summary {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
+/* .speakable-content - 可語音朗讀內容 */
+.speakable-content {
+  line-height: 1.8;
+}
+
+/* .faq-answer-content - FAQ 答案內容 */
+.faq-answer-content {
+  padding: 0.75rem 0;
+  line-height: 1.6;
+}
+
+/* .report-meta - 報告資訊區塊（審核者標記） */
+.report-meta {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.report-meta h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.1em;
+  color: #374151;
+}
+
+.report-meta table {
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+}
+
+.report-meta td {
+  padding: 0.5rem 0;
+  border: none;
+  line-height: 1.5;
+}
+
+.report-meta td:first-child {
+  font-weight: 500;
+  color: #6b7280;
+  width: 30%;
+}
+
+/* .badge-reviewed - 審核狀態標記 */
+.badge-reviewed {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  font-size: 0.85em;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}
+
+.badge-pending {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #212529;
+  font-size: 0.85em;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+}

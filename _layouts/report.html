@@ -5,10 +5,9 @@ layout: default
 {% comment %}
 報告專用 Layout
 繼承 Just the Docs 的 default layout，加入 SGE 標記樣式
+CSS 已外部化至 assets/css/sge-classes.css 以利瀏覽器快取
 {% endcomment %}
 
-<style>
-{% include sge-classes.css %}
-</style>
+<link rel="stylesheet" href="{{ '/assets/css/sge-classes.css' | relative_url }}">
 
 {{ content }}
