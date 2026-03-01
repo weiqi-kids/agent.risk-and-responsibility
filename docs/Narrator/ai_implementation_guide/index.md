@@ -49,7 +49,17 @@ has_children: true
 
 ## 最新一期
 
-（尚未產出報告）
+### [2026-03 AI Implementation Guide](2026-03-ai-implementation-guide)
+
+本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、以及在雲原生環境採用階段性方法落地 AI 治理框架（ISO 42001 + NIST AI RMF）。
+
+**必做項目**：
+- 導入 MAESTRO 框架進行 Agentic AI 威脅建模
+- 建立 AI Agent 專用 IAM 授權架構
+- 實施 AI 系統 Credential Lifecycle 管理
+- 盤點組織內 Shadow AI 與嵌入式 AI 風險
+
+**實作項目數**：10（必做 4、建議 6）
 
 ---
 
@@ -57,4 +67,4 @@ has_children: true
 
 | 月份 | 報告 |
 |------|------|
-| — | （尚未產出報告） |
+| 2026-03 | [2026-03 AI Implementation Guide](2026-03-ai-implementation-guide) |

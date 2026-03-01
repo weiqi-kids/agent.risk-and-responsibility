@@ -5,13 +5,13 @@ nav_order: 11
 has_children: true
 ---
 
-# Rule Change Brief — 2026-W08
+# Rule Change Brief — 2026-W09
 
 <div class="key-takeaway">
-本期重點：NIST SP 800-53 Rev. 5.2.0 新增三項控制項（SA-15、SI-02(07)、SA-24）回應 Executive Order 14306、NISTIR 8596 首個 AI 網路安全框架配置檔草案發布、SSDF Version 1.2 擴展安全軟體開發實踐指引。
+本期重點：CSA CCM v4.1 公布強制轉型時程，STAR Registry 參與者須於 2027 年 12 月前完成遷移；ISO/IEC TS 27103:2026 網路安全框架指引正式發布；CISA KEV 新增 5 項已遭利用弱點，聯邦機構面臨多重強制修復期限。
 </div>
 
-> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、csa_cloud_security 等資料源。
+> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、csa_cloud_security、eu_regulations 等資料源。
 
 ## 免責聲明
 
@@ -24,22 +24,22 @@ has_children: true
 ## 本期重點
 
 <p class="key-answer" data-question="本期有哪些重要的規則變動">
-  <strong>NIST SP 800-53 Rev. 5.2.0 於 2025-08-27 正式發布</strong>，回應 Executive Order 14306 新增三項控制項，強化軟體更新與修補管理，將聯邦資訊系統的安全責任從「被動修補」擴展至「主動韌性設計與系統化失敗分析」。
+  <strong>CSA CCM v4.1 於 2026-02-19 公布強制轉型時程</strong>，所有 STAR Registry 參與者須於 2027 年 12 月前從 v4.0.x 遷移至新版本，擴展五大關鍵領域控制項並強化與 ISO 27001、NIST CSF 等框架的互操作性。
 </p>
 
-1. **NIST SP 800-53 Rev. 5.2.0（final）**：新增 SA-15（日誌語法標準化）、SI-02(07)（軟體更新失敗根本原因分析）、SA-24（網路韌性設計）三項控制項，enforcement_signal 為 mandatory。
+1. **CSA CCM v4.1 轉型時程（revision）**：Cloud Security Alliance 公布 CCM v4.1 強制轉型時程，擴展 DCS、LOG、SEF、STA、TVM 五大領域，enforcement_signal 為 mandatory。
 
-2. **NISTIR 8596 AI 網路安全框架配置檔草案（draft）**：首個整合 CSF 與 AI RMF 的框架草案，涵蓋保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊三大領域。
+2. **ISO/IEC TS 27103:2026（revision）**：網路安全框架使用指引技術規格書正式發布，提供 ISO/IEC 標準在網路安全框架中的系統化使用指引。
 
-3. **SSDF Version 1.2（SP 800-218r1）（revision）**：擴展安全軟體開發實踐、任務與範例，強化軟體生產者與採購者在弱點風險緩解方面的指引。
+3. **CISA KEV 新增 5 項弱點（new）**：CVE-2026-24858（Fortinet）、CVE-2026-20805（Windows）、CVE-2026-21509（Office）、CVE-2026-24061（GNU InetUtils）、CVE-2025-31125（Vite），enforcement_signal 為 mandatory。
 
-4. **NIST SP 800-232 輕量級密碼學標準（final）**：ASCON 演算法族正式發布，為 IoT 設備、植入式醫療裝置、RFID 標籤等資源受限設備提供標準化密碼學保護。
+4. **EU 生態設計法規勘誤（amendment）**：Regulation (EU) 2024/1781 永續產品生態設計框架第四次勘誤，影響製造商與進口商合規義務。
 
-5. **CISA KEV 強制修復弱點**：CVE-2025-31125（Vite 存取控制不當）、CVE-2025-34026（Versa Concerto 認證不當）列入已知遭利用弱點清單。
+5. **NIST SP 800-53 Rev. 5.2.0 持續落實（revision）**：三項新增控制項持續影響聯邦機關系統安全計畫更新。
 
 <blockquote class="expert-quote">
-  「新增的控制項回應 Executive Order 14306，強化聯邦系統的網路韌性設計。」
-  <cite>NIST Cybersecurity Framework Team</cite>
+  「CCM v4.1 introduces enhanced interoperability with leading standards and regulatory frameworks, expanding controls across five critical domains.」
+  <cite>Cloud Security Alliance (CSA)</cite>
 </blockquote>
 
 ---
@@ -48,11 +48,11 @@ has_children: true
 
 ### Cybersecurity
 
-本期有 14 項資安相關變動，以 NIST SP 800-53 Rev. 5.2.0 控制項更新、SP 800-232 輕量級密碼學標準定案為重點。
+本期有 14 項資安相關變動，以 CCM v4.1 強制轉型、NIST SP 800-53 Rev. 5.2.0 持續落實、CISA KEV 多項強制修復弱點為重點。
 
 ### AI Risk
 
-本期有 8 項 AI 風險相關變動，以 NISTIR 8596 AI 網路安全框架草案、Cyber AI Profile Workshop 系列為核心。
+本期有 4 項 AI 風險相關變動，以 NISTIR 8596 AI 網路安全框架草案持續推進、EU EuroHPC AI Initiative 勘誤為核心。
 
 ### Privacy
 
@@ -60,25 +60,25 @@ has_children: true
 
 ### Supply Chain
 
-本期有 5 項供應鏈相關變動，以 SSDF Version 1.2 草案、NIST IR 8536 供應鏈追溯框架為重點。
+本期有 5 項供應鏈相關變動，以 NIST IR 8259 IoT 製造商活動修訂、EU 永續產品生態設計法規勘誤為重點。
 
 ### Identity
 
-本期有 1 項身分認證相關變動，以 SP 800-63B 同步式驗證器補充指引為主。
+本期有 2 項身分認證相關變動，以 SP 800-63B 同步式驗證器補充指引、人臉變形偵測指南為主。
 
 ### Critical Infrastructure
 
-本期有 4 項關鍵基礎設施相關變動，以 IoT 安全指引演進、BGP 路由安全測試工具為重點。
+本期有 3 項關鍵基礎設施相關變動，以 NIST SP 1334 OT 環境可攜式儲存媒體安全草案、EU 商用車輛路邊檢查勘誤為重點。
 
 ---
 
 ## L5 — Evolution Signals
 
-- [系統推論] **軟體供應鏈安全治理體系成形** — NIST SP 800-53 控制項新增、SSDF 修訂到軟體開發安全指南，均回應 Executive Order 14306，形成完整的軟體安全治理體系。
+- [系統推論] **框架互操作性成為合規策略核心** — CCM v4.1 強化與 ISO 27001、NIST CSF 的對齊，ISO/IEC TS 27103:2026 提供框架整合方法論，組織未來需同時滿足多框架要求。
 
-- [系統推論] **AI 網路安全整合趨勢明確** — NISTIR 8596 首次建立 CSF 與 AI RMF 的整合框架，AI 風險管理正從獨立領域轉向與傳統資安框架的深度整合。
+- [系統推論] **攻擊面從運營環境延伸至開發工具鏈** — CISA KEV 將 Vite（開發工具）列入已知遭利用弱點，供應鏈安全責任從「運營環境」延伸至「開發環境」。
 
-- [系統推論] **IoT 設備安全責任持續轉向製造商** — NIST IR 8259 修訂新增 Activity 0，將製造商責任從「產品交付後」擴展至「設計階段」。
+- [系統推論] **歐盟法規處於快速調整期** — 多項勘誤涵蓋生態設計、AI 新創與國際保護認定，組織應建立持續監測 EUR-Lex 更新的機制。
 
 ---
 
@@ -87,9 +87,9 @@ has_children: true
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| rule_type 分布 | draft: 9, final: 8, guidance: 10, revision: 7, amendment: 4, new: 4, event: 3, 其他: 5 |
-| enforcement_signal 分布 | mandatory: 5, recommended: 20, informational: 12, 未標註: 13 |
-| REVIEW_NEEDED | 1 筆 |
+| rule_type 分布 | guidance: 14, amendment: 8, draft: 7, new: 5, revision: 3, unspecified: 13 |
+| enforcement_signal 分布 | recommended: 18, mandatory: 11, informational: 8, unspecified: 13 |
+| REVIEW_NEEDED | 2 筆 |
 
 ---
 
@@ -97,14 +97,15 @@ has_children: true
 
 | Layer | 筆數 | 時間範圍 |
 |-------|------|----------|
-| nist_frameworks | 25 | 2025-07-15 ~ 2026-01-28 |
-| nist_cybersecurity_insights | 19 | 2024-02-26 ~ 2026-01-27 |
-| csa_cloud_security | 3 | 2026-01-20 ~ 2026-01-27 |
-| cisa_kev | 2 | 2026-01-22 |
-| iso_standards | 1 | 2026-02-06 |
+| nist_frameworks | 19 | 2025-07-15 ~ 2026-01-28 |
+| nist_cybersecurity_insights | 17 | 2024-02-26 ~ 2026-01-27 |
+| cisa_kev | 5 | 2026-01-13 ~ 2026-01-27 |
+| iso_standards | 4 | 2025-12-22 ~ 2026-02-06 |
+| eu_regulations | 4 | 2026-01-22 ~ 2026-02-04 |
+| csa_cloud_security | 1 | 2026-02-19 |
 
 ---
 
-[閱讀完整報告](/docs/Narrator/rule_change_brief/2026-W08-rule-change-brief/)
+[閱讀完整報告](/docs/Narrator/rule_change_brief/2026-W09-rule-change-brief/)
 
-*報告產出時間：2026-02-18*
+*報告產出時間：2026-03-01*

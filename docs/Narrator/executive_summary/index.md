@@ -37,7 +37,13 @@ has_children: true
 
 ## 最新一期
 
-（尚未產出報告）
+### [2026-W09 Executive Summary](2026-W09-executive-summary/)
+
+本週 3 大重點：
+
+1. **歐盟俄羅斯能源進口禁令正式立法** — Regulation (EU) 2026/261 建立天然氣與石油進口禁令框架，管線天然氣最遲 2026-06-17 全面禁止
+2. **CSA CCM v4.1 強制轉型時程公布** — STAR Registry 參與者須於 2027 年 12 月前完成遷移，擴展五大關鍵領域控制項
+3. **CISA KEV 新增 5 項已遭利用弱點** — 涵蓋 Fortinet、Microsoft Windows/Office 及開發工具鏈，多項修復期限迫近
 
 ---
 
@@ -45,4 +51,4 @@ has_children: true
 
 | 週次 | 報告 |
 |------|------|
-| — | （尚未產出報告） |
+| 2026-W09 | [Executive Summary](2026-W09-executive-summary/) |

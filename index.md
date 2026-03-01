@@ -9,7 +9,7 @@ nav_order: 1
 追蹤框架、法規與產業規則的變動，觀察責任歸屬的演化。
 
 {: .label .label-green }
-**最後更新：2026-02-18**
+**最後更新：2026-03-01**
 
 [訂閱 RSS](/feed.xml){: .btn .btn-primary }
 [關於本站](/about/){: .btn }
@@ -33,15 +33,15 @@ nav_order: 1
 
 ---
 
-## 本週報告（2026-W08）
+## 本週報告（2026-W09）
 
 | 報告 | 重點摘要 |
 |------|----------|
-| [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %}) | NIST SP 800-53 Rev. 5.2.0 正式發布、NISTIR 8596 AI 網路安全框架、SSDF 1.2 公開徵詢 |
-| [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | EU AI Act 勘誤、EuroHPC AI Gigafactories、Agentic AI 治理框架、非人類身分治理 |
-| [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | SSDF 1.2 版徵詢、eslint-config-prettier 供應鏈攻擊、IoT 製造商安全指引 |
-| [Critical Infrastructure]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | EU 能源社群決議、EuroHPC 量子擴展、NIST IoT 安全接入、EDIP 防衛計畫 |
-| [Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | SP 800-53 Rev. 5.2.0、勒索軟體風險管理 CSF 2.0 配置檔、CSA-MITRE 整合指引 |
+| [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %}) | CSA CCM v4.1 強制轉型時程公布、ISO/IEC TS 27103:2026 發布、CISA KEV 新增 5 項弱點 |
+| [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | ISO 42001 AI 管理系統實務指引、MAESTRO 框架首個實戰案例、Agentic AI 可見性調查 |
+| [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | NIST CSF 2.0 製造業社群檔案草案、CCM v4.1 供應鏈控制擴展、SSDF 1.2 推進最終發布 |
+| [Critical Infrastructure]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | EU 2026/261 俄羅斯能源進口禁令、CLAIR 10 層相依性映射框架、NIST AI 經濟安全中心 |
+| [Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | NIST CSF 2.0 兩週年七份社群檔案、CCM v4.1 轉換時程 2027 年底、ISO/IEC TS 27103:2026 |
 
 ---
 

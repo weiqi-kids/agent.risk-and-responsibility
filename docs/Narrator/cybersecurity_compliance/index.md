@@ -5,13 +5,13 @@ nav_order: 16
 has_children: true
 ---
 
-# Cybersecurity Compliance Updates — 2026-W08
+# Cybersecurity Compliance Updates — 2026-W09
 
 <div class="key-takeaway">
-本週重點：NIST SP 800-53 Rev. 5.2.0 正式發布，新增三項控制項強化軟體更新與修補管理；NIST IR 8374 勒索軟體風險管理社群輪廓基於 CSF 2.0 更新；CSA 與 MITRE 合作整合 CCM 與 ATT&CK 框架；CISA 新增高優先漏洞（KEV），聯邦機構須於 2026-02-12 前完成修補。
+本週重點：NIST CSF 2.0 發布兩週年，已產出七份社群檔案草案覆蓋 AI、勒索軟體、製造業等關鍵領域；CSA 公布 CCM v4.1 轉換時程，STAR Registry 參與者須於 2027 年 12 月前完成遷移；ISO/IEC TS 27103:2026 正式發布，提供網路安全框架整合 ISO/IEC 標準的實務指引。
 </div>
 
-> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架（25）、NIST 洞察（19）、CSA 雲端安全（3）、CISA KEV（2）、ISO 標準（1）。
+> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架（23）、NIST 洞察（20）、CSA 雲端安全（5）、ISO 標準（1）、CISA KEV（1）。
 
 ## 免責聲明
 
@@ -24,40 +24,33 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的資安合規動態">
-  <strong>NIST SP 800-53 Rev. 5.2.0 正式發布</strong>，回應 Executive Order 14306，新增三項控制項（SA-15 日誌語法、SI-02(07) 根本原因分析、SA-24 韌性設計），強化聯邦系統軟體更新與修補管理責任。
+  <strong>NIST CSF 2.0 迎來發布兩週年</strong>，累計超過 300 萬次瀏覽與下載，並已產出七份社群檔案草案與七份資訊性參考文件，顯示該框架已成為全球資安治理的核心參考標準。
 </p>
 
-1. **NIST SP 800-53 Rev. 5.2.0 發布**（美國，revision，mandatory）
-   - 新增 SA-15 Logging Syntax：定義安全事件電子記錄格式以支援自動化
-   - 新增 SI-02(07) Root Cause Analysis：軟體更新失敗需進行根本原因調查
-   - 新增 SA-24 Design for Cyber Resiliency：系統設計須具備預測、承受、回應與復原能力
-   - 回應 Executive Order 14306 "Sustaining Select Efforts to Strengthen the Nation's Cybersecurity"
+1. **NIST CSF 2.0 發布兩週年回顧**（美國，guidance，informational）
+   - 累計超過 300 萬次瀏覽與下載
+   - 七份社群檔案草案：AI、事件回應、製造業、半導體、PNT、勒索軟體、交通運輸
+   - 七份資訊性參考文件，對應 PCI DSS 4.0.1、CIS Controls 8.1、ISO/IEC 27001:2022
 
-2. **NIST IR 8374 Revision 1 勒索軟體風險管理**（美國，draft，recommended）
-   - 基於 CSF 2.0 更新（原版基於 CSF 1.1）
-   - 新增 Govern 功能類別，將防護責任從事後應急擴展至事前風險評估與治理
-   - 公開意見徵詢截止：2025-09-11
-   - 適用於所有規模與產業的組織
+2. **CSA CCM v4.1 轉換時程公布**（全球，revision，recommended）
+   - STAR Registry 認證須於 2027 年 12 月前遷移至 v4.1
+   - 新增 11 項控制規格（DCS、LOG、SEF、STA、TVM）
+   - 2028 年 1 月起不再接受 v4.0.x 提交
 
-3. **CSA-MITRE CTID 合作整合 CCM 與 ATT&CK**（全球，guidance，recommended）
-   - Cloud Security Alliance 與 MITRE 合作
-   - 將 CSA Cloud Controls Matrix (CCM) 對應 MITRE ATT&CK 框架
-   - 提供雲端安全控制措施與對手策略技術的對照
-   - 支援威脅情報驅動的防禦策略
+3. **ISO/IEC TS 27103:2026 正式發布**（全球，revision，recommended）
+   - 提供在網路安全框架中整合 ISO/IEC 標準的實務指引
+   - 取代舊版標準，由 JTC 1/SC 27 技術委員會發布
 
-4. **CISA KEV 新增高優先漏洞**（美國，new，mandatory）
-   - CVE-2025-31125：Vite Vitejs 不當存取控制漏洞
-   - CVE-2025-34026：Versa Concerto 驗證繞過漏洞
-   - 聯邦機構修補截止日：2026-02-12
+4. **CSA STAR 身分安全風險管理指引**（全球，guidance，recommended）
+   - 身分安全四階段成熟度模型：可見性、控制、監控、韌性
+   - 要求獨立第三方驗證與持續監控
 
-5. **NIST IR 8349 最終版發布 — IoT 設備網路行為特徵化**（美國，final，recommended）
-   - 提供 IoT 設備網路行為捕捉、記錄與特徵化方法
-   - MUD（Manufacturer Usage Description）規範標準化設備通訊需求
-   - 開源工具 MUD-PD 自動化特徵化流程
+5. **NIST SP 800-53 Rev. 5.2.0 持續推動**（美國，revision，mandatory）
+   - 三項新增控制項（SA-15、SI-02(07)、SA-24）持續為聯邦機構實施重點
 
 <blockquote class="expert-quote">
-  「新增的控制項回應 Executive Order 14306，強化聯邦系統的網路韌性設計。」
-  <cite>NIST SP 800-53 Rev. 5.2.0 公告</cite>
+  「CSF 2.0 在兩年內已累計超過 300 萬次瀏覽與下載，並持續透過社群檔案擴展至 AI、製造業、交通運輸等關鍵領域。」
+  <cite>NIST Cybersecurity Insights Blog, 2026-02-24</cite>
 </blockquote>
 
 ---
@@ -70,33 +63,37 @@ has_children: true
 
 | 文件 | 狀態 | 主要變動 |
 |------|------|----------|
+| CSF 2.0 社群檔案 | draft（7 份） | AI、事件回應、製造業、半導體、PNT、勒索軟體、交通運輸 |
 | SP 800-53 Rev. 5.2.0 | final | 新增 SA-15、SI-02(07)、SA-24 三項控制項 |
-| NIST IR 8374 Rev. 1 | draft | 勒索軟體風險管理社群輪廓（基於 CSF 2.0） |
-| NIST IR 8349 | final | IoT 設備網路行為特徵化方法 |
-| SP 800-218r1 (SSDF 1.2) | public_comment | 安全軟體開發框架修訂 |
-| NIST IR 8259 Rev. 1 | draft | IoT 製造商基礎網路安全活動（修訂中） |
 | NISTIR 8596 | public_comment | AI 時代網路安全指引（Cyber AI Profile） |
+| SP 800-218r1 (SSDF 1.2) | public_comment | 安全軟體開發框架修訂 |
+| SP 1800-37 | final | TLS 1.3 可見性挑戰解決方案 |
 
-**Cyber AI Profile 開發進展**
+**CSF 2.0 兩年里程碑**
 
-NIST NCCoE 持續舉辦虛擬工作會議，開發 CSF 與 AI RMF 整合的 Cyber AI Profile，涵蓋三大情境：採用 AI 進行網路安全防護、防禦 AI 驅動的資安攻擊、保護 AI 系統本身。
+超過 300 萬次瀏覽與下載，七份社群檔案草案覆蓋多個關鍵產業，Govern 功能已成為框架核心。
+
+### 全球（CSA / ISO）
+
+CCM v4.1 新增 11 項控制規格，兩年轉換窗口至 2027 年 12 月。ISO/IEC TS 27103:2026 提供跨框架整合指引。
 
 ### 歐盟
 
-本週 Qdrant 語意搜尋結果以 NIST 框架與 CISA KEV 為主，未涵蓋歐盟特定的資安合規動態。組織應持續關注 NIS2 Directive 會員國轉換進度與 ENISA 發布的資安指引。
+本週搜尋結果未涵蓋歐盟特定資安合規動態。組織應持續關注 NIS2 Directive 會員國轉換進度與 ENISA 指引。
 
 ---
 
 ## 控制措施對照
 
-| 控制領域 | NIST 對應 | CSA CCM 對應 | 變動摘要 |
-|----------|-----------|--------------|----------|
-| 日誌管理與事件記錄 | SP 800-53 SA-15 (NEW) | LOG-01, LOG-02 | 新增：定義安全事件電子記錄格式以支援自動化與事件重建 |
-| 修補管理 | SP 800-53 SI-02(07) (NEW) | IVS-07 | 新增：軟體更新失敗需進行根本原因調查並制定行動計畫 |
-| 韌性設計 | SP 800-53 SA-24 (NEW) | BCR-01, BCR-02 | 新增：系統設計須具備 anticipate、withstand、respond、recover 能力 |
-| 勒索軟體防護 | NIST IR 8374 (CSF 2.0 Profile) | HRS-07, DSP-04 | 修訂：整合 CSF 2.0 Govern 功能，擴展至事前風險評估 |
-| IoT 設備安全 | NIST IR 8349, IR 8259 | IVS-09 | 強化：MUD 規範標準化設備網路通訊需求 |
-| 威脅情報整合 | CSF DE.CM | TVM-01 + MITRE ATT&CK | 新增：CSA-MITRE 合作對應 CCM 控制措施與對手 TTPs |
+| 控制領域 | NIST 對應 | CSA CCM / ISO 對應 | 變動摘要 |
+|----------|-----------|---------------------|----------|
+| 日誌管理 | SP 800-53 SA-15 | CCM v4.1 LOG-* (新增) | NIST 新增控制項 + CCM 擴展日誌管理控制 |
+| 修補管理 | SP 800-53 SI-02(07) | CCM IVS-07 | 持續推動根本原因分析流程 |
+| 韌性設計 | SP 800-53 SA-24 | CCM BCR-01, BCR-02 | 系統須具備 anticipate、withstand、respond、recover 能力 |
+| 安全事件管理 | CSF RS / SP 800-61 | CCM v4.1 SEF-* (新增) | CCM v4.1 新增安全事件管理控制 |
+| 供應鏈 | SSDF 1.2 / IR 8536 | CCM v4.1 STA-* (擴展) | NIST + CCM 同步擴展供應鏈安全控制 |
+| 威脅情報 | CSF DE.CM | CCM v4.1 TVM-* + MITRE ATT&CK | CCM 擴展 + CSA-MITRE 合作整合 |
+| 框架整合 | CSF 2.0 參考文件 | ISO/IEC TS 27103:2026 | 雙向推動跨框架互操作 |
 
 ---
 
@@ -104,21 +101,21 @@ NIST NCCoE 持續舉辦虛擬工作會議，開發 CSF 與 AI RMF 整合的 Cybe
 
 | 來源 | 文件 | affected_roles | shift_type | shift_summary |
 |------|------|---------------|------------|---------------|
-| NIST | SP 800-53 Rev. 5.2.0 | 聯邦機關、系統管理者、軟體開發者 | expanded | 新增三項控制項，將責任從被動修補擴展至主動韌性設計與系統化失敗分析 |
-| NIST | IR 8374 Rev. 1 | 各規模組織、資安團隊、高階管理層 | expanded | 勒索軟體防護責任從事後應急回應擴展至事前風險評估與治理 |
-| NIST | IR 8349 | IoT 製造商、網路運營商、雲端服務供應商 | clarified | IoT 安全責任從事後異常偵測前移至事前行為定義與控制 |
-| CISA | KEV 目錄（2 筆） | 聯邦機構、IT 管理員、資安團隊 | new | 新增漏洞修補義務（CVE-2025-31125、CVE-2025-34026），聯邦機構須於 2026-02-12 前完成修補 |
-| CSA/MITRE | CCM-ATT&CK 對應 | 雲端安全專業人員、威脅情報分析師 | new | 整合控制措施與對手行為知識庫，建立威脅驅動防禦策略責任 |
+| NIST | CSF 2.0 社群檔案 | 各規模組織 CISO、風險管理人員 | expanded | 七份社群檔案擴大框架適用範圍 |
+| CSA | CCM v4.1 | 雲端服務供應商、STAR Registry 參與者 | expanded | 新增 11 項控制規格，2027/12 前遷移 |
+| ISO/IEC | TS 27103:2026 | CISO、合規管理人員 | clarified | 更新框架整合運用指引 |
+| CSA | STAR 身分安全 | IAM 架構師、雲端安全團隊 | clarified | 身分安全轉向主動韌性 |
+| NIST | SP 800-53 Rev. 5.2.0 | 聯邦機關、軟體開發者 | expanded | 三項新增控制項持續推動 |
 
 ---
 
 ## L5 — Evolution Signals
 
-- [系統推論] **韌性設計成為主流要求**：SP 800-53 新增 SA-24 要求系統具備「預測、承受、回應、復原」能力，預期此設計原則將逐步擴展至非聯邦系統與產業標準。
+- [系統推論] **框架互操作性成為主流趨勢**：CSF 2.0、CCM v4.1、ISO/IEC TS 27103:2026 三大標準同步推動跨框架互操作，預示「一次實施、多框架對應」將成可能。
 
-- [系統推論] **AI 與網路安全框架整合加速**：NIST 積極開發 Cyber AI Profile，整合 CSF 與 AI RMF，預示未來資安合規將需同時考量 AI 採用與 AI 威脅。
+- [系統推論] **AI 安全已從概念進入框架化階段**：CSF 2.0 AI 社群檔案 + NISTIR 8596 Cyber AI Profile 顯示 AI 安全正融入既有合規框架。
 
-- [系統推論] **供應鏈安全責任持續深化**：從 SSDF 1.2 到 IR 8259 修訂，製造商與開發者的 pre-market 安全責任持續擴展，「左移」安全趨勢將加強法規要求。
+- [系統推論] **從定期稽核轉向即時持續合規**：CCM v4.1 與 CSA STAR 的持續監控義務，預示資安合規將從年度稽核轉向自動化即時驗證。
 
 ---
 
@@ -127,9 +124,9 @@ NIST NCCoE 持續舉辦虛擬工作會議，開發 CSF 與 AI RMF 整合的 Cybe
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| 來源分布 | NIST Frameworks: 25, NIST Insights: 19, CSA Cloud Security: 3, CISA KEV: 2, ISO Standards: 1 |
-| enforcement_signal 分布 | recommended: 19, informational: 11, null/未標註: 16, mandatory: 4 |
-| REVIEW_NEEDED | 0 筆 |
+| 來源分布 | NIST Frameworks: 23, NIST Insights: 20, CSA Cloud Security: 5, ISO Standards: 1, CISA KEV: 1 |
+| enforcement_signal 分布 | recommended: 22, informational: 12, mandatory: 3, null/未標註: 13 |
+| REVIEW_NEEDED | 2 筆 |
 
 ---
 
@@ -137,15 +134,15 @@ NIST NCCoE 持續舉辦虛擬工作會議，開發 CSF 與 AI RMF 整合的 Cybe
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | cybersecurity, ai_risk, supply_chain, critical_infrastructure | 25 | 2025-07-22 ~ 2026-01-28 |
-| nist_cybersecurity_insights | cybersecurity, policy_guidance, ai_risk, workforce, supply_chain, critical_infrastructure, privacy | 19 | 2024-05-01 ~ 2026-01-27 |
-| csa_cloud_security | cloud_security, best_practices | 3 | 2026-01-20 ~ 2026-01-27 |
-| cisa_kev | vulnerability | 2 | 2026-01-22 |
+| nist_frameworks | cybersecurity, ai_risk, supply_chain, critical_infrastructure | 23 | 2025-07-15 ~ 2026-01-28 |
+| nist_cybersecurity_insights | cybersecurity, policy_guidance, ai_risk, workforce, supply_chain, privacy | 20 | 2024-02-26 ~ 2026-02-24 |
+| csa_cloud_security | cloud_security, compliance, best_practices | 5 | 2026-01-27 ~ 2026-02-19 |
 | iso_standards | information_security | 1 | 2026-02-06 |
+| cisa_kev | vulnerability | 1 | 2026-01-22 |
 
 > 備註：本週 Qdrant 語意搜尋結果未涵蓋 eu_regulations Layer 的資料，歐盟資安合規動態請參閱獨立的 EU 法規報告。
 
 ---
 
 *報告產出：Narrator Mode - cybersecurity_compliance*
-*資料擷取時間點：2026-02-18*
+*資料擷取時間點：2026-03-01*
