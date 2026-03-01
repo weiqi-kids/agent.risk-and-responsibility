@@ -1,9 +1,17 @@
 [
   {
     "id": "index-md",
-    "title": "Cybersecurity Compliance Updates — 2026-W08",
+    "title": "Cybersecurity Compliance Updates — 2026-W09",
     "date": "",
     "file": "index.md",
+    "item_count": "50",
+    "source_mode": "cybersecurity_compliance"
+  },
+  {
+    "id": "2026-W09-cybersecurity-compliance-md",
+    "title": "Cybersecurity Compliance Updates — 2026-W09 {: .no_toc }",
+    "date": "2026-W09",
+    "file": "2026-W09-cybersecurity-compliance.md",
     "item_count": "50",
     "source_mode": "cybersecurity_compliance"
   },

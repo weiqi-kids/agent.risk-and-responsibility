@@ -957,6 +957,17 @@
     "review_needed": false
   },
   {
+    "id": "cybersecurity-2026-02-24-celebrating-two-years-csf-20-md",
+    "title": "Celebrating Two Years of CSF 2.0!",
+    "category": "cybersecurity",
+    "date": "2026-02-24",
+    "file": "cybersecurity/2026-02-24-celebrating-two-years-csf-20.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/celebrating-two-years-csf-20",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "cybersecurity-2025-09-30-sharpening-focus-product-requirements-cybersecurity-risks-md",
     "title": "Sharpening the Focus on Product Requirements and Cybersecurity Risks: Updating Foundational Activities for IoT Product Manufacturers",
     "category": "cybersecurity",

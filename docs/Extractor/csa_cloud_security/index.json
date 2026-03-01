@@ -1,5 +1,27 @@
 [
   {
+    "id": "identity-2026-02-11-ai-security-authorization-outlives-intent-md",
+    "title": "AI Security: When Authorization Outlives Intent — Credential Lifecycle and the Salesloft Drift Breach",
+    "category": "identity",
+    "date": "2026-02-11",
+    "file": "identity/2026-02-11-ai-security-authorization-outlives-intent.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ai-security-when-authorization-outlives-intent",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-02-03-token-sprawl-age-of-ai-md",
+    "title": "Token Sprawl in the Age of AI",
+    "category": "identity",
+    "date": "2026-02-03",
+    "file": "identity/2026-02-03-token-sprawl-age-of-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/token-sprawl-in-the-age-of-ai",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "identity-2026-02-03-time-to-trust-phase-ai-autonomy-foundations-md",
     "title": "New Survey from Cloud Security Alliance, Strata Identity Finds That Enterprises Are in a 'Time-to-Trust' Phase, As They Build Foundations for AI Autonomy",
     "category": "identity",
@@ -121,6 +143,39 @@
     "review_needed": false
   },
   {
+    "id": "compliance-2026-02-19-ccm-v4-1-transition-timeline-md",
+    "title": "CCM v4.1 Transition Timeline: Cloud Controls Matrix Update and Migration Requirements",
+    "category": "compliance",
+    "date": "2026-02-19",
+    "file": "compliance/2026-02-19-ccm-v4-1-transition-timeline.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ccm-v4-1-transition-timeline",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-02-11-rbi-bank-in-mandate-digital-banking-trust-md",
+    "title": "RBI's .bank.in Mandate: A New Trust Anchor for Digital Banking",
+    "category": "compliance",
+    "date": "2026-02-11",
+    "file": "compliance/2026-02-11-rbi-bank-in-mandate-digital-banking-trust.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/rbi-s-bank-in-mandate-a-new-trust-anchor-for-digital-banking-and-why-it-s-only-the-beginning",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-02-03-soc2-trust-services-criteria-privacy-md",
+    "title": "Breaking Down the SOC 2 Trust Services Criteria: Privacy",
+    "category": "compliance",
+    "date": "2026-02-03",
+    "file": "compliance/2026-02-03-soc2-trust-services-criteria-privacy.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/breaking-down-the-soc-2-trust-services-criteria-privacy",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "compliance-2026-01-30-csa-star-helps-cloud-first-organizations-tackle-identity-security-risks-md",
     "title": "How CSA STAR Helps Cloud-First Organizations Tackle Modern Identity Security Risks",
     "category": "compliance",
@@ -215,6 +270,28 @@
     "date": "2026-01-13",
     "file": "compliance/2026-01-13-ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-2026.md",
     "source_url": "https://cloudsecurityalliance.org/articles/ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-in-2026",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-02-03-zero-trust-session-layer-md",
+    "title": "Why Zero Trust Needs to Start at the Session Layer",
+    "category": "cloud_security",
+    "date": "2026-02-03",
+    "file": "cloud_security/2026-02-03-zero-trust-session-layer.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/why-zero-trust-needs-to-start-at-the-session-layer",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-01-30-react2shell-cloud-finance-threat-actors-md",
+    "title": "React2Shell Reflections: Cloud Insights, Finance Sector Impacts, and How Threat Actors Moved So Quickly",
+    "category": "cloud_security",
+    "date": "2026-01-30",
+    "file": "cloud_security/2026-01-30-react2shell-cloud-finance-threat-actors.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/react2shell-reflections-cloud-insights-finance-sector-impacts-and-how-threat-actors-moved-so-quickly",
     "confidence": "高",
     "source_layer": "csa_cloud_security",
     "review_needed": false
@@ -440,12 +517,56 @@
     "review_needed": false
   },
   {
+    "id": "ai_security-2026-02-26-core-collapse-ai-cybersecurity-foundations-md",
+    "title": "Core Collapse: How AI Is Reforging Cybersecurity Foundations",
+    "category": "ai_security",
+    "date": "2026-02-26",
+    "file": "ai_security/2026-02-26-core-collapse-ai-cybersecurity-foundations.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/core-collapse",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-17-openclaw-threat-model-maestro-framework-analysis-md",
+    "title": "OpenClaw Threat Model: MAESTRO Framework Analysis for Agentic AI Security",
+    "category": "ai_security",
+    "date": "2026-02-17",
+    "file": "ai_security/2026-02-17-openclaw-threat-model-maestro-framework-analysis.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/openclaw-threat-model-maestro-framework-analysis",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-17-agentic-ai-financial-security-new-reality-md",
+    "title": "Agentic AI and the New Reality of Financial Security",
+    "category": "ai_security",
+    "date": "2026-02-17",
+    "file": "ai_security/2026-02-17-agentic-ai-financial-security-new-reality.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/agentic-ai-and-the-new-reality-of-financial-security",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "ai_security-2026-02-11-ai-security-iam-delivered-at-agent-velocity-md",
     "title": "AI Security: IAM Delivered at Agent Velocity",
     "category": "ai_security",
     "date": "2026-02-11",
     "file": "ai_security/2026-02-11-ai-security-iam-delivered-at-agent-velocity.md",
     "source_url": "https://cloudsecurityalliance.org/articles/ai-security-iam-delivered-at-agent-velocity",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-03-visibility-gap-autonomous-ai-agents-md",
+    "title": "The Visibility Gap in Autonomous AI Agents",
+    "category": "ai_security",
+    "date": "2026-02-03",
+    "file": "ai_security/2026-02-03-visibility-gap-autonomous-ai-agents.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/the-visibility-gap-in-autonomous-ai-agents",
     "confidence": "高",
     "source_layer": "csa_cloud_security",
     "review_needed": false
@@ -523,6 +644,17 @@
     "date": "2026-01-29",
     "file": "ai_security/2026-01-29-agentic-trust-framework-zero-trust-governance-for-ai-agents.md",
     "source_url": "https://cloudsecurityalliance.org/articles/the-agentic-trust-framework-zero-trust-governance-for-ai-agents",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-01-27-zero-trust-agentic-pipelines-cloud-production-md",
+    "title": "Zero Trust for Agentic Pipelines That Touch Cloud Production",
+    "category": "ai_security",
+    "date": "2026-01-27",
+    "file": "ai_security/2026-01-27-zero-trust-agentic-pipelines-cloud-production.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/zero-trust-for-agentic-pipelines-that-touch-cloud-production",
     "confidence": "高",
     "source_layer": "csa_cloud_security",
     "review_needed": false

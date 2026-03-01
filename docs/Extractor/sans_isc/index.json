@@ -1,5 +1,16 @@
 [
   {
+    "id": "vulnerability-2026-02-24-open-redirects-forgotten-vulnerability-md",
+    "title": "Open Redirects: A Forgotten Vulnerability",
+    "category": "vulnerability",
+    "date": "2026-02-24",
+    "file": "vulnerability/2026-02-24-open-redirects-forgotten-vulnerability.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32742",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-02-11-apple-patches-february-2026-md",
     "title": "Apple Patches Everything: February 2026",
     "category": "vulnerability",
@@ -29,6 +40,28 @@
     "file": "vulnerability/2026-02-10-microsoft-patch-tuesday-february-2026.md",
     "source_url": "https://isc.sans.edu/diary/rss/32700",
     "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-02-26-honeypot-ai-assistance-lessons-learned-md",
+    "title": "Finding Signal in the Noise: Lessons Learned Running a Honeypot with AI Assistance",
+    "category": "threat_analysis",
+    "date": "2026-02-26",
+    "file": "threat_analysis/2026-02-26-honeypot-ai-assistance-lessons-learned.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32744",
+    "confidence": "中",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-02-25-clair-model-critical-infrastructure-interdependencies-md",
+    "title": "The CLAIR Model: A Synthesized Conceptual Framework for Mapping Critical Infrastructure Interdependencies",
+    "category": "threat_analysis",
+    "date": "2026-02-25",
+    "file": "threat_analysis/2026-02-25-clair-model-critical-infrastructure-interdependencies.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32748",
+    "confidence": "中",
     "source_layer": "sans_isc",
     "review_needed": false
   },
@@ -105,6 +138,28 @@
     "date": "2026-01-30",
     "file": "threat_analysis/2026-01-30-google-presentations-phishing.md",
     "source_url": "https://isc.sans.edu/diary/rss/32668",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-27-fake-fedex-email-delivers-donuts-md",
+    "title": "Fake Fedex Email Delivers Donuts (DonutLoader + XWorm)",
+    "category": "malware",
+    "date": "2026-02-27",
+    "file": "malware/2026-02-27-fake-fedex-email-delivers-donuts.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32754",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-02-23-another-day-malicious-jpeg-remcos-rat-md",
+    "title": "Another Day, Another Malicious JPEG: Multi-Stage Remcos RAT Campaign",
+    "category": "malware",
+    "date": "2026-02-23",
+    "file": "malware/2026-02-23-another-day-malicious-jpeg-remcos-rat.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32738",
     "confidence": "高",
     "source_layer": "sans_isc",
     "review_needed": false

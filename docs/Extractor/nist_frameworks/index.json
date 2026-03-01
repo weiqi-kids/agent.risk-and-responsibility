@@ -407,6 +407,17 @@
     "review_needed": false
   },
   {
+    "id": "cybersecurity-2025-09-02-nccoe-cyber-ai-profile-draft-md",
+    "title": "NIST NCCoE Cyber AI Profile — CSF 2.0 Extension for AI-Enabled Cyber Threats (Draft Development)",
+    "category": "cybersecurity",
+    "date": "2025-09-02",
+    "file": "cybersecurity/2025-09-02-nccoe-cyber-ai-profile-draft.md",
+    "source_url": "https://www.nist.gov/news-events/events/2025/09/nist-nccoe-cyber-ai-profile-virtual-working-session-series-thwarting-ai",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
     "id": "cybersecurity-2025-08-28-nist-ir-8349-iot-device-characterization-md",
     "title": "Final NIST IR 8349 Released: Characterize & Secure Your IoT Devices",
     "category": "cybersecurity",

@@ -1,10 +1,18 @@
 [
   {
     "id": "index-md",
-    "title": "Supply Chain Security Trends — 2026-W08",
+    "title": "Supply Chain Security Trends — 2026-W09 {: .no_toc }",
     "date": "",
     "file": "index.md",
-    "item_count": "9",
+    "item_count": "11",
+    "source_mode": "supply_chain_security"
+  },
+  {
+    "id": "2026-W09-supply-chain-security-md",
+    "title": "Supply Chain Security Trends — 2026-W09 {: .no_toc }",
+    "date": "2026-W09",
+    "file": "2026-W09-supply-chain-security.md",
+    "item_count": "11",
     "source_mode": "supply_chain_security"
   },
   {
