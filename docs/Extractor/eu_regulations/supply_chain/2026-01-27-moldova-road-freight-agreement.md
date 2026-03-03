@@ -1,6 +1,6 @@
 ---
 title: Council Decision (EU) 2026/226 — EU-Ukraine Road Freight Agreement Amendment
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0226
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0226
 date: 2026-01-27
 category: supply_chain
 confidence: 高

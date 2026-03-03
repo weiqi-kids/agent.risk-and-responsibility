@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Directive 2008/119/EG on minimum requirements for the protection of calves"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32008L0119R(04)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008L0119
 date: 2026-02-04
 category: supply_chain
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: Council of the European Union
-- **document_id**: CELEX:32008L0119R(04)
+- **document_id**: CELEX:32008L0119
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: requires_transposition

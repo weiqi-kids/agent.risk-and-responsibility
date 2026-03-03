@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2014 of the European Parliament and of the Council of 16 December 2025 amending Regulation (EU) 2024/823 on exceptional trade measures for countries and territories participating in or linked to the Stabilisation and Association Process"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2014
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2014
 date: 2025-12-22
 category: supply_chain
 confidence: 高

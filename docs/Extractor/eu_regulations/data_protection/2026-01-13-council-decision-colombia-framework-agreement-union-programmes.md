@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2640 - EU-US Framework Agreement on Security Screenings and Identity Verifications"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2640
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2640
 date: 2025-12-16
 category: data_protection
 confidence: 高

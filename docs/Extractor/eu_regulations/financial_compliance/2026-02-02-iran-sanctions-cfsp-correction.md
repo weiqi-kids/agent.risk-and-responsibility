@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Decision (CFSP) 2025/1978 concerning restrictive measures against Iran"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D1978R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1978
 date: 2026-02-02
 category: financial_compliance
 confidence: 高

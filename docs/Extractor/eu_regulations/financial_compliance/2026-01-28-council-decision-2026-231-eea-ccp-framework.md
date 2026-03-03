@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/231 on the position to be adopted within the EEA Joint Committee concerning an amendment to the EEA Agreement (Framework for the recovery and resolution of central counterparties)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0231
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0231
 date: 2026-01-28
 category: financial_compliance
 confidence: 高

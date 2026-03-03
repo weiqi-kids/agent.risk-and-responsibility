@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Regulation (EC) No 6/2002 on Community Designs"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32002R0006R(13)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32002R0006
 date: 2025-12-23
 category: digital_market
 confidence: 高
@@ -11,7 +11,7 @@ confidence: 高
 - **rule_type**: amendment
 - **document_type**: regulation
 - **binding_force**: directly_applicable
-- **celex_number**: CELEX:32002R0006R(13)
+- **celex_number**: CELEX:32002R0006
 - **original_regulation**: Council Regulation (EC) No 6/2002 of 12 December 2001 on Community Designs
 - **official_journal**: Official Journal L 3 of 5 January 2002
 - **effective_date**: 2025-12-23

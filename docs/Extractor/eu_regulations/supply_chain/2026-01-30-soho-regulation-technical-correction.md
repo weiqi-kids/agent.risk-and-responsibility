@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/1938 on quality and safety standards of human-origin substances for human application"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1938R(03)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1938
 date: 2026-01-30
 category: supply_chain
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council of the European Union
-- **document_id**: CELEX:32024R1938R(03)
+- **document_id**: CELEX:32024R1938
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: directly_applicable

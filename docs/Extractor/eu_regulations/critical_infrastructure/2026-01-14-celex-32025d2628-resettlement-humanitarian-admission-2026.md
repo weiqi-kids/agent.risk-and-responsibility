@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Decision (EU) 2025/2628 of 18 December 2025 on the Union Resettlement and Humanitarian Admission Plan (2026-2027)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2628
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2628
 date: 2026-01-14
 category: critical_infrastructure
 confidence: 高

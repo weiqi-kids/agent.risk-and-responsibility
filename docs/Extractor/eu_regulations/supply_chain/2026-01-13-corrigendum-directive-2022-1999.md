@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive (EU) 2022/1999 — Uniform Procedures for Checks on Transport of Dangerous Goods by Road"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32022L1999R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L1999
 date: 2022-10-18
 category: supply_chain
 confidence: 高

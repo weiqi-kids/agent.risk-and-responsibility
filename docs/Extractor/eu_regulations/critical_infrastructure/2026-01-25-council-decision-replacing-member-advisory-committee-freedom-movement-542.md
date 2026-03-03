@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/542 replacing a member of the Advisory Committee on freedom of movement for workers for Italy"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00542
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00542
 date: 2026-01-25
 category: critical_infrastructure
 confidence: 高

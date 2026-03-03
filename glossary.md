@@ -134,4 +134,4 @@ permalink: /glossary/
 
 ---
 
-找不到需要的術語？歡迎透過 [GitHub Issues](https://github.com/anthropics/claude-code/issues) 回報。
+找不到需要的術語？歡迎透過 [GitHub Issues](https://github.com/weiqi-kids/agent.risk-and-responsibility/issues) 回報。

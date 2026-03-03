@@ -1,3 +1,36 @@
+---
+layout: report
+title: "2026-W07 AI Governance Landscape"
+parent: "AI Governance Landscape"
+nav_order: 7
+
+seo:
+  title: "2026-W07 AI 治理全景 | EU AI Act 勘誤、Agentic AI 治理框架、NIST AI 網路安全草案"
+  description: "2026-W07 AI 治理週報：追蹤 40 項 AI 治理動態，涵蓋 EU AI Act 勘誤修正、歐盟 AI Gigafactories 建立框架、Agentic AI 治理框架湧現、NIST AI 網路安全草案發布、非人類身分治理等重要更新。"
+  date_published: "2026-02-15"
+  date_modified: "2026-02-15"
+  article_section: "AI Governance Landscape"
+  keywords:
+    - "AI Governance"
+    - "EU AI Act"
+    - "Agentic AI"
+    - "AI 治理"
+    - "NIST AI RMF"
+    - "Non-Human Identity"
+    - "AI Gigafactories"
+    - "AI Risk Management"
+  related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-02-ai-governance-landscape"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief"
+  faq:
+    - question: "2026-W07 有哪些重要的 AI 治理動態？"
+      answer: "2026-W07 重點包括：EU AI Act 發布勘誤修正線上空間適用範圍、歐盟建立 AI Gigafactories 框架並增資至 41.2 億歐元、CSA 發布 Agentic Trust Framework (ATF) 與分級治理框架、NIST 發布 NISTIR 8596 AI 網路安全草案，以及非人類身分治理問題浮現。"
+    - question: "EU AI Act 勘誤對組織有什麼影響？"
+      answer: "EU 發布 Regulation (EU) 2024/1689 勘誤，明確排除線上空間適用範圍，修正原條文關於「線上空間」的錯誤描述。此修正將改變 AI 系統在線上環境部署時的合規義務判定，組織需重新評估線上 AI 應用的合規範圍。"
+    - question: "什麼是 Agentic Trust Framework (ATF)？"
+      answer: "Agentic Trust Framework (ATF) 是 Cloud Security Alliance 發布的 AI 代理專用 Zero Trust 架構，針對自主 AI 系統建立信任邊界與安全控制機制。搭配 MAESTRO 框架，為組織提供 Agentic AI 系統的完整治理與安全實踐路徑。"
+---
+
 # AI Governance Landscape — 2026-W07
 
 > 本期追蹤 40 項 AI 治理動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規，以及 CSA 雲端安全、ISO 標準與 SANS 威脅情報等延伸來源。

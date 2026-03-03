@@ -1,6 +1,6 @@
 ---
 title: "Decision (EU) 2026/303 of the European Parliament and of the Council of 10 February 2026 amending Decision (EU) 2024/1406 on the granting of emergency macrofinancial assistance to the Hashemite Kingdom of Jordan"
-source_url: "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0303"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0303"
 date: 2025-02-04
 category: financial_compliance
 confidence: 中

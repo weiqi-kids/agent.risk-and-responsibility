@@ -1,6 +1,6 @@
 ---
 title: "Directive (EU) 2025/2647 amending alternative dispute resolution for consumer disputes"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025L2647
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025L2647
 date: 2025-12-30
 category: digital_market
 confidence: 高

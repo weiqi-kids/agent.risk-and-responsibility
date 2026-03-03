@@ -1,6 +1,6 @@
 ---
 title: Decision (EU) 2025/2661 - EGF mobilisation for Northvolt Sweden restructuring
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2661
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2661
 date: 2026-01-16
 category: supply_chain
 confidence: 高

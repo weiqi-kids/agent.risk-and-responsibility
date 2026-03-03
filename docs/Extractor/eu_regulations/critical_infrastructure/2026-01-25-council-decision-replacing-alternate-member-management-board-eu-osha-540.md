@@ -1,6 +1,6 @@
 ---
 title: "Council Decision of 20 January 2026 replacing an alternate member of the Management Board of the European Centre for the Development of Vocational Training (Cedefop) for Malta"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00540
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00540
 date: 2026-01-25
 category: critical_infrastructure
 confidence: 高

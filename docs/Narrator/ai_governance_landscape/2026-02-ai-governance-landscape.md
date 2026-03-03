@@ -20,8 +20,8 @@ seo:
     - "NIST Cybersecurity Framework"
     - "Non-Human Identity"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-W07-ai_governance_landscape/"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief/"
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-W07-ai-governance-landscape"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief"
   faq:
     - question: "2026 年 2 月有哪些重要的 AI 治理動態？"
       answer: "2026 年 2 月重點包括：EU AI Act 勘誤明確排除線上空間適用範圍、EuroHPC 擴展至 AI Gigafactories（41.2 億歐元投資）、NIST 發布 NISTIR 8596 AI 網路安全框架草案、CSA 發布 Agentic Trust Framework 等。"
@@ -128,10 +128,10 @@ seo:
 
 | 法規 | 發布日期 | Document ID | 類型 | binding_force | 重點 |
 |------|----------|-------------|------|---------------|------|
-| Corrigendum to AI Act (EU) 2024/1689 R(02) | 2026-01-13 | CELEX:32024R1689R(02) | amendment | directly_applicable | 修正 recital 19：明確排除線上空間適用範圍（effective: 2025-12-19） |
+| Corrigendum to AI Act (EU) 2024/1689 R(02) | 2026-01-13 | CELEX:32024R1689 | amendment | directly_applicable | 修正 recital 19：明確排除線上空間適用範圍（effective: 2025-12-19） |
 | Council Regulation (EU) 2026/150 | 2026-01-23 | CELEX:32026R0150 | amendment | directly_applicable | 擴展 EuroHPC JU 至 AI gigafactories 與量子技術，41.2 億歐元（effective: 2026-01-20） |
 | Regulation (EU) 2026/150 (duplicate entry) | 2026-01-19 | CELEX:32026R0150 | amendment | directly_applicable | 同上，發布於 Official Journal |
-| Corrigendum to (EU) 2024/1732 R(02) | 2026-01-27 | CELEX:32024R1732R(02) | corrigendum | binding_regulation | 術語更正：「AI factory」改為「AI facility」（愛沙尼亞語版本） |
+| Corrigendum to (EU) 2024/1732 R(02) | 2026-01-27 | CELEX:32024R1732 | corrigendum | binding_regulation | 術語更正：「AI factory」改為「AI facility」（愛沙尼亞語版本） |
 
 **EU AI Act 適用範圍修正重點**：
 - **修正內容**：原文誤將「線上空間納入適用範圍」，勘誤後明確「線上空間不在適用範圍內，因其並非實體空間」

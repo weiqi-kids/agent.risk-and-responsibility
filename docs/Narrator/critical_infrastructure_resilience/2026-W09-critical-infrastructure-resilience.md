@@ -20,8 +20,8 @@ seo:
     - "Emissions Trading"
     - "基礎設施韌性"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/critical_infrastructure_resilience/2026-W08-critical-infrastructure-resilience/"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W09-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/critical_infrastructure_resilience/2026-W08-critical-infrastructure-resilience"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W09-cybersecurity-compliance"
   faq:
     - question: "2026-W09 有哪些重要的基礎設施韌性動態？"
       answer: "2026-W09 週報追蹤 14 項關鍵基礎設施韌性動態，重點包括歐盟通過 Regulation (EU) 2026/261 逐步禁止俄羅斯天然氣與石油進口、EU-瑞士碳排交易系統對齊修正、SANS ISC 發布 CLAIR 基礎設施相依性映射框架，以及 NIST 新設 AI 經濟安全中心。"
@@ -91,7 +91,7 @@ seo:
 
 5. **運輸領域勘誤 — 車輛檢驗指令用語標準化（2026-02-03, corrigendum, mandatory）**
    Directive 2014/45/EU（定期車輛檢驗）與 Directive 2014/47/EU（商用車輛路邊檢驗）同步發布第 8 次勘誤，統一檢驗中心、檢驗證書用語，修正制動系統檢驗程序技術語言。此次修正不涉及英文版本。
-   來源：[EUR-Lex 32014L0045R(08)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0045R(08))、[EUR-Lex 32014L0047R(08)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0047R(08))
+   來源：[EUR-Lex 32014L0045R(08)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0045)、[EUR-Lex 32014L0047R(08)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0047)
 
 <blockquote class="expert-quote">
   「This Regulation constitutes a sovereign act of the Union, establishing clear legal prohibitions with direct legal effect and no discretion for Member States, invoking the security exception under Article XXI of the GATT 1994.」

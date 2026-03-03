@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Directive (EU) 2024/1499 on Standards for Equality Bodies"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024L1499R(02)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1499
 date: 2026-01-09
 category: data_protection
 confidence: 高

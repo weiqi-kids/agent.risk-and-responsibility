@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) No 1233/2011 on the application of certain guidelines in the field of officially supported export credits"
-source_url: "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32011R1233R(01)"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1233"
 date: 2025-01-30
 category: institutional_administration
 confidence: 高

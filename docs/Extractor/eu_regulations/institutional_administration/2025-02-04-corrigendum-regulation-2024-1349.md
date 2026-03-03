@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/1349 on funding for migration challenges in border regions"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1349R(02)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1349
 date: 2025-02-04
 category: institutional_administration
 confidence: 高

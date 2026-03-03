@@ -1,5 +1,5 @@
 ---
-source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1978R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1978
 fetched_at: 2026-02-08
 title: "Corrigendum to Council Decision (CFSP) 2025/1978 concerning restrictive measures against Iran"
 date: 2026-02-02
@@ -71,7 +71,7 @@ Immediate application from publication date. No transposition required (directly
 - Corrigendum 32025R1980R(01) (parallel correction to implementing regulation)
 
 ## Cross-References to Other Documents
-This corrigendum must be read in conjunction with the parallel corrigendum to Council Implementing Regulation (EU) 2025/1980 (CELEX:32025R1980R(01)), which contains identical technical corrections under the implementing regulation framework.
+This corrigendum must be read in conjunction with the parallel corrigendum to Council Implementing Regulation (EU) 2025/1980 (CELEX:32025R1980), which contains identical technical corrections under the implementing regulation framework.
 
 ## Review Checklist
 - [x] CELEX number verified from source

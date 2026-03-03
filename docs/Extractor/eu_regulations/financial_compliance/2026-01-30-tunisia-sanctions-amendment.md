@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/239 amending restrictive measures concerning Tunisia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0239
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0239
 date: 2026-01-30
 category: financial_compliance
 confidence: 高

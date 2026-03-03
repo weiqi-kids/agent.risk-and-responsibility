@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2434 on the European Maritime Safety Agency"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2434
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2434
 date: 2026-01-16
 category: financial_compliance
 confidence: 高

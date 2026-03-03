@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive 2012/29/EU on minimum standards on the rights, support and protection of victims of crime (Corrigendum 06)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32012L0029R(06)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012L0029
 date: 2026-01-29
 category: data_protection
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council of the European Union
-- **document_id**: CELEX:32012L0029R(06)
+- **document_id**: CELEX:32012L0029
 - **status**: final
 - **document_type**: directive
 - **binding_force**: requires_transposition

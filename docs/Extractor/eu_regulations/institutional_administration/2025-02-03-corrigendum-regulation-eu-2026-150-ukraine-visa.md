@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2026/150 of the European Parliament and of the Council of 15 January 2025 amending Regulation (EU) 2018/1806 as regards the period of stay of nationals of Ukraine that is exempt from visa requirement"
-source_url: "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0150R(01)"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150"
 date: 2025-02-03
 category: institutional_administration
 confidence: 高

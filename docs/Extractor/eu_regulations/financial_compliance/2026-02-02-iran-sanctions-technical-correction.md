@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Implementing Regulation (EU) 2025/1980 concerning restrictive measures against Iran"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R1980R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R1980
 date: 2026-02-02
 category: financial_compliance
 confidence: 高

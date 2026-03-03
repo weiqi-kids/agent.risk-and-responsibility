@@ -1,6 +1,6 @@
 ---
 title: "Council Regulation (EU) 2026/249 fixing for 2026, 2027 and 2028 the fishing opportunities for certain fish stocks"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0249
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0249
 date: 2026-01-30
 category: supply_chain
 confidence: 高

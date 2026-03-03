@@ -1,6 +1,6 @@
 ---
 title: Council Decision (EU) 2026/69 on Energy Community Ministerial Council Position
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0069
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0069
 date: 2026-01-16
 category: critical_infrastructure
 confidence: 高

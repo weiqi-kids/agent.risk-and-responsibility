@@ -1,6 +1,6 @@
 ---
 title: "Council Decision of 11 December 2025 replacing a full member of the Advisory Committee on Safety and Health at Work for Austria"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D06711
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D06711
 date: 2025-12-11
 category: critical_infrastructure
 confidence: 高

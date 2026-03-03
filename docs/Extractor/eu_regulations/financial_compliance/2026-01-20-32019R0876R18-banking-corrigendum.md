@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2019/876 — Market Risk Internal Models"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32019R0876R(18)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0876
 date: 2026-01-20
 category: financial_compliance
 confidence: 高

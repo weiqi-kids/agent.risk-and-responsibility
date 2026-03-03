@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Decision (EU) 2025/2307 concerning EU signature of the UN Convention against Cybercrime"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2307R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2307
 date: 2026-01-08
 category: cybersecurity
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: Council of the European Union
-- **document_id**: CELEX:32025D2307R(01)
+- **document_id**: CELEX:32025D2307
 - **status**: final
 - **document_type**: decision
 - **binding_force**: directly_applicable

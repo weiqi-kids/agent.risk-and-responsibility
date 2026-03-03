@@ -20,8 +20,8 @@ seo:
     - "OT Security"
     - "基礎設施韌性"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/critical_infrastructure_resilience/2026-W07-critical-infrastructure-resilience/"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W08-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/critical_infrastructure_resilience/2026-W07-critical-infrastructure-resilience"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W08-cybersecurity-compliance"
   faq:
     - question: "2026-W08 有哪些重要的基礎設施韌性動態？"
       answer: "2026-W08 週報追蹤 13 項關鍵基礎設施韌性動態，重點包括歐盟能源社群反詐欺合作決議、EuroHPC 擴展至 AI Gigafactories、EDIP 歐洲防衛工業計畫、飲用水指令勘誤，以及 NIST NCCoE IoT 安全接入最終指引。"

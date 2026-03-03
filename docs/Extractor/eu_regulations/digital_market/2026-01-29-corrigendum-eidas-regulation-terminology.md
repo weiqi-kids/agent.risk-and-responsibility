@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2014/910 on electronic identification and trust services - Maltese terminology"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014R0910R(12)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014R0910
 date: 2026-01-29
 category: digital_market
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council
-- **document_id**: CELEX:32014R0910R(12)
+- **document_id**: CELEX:32014R0910
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: directly_applicable

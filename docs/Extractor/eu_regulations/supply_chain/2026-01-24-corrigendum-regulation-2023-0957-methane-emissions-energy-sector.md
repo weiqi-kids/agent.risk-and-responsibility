@@ -1,6 +1,6 @@
 ---
 title: Corrigendum to Regulation (EU) 2023/957 on Maritime Transport Emissions Monitoring
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32023R0957R(02)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R0957
 date: 2026-01-24
 category: supply_chain
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: corrigendum
 - **issuing_body**: European Parliament and Council of the European Union
-- **document_id**: CELEX:32023R0957R(02)
+- **document_id**: CELEX:32023R0957
 - **status**: final
 - **document_type**: corrigendum_to_regulation
 - **binding_force**: directly_applicable

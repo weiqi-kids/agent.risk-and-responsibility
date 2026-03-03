@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive (EU) 2019/879 - Bank Resolution Framework Amendment"
-source_url: "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32019L0879R(08)"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0879"
 date: 2025-02-03
 category: financial_compliance
 confidence: 高

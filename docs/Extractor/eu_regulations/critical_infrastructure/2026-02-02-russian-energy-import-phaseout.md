@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2026/261 on phasing out Russian natural gas and oil imports"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0261
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0261
 date: 2026-02-02
 category: critical_infrastructure
 confidence: 高

@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive (EU) 2019/904 on plastic products - waste terminology update"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32019L0904R(03)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0904
 date: 2026-01-29
 category: supply_chain
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council
-- **document_id**: CELEX:32019L0904R(03)
+- **document_id**: CELEX:32019L0904
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: requires_transposition

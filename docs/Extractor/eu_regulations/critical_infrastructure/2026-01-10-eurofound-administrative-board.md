@@ -1,6 +1,6 @@
 ---
 title: "Council Decision appointing members to Administrative Board of European Union Agency for Cooperation of Energy Regulators (ACER)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D06712
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D06712
 date: 2025-12-11
 category: critical_infrastructure
 confidence: 高

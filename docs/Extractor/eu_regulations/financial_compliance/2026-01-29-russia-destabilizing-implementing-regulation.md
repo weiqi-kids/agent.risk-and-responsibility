@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Regulation (EU) 2026/259 on Russia destabilizing activities"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0259
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0259
 date: 2026-01-29
 category: financial_compliance
 confidence: 中

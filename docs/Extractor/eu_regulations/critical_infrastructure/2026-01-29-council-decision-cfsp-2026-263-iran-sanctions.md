@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/263 amending Decision (CFSP) 2023/1532 concerning restrictive measures in view of Iran's military support to Russia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0263
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0263
 date: 2026-01-29
 category: critical_infrastructure
 confidence: 高

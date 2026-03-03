@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Regulation (EU) 2026/251 on Sudan sanctions for stability undermining activities"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0251
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0251
 date: 2026-01-29
 category: financial_compliance
 confidence: 高

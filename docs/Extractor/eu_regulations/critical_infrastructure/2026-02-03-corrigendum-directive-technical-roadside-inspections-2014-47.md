@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive 2014/47/EU on technical roadside inspections of commercial vehicles"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0047R(08)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0047
 date: 2026-02-03
 category: critical_infrastructure
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council
-- **document_id**: CELEX:32014L0047R(08)
+- **document_id**: CELEX:32014L0047
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: requires_transposition

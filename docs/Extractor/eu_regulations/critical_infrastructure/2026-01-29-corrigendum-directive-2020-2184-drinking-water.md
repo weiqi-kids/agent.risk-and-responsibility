@@ -1,6 +1,6 @@
 ---
 title: "Rectificatif à la directive (UE) 2020/2184 du Parlement européen et du Conseil du 16 décembre 2020 relative à la qualité des eaux destinées à la consommation humaine"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32020L2184R(06)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32020L2184
 date: 2026-01-29
 category: critical_infrastructure
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council of the European Union
-- **document_id**: CELEX:32020L2184R(06)
+- **document_id**: CELEX:32020L2184
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: requires_transposition

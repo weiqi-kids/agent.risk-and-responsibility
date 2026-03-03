@@ -1,6 +1,6 @@
 ---
 title: Corrigendum to Council Regulation (EU) 2025/2614 amending Regulation (EU) 2021/2283 on autonomous tariff quotas
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2614R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2614
 date: 2026-01-24
 category: supply_chain
 confidence: 高

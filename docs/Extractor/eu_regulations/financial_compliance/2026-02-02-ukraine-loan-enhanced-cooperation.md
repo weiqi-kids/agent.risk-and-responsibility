@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/258 of 29 January 2026 authorising enhanced cooperation on the establishment of a Loan for Ukraine"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0258
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0258
 date: 2026-02-02
 category: financial_compliance
 confidence: 高

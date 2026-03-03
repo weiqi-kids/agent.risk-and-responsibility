@@ -1,6 +1,6 @@
 ---
 title: "Decision of the European Parliament Bureau on Members' allowances indexation for 2026"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00685
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00685
 date: 2026-01-30
 category: institutional_administration
 confidence: 高

@@ -1,6 +1,6 @@
 ---
 title: "Council Regulation (EU) 2026/266 fixing for 2026 the fishing opportunities for certain fish stocks in the Mediterranean and Black Seas"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0266
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0266
 date: 2026-01-30
 category: supply_chain
 confidence: 高

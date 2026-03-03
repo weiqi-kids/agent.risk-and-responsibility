@@ -1,6 +1,6 @@
 ---
 title: "Council Regulation (EU) 2026/150 amending European High Performance Computing Joint Undertaking to establish AI gigafactories"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0150
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150
 date: 2026-01-23
 category: critical_infrastructure
 confidence: 高

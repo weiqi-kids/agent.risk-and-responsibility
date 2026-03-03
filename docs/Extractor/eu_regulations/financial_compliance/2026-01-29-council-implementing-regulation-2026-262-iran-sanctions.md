@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Regulation (EU) 2026/262 implementing Regulation (EU) 2023/1529 concerning restrictive measures in view of Iran's military support to Russia's war of aggression"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0262
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0262
 date: 2026-01-29
 category: financial_compliance
 confidence: 高

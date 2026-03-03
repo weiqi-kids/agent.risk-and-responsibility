@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Regulation (EC) No 6/2002 on Community designs"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32002R0006R(15)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32002R0006
 date: 2026-01-20
 category: digital_market
 confidence: 高
@@ -10,7 +10,7 @@ confidence: 高
 
 - rule_type: amendment
 - issuing_body: Council of the European Union
-- document_id: CELEX:32002R0006R(15)
+- document_id: CELEX:32002R0006
 - status: in_force
 - **document_type**: Regulation (Corrigendum)
 - **binding_force**: directly_applicable

@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/539 of 20 January 2026 replacing a member of the Management Board of the European Agency for Safety and Health at Work for the Netherlands"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00539
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00539
 date: 2026-01-25
 category: critical_infrastructure
 confidence: 高

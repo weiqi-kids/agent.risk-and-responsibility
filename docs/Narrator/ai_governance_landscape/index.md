@@ -54,7 +54,7 @@ has_children: true
 
 | 法規 | 發布日期 | Document ID | 類型 | binding_force | 重點 |
 |------|----------|-------------|------|---------------|------|
-| Corrigendum to AI Act (EU) 2024/1689 R(02) | 2026-01-13 | CELEX:32024R1689R(02) | amendment | directly_applicable | 明確排除線上空間適用範圍 |
+| Corrigendum to AI Act (EU) 2024/1689 R(02) | 2026-01-13 | CELEX:32024R1689 | amendment | directly_applicable | 明確排除線上空間適用範圍 |
 | Council Regulation (EU) 2026/150 | 2026-01-23 | CELEX:32026R0150 | amendment | directly_applicable | 擴展 EuroHPC 至 AI gigafactories，41.2 億歐元 |
 | Regulation (EU) 2025/2653 — ReArm Europe Plan | 2026-01-14 | CELEX:32025R2653 | revision | directly_applicable | 國防相關投資激勵 |
 

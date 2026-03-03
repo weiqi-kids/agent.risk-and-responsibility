@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2611 of the European Parliament and of the Council of 16 December 2025 amending Regulation (EU) 2016/794 regarding strengthening Europol's support and enhancing police cooperation for preventing and combating migrant smuggling and trafficking in human beings"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2611
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2611
 date: 2025-12-22
 category: data_protection
 confidence: 高

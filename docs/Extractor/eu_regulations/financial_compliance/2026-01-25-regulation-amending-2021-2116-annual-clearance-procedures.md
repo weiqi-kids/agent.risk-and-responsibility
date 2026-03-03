@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2026/211 — Amendment to Brexit Adjustment Reserve Funding Allocations"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0211
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0211
 date: 2026-01-25
 category: financial_compliance
 confidence: 高

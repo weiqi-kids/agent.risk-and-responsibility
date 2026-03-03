@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2021/2116 on CAP Financing, Management and Monitoring"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32021R2116R(04)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R2116
 date: 2026-01-24
 category: financial_compliance
 confidence: 高

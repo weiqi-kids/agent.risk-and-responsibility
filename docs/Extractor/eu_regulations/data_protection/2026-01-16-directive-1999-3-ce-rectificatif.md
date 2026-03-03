@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Directive 1999/3/CE establishing a Community list of foodstuffs and food ingredients treated by ionisation"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:31999L0003R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:31999L0003
 date: 2026-01-16
 category: data_protection
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: Council of the European Union
-- **document_id**: CELEX:31999L0003R(01)
+- **document_id**: CELEX:31999L0003
 - **status**: final
 - **document_type**: directive
 - **binding_force**: requires_transposition

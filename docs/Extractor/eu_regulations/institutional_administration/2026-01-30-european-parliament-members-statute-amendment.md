@@ -1,6 +1,6 @@
 ---
 title: "Decision of the Bureau of the European Parliament of 19 January 2026 amending the Implementing Measures for the Statute for Members"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00685
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00685
 date: 2026-01-30
 category: institutional_administration
 confidence: 高

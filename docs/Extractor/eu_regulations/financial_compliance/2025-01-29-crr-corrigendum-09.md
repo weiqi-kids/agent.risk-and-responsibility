@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) No 575/2013 - CRR (09)"
-source_url: "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0575R(09)"
+source_url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0575"
 date: 2025-01-29
 category: financial_compliance
 confidence: 高

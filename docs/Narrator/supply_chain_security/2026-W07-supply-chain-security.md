@@ -20,8 +20,8 @@ seo:
     - "ISO SPDM"
     - "數位產品護照"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/supply_chain_security/2026-W06-supply-chain-security/"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/supply_chain_security/2026-W06-supply-chain-security"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance"
   faq:
     - question: "2026-W07 有哪些重要的供應鏈安全動態？"
       answer: "2026-W07 重點包括 NIST SSDF 1.2 版（SP 800-218r1）公開徵詢期於 2026-01-30 截止、歐盟無森林砍伐商品盡職調查延期至 2026-12-30、NIST IR 8536 製造業供應鏈追溯性元框架持續推進，以及 ISO/IEC 25706:2026 SPDM 硬體安全驗證標準發布。"
@@ -359,7 +359,7 @@ NIST IR 8536 的可信任儲存庫概念，結合 IoT 製造商基礎活動的�
 | [NIST IR 8536 Supply Chain Traceability](https://www.nist.gov/news-events/news/2025/07/comment-now-nist-internal-report-8536-supply-chain-traceability) | NIST | 2025-07-31 |
 | [Regulation (EU) 2025/2650 Deforestation Due Diligence](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2650) | EU | 2026-01-15 |
 | [Regulation (EU) 2024/1781 Ecodesign Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1781) | EU | 2026-02-04 |
-| [Regulation (EU) 2023/1115 Deforestation Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32023R1115R(04)) | EU | 2026-01-14 |
+| [Regulation (EU) 2023/1115 Deforestation Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32023R1115) | EU | 2026-01-14 |
 | [IoT Product Manufacturers Foundational Activities](https://www.nist.gov/blogs/cybersecurity-insights/sharpening-focus-product-requirements-and-cybersecurity-risks-updating) | NIST | 2025-09-30 |
 | [ISO/IEC 25706:2026 - SPDM](https://www.iso.org/standard/91251.html) | ISO | 2026-02-03 |
 | [ISO 22373:2025 - Trustworthy Supply Chains](https://www.iso.org/standard/50276.html) | ISO | 2025-11-19 |

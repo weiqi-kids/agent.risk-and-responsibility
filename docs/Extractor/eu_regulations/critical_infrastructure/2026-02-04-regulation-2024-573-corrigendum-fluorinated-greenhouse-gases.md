@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/573 on fluorinated greenhouse gases"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R0573R(09)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R0573
 date: 2026-02-04
 category: critical_infrastructure
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council of the European Union
-- **document_id**: CELEX:32024R0573R(09)
+- **document_id**: CELEX:32024R0573
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: directly_applicable

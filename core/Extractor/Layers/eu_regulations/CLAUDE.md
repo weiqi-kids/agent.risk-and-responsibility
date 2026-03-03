@@ -117,8 +117,8 @@
 EUR-Lex `/AUTO/` 路徑常返回技術錯誤，改用 `/EN/TXT/` 可成功取得內容：
 
 ```
-❌ 失敗：https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0575R(09)
-✅ 成功：https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0575R(09)
+❌ 失敗：https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32013R0575
+✅ 成功：https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0575
 ```
 
 **轉換規則**：

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: report
 title: "2026-W05"
 parent: Rule Change Brief
 nav_order: 2

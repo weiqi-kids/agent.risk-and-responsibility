@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/239 of 29 January 2026 amending Decision 2011/72/CFSP concerning restrictive measures directed against certain persons and entities in view of the situation in Tunisia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0239
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0239
 date: 2026-01-30
 category: critical_infrastructure
 confidence: 高

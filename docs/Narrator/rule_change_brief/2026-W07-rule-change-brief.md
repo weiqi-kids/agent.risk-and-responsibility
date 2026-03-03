@@ -2,7 +2,7 @@
 layout: report
 title: "2026-W07 Rule Change Brief"
 parent: "Rule Change Brief"
-nav_order: 97
+nav_order: 7
 
 seo:
   title: "2026-W07 規則變動簡報 | NIST SP 800-53 更新、ISO 網路安全框架整合指引"
@@ -20,8 +20,8 @@ seo:
     - "AI Risk Management"
     - "軟體供應鏈安全"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W06-rule-change-brief/"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W06-rule-change-brief"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance"
   faq:
     - question: "2026-W07 有哪些重要的規則變動？"
       answer: "2026-W07 週報追蹤 50 項框架與標準變動，重點包括 NIST SP 800-53 Rev. 5.2.0 新增三項控制項（SA-15、SI-02(07)、SA-24）、ISO/IEC TS 27103:2026 發布網路安全框架整合指引、歐盟生態設計法規第 4 次勘誤。"

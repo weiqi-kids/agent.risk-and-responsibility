@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Decision (EU) 2025/2612 — Ukraine Facility Sixth Instalment Payment"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2612
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2612
 date: 2025-12-11
 category: critical_infrastructure
 confidence: 高

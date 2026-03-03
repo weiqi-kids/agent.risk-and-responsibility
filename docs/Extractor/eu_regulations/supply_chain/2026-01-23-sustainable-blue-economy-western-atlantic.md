@@ -1,6 +1,6 @@
 ---
 title: Corrigendum to Council Implementing Decision (EU) 2025/2642 - Annual Solidarity Pool 2026
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2642R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2642
 date: 2026-01-23
 category: supply_chain
 confidence: 中

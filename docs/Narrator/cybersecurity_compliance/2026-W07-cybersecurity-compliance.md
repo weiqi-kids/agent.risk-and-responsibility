@@ -20,8 +20,8 @@ seo:
     - "AI Cybersecurity"
     - "CISA KEV"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W06-cybersecurity-compliance/"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief/"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W06-cybersecurity-compliance"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief"
   faq:
     - question: "2026-W07 有哪些重要的資安合規動態？"
       answer: "2026-W07 週報追蹤 50 項資安合規動態，重點包括 ISO/IEC TS 27103:2026 發布（網路安全框架整合指引）、NIST SSDF 1.2 公開徵詢、NISTIR 8596 AI 網路安全框架草案、SP 800-53 修補管理控制項更新等。"

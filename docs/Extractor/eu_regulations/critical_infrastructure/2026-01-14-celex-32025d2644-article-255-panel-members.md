@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2644 appointing members of the Article 255 TFEU judicial evaluation panel"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2644
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2644
 date: 2026-01-14
 category: critical_infrastructure
 confidence: 高

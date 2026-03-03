@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2641 - Negotiation Authorization for EU-Korea PNR Data Agreement"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2641
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2641
 date: 2025-12-16
 category: data_protection
 confidence: 高

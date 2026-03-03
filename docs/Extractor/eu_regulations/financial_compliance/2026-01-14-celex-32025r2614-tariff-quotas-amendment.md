@@ -1,6 +1,6 @@
 ---
 title: Council Regulation (EU) 2025/2614 amending autonomous tariff quotas for agricultural and industrial products
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2614
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2614
 date: 2026-01-14
 category: financial_compliance
 confidence: 高

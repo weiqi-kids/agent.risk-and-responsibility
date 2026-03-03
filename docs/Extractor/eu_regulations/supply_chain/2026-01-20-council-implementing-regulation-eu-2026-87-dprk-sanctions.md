@@ -1,6 +1,6 @@
 ---
 title: Council Implementing Regulation (EU) 2026/87 - Guatemala Sanctions List Update
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0087
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0087
 date: 2026-01-20
 category: supply_chain
 confidence: 高

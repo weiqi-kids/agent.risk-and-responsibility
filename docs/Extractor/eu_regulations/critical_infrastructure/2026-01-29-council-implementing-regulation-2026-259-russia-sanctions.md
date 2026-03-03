@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Regulation (EU) 2026/259 implementing Regulation (EU) 2024/2642 concerning restrictive measures in view of Russia's destabilising activities"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0259
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0259
 date: 2026-01-29
 category: critical_infrastructure
 confidence: 高

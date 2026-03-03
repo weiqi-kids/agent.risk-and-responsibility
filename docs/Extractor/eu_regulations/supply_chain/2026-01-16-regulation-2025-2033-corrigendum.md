@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Regulation (EU) 2025/2033 - Restrictive Measures Against Russia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2033R(03)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2033
 date: 2025-12-30
 category: supply_chain
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: Council of the European Union
-- **document_id**: CELEX:32025R2033R(03)
+- **document_id**: CELEX:32025R2033
 - **status**: final
 - **document_type**: regulation
 - **binding_force**: directly_applicable

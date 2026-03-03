@@ -20,8 +20,8 @@ seo:
     - "ISO 42001"
     - "AI IAM"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-03-ai-governance-landscape/"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W09-rule-change-brief/"
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-03-ai-governance-landscape"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W09-rule-change-brief"
   faq:
     - question: "2026 年 3 月有哪些 AI 實作要點？"
       answer: "2026 年 3 月 AI 實作指引涵蓋三大重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行威脅建模、建立 AI Agent 專用的自動化 IAM 授權架構（Policy-as-Code）、以及採用階段性方法在雲原生環境落地 AI 治理框架（ISO 42001 + NIST AI RMF）。"
@@ -625,7 +625,7 @@ tags:
 |-----------|------|------|
 | CSA MAESTRO Framework | Agentic AI 七層威脅建模 | [CSA MAESTRO](https://cloudsecurityalliance.org/articles/openclaw-threat-model-maestro-framework-analysis) |
 | Open Policy Agent (OPA) | AI Agent 的 Policy-as-Code 授權 | [OPA](https://www.openpolicyagent.org/) |
-| NIST AI RMF Playbook | AI 風險管理框架實作指引 | [NIST AI RMF](https://airc.nist.gov/AI_RMF_Playbook) |
+| NIST AI RMF Playbook | AI 風險管理框架實作指引 | [NIST AI RMF](https://airc.nist.gov/airmf-resources/playbook/) |
 | NIST CSF 2.0 Cyber AI Profile | AI 網路安全框架配置檔（草案） | [NISTIR 8596](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era) |
 | ISO 42001 FAQ (CSA) | AI 管理系統認證常見問題 | [CSA ISO 42001 FAQ](https://cloudsecurityalliance.org/articles/ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-in-2026) |
 | SANS ISC AI Threat Feeds | AI 相關威脅情報 | [SANS ISC](https://isc.sans.edu/) |

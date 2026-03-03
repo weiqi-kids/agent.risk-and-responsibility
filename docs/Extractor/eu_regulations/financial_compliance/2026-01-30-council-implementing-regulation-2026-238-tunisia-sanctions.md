@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Regulation (EU) 2026/238 implementing Regulation (EU) No 101/2011 concerning restrictive measures directed against certain persons in view of the situation in Tunisia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0238
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0238
 date: 2026-01-30
 category: financial_compliance
 confidence: 高

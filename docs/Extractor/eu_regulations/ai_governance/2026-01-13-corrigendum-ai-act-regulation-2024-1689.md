@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/1689 on harmonised rules concerning artificial intelligence (AI Act)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1689R(02)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
 date: 2026-01-13
 category: ai_governance
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Union
-- **document_id**: CELEX:32024R1689R(02)
+- **document_id**: CELEX:32024R1689
 - **status**: final
 - **document_type**: regulation
 - **binding_force**: directly_applicable

@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/125 on EU-Singapore Digital Trade Agreement"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0125
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0125
 date: 2026-01-23
 category: digital_market
 confidence: 高

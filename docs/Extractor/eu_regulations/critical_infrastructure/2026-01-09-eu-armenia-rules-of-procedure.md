@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2597 — EU Position on Istanbul Convention Implementation Recommendations"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2597
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2597
 date: 2026-01-09
 category: critical_infrastructure
 confidence: 高

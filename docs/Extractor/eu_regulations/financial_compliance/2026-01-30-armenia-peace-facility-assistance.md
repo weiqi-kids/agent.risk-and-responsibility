@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/232 on European Peace Facility assistance to Armenia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0232
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0232
 date: 2026-01-30
 category: financial_compliance
 confidence: 高

@@ -1,6 +1,6 @@
 ---
 title: "Rectificatif au règlement (CE) n° 6/2002 du Conseil du 12 décembre 2001 sur les dessins ou modèles communautaires"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32002R0006R(14)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32002R0006
 date: 2026-01-19
 category: digital_market
 confidence: 低
@@ -9,7 +9,7 @@ confidence: 低
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: Council of the European Union
-- **document_id**: CELEX:32002R0006R(14)
+- **document_id**: CELEX:32002R0006
 - **status**: final
 - **document_type**: regulation
 - **binding_force**: directly_applicable

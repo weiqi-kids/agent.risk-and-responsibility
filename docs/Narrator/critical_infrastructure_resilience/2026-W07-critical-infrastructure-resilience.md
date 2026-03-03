@@ -19,8 +19,8 @@ seo:
     - "Data Center KPI"
     - "基礎設施韌性"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/critical_infrastructure_resilience/2026-W06-critical-infrastructure-resilience/"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/critical_infrastructure_resilience/2026-W06-critical-infrastructure-resilience"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance"
   faq:
     - question: "2026-W07 有哪些重要的基礎設施韌性動態？"
       answer: "2026-W07 週報追蹤 3 項高相關度 ISO 韌性標準動態，包括 ISO 22372:2025 基礎設施韌性指南、ISO 22366:2026 能源韌性框架、ISO/IEC TS 22237-31:2026 資料中心韌性 KPI。"

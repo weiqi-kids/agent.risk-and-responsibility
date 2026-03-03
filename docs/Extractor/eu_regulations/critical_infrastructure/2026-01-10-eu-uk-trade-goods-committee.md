@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2563 — EU Position on IMO Maritime Safety Code Amendments"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2563
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2563
 date: 2025-11-24
 category: critical_infrastructure
 confidence: 高

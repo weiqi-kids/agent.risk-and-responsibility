@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive (EU) 2024/1500 on standards for equality bodies"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024L1500R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L1500
 date: 2026-01-20
 category: data_protection
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council
-- **document_id**: CELEX:32024L1500R(01)
+- **document_id**: CELEX:32024L1500
 - **status**: final
 - **document_type**: directive (corrigendum)
 - **binding_force**: requires_transposition

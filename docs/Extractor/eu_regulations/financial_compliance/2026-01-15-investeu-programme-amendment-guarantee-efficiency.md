@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2005 amending InvestEU Programme to increase EU guarantee efficiency and simplify reporting"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2005
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2005
 date: 2026-01-15
 category: financial_compliance
 confidence: 高

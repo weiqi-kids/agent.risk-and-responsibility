@@ -1,6 +1,6 @@
 ---
 title: "Definitive adoption (EU, Euratom) 2026/5 of amending budget No 3 of the European Union for the financial year 2025"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026B0005
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026B0005
 date: 2026-01-27
 category: financial_compliance
 confidence: 高

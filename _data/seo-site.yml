@@ -21,7 +21,7 @@ person:
     name: "Risk & Responsibility Intelligence"
   description: "專注於全球風險與責任情報分析的 AI 系統，追蹤 NIST、EU、ISO 等框架與法規變動"
   sameAs:
-    - "https://github.com/anthropics/claude-code"
+    - "https://github.com/weiqi-kids/agent.risk-and-responsibility"
   knowsAbout:
     - "Risk Management"
     - "Cybersecurity Frameworks"

@@ -29,8 +29,8 @@ seo:
     - "Cybersecurity Compliance"
     - "Risk Management"
   related_articles:                      # 至少 2 個相關報告 URL
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W06-rule-change-brief/"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W06-rule-change-brief"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance"
   faq:                                   # 3-5 個 Q&A
     - question: "本期有哪些重要的規則變動？"
       answer: "本期追蹤 50 項框架與標準變動，包括..."
@@ -40,7 +40,7 @@ seo:
       answer: "本系統每週更新 Rule Change Brief..."
 
   # 選填欄位（無則使用預設值）
-  image: "https://risk.weiqi.kids/assets/reports/2026-W07-rule-change-brief.png"
+  image: "https://risk.weiqi.kids/assets/pdf/2026-W08-rule-change-brief.pdf"
   image_alt: "2026-W07 Rule Change Brief"
 ---
 ```
@@ -208,9 +208,9 @@ https://risk.weiqi.kids/docs/Narrator/{mode_name}/{filename}/
 ```yaml
 related_articles:
   # 上一期同 Mode
-  - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W06-rule-change-brief/"
+  - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W06-rule-change-brief"
   # 同週相關 Mode
-  - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
+  - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance"
 ```
 
 ---

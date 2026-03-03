@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Council Directive 2009/133/CE on common tax regime for cross-border mergers and reorganizations"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32009L0133R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009L0133
 date: 2026-02-03
 category: financial_compliance
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: Council of the European Union
-- **document_id**: CELEX:32009L0133R(01)
+- **document_id**: CELEX:32009L0133
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: requires_transposition

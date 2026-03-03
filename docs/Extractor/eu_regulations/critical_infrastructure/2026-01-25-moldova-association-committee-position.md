@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/181 - Position on EU-Switzerland ETS Linking Agreement Amendment"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0181
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0181
 date: 2026-01-25
 category: critical_infrastructure
 confidence: 高

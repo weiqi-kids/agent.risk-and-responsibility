@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2025/2648 of 22 December 2025 amending Decision 2014/512/CFSP concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2648
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2648
 date: 2025-12-23
 category: critical_infrastructure
 confidence: 高

@@ -1,6 +1,6 @@
 ---
 title: Council Decision (EU) 2025/2624 — Extension of ICAO Standards and Recommended Practices Framework
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2624
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2624
 date: 2025-12-15
 category: critical_infrastructure
 confidence: 高

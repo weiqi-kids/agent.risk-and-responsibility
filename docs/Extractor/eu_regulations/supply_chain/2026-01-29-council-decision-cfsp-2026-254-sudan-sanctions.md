@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/254 of 29 January 2026 amending Decision (CFSP) 2023/2135 concerning restrictive measures in view of activities undermining the stability and political transition of Sudan"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0254
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0254
 date: 2026-01-29
 category: supply_chain
 confidence: 高

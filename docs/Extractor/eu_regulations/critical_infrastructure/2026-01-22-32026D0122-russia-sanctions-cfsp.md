@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/122 of 16 January 2026 amending Decision (CFSP) 2024/385 establishing restrictive measures against those who support, facilitate or enable violent actions by Hamas and the Palestinian Islamic Jihad"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0122
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0122
 date: 2026-01-22
 category: critical_infrastructure
 confidence: 高

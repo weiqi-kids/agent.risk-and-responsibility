@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive (EU) 2018/2001 on the promotion of the use of energy from renewable sources"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32018L2001R(13)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018L2001
 date: 2026-01-19
 category: critical_infrastructure
 confidence: 高
@@ -13,7 +13,7 @@ confidence: 高
 
 **rule_type:** amendment
 **issuing_body:** European Parliament and Council of the European Union
-**document_id:** CELEX:32018L2001R(13)
+**document_id:** CELEX:32018L2001
 **status:** in_force
 **document_type:** Directive (Corrigendum)
 **binding_force:** Binding on all EU Member States

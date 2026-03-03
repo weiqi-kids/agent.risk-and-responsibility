@@ -1,6 +1,6 @@
 ---
 title: "Decision of the Bureau of the European Parliament of 15 December 2025 amending the Implementing Measures for the Statute for Members of the European Parliament"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D06778
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D06778
 date: 2025-12-23
 category: digital_market
 confidence: 中

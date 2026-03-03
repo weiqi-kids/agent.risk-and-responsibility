@@ -1,6 +1,6 @@
 ---
 title: "Council Implementing Decision (EU) 2025/2642 of 19 December 2025 on the establishment of the Annual Solidarity Pool for 2026"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2642
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2642
 date: 2025-12-19
 category: critical_infrastructure
 confidence: 高

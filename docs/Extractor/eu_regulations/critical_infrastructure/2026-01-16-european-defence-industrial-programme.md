@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2643 establishing the European Defence Industry Programme and a framework of measures to ensure the timely availability and supply of defence products"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2643
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2643
 date: 2025-12-29
 category: critical_infrastructure
 confidence: 高

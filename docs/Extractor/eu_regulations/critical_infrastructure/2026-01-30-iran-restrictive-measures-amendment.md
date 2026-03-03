@@ -1,6 +1,6 @@
 ---
 title: "Council Regulation (EU) 2026/271 amending Regulation (EU) 2023/1529 concerning restrictive measures in view of Iran's military support"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0271
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0271
 date: 2026-01-30
 category: critical_infrastructure
 confidence: 高

@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Directive 2014/24/EU on public procurement procedures"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0024R(19)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0024
 date: 2026-02-03
 category: digital_market
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council
-- **document_id**: CELEX:32014L0024R(19)
+- **document_id**: CELEX:32014L0024
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: requires_transposition

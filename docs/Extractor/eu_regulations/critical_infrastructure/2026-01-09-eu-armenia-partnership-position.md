@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2596 on EU position for Istanbul Convention Committee (violence against women implementation)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2596
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2596
 date: 2025-12-08
 category: critical_infrastructure
 confidence: 高

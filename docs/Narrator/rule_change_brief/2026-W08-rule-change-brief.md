@@ -20,8 +20,8 @@ seo:
     - "供應鏈安全"
     - "IoT 安全"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief/"
-    - "https://risk.weiqi.kids/docs/Narrator/supply_chain_security/2026-W08-supply-chain-security/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief"
+    - "https://risk.weiqi.kids/docs/Narrator/supply_chain_security/2026-W08-supply-chain-security"
   faq:
     - question: "2026-W08 有哪些重要的規則變動？"
       answer: "2026-W08 週報追蹤 50 項框架與標準變動，重點包括 NIST SP 800-53 Rev. 5.2.0 新增三項控制項（SA-15、SI-02(07)、SA-24）回應 Executive Order 14306、NISTIR 8596 AI 網路安全框架配置檔草案、SSDF Version 1.2 安全軟體開發框架修訂。"

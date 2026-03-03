@@ -1,6 +1,6 @@
 ---
 title: "Council Regulation (EU) 2025/2618 amending Regulation (EU) No 833/2014 concerning restrictive measures in view of Russia's actions destabilising the situation in Ukraine"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2618
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2618
 date: 2025-12-18
 category: supply_chain
 confidence: 高

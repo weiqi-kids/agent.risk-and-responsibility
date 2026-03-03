@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/303 on Transport Community maternity leave rules"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0303
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0303
 date: 2026-02-05
 category: institutional_administration
 confidence: 高

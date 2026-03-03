@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2026/222 on Australia's participation in Union programmes and association to Horizon Europe"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0222
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0222
 date: 2026-01-27
 category: digital_market
 confidence: 高

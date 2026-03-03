@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2025/2637 of 22 December 2025 amending Decision (CFSP) 2024/1484 concerning restrictive measures in view of the situation in Russia"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2637
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2637
 date: 2025-12-22
 category: supply_chain
 confidence: 高

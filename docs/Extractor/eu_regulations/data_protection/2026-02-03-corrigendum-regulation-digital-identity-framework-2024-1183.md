@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/1183 on European Framework for Digital Identity"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1183R(05)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1183
 date: 2026-02-03
 category: data_protection
 confidence: 中
@@ -9,7 +9,7 @@ confidence: 中
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council
-- **document_id**: CELEX:32024R1183R(05)
+- **document_id**: CELEX:32024R1183
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: directly_applicable

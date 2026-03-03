@@ -1,6 +1,6 @@
 ---
 title: "Draft SP 800-53 Controls on Secure and Reliable Patches Available for Comment"
-source_url: https://www.nist.gov/news-events/news/2025/07/draft-sp-800-53-controls-secure-reliable-patches-available-comment
+source_url: https://www.nist.gov/news-events/news/2025/07/draft-sp-800-53-controls-secure-and-reliable-patches-available-comment
 date: 2025-07-22
 category: cybersecurity
 confidence: 高

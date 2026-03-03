@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2645 on compulsory licensing for crisis management"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2645
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2645
 date: 2025-12-30
 category: financial_compliance
 confidence: 高

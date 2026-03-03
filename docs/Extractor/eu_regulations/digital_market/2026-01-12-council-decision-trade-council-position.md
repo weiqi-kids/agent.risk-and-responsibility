@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/1884 — EPA Council Position Coordination"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D1884
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D1884
 date: 2025-12-15
 category: digital_market
 confidence: 中

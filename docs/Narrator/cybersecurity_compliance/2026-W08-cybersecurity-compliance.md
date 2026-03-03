@@ -20,8 +20,8 @@ seo:
     - "CISA KEV"
     - "Cyber AI Profile"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance/"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief/"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W07-cybersecurity-compliance"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief"
   faq:
     - question: "本週有哪些重要的資安合規動態？"
       answer: "2026-W08 重點包括 NIST SP 800-53 Rev. 5.2.0 發布三項新增控制項（SA-15、SI-02(07)、SA-24）、NIST IR 8374 Revision 1 勒索軟體風險管理社群輪廓徵求意見、CSF 2.0 Govern 功能網路研討會、以及多項 CISA KEV 高優先漏洞通報。"

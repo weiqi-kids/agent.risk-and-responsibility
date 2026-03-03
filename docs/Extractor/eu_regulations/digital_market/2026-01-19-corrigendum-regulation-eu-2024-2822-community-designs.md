@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/2822 on Community Designs (3rd Correction)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R2822R(03)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2822
 date: 2026-01-19
 category: digital_market
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Union (Official Journal)
-- **document_id**: CELEX:32024R2822R(03)
+- **document_id**: CELEX:32024R2822
 - **status**: final
 - **document_type**: regulation
 - **binding_force**: directly_applicable

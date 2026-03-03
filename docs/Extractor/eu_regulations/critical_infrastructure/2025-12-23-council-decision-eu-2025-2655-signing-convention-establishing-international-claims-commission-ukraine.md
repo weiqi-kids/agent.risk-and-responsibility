@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (EU) 2025/2655 of 16 December 2025 on the signing, on behalf of the European Union, of the Convention Establishing the International Claims Commission for Ukraine"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2655
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2655
 date: 2025-12-23
 category: critical_infrastructure
 confidence: 高

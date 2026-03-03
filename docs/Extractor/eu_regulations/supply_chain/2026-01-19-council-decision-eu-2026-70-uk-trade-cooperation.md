@@ -1,6 +1,6 @@
 ---
 title: Council Decision (EU) 2026/70 on Energy Community Treaty amendments for environmental law alignment
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0070
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0070
 date: 2026-01-19
 category: supply_chain
 confidence: 高

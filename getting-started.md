@@ -102,7 +102,7 @@ permalink: /getting-started/
 
 ### GitHub Watch
 
-在 [GitHub 專案頁面](https://github.com/anthropics/claude-code) 點選「Watch」，選擇「Releases only」或「All Activity」接收更新通知。
+在 [GitHub 專案頁面](https://github.com/weiqi-kids/agent.risk-and-responsibility) 點選「Watch」，選擇「Releases only」或「All Activity」接收更新通知。
 
 ### RSS Feed
 

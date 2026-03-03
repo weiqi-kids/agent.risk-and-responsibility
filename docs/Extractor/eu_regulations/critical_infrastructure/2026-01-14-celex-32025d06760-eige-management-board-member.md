@@ -1,6 +1,6 @@
 ---
 title: "Council Decision of 16 December 2025 replacing a member of the Management Board of the European Institute for Gender Equality"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D06760
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D06760
 date: 2025-12-16
 category: critical_infrastructure
 confidence: 高

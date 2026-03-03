@@ -1,6 +1,6 @@
 ---
 title: "Council Decision (CFSP) 2026/260 amending restrictive measures on Russia's destabilising activities"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D0260
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D0260
 date: 2026-01-29
 category: financial_compliance
 confidence: 中

@@ -1,6 +1,6 @@
 ---
 title: "Council Decisions on Advisory Committee and Management Board member replacements (January 2026 batch)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00543
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00543
 date: 2026-01-23
 category: institutional_administration
 confidence: 中

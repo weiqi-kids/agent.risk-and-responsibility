@@ -1,6 +1,6 @@
 ---
 title: "Council Regulation (EU) 2025/2627 of 17 November 2025 on the allocation of the fishing opportunities provided for in the Protocol on the implementation of the Sustainable Fisheries Partnership Agreement between the European Union and the Government of the Cook Islands (2025-2032)"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2627
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2627
 date: 2025-12-23
 category: supply_chain
 confidence: 高

@@ -1,5 +1,5 @@
 ---
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32023L0959R(09)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L0959
 title: Corrigendum to Directive (EU) 2023/959 amending Directive 2003/87/EC (EU ETS)
 date: 2026-01-20
 category: financial_compliance

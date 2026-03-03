@@ -1,6 +1,6 @@
 ---
 title: Council Decision (EU) 2026/541 - Replacing Italian member on Advisory Committee for freedom of movement for workers
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D00541
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026D00541
 date: 2026-01-25
 category: critical_infrastructure
 confidence: 高

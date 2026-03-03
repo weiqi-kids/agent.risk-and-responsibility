@@ -1,6 +1,6 @@
 ---
 title: "Council Decision of 11 December 2025 replacing a member of the Advisory Committee on freedom of movement for workers for Austria"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D06758
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D06758
 date: 2025-12-11
 category: critical_infrastructure
 confidence: 高

@@ -1,6 +1,6 @@
 ---
 title: "Regulation (EU) 2025/2650 — 修訂無森林砍伐商品盡職調查義務"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2650
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2650
 date: 2026-01-15
 category: supply_chain
 confidence: 高

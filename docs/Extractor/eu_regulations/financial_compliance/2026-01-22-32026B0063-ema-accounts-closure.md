@@ -1,6 +1,6 @@
 ---
 title: "Decision (EU) 2026/63 of the European Parliament of 22 October 2025 on the closure of the accounts of the European Union Agency for Asylum for the financial year 2023"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026B0063
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026B0063
 date: 2026-01-22
 category: financial_compliance
 confidence: 高

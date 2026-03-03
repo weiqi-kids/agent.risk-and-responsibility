@@ -1,6 +1,6 @@
 ---
 title: "Corrigendum to Regulation (EU) 2024/3110 on Harmonised Rules for the Marketing of Construction Products"
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R3110R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3110
 date: 2026-01-28
 category: supply_chain
 confidence: 高
@@ -9,7 +9,7 @@ confidence: 高
 ## L1 — Rule Signal
 - **rule_type**: amendment
 - **issuing_body**: European Parliament and Council of the European Union
-- **document_id**: CELEX:32024R3110R(01)
+- **document_id**: CELEX:32024R3110
 - **status**: final
 - **document_type**: corrigendum
 - **binding_force**: directly_applicable

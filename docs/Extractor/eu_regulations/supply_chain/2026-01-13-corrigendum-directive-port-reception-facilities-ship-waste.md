@@ -1,6 +1,6 @@
 ---
 title: Corrigendum to Directive (EU) 2019/883 on port reception facilities for the delivery of waste from ships
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32019L0883R(01)
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L0883
 date: 2019-04-17
 category: supply_chain
 confidence: 高

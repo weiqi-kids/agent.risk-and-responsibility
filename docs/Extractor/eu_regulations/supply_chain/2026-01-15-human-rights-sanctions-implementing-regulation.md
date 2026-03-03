@@ -1,6 +1,6 @@
 ---
 title: Council Implementing Regulation (EU) 2025/2638 implementing restrictive measures in view of the situation in Russia
-source_url: https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2638
+source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2638
 date: 2025-12-22
 category: supply_chain
 confidence: 高
