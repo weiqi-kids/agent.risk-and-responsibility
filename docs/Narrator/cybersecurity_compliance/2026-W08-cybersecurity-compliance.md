@@ -8,7 +8,7 @@ seo:
   title: "2026-W08 資安合規動態 | NIST SP 800-53 Rev. 5.2.0、CSF 2.0 勒索軟體社群輪廓更新"
   description: "本週追蹤 50 項資安合規動態，涵蓋 NIST SP 800-53 Rev. 5.2.0 新增控制項、NIST IR 8374 勒索軟體風險管理、CSF 2.0 Govern 功能深度探討及 CISA KEV 漏洞通報。"
   date_published: "2026-02-17"
-  date_modified: "2026-02-18"
+  date_modified: "2026-03-03"
   article_section: "Cybersecurity Compliance"
   keywords:
     - "Cybersecurity Compliance"

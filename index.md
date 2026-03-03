@@ -9,7 +9,7 @@ nav_order: 1
 追蹤框架、法規與產業規則的變動，觀察責任歸屬的演化。
 
 {: .label .label-green }
-**最後更新：2026-03-01**
+**最後更新：2026-03-03**
 
 [訂閱 RSS](/feed.xml){: .btn .btn-primary }
 [關於本站](/about/){: .btn }

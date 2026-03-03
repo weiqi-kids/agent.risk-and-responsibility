@@ -8,7 +8,7 @@ seo:
   title: "2026-W07 供應鏈安全趨勢 | SSDF 1.2、SBOM、盡職調查最新動態"
   description: "本週追蹤 15 項供應鏈安全動態，涵蓋 NIST SSDF 1.2 徵詢期截止、歐盟無森林砍伐商品盡職調查延期、ISO SPDM 標準發布。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-15"
+  date_modified: "2026-03-03"
   article_section: "Supply Chain Security"
   keywords:
     - "Supply Chain Security"

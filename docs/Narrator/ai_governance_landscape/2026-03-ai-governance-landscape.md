@@ -8,7 +8,7 @@ seo:
   title: "2026-03 AI 治理全景 | ISO 42001 實務指引、Agentic AI 安全深化、AI 資安韌性重構"
   description: "2026 年 3 月 AI 治理月報：追蹤 30 項 AI 治理動態，涵蓋 ISO 42001 AI 管理系統指引、CSA MAESTRO 威脅建模實務應用、AI 代理身分可見性調查、AI 驅動資安韌性重構等重要更新。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "AI Governance Landscape"
   keywords:
     - "AI Governance"

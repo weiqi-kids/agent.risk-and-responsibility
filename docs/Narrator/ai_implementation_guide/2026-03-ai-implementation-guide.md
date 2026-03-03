@@ -8,7 +8,7 @@ seo:
   title: "2026-03 AI 實作技術指引 | Agentic AI 威脅建模、IAM 自動化、AI 治理框架落地"
   description: "本月 AI 實作重點：MAESTRO 框架導入 Agentic AI 威脅建模、AI Agent IAM 自動化授權架構、雲原生 AI 治理階段性落地方法。含實作清單、程式碼範例、常見陷阱。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "AI Implementation Guide"
   keywords:
     - "AI Implementation"

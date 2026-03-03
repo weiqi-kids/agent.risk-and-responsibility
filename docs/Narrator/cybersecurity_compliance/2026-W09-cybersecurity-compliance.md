@@ -8,7 +8,7 @@ seo:
   title: "2026-W09 資安合規動態 | CSF 2.0 兩週年、CCM v4.1、ISO 27103"
   description: "本週追蹤 50 項資安合規動態，涵蓋 CSF 2.0 兩週年七份社群檔案草案、CSA CCM v4.1 轉換時程、ISO/IEC TS 27103:2026 發布，以及 NIST SP 800-53 Rev. 5.2.0 持續推動中。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "Cybersecurity Compliance"
   keywords:
     - "Cybersecurity Compliance"

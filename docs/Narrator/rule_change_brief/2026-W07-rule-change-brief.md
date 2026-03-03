@@ -8,7 +8,7 @@ seo:
   title: "2026-W07 規則變動簡報 | NIST SP 800-53 更新、ISO 網路安全框架整合指引"
   description: "本期追蹤 50 項框架與標準變動，涵蓋 NIST SP 800-53 Rev. 5.2.0 新增控制項、ISO/IEC TS 27103:2026 框架整合指引、歐盟生態設計法規勘誤。資安主管與法遵團隊必讀。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-15"
+  date_modified: "2026-03-03"
   article_section: "Rule Change Brief"
   keywords:
     - "NIST Framework"

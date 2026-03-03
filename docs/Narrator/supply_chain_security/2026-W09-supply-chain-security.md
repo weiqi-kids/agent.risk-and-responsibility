@@ -8,7 +8,7 @@ seo:
   title: "2026-W09 供應鏈安全趨勢 | CSF 2.0 社群檔案、CCM v4.1 遷移、SSDF 1.2"
   description: "本週追蹤 11 項供應鏈安全動態，涵蓋 CSF 2.0 兩週年新增製造業社群檔案、CSA CCM v4.1 供應鏈控制擴展與遷移時程、NIST SSDF 1.2 持續推進、SP 800-53 修補管理控制草案。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "Supply Chain Security"
   keywords:
     - "Supply Chain Security"

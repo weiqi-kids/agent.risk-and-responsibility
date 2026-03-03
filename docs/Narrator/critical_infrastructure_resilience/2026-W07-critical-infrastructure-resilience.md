@@ -8,7 +8,7 @@ seo:
   title: "2026-W07 關鍵基礎設施韌性 | ISO 韌性標準系列更新"
   description: "本週追蹤 3 項高相關度關鍵基礎設施韌性動態，涵蓋 ISO 基礎設施韌性指南、能源韌性框架及資料中心韌性 KPI 標準。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-15"
+  date_modified: "2026-03-03"
   article_section: "Critical Infrastructure Resilience"
   keywords:
     - "Critical Infrastructure"

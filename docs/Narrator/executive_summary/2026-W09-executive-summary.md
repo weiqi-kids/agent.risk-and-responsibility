@@ -8,7 +8,7 @@ seo:
   title: "2026-W09 高階決策摘要 | 歐盟能源禁令、CCM v4.1 轉型、CISA KEV 修復"
   description: "本週 3 大風險管理重點：歐盟通過俄羅斯能源進口禁令最快 3 月生效、CSA CCM v4.1 強制轉型 2027 年底前完成、CISA KEV 新增 5 項已遭利用弱點須立即修復。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "Executive Summary"
   keywords:
     - "Executive Summary"

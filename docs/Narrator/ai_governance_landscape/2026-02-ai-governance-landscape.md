@@ -8,7 +8,7 @@ seo:
   title: "2026-02 AI 治理全景 | EU AI Act 勘誤、NIST AI 網路安全框架草案、Agentic AI 治理"
   description: "2026 年 2 月 AI 治理月報：追蹤 22 項 AI 治理動態，涵蓋 EU AI Act 勘誤、EuroHPC AI Gigafactories、NISTIR 8596 草案、CSA MAESTRO 威脅建模框架、Agentic IAM 等重要更新。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-18"
+  date_modified: "2026-03-03"
   article_section: "AI Governance Landscape"
   keywords:
     - "AI Governance"

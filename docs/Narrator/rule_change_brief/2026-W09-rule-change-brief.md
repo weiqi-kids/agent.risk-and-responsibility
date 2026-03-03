@@ -8,7 +8,7 @@ seo:
   title: "2026-W09 規則變動簡報 | CCM v4.1 轉型、ISO 27103 與 CISA KEV 強制修復"
   description: "本期追蹤 50 項框架與標準變動，重點包括 CSA CCM v4.1 強制轉型時程公布、ISO/IEC TS 27103:2026 網路安全框架指引發布、CISA KEV 新增 5 項強制修復弱點。資安主管與法遵團隊必讀。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "Rule Change Brief"
   keywords:
     - "CCM v4.1"

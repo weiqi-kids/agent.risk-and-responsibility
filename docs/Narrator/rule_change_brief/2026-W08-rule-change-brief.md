@@ -8,7 +8,7 @@ seo:
   title: "2026-W08 規則變動簡報 | NIST SP 800-53 Rev. 5.2.0 與 AI 網路安全框架草案"
   description: "本期追蹤 50 項框架與標準變動，重點包括 NIST SP 800-53 Rev. 5.2.0 新增三項控制項回應 Executive Order 14306、NISTIR 8596 首個 AI 網路安全框架配置檔草案、SSDF Version 1.2 安全軟體開發框架修訂。"
   date_published: "2026-02-17"
-  date_modified: "2026-02-18"
+  date_modified: "2026-03-03"
   article_section: "Rule Change Brief"
   keywords:
     - "NIST SP 800-53"

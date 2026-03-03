@@ -8,7 +8,7 @@ seo:
   title: "2026-W07 AI 治理全景 | EU AI Act 勘誤、Agentic AI 治理框架、NIST AI 網路安全草案"
   description: "2026-W07 AI 治理週報：追蹤 40 項 AI 治理動態，涵蓋 EU AI Act 勘誤修正、歐盟 AI Gigafactories 建立框架、Agentic AI 治理框架湧現、NIST AI 網路安全草案發布、非人類身分治理等重要更新。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-15"
+  date_modified: "2026-03-03"
   article_section: "AI Governance Landscape"
   keywords:
     - "AI Governance"

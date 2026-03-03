@@ -8,7 +8,7 @@ seo:
   title: "2026-W07 資安合規動態 | ISO/IEC TS 27103:2026、SSDF 1.2、AI 網路安全框架"
   description: "本週追蹤 50 項資安合規動態，涵蓋 ISO/IEC TS 27103:2026 網路安全框架整合指引、NIST SSDF 1.2 安全軟體開發框架更新、AI 時代網路安全草案、CISA KEV 漏洞修復義務等。"
   date_published: "2026-02-15"
-  date_modified: "2026-02-15"
+  date_modified: "2026-03-03"
   article_section: "Cybersecurity Compliance"
   keywords:
     - "Cybersecurity Compliance"

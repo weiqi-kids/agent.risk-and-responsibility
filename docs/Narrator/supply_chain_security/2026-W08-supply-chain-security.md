@@ -8,7 +8,7 @@ seo:
   title: "2026-W08 供應鏈安全趨勢 | SSDF 1.2、IoT 製造商指引、供應鏈追溯性框架"
   description: "本週追蹤 9 項供應鏈安全動態，涵蓋 NIST SSDF 1.2 公開徵求意見、IR 8536 製造業供應鏈追溯性元框架、IoT 製造商網路安全指引修訂、歐盟制裁與人源物質安全標準。"
   date_published: "2026-02-18"
-  date_modified: "2026-02-18"
+  date_modified: "2026-03-03"
   article_section: "Supply Chain Security"
   keywords:
     - "Supply Chain Security"

@@ -8,7 +8,7 @@ seo:
   title: "2026-W09 關鍵基礎設施韌性 | 俄羅斯能源進口禁令、CLAIR 相依性框架、NIST AI 中心"
   description: "本週追蹤 14 項關鍵基礎設施韌性動態，涵蓋歐盟俄羅斯天然氣與石油進口禁令、EU-瑞士碳排交易對齊、SANS CLAIR 基礎設施相依性框架及 NIST AI 經濟安全中心。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-01"
+  date_modified: "2026-03-03"
   article_section: "Critical Infrastructure Resilience"
   keywords:
     - "Critical Infrastructure"

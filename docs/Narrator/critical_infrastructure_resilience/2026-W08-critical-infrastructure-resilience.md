@@ -8,7 +8,7 @@ seo:
   title: "2026-W08 關鍵基礎設施韌性 | 歐盟能源社群決議、EuroHPC AI Gigafactories、EDIP 防衛計畫"
   description: "本週追蹤 13 項關鍵基礎設施韌性動態，涵蓋歐盟能源社群反詐欺合作、EuroHPC AI 超級工廠、EDIP 防衛工業計畫、飲用水指令勘誤及 NIST IoT 安全指引。"
   date_published: "2026-02-17"
-  date_modified: "2026-02-17"
+  date_modified: "2026-03-03"
   article_section: "Critical Infrastructure Resilience"
   keywords:
     - "Critical Infrastructure"
