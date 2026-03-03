@@ -176,11 +176,11 @@ seo:
 
 | 法規 | 發布日期 | Document ID | 類型 | binding_force | 重點 |
 |------|----------|-------------|------|---------------|------|
-| [Corrigendum to AI Act (EU) 2024/1689 R(02)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1689) | 2026-01-13 | CELEX:32024R1689 | amendment | directly_applicable | 修正 recital 19：明確排除線上空間適用範圍（effective: 2025-12-19） |
-| [Council Regulation (EU) 2026/150](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0150) | 2026-01-23 | CELEX:32026R0150 | amendment | directly_applicable | 擴展 EuroHPC JU 至 AI gigafactories 與量子技術，41.2 億歐元（effective: 2026-01-20） |
+| [Corrigendum to AI Act (EU) 2024/1689 R(02)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) | 2026-01-13 | CELEX:32024R1689 | amendment | directly_applicable | 修正 recital 19：明確排除線上空間適用範圍（effective: 2025-12-19） |
+| [Council Regulation (EU) 2026/150](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150) | 2026-01-23 | CELEX:32026R0150 | amendment | directly_applicable | 擴展 EuroHPC JU 至 AI gigafactories 與量子技術，41.2 億歐元（effective: 2026-01-20） |
 | [Regulation (EU) 2026/150 (Official Journal)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150) | 2026-01-19 | CELEX:32026R0150 | amendment | directly_applicable | 同上，發布於 Official Journal |
-| [Corrigendum to (EU) 2024/1732 R(02)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1732) | 2026-01-27 | CELEX:32024R1732 | corrigendum | binding_regulation | 術語更正：「AI factory」改為「AI facility」（愛沙尼亞語版本） |
-| [Regulation (EU) 2025/2653 — ReArm Europe Plan](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2653) | 2026-01-14 | CELEX:32025R2653 | revision | directly_applicable | 國防相關投資激勵，跨歐盟預算計劃調整 |
+| [Corrigendum to (EU) 2024/1732 R(02)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1732) | 2026-01-27 | CELEX:32024R1732 | corrigendum | binding_regulation | 術語更正：「AI factory」改為「AI facility」（愛沙尼亞語版本） |
+| [Regulation (EU) 2025/2653 — ReArm Europe Plan](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2653) | 2026-01-14 | CELEX:32025R2653 | revision | directly_applicable | 國防相關投資激勵，跨歐盟預算計劃調整 |
 
 ---
 
@@ -242,7 +242,7 @@ seo:
 - AI Gigafactory Consortia 須符合技術/環境/安全標準
 - AI 系統提供者與部署者需重新評估線上環境的合規義務（AI Act 勘誤）
 - ReArm Europe 計劃下，國防相關 AI 與網路安全投資激勵調整
-- （來源：[EU AI Act Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1689)、[Council Regulation 2026/150](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0150)、[ReArm Europe](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2653)）
+- （來源：[EU AI Act Corrigendum](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689)、[Council Regulation 2026/150](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0150)、[ReArm Europe](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2653)）
 
 **美國（NIST）**：
 - 組織採用 AI 時須同步發展網路安全策略（NISTIR 8596 草案，公眾意見徵詢期已截止）

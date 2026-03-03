@@ -357,9 +357,9 @@ NIST IR 8536 的可信任儲存庫概念，結合 IoT 製造商基礎活動的�
 |-----|-----|-----|
 | [SSDF Version 1.2 Public Comment](https://www.nist.gov/news-events/news/2025/12/secure-software-development-framework-ssdf-version-12-available-public) | NIST | 2025-12-17 |
 | [NIST IR 8536 Supply Chain Traceability](https://www.nist.gov/news-events/news/2025/07/comment-now-nist-internal-report-8536-supply-chain-traceability) | NIST | 2025-07-31 |
-| [Regulation (EU) 2025/2650 Deforestation Due Diligence](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025R2650) | EU | 2026-01-15 |
-| [Regulation (EU) 2024/1781 Ecodesign Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1781) | EU | 2026-02-04 |
-| [Regulation (EU) 2023/1115 Deforestation Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32023R1115) | EU | 2026-01-14 |
+| [Regulation (EU) 2025/2650 Deforestation Due Diligence](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R2650) | EU | 2026-01-15 |
+| [Regulation (EU) 2024/1781 Ecodesign Corrigendum](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1781) | EU | 2026-02-04 |
+| [Regulation (EU) 2023/1115 Deforestation Corrigendum](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1115) | EU | 2026-01-14 |
 | [IoT Product Manufacturers Foundational Activities](https://www.nist.gov/blogs/cybersecurity-insights/sharpening-focus-product-requirements-and-cybersecurity-risks-updating) | NIST | 2025-09-30 |
 | [ISO/IEC 25706:2026 - SPDM](https://www.iso.org/standard/91251.html) | ISO | 2026-02-03 |
 | [ISO 22373:2025 - Trustworthy Supply Chains](https://www.iso.org/standard/50276.html) | ISO | 2025-11-19 |

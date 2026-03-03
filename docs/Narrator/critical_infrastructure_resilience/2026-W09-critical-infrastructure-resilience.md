@@ -91,7 +91,7 @@ seo:
 
 5. **運輸領域勘誤 — 車輛檢驗指令用語標準化（2026-02-03, corrigendum, mandatory）**
    Directive 2014/45/EU（定期車輛檢驗）與 Directive 2014/47/EU（商用車輛路邊檢驗）同步發布第 8 次勘誤，統一檢驗中心、檢驗證書用語，修正制動系統檢驗程序技術語言。此次修正不涉及英文版本。
-   來源：[EUR-Lex 32014L0045R(08)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0045)、[EUR-Lex 32014L0047R(08)](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32014L0047)
+   來源：[EUR-Lex 32014L0045R(08)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0045)、[EUR-Lex 32014L0047R(08)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32014L0047)
 
 <blockquote class="expert-quote">
   「This Regulation constitutes a sovereign act of the Union, establishing clear legal prohibitions with direct legal effect and no discretion for Member States, invoking the security exception under Article XXI of the GATT 1994.」

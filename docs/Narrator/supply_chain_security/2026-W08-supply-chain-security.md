@@ -347,8 +347,8 @@ CSWP 48 草案建立 PQC 遷移能力與風險框架的映射，顯示 NIST 正�
 | [PQC Migration: Mappings to Risk Framework Docs](https://www.nist.gov/news-events/news/2025/09/new-draft-white-paper-pqc-migration-mappings-risk-framework-docs) | NIST | 2025-09-18 |
 | [Five Years Later: Evolving IoT Cybersecurity Guidelines](https://www.nist.gov/blogs/cybersecurity-insights/five-years-later-evolving-iot-cybersecurity-guidelines) | NIST | 2025-05-13 |
 | [Sharpening the Focus - IoT Product Manufacturers](https://www.nist.gov/blogs/cybersecurity-insights/sharpening-focus-product-requirements-and-cybersecurity-risks-updating) | NIST | 2025-09-30 |
-| [Council Decision (CFSP) 2025/2617](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32025D2617) | EU | 2025-12-18 |
-| [Regulation (EU) 2024/1938 Corrigendum](https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024R1938) | EU | 2026-01-30 |
+| [Council Decision (CFSP) 2025/2617](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025D2617) | EU | 2025-12-18 |
+| [Regulation (EU) 2024/1938 Corrigendum](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1938) | EU | 2026-01-30 |
 
 ---
 
