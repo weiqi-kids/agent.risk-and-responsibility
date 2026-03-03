@@ -1,5 +1,6 @@
 ---
 layout: report
+last_modified_at: 2026-03-03
 title: "2026-W09 Critical Infrastructure Resilience"
 parent: "Critical Infrastructure"
 nav_order: 91

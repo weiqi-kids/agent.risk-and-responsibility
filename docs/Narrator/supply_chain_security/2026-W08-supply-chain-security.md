@@ -1,5 +1,6 @@
 ---
 layout: report
+last_modified_at: 2026-03-03
 title: "2026-W08 Supply Chain Security"
 parent: "Supply Chain Security"
 nav_order: 8

@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-03-03
 layout: default
 title: 快速開始
 nav_order: 2

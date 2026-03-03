@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-02-20
 layout: default
 title: 合規自評工具
 parent: 工具

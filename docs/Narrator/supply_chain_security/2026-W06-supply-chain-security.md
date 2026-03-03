@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-02-07
 layout: default
 title: "2026-W06"
 parent: Supply Chain Security
