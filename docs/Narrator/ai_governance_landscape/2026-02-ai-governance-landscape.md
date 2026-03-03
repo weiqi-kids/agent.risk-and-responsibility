@@ -20,7 +20,7 @@ seo:
     - "NIST Cybersecurity Framework"
     - "Non-Human Identity"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-W07-ai-governance-landscape"
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-W07-ai_governance_landscape"
     - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W07-rule-change-brief"
   faq:
     - question: "2026 年 2 月有哪些重要的 AI 治理動態？"
