@@ -21,8 +21,8 @@ seo:
     - "資安合規"
     - "EU 法規"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W09-rule-change-brief"
-    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W12-cybersecurity-compliance"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W09-rule-change-brief/"
+    - "https://risk.weiqi.kids/docs/Narrator/cybersecurity_compliance/2026-W12-cybersecurity-compliance/"
   faq:
     - question: "2026-W12 有哪些重要的規則變動？"
       answer: "2026-W12 週報追蹤 50 項框架與標準變動，重點包括 NIST IoT 計畫公布未來方向工作坊（2026-03-31 舉行）、SSDF 1.2 持續公開徵詢、CCM v4.1 轉型倒數 21 個月、CISA KEV 6 項已遭利用弱點修復期限追蹤。"

@@ -103,4 +103,4 @@ has_children: true
 ---
 
 *報告產出時間：2026-03-22*
-*完整報告：[2026-W12 Supply Chain Security](2026-W12-supply-chain-security)*
+*完整報告：[2026-W12 Supply Chain Security](2026-W12-supply-chain-security/)*
