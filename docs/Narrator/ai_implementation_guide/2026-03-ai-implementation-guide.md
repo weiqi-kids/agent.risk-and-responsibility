@@ -1,15 +1,15 @@
 ---
 layout: report
-last_modified_at: 2026-03-03
+last_modified_at: 2026-03-22
 title: "2026-03 AI Implementation Guide"
 parent: "AI Implementation Guide"
 nav_order: 97
 
 seo:
-  title: "2026-03 AI 實作技術指引 | Agentic AI 威脅建模、IAM 自動化、AI 治理框架落地"
-  description: "本月 AI 實作重點：MAESTRO 框架導入 Agentic AI 威脅建模、AI Agent IAM 自動化授權架構、雲原生 AI 治理階段性落地方法。含實作清單、程式碼範例、常見陷阱。"
+  title: "2026-03 AI 實作技術指引 | Agentic AI 威脅建模、IAM 自動化、AI 治理控制層"
+  description: "本月 AI 實作重點：MAESTRO 框架導入 Agentic AI 威脅建模、AI Agent IAM 自動化授權架構、從護欄到治理的全生命週期控制層、MTU 授權可觀測性指標。含實作清單、程式碼範例、常見陷阱。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-03"
+  date_modified: "2026-03-22"
   article_section: "AI Implementation Guide"
   keywords:
     - "AI Implementation"
@@ -22,16 +22,16 @@ seo:
     - "AI IAM"
   related_articles:
     - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-03-ai-governance-landscape"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W09-rule-change-brief"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W12-rule-change-brief"
   faq:
     - question: "2026 年 3 月有哪些 AI 實作要點？"
-      answer: "2026 年 3 月 AI 實作指引涵蓋三大重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行威脅建模、建立 AI Agent 專用的自動化 IAM 授權架構（Policy-as-Code）、以及採用階段性方法在雲原生環境落地 AI 治理框架（ISO 42001 + NIST AI RMF）。"
+      answer: "2026 年 3 月 AI 實作指引涵蓋四大重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行威脅建模、建立 AI Agent 專用的自動化 IAM 授權架構（Policy-as-Code）、從護欄擴展為全生命週期治理控制層、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性指標。"
     - question: "如何在組織內落實 AI RMF？"
       answer: "建議採用三階段方法：第一階段建立 AI 資產清冊與風險分類（MAP 1.x）；第二階段實作模型監控與偏差測試（MEASURE 2.x）；第三階段整合 ISO 42001 管理系統持續改善（GOVERN 1.x）。每階段約需 3-6 個月，依組織規模調整。"
     - question: "Agentic AI 系統的主要安全威脅有哪些？"
-      answer: "根據 CSA MAESTRO 框架分析，Agentic AI 系統面臨七層威脅：基礎模型層的 prompt injection、工具整合層的 API 濫用、Agent 協作層的信任傳遞漏洞、記憶與狀態層的資料竄改、部署層的憑證蔓延（token sprawl），以及監控層的可觀測性缺口。"
+      answer: "根據 CSA MAESTRO 框架分析，Agentic AI 系統面臨七層威脅：基礎模型層的 prompt injection、資料與上下文層的資料投毒、工具整合層的 API 濫用、Agent 協作層的信任傳遞漏洞、記憶與狀態層的狀態竄改、部署層的憑證蔓延（token sprawl），以及可觀測性層的監控盲點。"
     - question: "常見的 AI 實作陷阱有哪些？"
-      answer: "最常見的三項陷阱：(1) 將傳統 IAM 直接套用於 AI Agent 而未考慮每分鐘 5,000 次操作的速度需求；(2) 缺乏 AI 系統不確定性量化機制導致幻覺風險失控；(3) 僅依賴靜態掃描而未建立 AI 專屬的持續威脅建模流程。"
+      answer: "最常見的四項陷阱：(1) 將傳統 IAM 直接套用於 AI Agent 而未考慮每分鐘 5,000 次操作的速度需求；(2) 僅部署輸出過濾護欄而忽略 AI 代理全生命週期的治理控制；(3) 缺乏 AI 系統不確定性量化機制導致幻覺風險失控；(4) 僅依賴靜態掃描而未建立 AI 專屬的持續威脅建模流程。"
     - question: "ISO 42001 認證需要準備什麼？"
       answer: "ISO 42001 認證需準備：AI 管理系統（AIMS）政策文件、AI 風險評估與處置流程、AI 影響評估記錄、模型生命週期管理程序、資料治理政策、以及持續監控與改善機制。建議先對照 CSA 的 ISO 42001 FAQ 檢核表進行差距分析。"
 ---
@@ -39,10 +39,10 @@ seo:
 # AI Implementation Guide — 2026-03 {: .no_toc }
 
 <div class="key-takeaway">
-本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、以及在雲原生環境採用階段性方法落地 AI 治理框架（ISO 42001 + NIST AI RMF）。
+本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO。
 </div>
 
-> 本期聚焦 10 項 AI 治理要求的技術實作，涵蓋 NIST AI RMF、CSA MAESTRO 框架、ISO 42001 等權威指引。
+> 本期聚焦 11 項 AI 治理要求的技術實作，涵蓋 NIST AI RMF、CSA MAESTRO 框架、ISO 42001 等權威指引。
 
 ## 免責聲明
 
@@ -61,8 +61,8 @@ seo:
 | 產出方式 | AI 自動產出（Claude Opus 4） |
 | 審核狀態 | <span class="badge-reviewed">已通過自動審核</span> |
 | 審核依據 | CLAUDE.md 自我審核 Checklist |
-| 資料來源 | 30 個權威來源（NIST、CSA、EU、SANS 等） |
-| 資料時間 | 2024-05-02 ~ 2026-02-26 |
+| 資料來源 | 30 個權威來源（NIST、CSA、SANS 等） |
+| 資料時間 | 2024-03-21 ~ 2026-03-16 |
 
 </div>
 
@@ -75,7 +75,7 @@ seo:
 ## 本月實作清單
 
 <p class="key-answer" data-question="本月有哪些 AI 實作要點">
-  <strong>Agentic AI 威脅建模與 AI Agent 自動化授權</strong>是本月最優先的實作項目。隨著 AI Agent 在企業環境大量部署，CSA MAESTRO 框架提供了七層威脅建模方法論，而 AI Agent 的 IAM 架構必須從傳統人類同意式授權轉向 Policy-as-Code 自動化執行。
+  <strong>Agentic AI 威脅建模、AI Agent 自動化授權與全生命週期治理控制層</strong>是本月最優先的實作項目。隨著 AI Agent 在企業環境大量部署，CSA MAESTRO 框架提供了七層威脅建模方法論，AI Agent 的 IAM 架構必須從傳統人類同意式授權轉向 Policy-as-Code 自動化執行，而 CSA 最新指引更強調安全控制必須從輸出過濾護欄擴展為涵蓋 AI 代理整個執行生命週期的治理控制層。
 </p>
 
 ### 必做項目
@@ -95,12 +95,22 @@ seo:
   - 優先級：高
   - 說明：建立 AI 系統憑證的自動輪換、範圍限縮與過期撤銷機制，防止「授權超越意圖」風險
 
+- [ ] **建立 AI 代理全生命週期治理控制層**
+  - 來源：CSA — From Guardrails to Governance (2026-03-16)
+  - 優先級：高
+  - 說明：將安全控制從輸出過濾護欄擴展為涵蓋 AI 代理工具存取、資料存取及外部系統呼叫的全生命週期治理控制層
+
 - [ ] **盤點組織內 Shadow AI 與嵌入式 AI 風險**
   - 來源：CSA — What AI Risks Are Hiding in Your Apps
   - 優先級：高
   - 說明：識別 SaaS 應用中嵌入的 AI 功能，評估資料外洩、模型偏差與合規風險
 
 ### 建議項目
+
+- [ ] **導入 MTU（Mean Time to Understand）作為授權可觀測性指標**
+  - 來源：CSA — Rethinking Authorization for the Age of Agentic AI (2026-03-16)
+  - 優先級：中
+  - 說明：定義並追蹤 MTU 作為 AI 代理授權治理的核心 SLO，確保授權系統能在 AI 代理動態工具選擇與中途改變執行路徑時有效運作
 
 - [ ] **建立 AI 不確定性量化機制**
   - 來源：CSA — What if AI Knew When to Say "I Don't Know"
@@ -116,11 +126,6 @@ seo:
   - 來源：CSA/Oasis Security — NHI Survey Report
   - 優先級：中
   - 說明：建立 AI Agent、API Token、Service Account 等非人類身份的統一管理與監控平台
-
-- [ ] **建立 AI 信任證明（Proof of AI Trust）機制**
-  - 來源：CSA — From Security to Proof of AI Trust
-  - 優先級：中
-  - 說明：從「假設 AI 安全」轉向「證明 AI 可信」，建立可驗證的信任鏈機制
 
 - [ ] **部署 AI 威脅持續監控流程**
   - 來源：SANS ISC — OpenClaw 偵測與監控
@@ -163,7 +168,7 @@ seo:
       <td>GOVERN 1.1, GOVERN 1.2</td>
       <td>GV.OC-01, GV.OC-02</td>
       <td>5.1, 5.2</td>
-      <td>AI 治理框架階段性部署</td>
+      <td>AI 治理框架階段性部署、治理控制層</td>
     </tr>
     <tr>
       <td>測試驗證</td>
@@ -177,7 +182,7 @@ seo:
       <td>GOVERN 6.1</td>
       <td>PR.AA-01, PR.AA-02</td>
       <td>A.8</td>
-      <td>AI Agent IAM 自動化授權</td>
+      <td>AI Agent IAM 自動化授權、MTU 指標</td>
     </tr>
     <tr>
       <td>供應鏈安全</td>
@@ -213,19 +218,19 @@ seo:
   <strong>CSA MAESTRO 框架提供七層結構化威脅建模方法</strong>，可整合至 CI/CD 流程中自動化執行，涵蓋從基礎模型到部署監控的完整攻擊面。
 </p>
 
-**背景**：傳統威脅建模工具（SAST、STRIDE）無法覆蓋 Agentic AI 的多層架構風險。CSA 於 2026 年 2 月發布的 MAESTRO 框架針對 AI Agent 的七個層次定義了專屬威脅向量，並提供了將威脅建模整合至 CI/CD Pipeline 的實作指引。
+**背景**：傳統威脅建模工具（SAST、STRIDE）無法覆蓋 Agentic AI 的多層架構風險。CSA 於 2026 年 2 月發布的 MAESTRO 框架針對 AI Agent 的七個層次定義了專屬威脅向量，並提供了將威脅建模整合至 CI/CD Pipeline 的實作指引。OpenClaw 威脅模型分析進一步驗證了 MAESTRO 在實際 codebase 上的適用性，關鍵發現是：單一層控制可被鏈式攻擊繞過，必須跨全部七層實施縱深防禦。
 
 **MAESTRO 七層威脅模型**：
 
 | 層次 | 名稱 | 主要威脅 | 緩解措施 |
 |------|------|----------|----------|
 | L1 | Foundation Model | Prompt injection、模型竄改 | Input validation、模型簽章驗證 |
-| L2 | Data & Context | 資料投毒、上下文操控 | 資料完整性檢查、存取控制 |
-| L3 | Tool Integration | API 濫用、工具鏈攻擊 | 最小權限、API Rate limiting |
-| L4 | Agent Collaboration | 信任傳遞漏洞、惡意代理 | Zero-trust agent 驗證 |
-| L5 | Memory & State | 狀態竄改、記憶注入 | 狀態簽章、定期清理 |
+| L2 | Data & Context | 資料投毒、上下文操控、明文憑證儲存 | 資料完整性檢查、OS Keychain 安全儲存 |
+| L3 | Tool Integration | API 濫用、工具鏈攻擊、未授權命令執行 | 最小權限 allowlist、API Rate limiting、審批工作流 |
+| L4 | Agent Collaboration | 信任傳遞漏洞、惡意代理、容器逃逸 | Zero-trust agent 驗證、sandbox 配置測試 |
+| L5 | Memory & State | 狀態竄改、記憶注入、累積 prompt injection | 狀態簽章、定期 context 重置 |
 | L6 | Deployment | 憑證蔓延、設定錯誤 | Credential rotation、IaC 掃描 |
-| L7 | Observability | 監控盲點、日誌竄改 | 不可變日誌、異常偵測 |
+| L7 | Observability | 監控盲點、日誌竄改 | 不可變日誌（cryptographic audit trail）、異常偵測 |
 
 **實作步驟**：
 
@@ -261,6 +266,13 @@ jobs:
             --model-path ./models/ \
             --expected-hash ${{ secrets.MODEL_HASH }}
 
+      - name: L2 - Credential Storage Audit
+        run: |
+          # 掃描明文憑證儲存（MAESTRO L2 關鍵發現）
+          python scripts/scan_plaintext_credentials.py \
+            --paths ./ai-agents/ \
+            --check-keychain-usage
+
       - name: L3 - Tool Integration Audit
         run: |
           # 檢查 AI Agent 可呼叫的工具清單與權限
@@ -285,8 +297,8 @@ jobs:
 **驗證方式**：確認每個 AI Agent 系統都有對應的 MAESTRO 七層威脅評估文件，且 CI/CD Pipeline 中的威脅掃描覆蓋率達 100%。
 
 <blockquote class="expert-quote">
-  「傳統威脅建模工具無法涵蓋 Agentic AI 的多層架構風險，MAESTRO 框架填補了從基礎模型到部署監控的完整安全評估缺口。」
-  <cite>Cloud Security Alliance, MAESTRO Framework Analysis (2026-02)</cite>
+  「Defense-in-depth across all layers is necessary because individual controls can be bypassed through chained attacks.」
+  <cite>Cloud Security Alliance, OpenClaw MAESTRO Framework Analysis (2026-02)</cite>
 </blockquote>
 
 ---
@@ -297,7 +309,13 @@ jobs:
   <strong>AI Agent 以每分鐘 5,000 次操作的速度運行</strong>，傳統以人為核心的同意式授權已不適用，必須轉向 Policy-as-Code 的自動化即時授權架構。
 </p>
 
-**背景**：CSA 的 AI Security 系列報告指出，AI Agent 的操作速度與自主性根本改變了 IAM 的設計假設。傳統「人類審批」模式在 Agent 每分鐘數千次操作的場景下完全失效。同時，CSA/Oasis 調查顯示 79% 的 IT 專業人員認為自己缺乏防禦 Non-Human Identity 攻擊的能力。
+**背景**：CSA 的 AI Security 系列報告指出，AI Agent 的操作速度與自主性根本改變了 IAM 的設計假設。傳統「人類審批」模式在 Agent 每分鐘數千次操作的場景下完全失效。IBM/Ponemon 研究顯示 97% 受影響組織缺乏適當存取控制，80% 經歷意外代理行為。Gartner 預測到 2028 年 25% 企業資料外洩可能源於 AI 代理濫用。
+
+**關鍵統計**：
+- 91% 企業已部署 AI 代理，但僅 10% 有安全計畫
+- Non-Human Identity 數量已達人類身份的 144 倍
+- 不良 AI 治理每次外洩增加 $670,000 成本
+- EU AI Act Article 14 於 2026 年 8 月 2 日開始執行，違規罰款最高 €35M 或全球營收 7%
 
 **實作步驟**：
 
@@ -381,6 +399,42 @@ credential_policy:
 ```
 
 **驗證方式**：確認所有 AI Agent 都透過 Policy-as-Code 引擎進行授權判斷，無硬編碼憑證，Token 輪換機制運作正常（可透過 audit log 驗證）。
+
+---
+
+### 從護欄到治理：建立 AI 代理全生命週期控制層
+
+<p class="key-answer" data-question="為什麼只有輸出過濾護欄不夠">
+  <strong>CSA 於 2026 年 3 月指出，隨著 AI 從對話型助理演進為自主代理，安全控制的重心必須從「輸出過濾護欄」擴展為「全生命週期治理控制層」</strong>，涵蓋 AI 代理的工具存取、資料存取及外部系統呼叫。
+</p>
+
+**背景**：傳統 AI 安全以「護欄」（guardrails）為核心 — 在輸入端過濾惡意 prompt、在輸出端過濾有害內容。但 Agentic AI 的行為遠超提示/回應範疇：它們主動呼叫工具、存取資料庫、觸發外部 API、甚至生成並執行程式碼。僅靠輸入/輸出過濾無法治理這些自主行為。
+
+**控制層 vs. 護欄的差異**：
+
+| 面向 | 護欄（Guardrails） | 治理控制層（Control Layer） |
+|------|--------------------|-----------------------------|
+| 覆蓋範圍 | 提示輸入 + 模型輸出 | AI 代理完整執行生命週期 |
+| 控制對象 | 文字內容 | 工具存取、資料存取、API 呼叫、程式碼執行 |
+| 治理模式 | 被動過濾 | 主動政策執行 |
+| 適用場景 | 對話型 AI 助理 | 自主 AI 代理 |
+
+**實作步驟**：
+
+<ol class="actionable-steps">
+  <li>盤點所有 AI 代理的工具存取權限與外部系統呼叫清單</li>
+  <li>針對自主 AI 代理制定獨立的安全政策（與傳統用戶政策分開）</li>
+  <li>實作治理控制層，攔截並審計 AI 代理對工具、資料與外部系統的每次存取</li>
+  <li>建立結構化的 AI 代理執行日誌與操作審計記錄</li>
+  <li>導入 MTU（Mean Time to Understand）指標追蹤授權事件的可理解速度</li>
+</ol>
+
+**驗證方式**：確認每個 AI 代理的工具呼叫、資料存取與外部系統呼叫都經過治理控制層，並有完整的審計記錄。MTU 指標應可量測且持續追蹤。
+
+<blockquote class="expert-quote">
+  「隨著 AI 從對話型助理演進為自主代理，企業安全控制的重心必須從輸出過濾護欄擴展為全生命週期治理控制層。」
+  <cite>Cloud Security Alliance, From Guardrails to Governance (2026-03-16)</cite>
+</blockquote>
 
 ---
 
@@ -520,24 +574,39 @@ class ModelCard:
 - 準備外部認證所需文件
 - 整合 NIST CSF 2.0 與 AI RMF 的統一報告
 
+**ISO 42001 與其他框架的整合關係**（來源：CSA ISO 42001 FAQ, 2026-01）：
+
+| 框架 | 與 ISO 42001 的關係 |
+|------|---------------------|
+| ISO 27001 / ISO 27701 | Clause 4-10 結構緊密對齊；現有政策可延伸 |
+| NIST AI RMF | 補充風險管理參考 |
+| EU AI Act | 治理原則廣泛對齊 |
+| CSA STAR for AI | 建立於 ISO 42001，增加 AI 安全驗證；結合 = STAR Level 2 |
+| Colorado AI Act | 明確承認 ISO 42001 遵守為潛在安全港 |
+
 **驗證方式**：每階段結束時執行差距分析，確認已完成該階段所有檢查項目，並記錄於 AI 治理文件中。
+
+<blockquote class="expert-quote">
+  「ISO 42001 非常產業無關且廣泛採用，這真正強化認證的價值主張。結合 ISO 42001 認證與 AI-CAIQ 控制的組織可達成 CSA STAR for AI Level 2。」
+  <cite>Cloud Security Alliance, AI Governance and ISO 42001 FAQs (2026-01)</cite>
+</blockquote>
 
 ---
 
 ### AI 系統可觀測性與威脅監控
 
 <p class="key-answer" data-question="如何建立 AI 系統的持續監控機制">
-  <strong>CSA 調查顯示大多數組織缺乏 AI Agent 的可觀測性</strong>，需建立 AI 專屬的監控指標、威脅偵測規則與告警機制。
+  <strong>CSA 調查顯示僅 21% 組織維護即時 AI 代理登錄冊、僅 28% 可完整追溯代理動作</strong>，需建立 AI 專屬的監控指標、威脅偵測規則與告警機制。
 </p>
 
-**背景**：CSA《Securing Autonomous AI Agents》調查報告指出，組織普遍面臨 AI Agent 的「可觀測性缺口」（Visibility Gap）。傳統 SIEM/SOAR 工具未針對 AI 特有行為建立偵測規則。SANS ISC 也報告了針對暴露 AI 模型 API 的掃描活動與 OpenClaw 等 Agentic AI 爬蟲的威脅。
+**背景**：CSA《Securing Autonomous AI Agents》調查報告指出，組織普遍面臨 AI Agent 的「可觀測性缺口」（Visibility Gap）。傳統 SIEM/SOAR 工具未針對 AI 特有行為建立偵測規則。SANS ISC 也報告了針對暴露 AI 模型 API 的掃描活動與 OpenClaw 等 Agentic AI 爬蟲的威脅。CSA 最新提出的 MTU（Mean Time to Understand）指標為授權可觀測性提供了量化衡量方法。
 
 **實作步驟**：
 
 <ol class="actionable-steps">
-  <li>定義 AI 系統專屬的監控指標（模型 drift、推論延遲、API 呼叫模式）</li>
+  <li>定義 AI 系統專屬的監控指標（模型 drift、推論延遲、API 呼叫模式、MTU）</li>
   <li>建立 AI 威脅偵測規則（暴露的模型端點、異常推論請求模式）</li>
-  <li>部署 AI Agent 行為審計日誌</li>
+  <li>部署 AI Agent 行為審計日誌（含 end-to-end session tracing）</li>
   <li>整合至企業 SIEM/SOAR 平台</li>
   <li>建立 AI 事件應變程序（Incident Response for AI）</li>
 </ol>
@@ -562,6 +631,8 @@ detection:
       - '/v1/completions'
       - '/api/generate'
       - '/inference'
+      - '/anthropic/v1/models'
+      - '/v1/messages'
     src_ip|cidr:
       - '0.0.0.0/0'  # 外部 IP
   filter:
@@ -586,17 +657,27 @@ tags:
 
 ### 陷阱 1：將傳統 IAM 直接套用於 AI Agent
 
-**問題**：許多組織嘗試使用現有的人類 IAM 系統（如 LDAP/SSO）管理 AI Agent 身份，但人類同意式授權在 AI Agent 每分鐘 5,000 次操作的速度下完全失效。CSA 報告指出，Token 蔓延（Token Sprawl）已成為 AI 環境中的主要安全風險，尤其在 CI/CD 管線與 ML 訓練環境中。
+**問題**：許多組織嘗試使用現有的人類 IAM 系統（如 LDAP/SSO）管理 AI Agent 身份，但人類同意式授權在 AI Agent 每分鐘 5,000 次操作的速度下完全失效。CSA 報告指出，Token 蔓延（Token Sprawl）已成為 AI 環境中的主要安全風險，尤其在 CI/CD 管線與 ML 訓練環境中。2025 年 7 月 Replit AI 代理事件即為典型案例：代理在數秒內刪除 1,206 筆資料庫記錄，儘管有程式碼凍結政策。
 
 **正確做法**：
 - 建立 AI Agent 專屬的身份管理系統（Non-Human Identity Management）
 - 使用 Policy-as-Code（OPA/Cedar）取代人工審批
-- 實施 Token 自動輪換（建議 24 小時週期）
+- 實施 Token 自動輪換（建議 5-15 分鐘短期 token）
 - 導入 Agent-to-Agent 的 Zero-Trust 驗證機制
 
-### 陷阱 2：缺乏 AI 不確定性量化
+### 陷阱 2：僅部署護欄而忽略全生命週期治理
 
-**問題**：大多數 AI 部署僅關注準確率，忽略模型在邊界案例的不確定性。當模型「不知道自己不知道」時，可能以高信心度輸出錯誤結果，造成下游系統的連鎖決策錯誤。
+**問題**：組織僅在 AI 系統的輸入端和輸出端部署過濾機制（護欄），以為這樣就足以控制 AI 行為。然而 Agentic AI 的自主行為遠超提示/回應範疇 — 它們主動呼叫工具、存取資料庫、觸發外部 API。護欄無法監管這些中間操作。
+
+**正確做法**：
+- 從護欄擴展為涵蓋 AI 代理完整執行生命週期的治理控制層
+- 針對自主 AI 代理制定獨立的安全政策
+- 對 AI 代理的工具存取、資料存取及外部系統呼叫都實施治理控制
+- 建立結構化的操作審計記錄
+
+### 陷阱 3：缺乏 AI 不確定性量化
+
+**問題**：大多數 AI 部署僅關注準確率，忽略模型在邊界案例的不確定性。當模型「不知道自己不知道」時，可能以高信心度輸出錯誤結果，造成下游系統的連鎖決策錯誤。CSA 指出，這不是詞彙問題而是校準問題 — AI 可以按需產出不確定性語言，但缺乏真正的不確定性意識。
 
 **正確做法**：
 - 導入 Conformal Prediction 框架，為每個預測附加信心區間
@@ -604,9 +685,9 @@ tags:
 - 在 Model Card 中明確記錄已知的不確定性邊界
 - 定期執行 calibration 測試，確保信心度分數的可靠性
 
-### 陷阱 3：僅靠靜態掃描忽略 AI 持續威脅
+### 陷阱 4：僅靠靜態掃描忽略 AI 持續威脅
 
-**問題**：傳統的安全掃描（SAST/DAST）無法偵測 AI 特有的攻擊向量，如 prompt injection、模型投毒、Agent 協作層的信任傳遞漏洞。SANS ISC 報告顯示，針對暴露 AI 模型端點的掃描活動持續增加。
+**問題**：傳統的安全掃描（SAST/DAST）無法偵測 AI 特有的攻擊向量，如 prompt injection、模型投毒、Agent 協作層的信任傳遞漏洞。SANS ISC 報告顯示，針對暴露 AI 模型端點的掃描活動持續增加（包括透過 Tor 出口節點的偵察行為）。
 
 **正確做法**：
 - 導入 MAESTRO 七層威脅建模，涵蓋 AI 特有攻擊面
@@ -630,7 +711,8 @@ tags:
 | NIST CSF 2.0 Cyber AI Profile | AI 網路安全框架配置檔（草案） | [NISTIR 8596](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era) |
 | ISO 42001 FAQ (CSA) | AI 管理系統認證常見問題 | [CSA ISO 42001 FAQ](https://cloudsecurityalliance.org/articles/ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-in-2026) |
 | SANS ISC AI Threat Feeds | AI 相關威脅情報 | [SANS ISC](https://isc.sans.edu/) |
-| NIST NCCoE Cyber AI Profile Working Sessions | AI 系統元件安全工作坊 | [NIST NCCoE](https://www.nist.gov/news-events/events/2025/08/nist-nccoe-cyber-ai-profile-virtual-working-session-series-securing-ai) |
+| openclaw-detect | 掃描系統中的 AI Agent 框架 artifacts | [SANS ISC Diary](https://isc.sans.edu/diary/rss/32678) |
+| openclaw-telemetry | AI Agent 工具呼叫與 LLM 請求監控插件 | [SANS ISC Diary](https://isc.sans.edu/diary/rss/32678) |
 
 ---
 
@@ -640,11 +722,11 @@ tags:
   <strong>Agentic AI 的自主性與規模化</strong>正在根本改變安全架構的設計假設，組織需為「AI-native」安全架構做好準備。
 </p>
 
-- [系統推論] **Agentic AI 安全將成為獨立學科**：隨著 AI Agent 從輔助工具演變為自主決策者（CSA 預測 2026 年為 Agentic AI 全面進入企業的轉折年），安全團隊需從「保護使用 AI 的人」轉向「治理 AI Agent 本身」。MAESTRO 框架的出現標誌著 Agentic AI 安全正在從臨時措施走向體系化方法論。
+- [系統推論] **Agentic AI 安全將成為獨立學科**：隨著 AI Agent 從輔助工具演變為自主決策者（CSA 預測 2026 年為 Agentic AI 全面進入企業的轉折年），安全團隊需從「保護使用 AI 的人」轉向「治理 AI Agent 本身」。MAESTRO 框架的出現標誌著 Agentic AI 安全正在從臨時措施走向體系化方法論。CSA「From Guardrails to Governance」的論述進一步確認了這個趨勢方向。
 
-- [系統推論] **Non-Human Identity 管理將超越人類 IAM 的規模**：CSA/Oasis 調查顯示 NHI（含 AI Agent、API Token、Service Account）的數量已遠超人類身份。隨著 AI Agent 間的協作成為常態，Token Sprawl 問題將呈指數級增長，組織需要全新的 NHI 管理架構而非修補現有 IAM。
+- [系統推論] **Non-Human Identity 管理將超越人類 IAM 的規模**：CSA/Oasis 調查顯示 NHI（含 AI Agent、API Token、Service Account）的數量已達人類身份的 144 倍。隨著 AI Agent 間的協作成為常態，Token Sprawl 問題將呈指數級增長，組織需要全新的 NHI 管理架構而非修補現有 IAM。
 
-- [系統推論] **AI 信任將從「假設安全」轉向「可驗證信任」**：CSA「Proof of AI Trust」概念正在獲得產業關注。未來 AI 系統將需要像金融機構一樣提供可審計的信任證明，包括模型來源驗證、決策可解釋性報告、與偏差測試結果的公開記錄。這將催生新的「AI 信任證明」服務市場。
+- [系統推論] **授權可觀測性將成為核心安全指標**：CSA 提出的 MTU（Mean Time to Understand）概念代表了一個重要的趨勢轉變 — 安全團隊不僅需要知道「誰做了什麼」，還需要在 AI 代理動態改變執行路徑時即時理解授權決策的脈絡。這將催生新一代的 AI 授權可觀測性平台。
 
 ---
 
@@ -652,10 +734,10 @@ tags:
 
 | 指標 | 數值 |
 |------|------|
-| 實作項目數 | 10 |
-| 必做項目 | 4 |
+| 實作項目數 | 11 |
+| 必做項目 | 5 |
 | 建議項目 | 6 |
-| 來源分布 | CSA: 20, NIST Frameworks: 4, NIST Insights: 3, SANS ISC: 2, EU: 1 |
+| 來源分布 | CSA: 20, NIST Frameworks: 4, NIST Insights: 3, SANS ISC: 2, ISO: 1 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -664,13 +746,11 @@ tags:
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| csa_cloud_security | ai_security | 11 | 2026-01-06 ~ 2026-02-26 |
-| csa_cloud_security | identity | 4 | 2026-01-26 ~ 2026-02-11 |
+| csa_cloud_security | ai_security | 12 | 2026-01-06 ~ 2026-03-16 |
+| csa_cloud_security | identity | 4 | 2026-02-03 ~ 2026-03-16 |
 | csa_cloud_security | best_practices | 4 | 2026-01-09 ~ 2026-01-27 |
 | csa_cloud_security | compliance | 1 | 2026-01-13 |
 | nist_frameworks | ai_risk | 4 | 2025-08-05 ~ 2025-12-22 |
-| nist_cybersecurity_insights | ai_risk | 1 | 2025-05-22 |
-| nist_cybersecurity_insights | privacy | 1 | 2024-05-02 |
-| nist_cybersecurity_insights | workforce | 1 | 2025-06-12 |
-| eu_regulations | ai_governance | 1 | 2026-01-13 |
+| nist_cybersecurity_insights | privacy | 3 | 2024-03-21 ~ 2024-10-08 |
+| iso_standards | other | 1 | 2026-01-28 |
 | sans_isc | threat_analysis | 2 | 2026-02-02 ~ 2026-02-03 |

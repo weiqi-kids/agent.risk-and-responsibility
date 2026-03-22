@@ -1,18 +1,18 @@
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 layout: default
 title: Cybersecurity Compliance
 nav_order: 16
 has_children: true
 ---
 
-# Cybersecurity Compliance Updates — 2026-W09
+# Cybersecurity Compliance Updates — 2026-W12
 
 <div class="key-takeaway">
-本週重點：NIST CSF 2.0 發布兩週年，已產出七份社群檔案草案覆蓋 AI、勒索軟體、製造業等關鍵領域；CSA 公布 CCM v4.1 轉換時程，STAR Registry 參與者須於 2027 年 12 月前完成遷移；ISO/IEC TS 27103:2026 正式發布，提供網路安全框架整合 ISO/IEC 標準的實務指引。
+本週重點：NIST IoT 資安計畫啟動未來方向工作坊，徵求業界對新興技術與部署環境的安全指引意見；CSA AI Controls Matrix (AICM) 獲 2026 CSO Awards 認可，成為首個獲獎的廠商中立 AI 控制框架；CSA 發布 AI 驅動多框架合規指引，協助組織同時滿足 GDPR、HIPAA、PCI-DSS、FedRAMP 等多項標準。
 </div>
 
-> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架（23）、NIST 洞察（20）、CSA 雲端安全（5）、ISO 標準（1）、CISA KEV（1）。
+> 本期追蹤 50 項資安合規動態，涵蓋 NIST 框架（21）、NIST 洞察（18）、CSA 雲端安全（6）、CISA KEV（3）、ISO 標準（1）、SANS ISC（1）。
 
 ## 免責聲明
 
@@ -25,33 +25,30 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的資安合規動態">
-  <strong>NIST CSF 2.0 迎來發布兩週年</strong>，累計超過 300 萬次瀏覽與下載，並已產出七份社群檔案草案與七份資訊性參考文件，顯示該框架已成為全球資安治理的核心參考標準。
+  <strong>NIST IoT 資安計畫啟動未來方向工作坊</strong>，徵求業界對 IoT 安全指引的擴展方向意見，涵蓋新興技術、消費者與企業部署環境等議題，預計 3 月 31 日舉行為期兩天的工作坊。
 </p>
 
-1. **NIST CSF 2.0 發布兩週年回顧**（美國，guidance，informational）
-   - 累計超過 300 萬次瀏覽與下載
-   - 七份社群檔案草案：AI、事件回應、製造業、半導體、PNT、勒索軟體、交通運輸
-   - 七份資訊性參考文件，對應 PCI DSS 4.0.1、CIS Controls 8.1、ISO/IEC 27001:2022
+1. **NIST IoT 資安計畫未來方向工作坊**（美國，guidance，informational）
+   - NIST 將於 2026 年 3 月 31 日舉辦為期兩天的工作坊
+   - 現有 NISTIR 8259 與 SP 800-213 系列為基礎，探索新興技術安全需求
 
-2. **CSA CCM v4.1 轉換時程公布**（全球，revision，recommended）
-   - STAR Registry 認證須於 2027 年 12 月前遷移至 v4.1
-   - 新增 11 項控制規格（DCS、LOG、SEF、STA、TVM）
-   - 2028 年 1 月起不再接受 v4.0.x 提交
+2. **CSA AI Controls Matrix (AICM) 獲 2026 CSO Awards**（全球，guidance，recommended）
+   - 首個廠商中立 AI 控制框架，獲業界正式認可
+   - 涵蓋 AI 模型提供商、基礎設施運營商、應用開發人員等角色責任
 
-3. **ISO/IEC TS 27103:2026 正式發布**（全球，revision，recommended）
-   - 提供在網路安全框架中整合 ISO/IEC 標準的實務指引
-   - 取代舊版標準，由 JTC 1/SC 27 技術委員會發布
+3. **CSA 發布 AI 驅動多框架合規指引**（全球，guidance，recommended）
+   - AI 工具協助同時滿足 GDPR、HIPAA、PCI-DSS、FedRAMP 等多項標準
+   - 簡化 CSA STAR 評估流程
 
-4. **CSA STAR 身分安全風險管理指引**（全球，guidance，recommended）
-   - 身分安全四階段成熟度模型：可見性、控制、監控、韌性
-   - 要求獨立第三方驗證與持續監控
+4. **Cyber AI Profile 持續開發**（美國，draft，recommended）
+   - NISTIR 8596 整合 CSF 2.0 與 AI RMF，涵蓋三大情境
 
-5. **NIST SP 800-53 Rev. 5.2.0 持續推動**（美國，revision，mandatory）
+5. **SP 800-53 Rev. 5.2.0 持續推動**（美國，revision，mandatory）
    - 三項新增控制項（SA-15、SI-02(07)、SA-24）持續為聯邦機構實施重點
 
 <blockquote class="expert-quote">
-  「CSF 2.0 在兩年內已累計超過 300 萬次瀏覽與下載，並持續透過社群檔案擴展至 AI、製造業、交通運輸等關鍵領域。」
-  <cite>NIST Cybersecurity Insights Blog, 2026-02-24</cite>
+  「NIST Cybersecurity for IoT Program 正朝下一站前進——我們邀請業界在 3 月 31 日的未來方向工作坊中分享您的意見，協助我們擴展 IoT 安全指引的覆蓋範圍。」
+  <cite>NIST Cybersecurity Insights Blog, 2026-03-20</cite>
 </blockquote>
 
 ---
@@ -64,37 +61,32 @@ has_children: true
 
 | 文件 | 狀態 | 主要變動 |
 |------|------|----------|
-| CSF 2.0 社群檔案 | draft（7 份） | AI、事件回應、製造業、半導體、PNT、勒索軟體、交通運輸 |
 | SP 800-53 Rev. 5.2.0 | final | 新增 SA-15、SI-02(07)、SA-24 三項控制項 |
-| NISTIR 8596 | public_comment | AI 時代網路安全指引（Cyber AI Profile） |
+| NISTIR 8596 (Cyber AI Profile) | public_comment | CSF 2.0 + AI RMF 整合框架配置檔 |
 | SP 800-218r1 (SSDF 1.2) | public_comment | 安全軟體開發框架修訂 |
+| NISTIR 8259 / SP 800-213 | 擴展規劃中 | IoT 資安計畫未來方向工作坊 |
 | SP 1800-37 | final | TLS 1.3 可見性挑戰解決方案 |
-
-**CSF 2.0 兩年里程碑**
-
-超過 300 萬次瀏覽與下載，七份社群檔案草案覆蓋多個關鍵產業，Govern 功能已成為框架核心。
 
 ### 全球（CSA / ISO）
 
-CCM v4.1 新增 11 項控制規格，兩年轉換窗口至 2027 年 12 月。ISO/IEC TS 27103:2026 提供跨框架整合指引。
+CSA AICM 獲 2026 CSO Awards，成為 AI 安全治理標準。CCM v4.1 新增 11 項控制規格，轉換期限至 2027 年 12 月。ISO/IEC TS 27103:2026 提供跨框架整合指引。
 
 ### 歐盟
 
-本週搜尋結果未涵蓋歐盟特定資安合規動態。組織應持續關注 NIS2 Directive 會員國轉換進度與 ENISA 指引。
+本週搜尋結果未涵蓋歐盟特定資安合規動態。組織應持續關注 NIS2 Directive 會員國轉換進度、DORA 執行要求與 ENISA 指引。
 
 ---
 
 ## 控制措施對照
 
-| 控制領域 | NIST 對應 | CSA CCM / ISO 對應 | 變動摘要 |
-|----------|-----------|---------------------|----------|
-| 日誌管理 | SP 800-53 SA-15 | CCM v4.1 LOG-* (新增) | NIST 新增控制項 + CCM 擴展日誌管理控制 |
-| 修補管理 | SP 800-53 SI-02(07) | CCM IVS-07 | 持續推動根本原因分析流程 |
-| 韌性設計 | SP 800-53 SA-24 | CCM BCR-01, BCR-02 | 系統須具備 anticipate、withstand、respond、recover 能力 |
-| 安全事件管理 | CSF RS / SP 800-61 | CCM v4.1 SEF-* (新增) | CCM v4.1 新增安全事件管理控制 |
-| 供應鏈 | SSDF 1.2 / IR 8536 | CCM v4.1 STA-* (擴展) | NIST + CCM 同步擴展供應鏈安全控制 |
-| 威脅情報 | CSF DE.CM | CCM v4.1 TVM-* + MITRE ATT&CK | CCM 擴展 + CSA-MITRE 合作整合 |
-| 框架整合 | CSF 2.0 參考文件 | ISO/IEC TS 27103:2026 | 雙向推動跨框架互操作 |
+| 控制領域 | NIST 對應 | EU 對應 | 變動摘要 |
+|----------|-----------|---------|----------|
+| 事件記錄 | SP 800-53 SA-15 | NIS2 Art. 23 | NIST 新增控制項 + NIS2 24/72 小時通報 |
+| 修補管理 | SP 800-53 SI-02(07) | NIS2 Art. 21(2)(d) | NIST 根因分析 + NIS2 供應鏈安全 |
+| 韌性設計 | SP 800-53 SA-24 | NIS2 Art. 21 / DORA Art. 11 | NIST 韌性要求 + DORA 韌性測試 |
+| IoT 安全 | NISTIR 8259 / SP 800-213 | Cyber Resilience Act | NIST 擴展工作坊 + CRA 連網產品義務 |
+| AI 安全 | NISTIR 8596 | EU AI Act + NIS2 | NIST 框架配置檔 + 歐盟雙軌規管 |
+| 供應鏈 | SSDF 1.2 / IR 8536 | NIS2 Art. 21(2)(d) / CRA | NIST + 歐盟同步強化供應鏈義務 |
 
 ---
 
@@ -102,21 +94,21 @@ CCM v4.1 新增 11 項控制規格，兩年轉換窗口至 2027 年 12 月。ISO
 
 | 來源 | 文件 | affected_roles | shift_type | shift_summary |
 |------|------|---------------|------------|---------------|
-| NIST | CSF 2.0 社群檔案 | 各規模組織 CISO、風險管理人員 | expanded | 七份社群檔案擴大框架適用範圍 |
-| CSA | CCM v4.1 | 雲端服務供應商、STAR Registry 參與者 | expanded | 新增 11 項控制規格，2027/12 前遷移 |
-| ISO/IEC | TS 27103:2026 | CISO、合規管理人員 | clarified | 更新框架整合運用指引 |
-| CSA | STAR 身分安全 | IAM 架構師、雲端安全團隊 | clarified | 身分安全轉向主動韌性 |
+| NIST | IoT 資安未來方向 | IoT 製造商、聯邦機構 | expanded | IoT 安全指引擴展至新興技術 |
+| CSA | AICM 獲 CSO Awards | AI 模型提供商、安全團隊 | new | 首個 AI 控制框架獲業界認可 |
+| CSA | AI 多框架合規指引 | 合規工程師、CISO | expanded | AI 驅動合規自動化 |
+| CSA | CCM v4.1 | 雲端服務供應商、合規團隊 | expanded | 新增 11 項控制，2027/12 前遷移 |
 | NIST | SP 800-53 Rev. 5.2.0 | 聯邦機關、軟體開發者 | expanded | 三項新增控制項持續推動 |
 
 ---
 
 ## L5 — Evolution Signals
 
-- [系統推論] **框架互操作性成為主流趨勢**：CSF 2.0、CCM v4.1、ISO/IEC TS 27103:2026 三大標準同步推動跨框架互操作，預示「一次實施、多框架對應」將成可能。
+- [系統推論] **AI 原生合規加速成型**：AI 同時成為合規的「工具」與「對象」，AICM 獲獎 + Cyber AI Profile + AI 多框架合規指引三箭齊發。
 
-- [系統推論] **AI 安全已從概念進入框架化階段**：CSF 2.0 AI 社群檔案 + NISTIR 8596 Cyber AI Profile 顯示 AI 安全正融入既有合規框架。
+- [系統推論] **IoT 安全指引將顯著擴展**：NIST 啟動未來方向工作坊，現有基礎文件預計大幅擴展。
 
-- [系統推論] **從定期稽核轉向即時持續合規**：CCM v4.1 與 CSA STAR 的持續監控義務，預示資安合規將從年度稽核轉向自動化即時驗證。
+- [系統推論] **控制措施與攻擊技術雙向映射成為新標準**：CSA-MITRE CCM + ATT&CK 整合模式預計擴展至其他領域。
 
 ---
 
@@ -125,9 +117,9 @@ CCM v4.1 新增 11 項控制規格，兩年轉換窗口至 2027 年 12 月。ISO
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| 來源分布 | NIST Frameworks: 23, NIST Insights: 20, CSA Cloud Security: 5, ISO Standards: 1, CISA KEV: 1 |
-| enforcement_signal 分布 | recommended: 22, informational: 12, mandatory: 3, null/未標註: 13 |
-| REVIEW_NEEDED | 2 筆 |
+| 來源分布 | NIST Frameworks: 21, NIST Insights: 18, CSA Cloud Security: 6, CISA KEV: 3, ISO Standards: 1, SANS ISC: 1 |
+| enforcement_signal 分布 | recommended: 17, informational: 13, mandatory: 7, null/未標註: 13 |
+| REVIEW_NEEDED | 1 筆 |
 
 ---
 
@@ -135,15 +127,16 @@ CCM v4.1 新增 11 項控制規格，兩年轉換窗口至 2027 年 12 月。ISO
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | cybersecurity, ai_risk, supply_chain, critical_infrastructure | 23 | 2025-07-15 ~ 2026-01-28 |
-| nist_cybersecurity_insights | cybersecurity, policy_guidance, ai_risk, workforce, supply_chain, privacy | 20 | 2024-02-26 ~ 2026-02-24 |
-| csa_cloud_security | cloud_security, compliance, best_practices | 5 | 2026-01-27 ~ 2026-02-19 |
+| nist_frameworks | cybersecurity, ai_risk, supply_chain, critical_infrastructure | 21 | 2025-07-22 ~ 2025-12-17 |
+| nist_cybersecurity_insights | cybersecurity, policy_guidance, ai_risk, workforce, privacy | 18 | 2024-02-26 ~ 2026-03-20 |
+| csa_cloud_security | compliance, best_practices | 6 | 2026-01-27 ~ 2026-03-06 |
+| cisa_kev | vulnerability | 3 | 2026-01-22 |
 | iso_standards | information_security | 1 | 2026-02-06 |
-| cisa_kev | vulnerability | 1 | 2026-01-22 |
+| sans_isc | threat_analysis | 1 | 2026-02-17 |
 
-> 備註：本週 Qdrant 語意搜尋結果未涵蓋 eu_regulations Layer 的資料，歐盟資安合規動態請參閱獨立的 EU 法規報告。
+> 備註：本週搜尋結果未涵蓋 eu_regulations Layer 資料，歐盟動態請參閱 [2026-W12 Rule Change Brief](https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W12-rule-change-brief/)。
 
 ---
 
 *報告產出：Narrator Mode - cybersecurity_compliance*
-*資料擷取時間點：2026-03-01*
+*資料擷取時間點：2026-03-22*

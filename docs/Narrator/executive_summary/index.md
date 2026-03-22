@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 layout: default
 title: Executive Summary
 nav_order: 10
@@ -38,13 +38,13 @@ has_children: true
 
 ## 最新一期
 
-### [2026-W09 Executive Summary](2026-W09-executive-summary/)
+### [2026-W12 Executive Summary](2026-W12-executive-summary/)
 
 本週 3 大重點：
 
-1. **歐盟俄羅斯能源進口禁令正式立法** — Regulation (EU) 2026/261 建立天然氣與石油進口禁令框架，管線天然氣最遲 2026-06-17 全面禁止
-2. **CSA CCM v4.1 強制轉型時程公布** — STAR Registry 參與者須於 2027 年 12 月前完成遷移，擴展五大關鍵領域控制項
-3. **CISA KEV 新增 5 項已遭利用弱點** — 涵蓋 Fortinet、Microsoft Windows/Office 及開發工具鏈，多項修復期限迫近
+1. **歐盟網攻制裁：首次具名制裁中國 APT 組織** — Regulation (EU) 2026/589 對中國 Anxun/I-Soon、Integrity Technology Group 及伊朗 Emennet Pasargad 實施資產凍結與交易禁令
+2. **伊朗軍事支援制裁擴大：十類零組件出口禁令** — Council Regulation (EU) 2026/271 新增無人機、飛彈相關零組件出口管制，衝擊雙用途技術供應鏈
+3. **EU AI Act 人類監督條款倒數 5 個月** — Article 14 將於 2026-08-02 開始執行，違規罰款最高 3,500 萬歐元或全球營收 7%
 
 ---
 
@@ -52,4 +52,5 @@ has_children: true
 
 | 週次 | 報告 |
 |------|------|
+| 2026-W12 | [Executive Summary](2026-W12-executive-summary/) |
 | 2026-W09 | [Executive Summary](2026-W09-executive-summary/) |

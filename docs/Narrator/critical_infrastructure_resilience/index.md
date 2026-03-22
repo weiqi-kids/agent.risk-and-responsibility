@@ -1,18 +1,18 @@
 ---
-last_modified_at: 2026-03-01
+last_modified_at: 2026-03-22
 layout: default
 title: Critical Infrastructure
 nav_order: 15
 has_children: true
 ---
 
-# Critical Infrastructure Resilience — 2026-W09
+# Critical Infrastructure Resilience — 2026-W12
 
 <div class="key-takeaway">
-本週重點：歐盟通過 Regulation (EU) 2026/261 建立俄羅斯天然氣與石油進口法律禁令框架，管線天然氣最遲 2026-06-17 全面禁止；SANS ISC 發布 CLAIR 10 層相依性映射框架揭示 AI 整合對基礎設施的級聯故障風險；NIST 新設兩個 AI 經濟安全中心聚焦製造業與關鍵基礎設施網路威脅防護。
+本週重點：歐盟通過 Regulation (EU) 2026/589 對中國與伊朗五名網攻威脅行為者實施資產凍結與交易禁令，標誌歐盟將網路攻擊關鍵基礎設施視為可制裁行為；Regulation (EU) 2025/2643 建立 EDIP 國防工業計畫強化歐洲防衛供應鏈韌性；ISO 22366:2026 首次發布能源韌性框架與原則；NIST IoT 安全計畫啟動 Future Directions Workshop 徵詢下一代指引方向。
 </div>
 
-> 本期追蹤 14 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、SANS ISC。
+> 本期追蹤 16 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準、SANS ISC、CISA KEV。
 
 ## 免責聲明
 
@@ -25,27 +25,27 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的基礎設施韌性動態">
-  <strong>歐盟通過 Regulation (EU) 2026/261 法律禁令框架</strong>，逐步禁止俄羅斯天然氣與石油進口，會員國須於 2026-03-01 前提交國家多元化計畫；SANS ISC 發布 CLAIR 基礎設施相依性框架；NIST 新設 AI 經濟安全中心。
+  <strong>歐盟通過 Regulation (EU) 2026/589 對五名網攻威脅行為者實施制裁</strong>，涉及中國 Anxun/I-Soon 與 Integrity Technology Group 及伊朗 Emennet Pasargad，標誌歐盟將網路攻擊關鍵基礎設施視為可制裁行為；同時 EDIP 國防工業計畫與 ISO 能源韌性框架分別從供應鏈與社區韌性面向強化基礎設施防護。
 </p>
 
-1. **Regulation (EU) 2026/261 — 俄羅斯天然氣與石油進口禁令（2026-02-02, regulation, mandatory）**
-   歐盟通過具直接適用效力的法規，建立俄羅斯天然氣與石油進口的法律禁令框架。管線天然氣自 2026-06-17 禁止、LNG 自 2026-04-25 禁止，長期合約最遲 2027-09-30 到期。
+1. **Regulation (EU) 2026/589 — 歐盟網攻制裁五名威脅行為者（2026-03-16, regulation, mandatory）**
+   歐盟擴大網路制裁清單，新增兩名中國籍個人與三個實體，實施資產凍結與資金提供禁令。
 
-2. **CLAIR Model — 關鍵基礎設施相依性映射框架（2026-02-25, guidance, informational）**
-   SANS ISC 發布 CLAIR 模型，整合 Purdue 架構與 Zachman Framework 為 10 層相依性映射框架，揭示 AI 整合帶來的級聯故障風險。
+2. **Regulation (EU) 2025/2643 — 歐洲國防工業計畫 EDIP（2025-12-29, regulation, mandatory）**
+   建立 EDIP 框架，含共同採購、工業強化與烏克蘭支持工具，外部元件成本上限 35%。
 
-3. **Council Decision (EU) 2026/181 — EU-瑞士碳排交易系統對齊（2026-01-26, Council Decision, mandatory）**
-   修正 EU-瑞士 ETS 聯結協議 Annex I，加速減碳軌跡（4.3%/4.4% 線性減量因子）。
+3. **ISO 22366:2026 — 能源韌性框架與原則（2026-01-08, new, recommended）**
+   ISO/TC 292 發布首個能源韌性國際標準，涵蓋能源供應網絡的社會面與技術面考量。
 
-4. **NIST AI 經濟安全中心 — 製造業與關鍵基礎設施（2025-12-22, new, informational）**
-   新設兩個 AI 經濟安全中心，開發 AI 代理工具以提升製造業生產力並強化關鍵基礎設施防護。
+4. **NIST IoT 安全計畫 — Future Directions Workshop（2026-03-20, guidance, informational）**
+   NIST 宣布 2026-03-31 兩日工作坊，徵詢 NISTIR 8259 與 SP 800-213 演進方向。
 
-5. **運輸領域勘誤 — 車輛檢驗指令用語標準化（2026-02-03, corrigendum, mandatory）**
-   Directive 2014/45/EU 與 2014/47/EU 同步發布第 8 次勘誤，統一檢驗用語。
+5. **Directive (EU) 2026/706 — EV 充電與能源計量系統指令（2026-03-20, directive, mandatory）**
+   擴展計量指令範圍，納入 EV 充電、氫能、冷卻計量與智慧電表，2028-10-10 起適用。
 
 <blockquote class="expert-quote">
-  「This Regulation constitutes a sovereign act of the Union, establishing clear legal prohibitions with direct legal effect and no discretion for Member States.」
-  <cite>Regulation (EU) 2026/261, Recitals</cite>
+  「The Council adds two Chinese individuals and three entities — including an Iranian cyber actor — to the EU's cyber-sanctions list for significant cyber-attacks against Union critical infrastructure.」
+  <cite>Council Implementing Regulation (EU) 2026/589</cite>
 </blockquote>
 
 ---
@@ -54,11 +54,11 @@ has_children: true
 
 | 領域 | 美國要求 | 歐盟要求 | 本週變動 |
 |------|----------|----------|----------|
-| 能源 | NIST AI 中心聚焦基礎設施防護 | 俄羅斯能源進口禁令；EU-瑞士 ETS 對齊 | Regulation (EU) 2026/261; Council Decision (EU) 2026/181 |
-| 電信 | 無新要求 | 無新要求 | 無 |
-| 金融 | 無新要求 | 碳排交易市場監管強化 | Council Decision (EU) 2026/181 |
-| 運輸 | Transit Cybersecurity Framework（draft） | 車輛檢驗指令用語標準化 | Directive 2014/45/EU, 2014/47/EU 勘誤 |
-| 水務 | 無新要求 | 無新要求 | 無 |
+| 能源 | 無新要求 | EV 計量新標準；能源效率修訂；Energy Community 環境法對齊 | Directive (EU) 2026/706; 2025/2647; Council Decision 2026/70 |
+| 電信 | Cisco 漏洞列入 KEV | 無新要求 | CVE-2026-20045 |
+| 金融 | 無新要求 | 網攻制裁資產凍結義務 | Regulation (EU) 2026/589 |
+| 運輸 | Transit Cybersecurity Framework（draft） | EMSA 改革；EV 充電計量 | Regulation (EU) 2025/2434; Directive (EU) 2026/706 |
+| 水務 | 無新要求 | 飲用水指令勘誤；水框架指令整合 | Directive 2020/2184 Corrigendum; Council Decision 2026/70 |
 
 ---
 
@@ -66,11 +66,11 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 14 |
-| 來源分布 | NIST Frameworks: 6, NIST Insights: 2, EU Regulations: 5, SANS ISC: 1 |
-| rule_type 分布 | new: 2, final: 2, draft: 3, guidance: 3, amendment/corrigendum: 4 |
-| enforcement_signal 分布 | mandatory: 6, recommended: 2, informational: 6 |
-| REVIEW_NEEDED | 0 筆 |
+| 總變動數 | 16 |
+| 來源分布 | NIST Frameworks: 3, NIST Insights: 1, EU Regulations: 8, ISO: 1, SANS ISC: 1, CISA KEV: 1, EMSA: 1 |
+| rule_type 分布 | new: 5, regulation: 3, directive: 2, decision: 2, guidance: 2, corrigendum: 1, revision: 1 |
+| enforcement_signal 分布 | mandatory: 9, recommended: 2, informational: 5 |
+| REVIEW_NEEDED | 2 筆 |
 
 ---
 
@@ -78,12 +78,17 @@ has_children: true
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | critical_infrastructure | 4 | 2025-07-15 ~ 2025-11-25 |
-| nist_frameworks | ai_risk | 2 | 2025-08-05 ~ 2025-12-22 |
-| nist_cybersecurity_insights | supply_chain / critical_infrastructure | 2 | 2024-11-21 ~ 2025-05-13 |
-| eu_regulations | critical_infrastructure | 5 | 2026-01-26 ~ 2026-02-04 |
+| nist_frameworks | critical_infrastructure | 3 | 2025-07-15 ~ 2025-09-02 |
+| nist_cybersecurity_insights | cybersecurity | 1 | 2026-03-20 |
+| eu_regulations | critical_infrastructure | 5 | 2025-12-29 ~ 2026-03-20 |
+| eu_regulations | cybersecurity | 1 | 2026-03-16 |
+| eu_regulations | digital_market | 1 | 2026-03-20 |
+| eu_regulations | financial_compliance | 1 | 2026-01-16 |
+| iso_standards | other (energy resilience) | 1 | 2026-01-08 |
 | sans_isc | threat_analysis | 1 | 2026-02-25 |
+| cisa_kev | vulnerability | 1 | 2026-01-21 |
+| eu_regulations | supply_chain | 1 | 2026-01-19 |
 
 ---
 
-[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W09-critical-infrastructure-resilience/)
+[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W12-critical-infrastructure-resilience/)
