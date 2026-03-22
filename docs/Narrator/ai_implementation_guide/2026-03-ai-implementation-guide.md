@@ -21,8 +21,8 @@ seo:
     - "ISO 42001"
     - "AI IAM"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-03-ai-governance-landscape"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W12-rule-change-brief"
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-03-ai-governance-landscape/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W12-rule-change-brief/"
   faq:
     - question: "2026 年 3 月有哪些 AI 實作要點？"
       answer: "2026 年 3 月 AI 實作指引涵蓋四大重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行威脅建模、建立 AI Agent 專用的自動化 IAM 授權架構（Policy-as-Code）、從護欄擴展為全生命週期治理控制層、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性指標。"
@@ -42,7 +42,7 @@ seo:
 本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO。
 </div>
 
-> 本期聚焦 11 項 AI 治理要求的技術實作，涵蓋 NIST AI RMF、CSA MAESTRO 框架、ISO 42001 等權威指引。
+> 本期聚焦 12 項 AI 治理要求的技術實作，涵蓋 NIST AI RMF、CSA MAESTRO 框架、ISO 42001、CSA STAR 等權威指引。
 
 ## 免責聲明
 
@@ -132,6 +132,11 @@ seo:
   - 優先級：中
   - 說明：建立 AI 特有的威脅偵測規則（如暴露的 AI 模型 API、Agentic AI 爬蟲），整合至 SIEM/SOAR
 
+- [ ] **導入 AI 輔助多框架合規自動化**
+  - 來源：CSA — How AI is Simplifying Multi-Framework Cloud Compliance for CSA STAR Assessments (2026-03-03)
+  - 優先級：中
+  - 說明：利用 AI 工具自動化跨框架控制項對應（GDPR、HIPAA、PCI-DSS、FedRAMP、ISO），提升 CSA STAR 評估效率，但需確保 AI 對應的準確性經人工交叉驗證
+
 - [ ] **導入 Privacy-Preserving Federated Learning 保護機制**
   - 來源：NIST — Protecting Model Updates in Privacy-Preserving Federated Learning
   - 優先級：中
@@ -183,6 +188,13 @@ seo:
       <td>PR.AA-01, PR.AA-02</td>
       <td>A.8</td>
       <td>AI Agent IAM 自動化授權、MTU 指標</td>
+    </tr>
+    <tr>
+      <td>多框架合規</td>
+      <td>GOVERN 2.1</td>
+      <td>GV.SC-01</td>
+      <td>A.10</td>
+      <td>AI 輔助多框架合規自動化（CSA STAR）</td>
     </tr>
     <tr>
       <td>供應鏈安全</td>
@@ -710,6 +722,9 @@ tags:
 | NIST AI RMF Playbook | AI 風險管理框架實作指引 | [NIST AI RMF](https://airc.nist.gov/airmf-resources/playbook/) |
 | NIST CSF 2.0 Cyber AI Profile | AI 網路安全框架配置檔（草案） | [NISTIR 8596](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era) |
 | ISO 42001 FAQ (CSA) | AI 管理系統認證常見問題 | [CSA ISO 42001 FAQ](https://cloudsecurityalliance.org/articles/ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-in-2026) |
+| CSA — Rethinking Authorization | MTU 授權可觀測性指標指引 | [CSA Authorization](https://cloudsecurityalliance.org/articles/rethinking-authorization-for-the-age-of-agentic-ai) |
+| CSA — From Guardrails to Governance | AI 治理控制層建構指引 | [CSA Governance](https://cloudsecurityalliance.org/articles/from-guardrails-to-governance-why-enterprise-ai-needs-a-control-layer) |
+| CSA — Multi-Framework Compliance | AI 輔助多框架合規自動化 | [CSA STAR Compliance](https://cloudsecurityalliance.org/articles/how-ai-is-simplifying-multi-framework-cloud-compliance-for-csa-star-assessments) |
 | SANS ISC AI Threat Feeds | AI 相關威脅情報 | [SANS ISC](https://isc.sans.edu/) |
 | openclaw-detect | 掃描系統中的 AI Agent 框架 artifacts | [SANS ISC Diary](https://isc.sans.edu/diary/rss/32678) |
 | openclaw-telemetry | AI Agent 工具呼叫與 LLM 請求監控插件 | [SANS ISC Diary](https://isc.sans.edu/diary/rss/32678) |
@@ -734,10 +749,10 @@ tags:
 
 | 指標 | 數值 |
 |------|------|
-| 實作項目數 | 11 |
+| 實作項目數 | 12 |
 | 必做項目 | 5 |
-| 建議項目 | 6 |
-| 來源分布 | CSA: 20, NIST Frameworks: 4, NIST Insights: 3, SANS ISC: 2, ISO: 1 |
+| 建議項目 | 7 |
+| 來源分布 | CSA: 22, NIST Frameworks: 2, NIST Insights: 3, SANS ISC: 2, ISO: 1 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -746,11 +761,11 @@ tags:
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| csa_cloud_security | ai_security | 12 | 2026-01-06 ~ 2026-03-16 |
+| csa_cloud_security | ai_security | 13 | 2026-01-06 ~ 2026-03-16 |
 | csa_cloud_security | identity | 4 | 2026-02-03 ~ 2026-03-16 |
-| csa_cloud_security | best_practices | 4 | 2026-01-09 ~ 2026-01-27 |
-| csa_cloud_security | compliance | 1 | 2026-01-13 |
-| nist_frameworks | ai_risk | 4 | 2025-08-05 ~ 2025-12-22 |
+| csa_cloud_security | best_practices | 3 | 2026-01-09 ~ 2026-01-27 |
+| csa_cloud_security | compliance | 2 | 2026-01-13 ~ 2026-03-03 |
+| nist_frameworks | ai_risk | 2 | 2025-08-05 |
 | nist_cybersecurity_insights | privacy | 3 | 2024-03-21 ~ 2024-10-08 |
 | iso_standards | other | 1 | 2026-01-28 |
 | sans_isc | threat_analysis | 2 | 2026-02-02 ~ 2026-02-03 |

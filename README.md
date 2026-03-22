@@ -72,7 +72,7 @@ flowchart TB
 |-------|----------|----------|------|
 | nist_frameworks | 2026-03-22 | 63 | ✅ |
 | nist_cybersecurity_insights | 2026-03-22 | 125 | ✅ |
-| eu_regulations | 2026-03-22 | 378 | ✅ |
+| eu_regulations | 2026-03-22 | 377 | ✅ |
 | cisa_kev | 2026-03-22 | 63 | ✅ |
 | sans_isc | 2026-03-22 | 28 | ✅ |
 | iso_standards | 2026-03-22 | 92 | ✅ |

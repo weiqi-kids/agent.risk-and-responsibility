@@ -34,15 +34,15 @@ nav_order: 1
 
 ---
 
-## 本週報告（2026-W09）
+## 本週報告（2026-W12）
 
 | 報告 | 重點摘要 |
 |------|----------|
-| [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %}) | CSA CCM v4.1 強制轉型時程公布、ISO/IEC TS 27103:2026 發布、CISA KEV 新增 5 項弱點 |
-| [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | ISO 42001 AI 管理系統實務指引、MAESTRO 框架首個實戰案例、Agentic AI 可見性調查 |
-| [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | NIST CSF 2.0 製造業社群檔案草案、CCM v4.1 供應鏈控制擴展、SSDF 1.2 推進最終發布 |
-| [Critical Infrastructure]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | EU 2026/261 俄羅斯能源進口禁令、CLAIR 10 層相依性映射框架、NIST AI 經濟安全中心 |
-| [Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | NIST CSF 2.0 兩週年七份社群檔案、CCM v4.1 轉換時程 2027 年底、ISO/IEC TS 27103:2026 |
+| [Rule Change Brief]({% link docs/Narrator/rule_change_brief/index.md %}) | NIST IoT 安全計畫 Future Directions 工作坊、SSDF 1.2 持續公開徵詢、CISA KEV 新增 GitLab SSRF 等 6 項弱點 |
+| [AI Governance Landscape]({% link docs/Narrator/ai_governance_landscape/index.md %}) | EU AI Act Article 14 人類監督條款倒數 5 個月、NIST Cyber AI Profile 草案、CSA MITRE CCM-ATT&CK 映射 |
+| [Supply Chain Security]({% link docs/Narrator/supply_chain_security/index.md %}) | EU 2026/271 伊朗制裁擴大十類零組件出口禁令、建材法規勘誤釐清合規門檻、CISA KEV 多項供應鏈漏洞 |
+| [Critical Infrastructure]({% link docs/Narrator/critical_infrastructure_resilience/index.md %}) | EU 2026/589 網路攻擊制裁五名威脅行為者、ISO 22366:2026 能源韌性框架、NIST IoT Workshop |
+| [Cybersecurity Compliance]({% link docs/Narrator/cybersecurity_compliance/index.md %}) | NIST Cyber AI Profile 擴展 CSF 2.0 至 AI 防禦、SP 800-53 Rev. 5.2.0 三項強制控制項、CCM v4.1 ATT&CK 映射 |
 
 ---
 
