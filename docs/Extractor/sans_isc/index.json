@@ -1,5 +1,16 @@
 [
   {
+    "id": "vulnerability-2026-03-18-scans-for-adminer-database-management-tool-md",
+    "title": "Scans for Adminer Database Management Tool",
+    "category": "vulnerability",
+    "date": "2026-03-18",
+    "file": "vulnerability/2026-03-18-scans-for-adminer-database-management-tool.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32808",
+    "confidence": "中",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-02-24-open-redirects-forgotten-vulnerability-md",
     "title": "Open Redirects: A Forgotten Vulnerability",
     "category": "vulnerability",
@@ -40,6 +51,39 @@
     "file": "vulnerability/2026-02-10-microsoft-patch-tuesday-february-2026.md",
     "source_url": "https://isc.sans.edu/diary/rss/32700",
     "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-03-19-interesting-message-stored-in-cowrie-logs-iranbot-md",
+    "title": "Interesting Message Stored in Cowrie Logs — iranbot Activity",
+    "category": "threat_analysis",
+    "date": "2026-03-19",
+    "file": "threat_analysis/2026-03-19-interesting-message-stored-in-cowrie-logs-iranbot.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32810",
+    "confidence": "中",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-03-17-ipv4-mapped-ipv6-addresses-filter-evasion-md",
+    "title": "IPv4-Mapped IPv6 Addresses Used for Filter Evasion",
+    "category": "threat_analysis",
+    "date": "2026-03-17",
+    "file": "threat_analysis/2026-03-17-ipv4-mapped-ipv6-addresses-filter-evasion.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32804",
+    "confidence": "中",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-03-16-proxy-url-scans-with-ip-addresses-md",
+    "title": "/proxy/ URL Scans with IP Addresses",
+    "category": "threat_analysis",
+    "date": "2026-03-16",
+    "file": "threat_analysis/2026-03-16-proxy-url-scans-with-ip-addresses.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32800",
+    "confidence": "中",
     "source_layer": "sans_isc",
     "review_needed": false
   },
@@ -139,6 +183,17 @@
     "file": "threat_analysis/2026-01-30-google-presentations-phishing.md",
     "source_url": "https://isc.sans.edu/diary/rss/32668",
     "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-03-20-gsocket-backdoor-delivered-through-bash-script-md",
+    "title": "GSocket Backdoor Delivered Through Bash Script",
+    "category": "malware",
+    "date": "2026-03-20",
+    "file": "malware/2026-03-20-gsocket-backdoor-delivered-through-bash-script.md",
+    "source_url": "https://isc.sans.edu/diary/rss/32816",
+    "confidence": "中",
     "source_layer": "sans_isc",
     "review_needed": false
   },

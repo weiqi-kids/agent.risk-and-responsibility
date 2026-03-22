@@ -1,9 +1,17 @@
 [
   {
     "id": "index-md",
-    "title": "Rule Change Brief — 2026-W09",
+    "title": "Rule Change Brief — 2026-W12",
     "date": "",
     "file": "index.md",
+    "item_count": "50",
+    "source_mode": "rule_change_brief"
+  },
+  {
+    "id": "2026-W12-rule-change-brief-md",
+    "title": "Rule Change Brief — 2026-W12 {: .no_toc }",
+    "date": "2026-W12",
+    "file": "2026-W12-rule-change-brief.md",
     "item_count": "50",
     "source_mode": "rule_change_brief"
   },

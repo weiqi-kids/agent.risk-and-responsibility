@@ -1,5 +1,27 @@
 [
   {
+    "id": "quality_management-2026-02-12-iso-10012-measurement-management-systems-md",
+    "title": "ISO 10012:2026 — Quality management — Requirements for measurement management systems",
+    "category": "quality_management",
+    "date": "2026-02-12",
+    "file": "quality_management/2026-02-12-iso-10012-measurement-management-systems.md",
+    "source_url": "https://www.iso.org/standard/85864.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "quality_management-2026-02-12-iso-10012-2026-measurement-management-systems-md",
+    "title": "ISO 10012:2026 — Quality management — Requirements for measurement management systems",
+    "category": "quality_management",
+    "date": "2026-02-12",
+    "file": "quality_management/2026-02-12-iso-10012-2026-measurement-management-systems.md",
+    "source_url": "https://www.iso.org/standard/85864.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "quality_management-2025-11-18-iso-10993-17-2023-amd-1-2025-md",
     "title": "Biological evaluation of medical devices — Part 17: Toxicological risk assessment of medical device constituents — Amendment 1",
     "category": "quality_management",
@@ -22,6 +44,116 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-03-17-iso-11999-10-ppe-firefighters-rpd-md",
+    "title": "ISO 11999-10:2026 — PPE for firefighters — Respiratory protective devices (RPD)",
+    "category": "other",
+    "date": "2026-03-17",
+    "file": "other/2026-03-17-iso-11999-10-ppe-firefighters-rpd.md",
+    "source_url": "https://www.iso.org/standard/85586.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-03-17-iso-11999-10-2026-ppe-firefighters-respiratory-md",
+    "title": "ISO 11999-10:2026 — PPE for firefighters — Part 10: Respiratory protective devices (RPD)",
+    "category": "other",
+    "date": "2026-03-17",
+    "file": "other/2026-03-17-iso-11999-10-2026-ppe-firefighters-respiratory.md",
+    "source_url": "https://www.iso.org/standard/85586.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-03-05-iso-ts-22359-2-2026-md",
+    "title": "ISO/TS 22359-2:2026 — Security and resilience — Hardened protective shelters — Part 2: Requirements for shelter protective equipment",
+    "category": "other",
+    "date": "2026-03-05",
+    "file": "other/2026-03-05-iso-ts-22359-2-2026.md",
+    "source_url": "https://www.iso.org/standard/50264.html",
+    "confidence": "中",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-03-05-iso-iec-ts-20071-41-2026-md",
+    "title": "ISO/IEC TS 20071-41:2026 — User Interface Component Accessibility — Part 41: Design and Use of Pictograms, Photos, and Icons in AAC",
+    "category": "other",
+    "date": "2026-03-05",
+    "file": "other/2026-03-05-iso-iec-ts-20071-41-2026.md",
+    "source_url": "https://www.iso.org/standard/90281.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-03-05-iso-iec-ts-20071-40-2026-md",
+    "title": "ISO/IEC TS 20071-40:2026 — User Interface Component Accessibility — Part 40: Augmentative and Alternative Communication (AAC)",
+    "category": "other",
+    "date": "2026-03-05",
+    "file": "other/2026-03-05-iso-iec-ts-20071-40-2026.md",
+    "source_url": "https://www.iso.org/standard/90280.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-18-iso-ts-12901-2-2026-md",
+    "title": "ISO/TS 12901-2:2026 — Nanotechnologies — Occupational risk management applied to engineered nanomaterials — Part 2: Use of the control banding approach",
+    "category": "other",
+    "date": "2026-02-18",
+    "file": "other/2026-02-18-iso-ts-12901-2-2026.md",
+    "source_url": "https://www.iso.org/standard/82791.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-13-iso-iec-23090-28-2026-scene-based-media-md",
+    "title": "ISO/IEC 23090-28:2026 — Information technology: Coded representation of immersive media — Part 28: Interchangeable scene-based media representations",
+    "category": "other",
+    "date": "2026-02-13",
+    "file": "other/2026-02-13-iso-iec-23090-28-2026-scene-based-media.md",
+    "source_url": "https://www.iso.org/standard/84571.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-13-iso-iec-18000-65-2026-rfid-streaming-sensors-md",
+    "title": "ISO/IEC 18000-65:2026 — Information technology — Radio frequency identification for item management — Part 65: Parameters for air interface communications for streaming sensors",
+    "category": "other",
+    "date": "2026-02-13",
+    "file": "other/2026-02-13-iso-iec-18000-65-2026-rfid-streaming-sensors.md",
+    "source_url": "https://www.iso.org/standard/88362.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-13-iso-20682-2026-autonomous-underwater-vehicles-risk-md",
+    "title": "ISO 20682:2026 — Autonomous underwater vehicles — Risk and reliability",
+    "category": "other",
+    "date": "2026-02-13",
+    "file": "other/2026-02-13-iso-20682-2026-autonomous-underwater-vehicles-risk.md",
+    "source_url": "https://www.iso.org/standard/86398.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-12-iso-iec-23092-5-2020-amd-1-2026-genomic-version2-support-md",
+    "title": "ISO/IEC 23092-5:2020/Amd 1:2026 — Information technology: Genomic information representation — Part 5: Conformance — Amendment 1: Version 2 and Part 6 support",
+    "category": "other",
+    "date": "2026-02-12",
+    "file": "other/2026-02-12-iso-iec-23092-5-2020-amd-1-2026-genomic-version2-support.md",
+    "source_url": "https://www.iso.org/standard/84771.html",
+    "confidence": "中",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-02-11-iso-iec-23090-18-2024-amd-2-2026-point-cloud-md",
     "title": "",
     "category": "other",
@@ -29,6 +161,17 @@
     "file": "other/2026-02-11-iso-iec-23090-18-2024-amd-2-2026-point-cloud.md",
     "source_url": "https://www.iso.org/standard/87627.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-06-iso-iec-8808-2026-md",
+    "title": "ISO/IEC 8808:2026 — Information technology for learning, education and training — Online course information model",
+    "category": "other",
+    "date": "2026-02-06",
+    "file": "other/2026-02-06-iso-iec-8808-2026.md",
+    "source_url": "https://www.iso.org/standard/83800.html",
+    "confidence": "高",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -44,6 +187,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-02-03-iso-iec-29170-3-2026-md",
+    "title": "ISO/IEC 29170-3:2026 — JPEG AIC Assessment of Image Coding — Part 3: Subjective Quality Assessment of High-Fidelity Images",
+    "category": "other",
+    "date": "2026-02-03",
+    "file": "other/2026-02-03-iso-iec-29170-3-2026.md",
+    "source_url": "https://www.iso.org/standard/90208.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-02-03-iso-iec-29170-3-2026-image-quality-assessment-md",
     "title": "",
     "category": "other",
@@ -51,6 +205,17 @@
     "file": "other/2026-02-03-iso-iec-29170-3-2026-image-quality-assessment.md",
     "source_url": "https://www.iso.org/standard/90208.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-02-03-iso-iec-23008-3-2026-md",
+    "title": "ISO/IEC 23008-3:2026 — High Efficiency Coding and Media Delivery — Part 3: 3D Audio",
+    "category": "other",
+    "date": "2026-02-03",
+    "file": "other/2026-02-03-iso-iec-23008-3-2026.md",
+    "source_url": "https://www.iso.org/standard/90199.html",
+    "confidence": "高",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -77,6 +242,28 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-02-02-iso-iec-22460-3-2026-digital-uas-drone-licence-md",
+    "title": "ISO/IEC 22460-3:2026 — Cards and Security Devices for Personal Identification — Part 3: Digital UAS or Drone Licence",
+    "category": "other",
+    "date": "2026-02-02",
+    "file": "other/2026-02-02-iso-iec-22460-3-2026-digital-uas-drone-licence.md",
+    "source_url": "https://www.iso.org/standard/88973.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-30-iso-ts-7446-2026-md",
+    "title": "ISO/TS 7446:2026 — Implementation guidance for biorisk management for laboratories and other related organizations",
+    "category": "other",
+    "date": "2026-01-30",
+    "file": "other/2026-01-30-iso-ts-7446-2026.md",
+    "source_url": "https://www.iso.org/standard/82795.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-30-iso-ts-7446-2026-biorisk-management-md",
     "title": "",
     "category": "other",
@@ -99,6 +286,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-28-iso-iec-tr-9858-2026-md",
+    "title": "ISO/IEC TR 9858:2026 — Information technology — Use cases on advanced learning analytics services using emerging technologies",
+    "category": "other",
+    "date": "2026-01-28",
+    "file": "other/2026-01-28-iso-iec-tr-9858-2026.md",
+    "source_url": "https://www.iso.org/standard/83610.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-28-iso-iec-tr-9858-2026-learning-analytics-md",
     "title": "",
     "category": "other",
@@ -106,6 +304,17 @@
     "file": "other/2026-01-28-iso-iec-tr-9858-2026-learning-analytics.md",
     "source_url": "https://www.iso.org/standard/83610.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-28-iso-iec-9995-3-2026-md",
+    "title": "ISO/IEC 9995-3:2026 — Information technology — Keyboard layouts for text and office systems — Part 3: Latin International keyboard layout",
+    "category": "other",
+    "date": "2026-01-28",
+    "file": "other/2026-01-28-iso-iec-9995-3-2026.md",
+    "source_url": "https://www.iso.org/standard/82494.html",
+    "confidence": "高",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -132,6 +341,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-26-iso-iec-4933-2026-md",
+    "title": "ISO/IEC 4933:2026 — Information technology — User interfaces — Unifying input actions across devices",
+    "category": "other",
+    "date": "2026-01-26",
+    "file": "other/2026-01-26-iso-iec-4933-2026.md",
+    "source_url": "https://www.iso.org/standard/80527.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-26-iso-iec-4933-2026-unified-input-actions-md",
     "title": "",
     "category": "other",
@@ -150,6 +370,17 @@
     "file": "other/2026-01-23-iso-iec-9995-9-2026-keyboard-multilingual.md",
     "source_url": "https://www.iso.org/standard/88990.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-23-iso-iec-9995-9-2026-keyboard-layouts-multilingual-md",
+    "title": "ISO/IEC 9995-9:2026 — Keyboard Layouts for Text and Office Systems — Part 9: Groups and Mechanisms for Multilingual and Multiscript Input",
+    "category": "other",
+    "date": "2026-01-23",
+    "file": "other/2026-01-23-iso-iec-9995-9-2026-keyboard-layouts-multilingual.md",
+    "source_url": "https://www.iso.org/standard/88990.html",
+    "confidence": "高",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -183,6 +414,17 @@
     "file": "other/2026-01-22-iso-iec-23090-23-2026-miv-conformance.md",
     "source_url": "https://www.iso.org/standard/91381.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2026-01-16-iso-iec-9995-11-2026-md",
+    "title": "ISO/IEC 9995-11:2026 — Information technology — Keyboard layouts for office systems — Part 11: Functionality and labelling of dead keys",
+    "category": "other",
+    "date": "2026-01-16",
+    "file": "other/2026-01-16-iso-iec-9995-11-2026.md",
+    "source_url": "https://www.iso.org/standard/82497.html",
+    "confidence": "高",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -231,6 +473,17 @@
     "review_needed": false
   },
   {
+    "id": "other-2026-01-08-iso-22366-2026-md",
+    "title": "ISO 22366:2026 — Security and resilience — Community resilience — Framework and principles for energy resilience",
+    "category": "other",
+    "date": "2026-01-08",
+    "file": "other/2026-01-08-iso-22366-2026.md",
+    "source_url": "https://www.iso.org/standard/83384.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "other-2026-01-08-iso-22366-2026-energy-resilience-md",
     "title": "",
     "category": "other",
@@ -238,6 +491,39 @@
     "file": "other/2026-01-08-iso-22366-2026-energy-resilience.md",
     "source_url": "https://www.iso.org/standard/83384.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-12-22-iso-iec-ts-29125-amd2-cor1-remote-powering-md",
+    "title": "ISO/IEC TS 29125:2017/Amd 2:2024/Cor 1:2025 — Telecommunications cabling requirements for remote powering of terminal equipment — Amendment 2 — Technical Corrigendum 1",
+    "category": "other",
+    "date": "2025-12-22",
+    "file": "other/2025-12-22-iso-iec-ts-29125-amd2-cor1-remote-powering.md",
+    "source_url": "https://www.iso.org/standard/93746.html",
+    "confidence": "中",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-12-22-iso-iec-ts-29125-amd1-cor1-remote-powering-md",
+    "title": "ISO/IEC TS 29125:2017/Amd 1:2020/Cor 1:2025 — Telecommunications cabling requirements for remote powering of terminal equipment — Amendment 1 — Technical Corrigendum 1",
+    "category": "other",
+    "date": "2025-12-22",
+    "file": "other/2025-12-22-iso-iec-ts-29125-amd1-cor1-remote-powering.md",
+    "source_url": "https://www.iso.org/standard/93745.html",
+    "confidence": "中",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "other-2025-12-22-iso-iec-11801-1-2017-amd1-cor1-generic-cabling-md",
+    "title": "ISO/IEC 11801-1:2017/Amd 1:2025/Cor 1:2025 — Generic cabling for customer premises — Part 1: General requirements — Amendment 1 — Technical Corrigendum 1",
+    "category": "other",
+    "date": "2025-12-22",
+    "file": "other/2025-12-22-iso-iec-11801-1-2017-amd1-cor1-generic-cabling.md",
+    "source_url": "https://www.iso.org/standard/93743.html",
+    "confidence": "中",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -440,6 +726,17 @@
     "review_needed": false
   },
   {
+    "id": "it_governance-2026-03-18-iso-iec-ieee-9945-posix-base-specifications-issue8-md",
+    "title": "ISO/IEC/IEEE 9945:2026 — Information technology — Portable Operating System Interface (POSIX™) Base Specifications, Issue 8",
+    "category": "it_governance",
+    "date": "2026-03-18",
+    "file": "it_governance/2026-03-18-iso-iec-ieee-9945-posix-base-specifications-issue8.md",
+    "source_url": "https://www.iso.org/standard/91911.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "it_governance-2026-02-05-iso-19135-2026-registration-governance-md",
     "title": "",
     "category": "it_governance",
@@ -473,6 +770,127 @@
     "review_needed": false
   },
   {
+    "id": "information_security-2026-03-09-iso-iec-19823-16-2026-crypto-suite-ecdsa-ecdh-md",
+    "title": "ISO/IEC 19823-16:2026 — Conformance Test Methods for Security Service Crypto Suites — Part 16: Crypto Suite ECDSA-ECDH",
+    "category": "information_security",
+    "date": "2026-03-09",
+    "file": "information_security/2026-03-09-iso-iec-19823-16-2026-crypto-suite-ecdsa-ecdh.md",
+    "source_url": "https://www.iso.org/standard/88968.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-29167-22-2026-md",
+    "title": "ISO/IEC 29167-22:2026 — Crypto Suite SPECK Security Services for RFID Air Interface Communications",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-29167-22-2026.md",
+    "source_url": "https://www.iso.org/standard/89590.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-29167-21-2026-md",
+    "title": "ISO/IEC 29167-21:2026 — Crypto Suite SIMON Security Services for RFID Air Interface Communications",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-29167-21-2026.md",
+    "source_url": "https://www.iso.org/standard/89591.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-29167-13-2026-grain-128a-rfid-md",
+    "title": "ISO/IEC 29167-13:2026 — Crypto Suite Grain-128A Security Services for RFID Air Interface Communications",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-29167-13-2026-grain-128a-rfid.md",
+    "source_url": "https://www.iso.org/standard/88956.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-29167-10-2026-aes-128-rfid-md",
+    "title": "ISO/IEC 29167-10:2026 — Crypto Suite AES-128 Security Services for RFID Air Interface Communications",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-29167-10-2026-aes-128-rfid.md",
+    "source_url": "https://www.iso.org/standard/88959.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-19823-22-2026-crypto-suite-speck-md",
+    "title": "ISO/IEC 19823-22:2026 — Conformance Test Methods for Security Service Crypto Suites — Part 22: Crypto Suite SPECK",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-19823-22-2026-crypto-suite-speck.md",
+    "source_url": "https://www.iso.org/standard/88960.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-19823-21-2026-crypto-suite-simon-md",
+    "title": "ISO/IEC 19823-21:2026 — Conformance Test Methods for Security Service Crypto Suites — Part 21: Crypto Suite SIMON",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-19823-21-2026-crypto-suite-simon.md",
+    "source_url": "https://www.iso.org/standard/88961.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-19823-13-2026-crypto-suite-grain-128a-md",
+    "title": "ISO/IEC 19823-13:2026 — Conformance Test Methods for Security Service Crypto Suites — Part 13: Crypto Suite Grain-128A",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-19823-13-2026-crypto-suite-grain-128a.md",
+    "source_url": "https://www.iso.org/standard/88962.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-03-06-iso-iec-19823-10-2026-crypto-suite-aes-128-md",
+    "title": "ISO/IEC 19823-10:2026 — Conformance Test Methods for Security Service Crypto Suites — Part 10: Crypto Suite AES-128",
+    "category": "information_security",
+    "date": "2026-03-06",
+    "file": "information_security/2026-03-06-iso-iec-19823-10-2026-crypto-suite-aes-128.md",
+    "source_url": "https://www.iso.org/standard/88964.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-02-11-iso-iec-15944-8-2026-privacy-business-transactions-md",
+    "title": "ISO/IEC 15944-8:2026 — Information technology: Business operational view — Part 8: Identification of privacy protection requirements as external constraints on business transactions",
+    "category": "information_security",
+    "date": "2026-02-11",
+    "file": "information_security/2026-02-11-iso-iec-15944-8-2026-privacy-business-transactions.md",
+    "source_url": "https://www.iso.org/standard/85329.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-02-10-iso-iec-27565-2026-md",
+    "title": "ISO/IEC 27565:2026 — Information security, cybersecurity and privacy protection — Guidelines on privacy preservation based on zero-knowledge proofs",
+    "category": "information_security",
+    "date": "2026-02-10",
+    "file": "information_security/2026-02-10-iso-iec-27565-2026.md",
+    "source_url": "https://www.iso.org/standard/80398.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
     "id": "information_security-2026-02-10-iso-iec-27565-2026-zero-knowledge-proofs-md",
     "title": "",
     "category": "information_security",
@@ -491,6 +909,17 @@
     "file": "information_security/2026-02-06-iso-iec-ts-27103-2026.md",
     "source_url": "https://www.iso.org/standard/85057.html",
     "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "information_security-2026-02-03-iso-iec-25706-spdm-collection-md",
+    "title": "ISO/IEC 25706:2026 — Information technology — Security protocol and data model (SPDM) collection",
+    "category": "information_security",
+    "date": "2026-02-03",
+    "file": "information_security/2026-02-03-iso-iec-25706-spdm-collection.md",
+    "source_url": "https://www.iso.org/standard/91251.html",
+    "confidence": "中",
     "source_layer": "iso_standards",
     "review_needed": false
   },
@@ -557,6 +986,28 @@
     "file": "information_security/2025-11-19-iso-iec-19896-1-2025-competence-overview.md",
     "source_url": "https://www.iso.org/standard/84987.html",
     "confidence": "",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "environmental-2026-02-27-iso-iec-ts-20125-1-2026-digital-services-ecodesign-md",
+    "title": "ISO/IEC TS 20125-1:2026 — Information technology — Digital services ecodesign — Part 1: Ecopractices for life cycle stages",
+    "category": "environmental",
+    "date": "2026-02-27",
+    "file": "environmental/2026-02-27-iso-iec-ts-20125-1-2026-digital-services-ecodesign.md",
+    "source_url": "https://www.iso.org/standard/86105.html",
+    "confidence": "高",
+    "source_layer": "iso_standards",
+    "review_needed": false
+  },
+  {
+    "id": "environmental-2026-01-14-iso-pas-45007-2026-ohs-climate-change-risks-md",
+    "title": "ISO/PAS 45007:2026 — Occupational Health and Safety Management — Risks Arising from Climate Change and Climate Change Action",
+    "category": "environmental",
+    "date": "2026-01-14",
+    "file": "environmental/2026-01-14-iso-pas-45007-2026-ohs-climate-change-risks.md",
+    "source_url": "https://www.iso.org/standard/89309.html",
+    "confidence": "高",
     "source_layer": "iso_standards",
     "review_needed": false
   }

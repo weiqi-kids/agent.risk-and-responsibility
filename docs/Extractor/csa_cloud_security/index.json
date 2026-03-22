@@ -1,5 +1,93 @@
 [
   {
+    "id": "identity-2026-03-16-rethinking-authorization-agentic-ai-md",
+    "title": "Rethinking Authorization for the Age of Agentic AI",
+    "category": "identity",
+    "date": "2026-03-16",
+    "file": "identity/2026-03-16-rethinking-authorization-agentic-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/rethinking-authorization-for-the-age-of-agentic-ai",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-03-16-rethinking-authorization-agentic-ai-mtu-md",
+    "title": "Rethinking Authorization for the Age of Agentic AI",
+    "category": "identity",
+    "date": "2026-03-16",
+    "file": "identity/2026-03-16-rethinking-authorization-agentic-ai-mtu.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/rethinking-authorization-for-the-age-of-agentic-ai",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-03-10-islands-of-agents-iam-fragmented-approach-md",
+    "title": "Islands of Agents: Why One IAM to Rule Them All Doesn't Work",
+    "category": "identity",
+    "date": "2026-03-10",
+    "file": "identity/2026-03-10-islands-of-agents-iam-fragmented-approach.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/islands-of-agents-why-one-iam-to-rule-them-all-doesn-t-work",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-03-10-islands-of-agents-iam-agentic-ai-md",
+    "title": "Islands of Agents: Why One IAM to Rule Them All Doesn't Work",
+    "category": "identity",
+    "date": "2026-03-10",
+    "file": "identity/2026-03-10-islands-of-agents-iam-agentic-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/islands-of-agents-why-one-iam-to-rule-them-all-doesn-t-work",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-03-03-ai-agent-crosses-systems-who-vouches-identity-md",
+    "title": "AI Security: When Your Agent Crosses Multiple Independent Systems, Who Vouches for It?",
+    "category": "identity",
+    "date": "2026-03-03",
+    "file": "identity/2026-03-03-ai-agent-crosses-systems-who-vouches-identity.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ai-security-when-your-agent-crosses-multiple-independent-systems-who-vouches-for-it",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-03-03-ai-agent-cross-domain-identity-vouching-md",
+    "title": "AI Security: When Your Agent Crosses Multiple Independent Systems, Who Vouches for It?",
+    "category": "identity",
+    "date": "2026-03-03",
+    "file": "identity/2026-03-03-ai-agent-cross-domain-identity-vouching.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ai-security-when-your-agent-crosses-multiple-independent-systems-who-vouches-for-it",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-02-26-zero-trust-in-cellular-networks-md",
+    "title": "Where to Start with Zero Trust in Cellular Networks",
+    "category": "identity",
+    "date": "2026-02-26",
+    "file": "identity/2026-02-26-zero-trust-in-cellular-networks.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/where-to-start-with-zero-trust-in-cellular-networks",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-02-26-where-to-start-zero-trust-cellular-networks-md",
+    "title": "Where to Start with Zero Trust in Cellular Networks",
+    "category": "identity",
+    "date": "2026-02-26",
+    "file": "identity/2026-02-26-where-to-start-zero-trust-cellular-networks.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/where-to-start-with-zero-trust-in-cellular-networks",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "identity-2026-02-11-ai-security-authorization-outlives-intent-md",
     "title": "AI Security: When Authorization Outlives Intent — Credential Lifecycle and the Salesloft Drift Breach",
     "category": "identity",
@@ -143,6 +231,50 @@
     "review_needed": false
   },
   {
+    "id": "compliance-2026-03-06-csa-ai-controls-matrix-2026-cso-awards-winner-md",
+    "title": "Cloud Security Alliance's AI Controls Matrix (AICM) Named 2026 CSO Awards Winner",
+    "category": "compliance",
+    "date": "2026-03-06",
+    "file": "compliance/2026-03-06-csa-ai-controls-matrix-2026-cso-awards-winner.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/csa-ai-controls-matrix-named-2026-cso-awards-winner",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-03-03-understanding-iso-42001-ai-governance-regulatory-landscape-md",
+    "title": "Understanding ISO 42001: Responsible AI Governance in an Evolving Regulatory Landscape",
+    "category": "compliance",
+    "date": "2026-03-03",
+    "file": "compliance/2026-03-03-understanding-iso-42001-ai-governance-regulatory-landscape.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/understanding-iso-42001-responsible-ai-governance-in-an-evolving-regulatory-landscape",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-03-03-iso-42001-responsible-ai-governance-regulatory-landscape-md",
+    "title": "Understanding ISO 42001: Responsible AI Governance in an Evolving Regulatory Landscape",
+    "category": "compliance",
+    "date": "2026-03-03",
+    "file": "compliance/2026-03-03-iso-42001-responsible-ai-governance-regulatory-landscape.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/understanding-iso-42001-responsible-ai-governance-in-an-evolving-regulatory-landscape",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "compliance-2026-03-03-ai-simplifying-multi-framework-cloud-compliance-csa-star-md",
+    "title": "How AI is Simplifying Multi-Framework Cloud Compliance for CSA STAR Assessments",
+    "category": "compliance",
+    "date": "2026-03-03",
+    "file": "compliance/2026-03-03-ai-simplifying-multi-framework-cloud-compliance-csa-star.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/how-ai-is-simplifying-multi-framework-cloud-compliance-for-csa-star-assessments",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "compliance-2026-02-19-ccm-v4-1-transition-timeline-md",
     "title": "CCM v4.1 Transition Timeline: Cloud Controls Matrix Update and Migration Requirements",
     "category": "compliance",
@@ -271,6 +403,61 @@
     "file": "compliance/2026-01-13-ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-2026.md",
     "source_url": "https://cloudsecurityalliance.org/articles/ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-in-2026",
     "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-03-03-dspm-remediate-at-scale-ticketing-not-enough-md",
+    "title": "How to Remediate at Scale in DSPM: Why Ticketing Is Not Enough",
+    "category": "cloud_security",
+    "date": "2026-03-03",
+    "file": "cloud_security/2026-03-03-dspm-remediate-at-scale-ticketing-not-enough.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/how-to-remediate-at-scale-in-dspm-why-ticketing-is-not-enough",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-03-03-dspm-remediate-at-scale-beyond-ticketing-md",
+    "title": "How to Remediate at Scale in DSPM: Why Ticketing Is Not Enough",
+    "category": "cloud_security",
+    "date": "2026-03-03",
+    "file": "cloud_security/2026-03-03-dspm-remediate-at-scale-beyond-ticketing.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/how-to-remediate-at-scale-in-dspm-why-ticketing-is-not-enough",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-02-26-state-of-cloud-and-ai-security-2026-md",
+    "title": "The State of Cloud and AI Security in 2026",
+    "category": "cloud_security",
+    "date": "2026-02-26",
+    "file": "cloud_security/2026-02-26-state-of-cloud-and-ai-security-2026.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/the-state-of-cloud-and-ai-security-in-2026",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-02-26-7-cloud-security-lessons-aws-crypto-mining-md",
+    "title": "7 Cloud Security Lessons from the AWS Crypto Mining Campaign",
+    "category": "cloud_security",
+    "date": "2026-02-26",
+    "file": "cloud_security/2026-02-26-7-cloud-security-lessons-aws-crypto-mining.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/7-cloud-security-lessons-from-the-aws-crypto-mining-campaign",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-02-26-7-cloud-security-lessons-aws-crypto-mining-campaign-md",
+    "title": "7 Cloud Security Lessons from the AWS Crypto Mining Campaign",
+    "category": "cloud_security",
+    "date": "2026-02-26",
+    "file": "cloud_security/2026-02-26-7-cloud-security-lessons-aws-crypto-mining-campaign.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/7-cloud-security-lessons-from-the-aws-crypto-mining-campaign",
+    "confidence": "中",
     "source_layer": "csa_cloud_security",
     "review_needed": false
   },
@@ -418,6 +605,28 @@
     "review_needed": false
   },
   {
+    "id": "best_practices-2026-02-26-checkbox-tprm-is-dead-start-engineering-risk-md",
+    "title": "Checkbox TPRM is Dead. Start Engineering Risk.",
+    "category": "best_practices",
+    "date": "2026-02-26",
+    "file": "best_practices/2026-02-26-checkbox-tprm-is-dead-start-engineering-risk.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/checkbox-tprm-is-dead-start-engineering-risk",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-02-26-checkbox-tprm-dead-start-engineering-risk-md",
+    "title": "Checkbox TPRM is Dead. Start Engineering Risk.",
+    "category": "best_practices",
+    "date": "2026-02-26",
+    "file": "best_practices/2026-02-26-checkbox-tprm-dead-start-engineering-risk.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/checkbox-tprm-is-dead-start-engineering-risk",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "best_practices-2026-01-27-the-great-divide-how-ai-is-splitting-cybersecurity-landscape-md",
     "title": "The Great Divide: How AI Is Splitting the Cybersecurity Landscape",
     "category": "best_practices",
@@ -517,6 +726,94 @@
     "review_needed": false
   },
   {
+    "id": "ai_security-2026-03-16-guardrails-to-governance-enterprise-ai-control-layer-md",
+    "title": "From Guardrails to Governance: Why Enterprise AI Needs a Control Layer",
+    "category": "ai_security",
+    "date": "2026-03-16",
+    "file": "ai_security/2026-03-16-guardrails-to-governance-enterprise-ai-control-layer.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/from-guardrails-to-governance-why-enterprise-ai-needs-a-control-layer",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-03-16-from-guardrails-to-governance-enterprise-ai-control-layer-md",
+    "title": "From Guardrails to Governance: Why Enterprise AI Needs a Control Layer",
+    "category": "ai_security",
+    "date": "2026-03-16",
+    "file": "ai_security/2026-03-16-from-guardrails-to-governance-enterprise-ai-control-layer.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/from-guardrails-to-governance-why-enterprise-ai-needs-a-control-layer",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-03-09-csa-taise-certificate-2026-sc-awards-finalist-md",
+    "title": "Cloud Security Alliance's Trusted AI Safety Expert (TAISE) Certificate Honored as Finalist of the 2026 SC Awards",
+    "category": "ai_security",
+    "date": "2026-03-09",
+    "file": "ai_security/2026-03-09-csa-taise-certificate-2026-sc-awards-finalist.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/csa-trusted-ai-safety-expert-taise-certificate-honored-as-2026-sc-awards-finalist",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-03-06-csa-ai-controls-matrix-aicm-cso-awards-md",
+    "title": "Cloud Security Alliance's AI Controls Matrix (AICM) Named 2026 CSO Awards Winner",
+    "category": "ai_security",
+    "date": "2026-03-06",
+    "file": "ai_security/2026-03-06-csa-ai-controls-matrix-aicm-cso-awards.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/csa-ai-controls-matrix-named-2026-cso-awards-winner",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-03-05-securing-agentic-control-plane-trust-foundation-md",
+    "title": "Securing the Agentic Control Plane: A New Foundation for Trust in AI",
+    "category": "ai_security",
+    "date": "2026-03-05",
+    "file": "ai_security/2026-03-05-securing-agentic-control-plane-trust-foundation.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/2026-securing-the-agentic-control-plane",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-03-05-securing-agentic-control-plane-foundation-for-trust-md",
+    "title": "Securing the Agentic Control Plane: A New Foundation for Trust in AI",
+    "category": "ai_security",
+    "date": "2026-03-05",
+    "file": "ai_security/2026-03-05-securing-agentic-control-plane-foundation-for-trust.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/2026-securing-the-agentic-control-plane",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-03-02-designing-prompt-injection-resilient-llms-md",
+    "title": "Designing Prompt Injection-Resilient LLMs",
+    "category": "ai_security",
+    "date": "2026-03-02",
+    "file": "ai_security/2026-03-02-designing-prompt-injection-resilient-llms.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/designing-prompt-injection-resilient-llms",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-26-when-phi-meets-shadow-ai-md",
+    "title": "When PHI Meets Shadow AI",
+    "category": "ai_security",
+    "date": "2026-02-26",
+    "file": "ai_security/2026-02-26-when-phi-meets-shadow-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/when-phi-meets-shadow-ai",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "ai_security-2026-02-26-core-collapse-ai-cybersecurity-foundations-md",
     "title": "Core Collapse: How AI Is Reforging Cybersecurity Foundations",
     "category": "ai_security",
@@ -524,6 +821,39 @@
     "file": "ai_security/2026-02-26-core-collapse-ai-cybersecurity-foundations.md",
     "source_url": "https://cloudsecurityalliance.org/articles/core-collapse",
     "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-26-ai-in-grc-friend-foe-or-fomo-md",
+    "title": "AI in GRC: Friend, Foe, or FOMO?",
+    "category": "ai_security",
+    "date": "2026-02-26",
+    "file": "ai_security/2026-02-26-ai-in-grc-friend-foe-or-fomo.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ai-in-grc-friend-foe-or-fomo",
+    "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-19-declarative-governance-agentic-era-md",
+    "title": "Building a Declarative Governance Framework for the Agentic Era",
+    "category": "ai_security",
+    "date": "2026-02-19",
+    "file": "ai_security/2026-02-19-declarative-governance-agentic-era.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/building-a-declarative-governance-framework-for-the-agentic-era",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-02-19-building-declarative-governance-framework-agentic-era-md",
+    "title": "Building a Declarative Governance Framework for the Agentic Era",
+    "category": "ai_security",
+    "date": "2026-02-19",
+    "file": "ai_security/2026-02-19-building-declarative-governance-framework-agentic-era.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/building-a-declarative-governance-framework-for-the-agentic-era",
+    "confidence": "中",
     "source_layer": "csa_cloud_security",
     "review_needed": false
   },

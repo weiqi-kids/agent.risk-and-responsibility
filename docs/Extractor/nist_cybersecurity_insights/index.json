@@ -957,6 +957,17 @@
     "review_needed": false
   },
   {
+    "id": "cybersecurity-2026-03-20-nist-iot-program-future-directions-workshop-md",
+    "title": "All aboard: the NIST Cybersecurity for IoT Program is headed to our next stop! Share your input on where we're headed during our Future Directions Two-Day Workshop on March 31st.",
+    "category": "cybersecurity",
+    "date": "2026-03-20",
+    "file": "cybersecurity/2026-03-20-nist-iot-program-future-directions-workshop.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/all-aboard-nist-cybersecurity-iot-program-headed-our-next-stop-share",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "cybersecurity-2026-02-24-celebrating-two-years-csf-20-md",
     "title": "Celebrating Two Years of CSF 2.0!",
     "category": "cybersecurity",

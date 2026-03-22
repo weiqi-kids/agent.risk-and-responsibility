@@ -1,10 +1,18 @@
 [
   {
     "id": "index-md",
-    "title": "Critical Infrastructure Resilience — 2026-W09",
+    "title": "Critical Infrastructure Resilience — 2026-W12",
     "date": "",
     "file": "index.md",
-    "item_count": "14",
+    "item_count": "16",
+    "source_mode": "critical_infrastructure_resilience"
+  },
+  {
+    "id": "2026-W12-critical-infrastructure-resilience-md",
+    "title": "Critical Infrastructure Resilience — 2026-W12 {: .no_toc }",
+    "date": "2026-W12",
+    "file": "2026-W12-critical-infrastructure-resilience.md",
+    "item_count": "12",
     "source_mode": "critical_infrastructure_resilience"
   },
   {
