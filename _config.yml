@@ -37,6 +37,9 @@ heading_anchors: true
 back_to_top: true
 back_to_top_text: "回到頂部"
 
+# Pretty URLs（產出目錄結構，與 GitHub Pages 行為一致）
+permalink: pretty
+
 # 排除不需要處理的檔案
 exclude:
   - .env
