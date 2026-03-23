@@ -102,7 +102,7 @@ seo:
 5. **SP 800-53 Rev. 5.2.0 三項強制控制項持續推動**（美國，revision，mandatory）
    - SA-15（安全事件日誌格式標準化）、SI-02(07)（修補失敗根因分析）、SA-24（網路韌性設計）
    - 回應 Executive Order 14306，聯邦機構須依 FISMA 合規要求實施
-   - 來源：[NIST SP 800-53 Rev. 5.2.0](https://www.nist.gov/news-events/news/2025/08/nist-revises-security-and-privacy-control-catalog-improve-software-update-and)
+   - 來源：[NIST SP 800-53 Rev. 5.2.0](https://www.nist.gov/news-events/news/2025/08/nist-revises-security-and-privacy-control-catalog-improve-software-update)
 
 <blockquote class="expert-quote">
   「CSF 2.0 發布兩年來，已成功擴展至各規模組織的資安實踐基礎。透過社群檔案、快速導入指南與國際翻譯，框架的可及性與適用性持續提升，包括小型企業與製造業等過去較少參與的領域。」
