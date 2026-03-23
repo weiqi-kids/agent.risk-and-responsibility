@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 layout: default
 title: AI Governance Landscape
 nav_order: 12
@@ -104,4 +104,4 @@ has_children: true
 
 ---
 
-*報告產出時間：2026-03-22*
+*報告產出時間：2026-03-23*

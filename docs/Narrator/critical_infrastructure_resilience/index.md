@@ -1,18 +1,18 @@
 ---
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 layout: default
 title: Critical Infrastructure
 nav_order: 15
 has_children: true
 ---
 
-# Critical Infrastructure Resilience — 2026-W12
+# Critical Infrastructure Resilience — 2026-W13
 
 <div class="key-takeaway">
-本週重點：歐盟通過 Regulation (EU) 2026/589 對中國與伊朗五名網攻威脅行為者實施資產凍結與交易禁令，標誌歐盟將網路攻擊關鍵基礎設施視為可制裁行為；Regulation (EU) 2025/2643 建立 EDIP 國防工業計畫強化歐洲防衛供應鏈韌性；ISO 22366:2026 首次發布能源韌性框架與原則；NIST IoT 安全計畫啟動 Future Directions Workshop 徵詢下一代指引方向。
+本週重點：SANS ISC 提出 CLAIR 模型將 Purdue 架構與 Zachman Framework 整合為 10 層關鍵基礎設施相依性映射框架，揭示 AI 整合帶來的新型級聯失效風險；歐盟 Regulation (EU) 2025/2653 ReArm Europe 計畫提供跨預算防衛投資激勵強化歐洲防衛供應鏈；NIST IoT 安全計畫 Future Directions Workshop 持續徵集下一代指引方向意見；ISO/TS 22359-2:2026 發布防護庇護所保護設備標準。
 </div>
 
-> 本期追蹤 16 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準、SANS ISC、CISA KEV。
+> 本期追蹤 14 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準、SANS ISC。
 
 ## 免責聲明
 
@@ -25,27 +25,27 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的基礎設施韌性動態">
-  <strong>歐盟通過 Regulation (EU) 2026/589 對五名網攻威脅行為者實施制裁</strong>，涉及中國 Anxun/I-Soon 與 Integrity Technology Group 及伊朗 Emennet Pasargad，標誌歐盟將網路攻擊關鍵基礎設施視為可制裁行為；同時 EDIP 國防工業計畫與 ISO 能源韌性框架分別從供應鏈與社區韌性面向強化基礎設施防護。
+  <strong>SANS ISC 提出 CLAIR 模型整合 Purdue 架構與 Zachman Framework 為 10 層關鍵基礎設施相依性映射框架</strong>，揭示 AI 整合帶來的新型級聯失效風險，強調最弱環節（Level -1 公用事業層）的韌性監控需求。
 </p>
 
-1. **Regulation (EU) 2026/589 — 歐盟網攻制裁五名威脅行為者（2026-03-16, regulation, mandatory）**
-   歐盟擴大網路制裁清單，新增兩名中國籍個人與三個實體，實施資產凍結與資金提供禁令。
+1. **CLAIR 模型 — 關鍵基礎設施相依性映射框架（2026-02-25, guidance, final）**
+   SANS ISC 發布 CLAIR 模型，整合 Purdue 架構與 Zachman Framework 為 10 層映射框架，識別 AI 整合帶來的新型級聯失效風險。
 
-2. **Regulation (EU) 2025/2643 — 歐洲國防工業計畫 EDIP（2025-12-29, regulation, mandatory）**
-   建立 EDIP 框架，含共同採購、工業強化與烏克蘭支持工具，外部元件成本上限 35%。
+2. **Regulation (EU) 2025/2653 — ReArm Europe 防衛投資激勵（2026-01-14, revision, mandatory）**
+   歐盟通過 ReArm Europe 計畫，跨預算提供防衛相關投資激勵，涵蓋防衛產業 SME 與雙用途技術開發商。
 
-3. **ISO 22366:2026 — 能源韌性框架與原則（2026-01-08, new, recommended）**
-   ISO/TC 292 發布首個能源韌性國際標準，涵蓋能源供應網絡的社會面與技術面考量。
+3. **NIST IoT Cybersecurity Program — Future Directions Workshop（2026-03-20, guidance, public_comment）**
+   NIST 持續徵集 IoT 資安指引（NISTIR 8259、SP 800-213）擴展方向意見。
 
-4. **NIST IoT 安全計畫 — Future Directions Workshop（2026-03-20, guidance, informational）**
-   NIST 宣布 2026-03-31 兩日工作坊，徵詢 NISTIR 8259 與 SP 800-213 演進方向。
+4. **ISO/TS 22359-2:2026 — 防護庇護所保護設備標準（2026-03-05, new, recommended）**
+   ISO/TC 292 發布首版防護庇護所保護設備技術規格。
 
-5. **Directive (EU) 2026/706 — EV 充電與能源計量系統指令（2026-03-20, directive, mandatory）**
-   擴展計量指令範圍，納入 EV 充電、氫能、冷卻計量與智慧電表，2028-10-10 起適用。
+5. **Regulation (EU) 2026/589 — 網路攻擊制裁持續生效（2026-03-16, new, mandatory）**
+   歐盟對五名網路攻擊威脅行為者的制裁持續生效。
 
 <blockquote class="expert-quote">
-  「The Council adds two Chinese individuals and three entities — including an Iranian cyber actor — to the EU's cyber-sanctions list for significant cyber-attacks against Union critical infrastructure.」
-  <cite>Council Implementing Regulation (EU) 2026/589</cite>
+  「The CLAIR model synthesizes the Purdue architecture and the Zachman Framework into a 10-level mapping framework, revealing new failure risks introduced by AI integration.」
+  <cite>SANS Internet Storm Center (ISC Diary 32748)</cite>
 </blockquote>
 
 ---
@@ -54,11 +54,11 @@ has_children: true
 
 | 領域 | 美國要求 | 歐盟要求 | 本週變動 |
 |------|----------|----------|----------|
-| 能源 | 無新要求 | EV 計量新標準；能源效率修訂；Energy Community 環境法對齊 | Directive (EU) 2026/706; 2025/2647; Council Decision 2026/70 |
-| 電信 | Cisco 漏洞列入 KEV | 無新要求 | CVE-2026-20045 |
-| 金融 | 無新要求 | 網攻制裁資產凍結義務 | Regulation (EU) 2026/589 |
-| 運輸 | Transit Cybersecurity Framework（draft） | EMSA 改革；EV 充電計量 | Regulation (EU) 2025/2434; Directive (EU) 2026/706 |
-| 水務 | 無新要求 | 飲用水指令勘誤；水框架指令整合 | Directive 2020/2184 Corrigendum; Council Decision 2026/70 |
+| 能源 | IoT 基礎設施投資效益研究（final） | 能源計量設備擴展（EV 充電、氫能）；Energy Community 條約修訂 | Directive (EU) 2026/706; Council Decision (EU) 2026/69, 2026/70 |
+| 電信 | IoT 資安指引擴展中（public_comment） | 無新要求 | NIST IoT Future Directions Workshop |
+| 金融 | 無新要求 | 網攻制裁資產凍結義務；ReArm Europe 防衛投資激勵 | Regulation (EU) 2026/589; 2025/2653 |
+| 運輸 | Transit Cybersecurity Framework（draft） | EMSA 改革 | Regulation (EU) 2025/2434 |
+| 水務 | 無新要求 | 飲用水品質指令勘誤 | Directive (EU) 2020/2184 勘誤 |
 
 ---
 
@@ -66,11 +66,11 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 16 |
-| 來源分布 | NIST Frameworks: 3, NIST Insights: 1, EU Regulations: 8, ISO: 1, SANS ISC: 1, CISA KEV: 1, EMSA: 1 |
-| rule_type 分布 | new: 5, regulation: 3, directive: 2, decision: 2, guidance: 2, corrigendum: 1, revision: 1 |
-| enforcement_signal 分布 | mandatory: 9, recommended: 2, informational: 5 |
-| REVIEW_NEEDED | 2 筆 |
+| 總變動數 | 14 |
+| 來源分布 | NIST Frameworks: 3, NIST Insights: 2, EU Regulations: 7, ISO: 1, SANS ISC: 1 |
+| rule_type 分布 | new: 3, draft: 2, guidance: 3, expanded: 1, revision: 1, Council Decision: 2, amendment: 1, corrigendum: 1 |
+| enforcement_signal 分布 | mandatory: 7, recommended: 2, informational: 1, public_comment: 4 |
+| REVIEW_NEEDED | 0 筆 |
 
 ---
 
@@ -80,15 +80,15 @@ has_children: true
 |-------|----------|------|----------|
 | nist_frameworks | critical_infrastructure | 3 | 2025-07-15 ~ 2025-09-02 |
 | nist_cybersecurity_insights | cybersecurity | 1 | 2026-03-20 |
-| eu_regulations | critical_infrastructure | 5 | 2025-12-29 ~ 2026-03-20 |
+| nist_cybersecurity_insights | supply_chain | 1 | 2025-05-13 |
+| eu_regulations | critical_infrastructure | 3 | 2026-01-16 ~ 2026-01-29 |
 | eu_regulations | cybersecurity | 1 | 2026-03-16 |
 | eu_regulations | digital_market | 1 | 2026-03-20 |
-| eu_regulations | financial_compliance | 1 | 2026-01-16 |
-| iso_standards | other (energy resilience) | 1 | 2026-01-08 |
-| sans_isc | threat_analysis | 1 | 2026-02-25 |
-| cisa_kev | vulnerability | 1 | 2026-01-21 |
+| eu_regulations | financial_compliance | 2 | 2026-01-14 ~ 2026-01-16 |
 | eu_regulations | supply_chain | 1 | 2026-01-19 |
+| iso_standards | other | 1 | 2026-03-05 |
+| sans_isc | threat_analysis | 1 | 2026-02-25 |
 
 ---
 
-[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W12-critical-infrastructure-resilience/)
+[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W13-critical-infrastructure-resilience/)

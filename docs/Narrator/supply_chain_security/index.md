@@ -1,20 +1,20 @@
 ---
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 layout: default
 title: Supply Chain Security
 nav_order: 14
 has_children: true
 ---
 
-# Supply Chain Security Trends — 2026-W12 {: .no_toc }
+# Supply Chain Security Trends — 2026-W13 {: .no_toc }
 
 <div class="key-takeaway">
-本週重點：歐盟建材法規 Regulation (EU) 2024/3110 勘誤釐清強制性與自願性門檻區別，影響建材供應鏈上市合規判斷；Council Regulation (EU) 2026/271 擴大伊朗軍事支援制裁，新增十類零組件出口禁令，衝擊雙用途技術供應鏈；NIST SSDF 1.2 與 SP 800-53 修補管理控制持續推進；多項供應鏈關鍵軟體漏洞（SolarWinds、GitLab、Vite）被列入 CISA KEV，凸顯軟體供應鏈漏洞管理急迫性。
+本週重點：ISO/IEC 25706:2026 SPDM 標準正式發布，為硬體供應鏈設備驗證與安全通訊建立國際標準化基礎；CSA 提出第三方風險管理（TPRM）範式轉型，從勾選式評估走向風險工程方法；NIST SSDF 1.2 與 SP 800-53 修補管理控制持續推進最終版本；供應鏈軟體漏洞（SolarWinds、GitLab、Vite、Versa Concerto）持續被列入 CISA KEV，凸顯軟體與硬體供應鏈安全管理的雙重急迫性。
 </div>
 
-> **報告週期**：2026-03-16 至 2026-03-22
+> **報告週期**：2026-03-17 至 2026-03-23
 >
-> 本期追蹤 12 項供應鏈安全動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、CISA KEV。
+> 本期追蹤 14 項供應鏈安全動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準、CSA 指引。
 
 ## 免責聲明
 
@@ -25,22 +25,22 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的供應鏈安全動態">
-  <strong>歐盟建材法規勘誤釐清強制性門檻為產品上市先決條件</strong>，影響所有建材製造商與經銷商的合規判斷；伊朗制裁擴大新增十類零組件出口禁令，雙用途技術供應鏈須重新評估合規風險。
+  <strong>ISO/IEC 25706:2026 SPDM 標準正式發布，為硬體供應鏈設備驗證建立國際標準</strong>；CSA 提出 TPRM 範式轉型，從問卷式評估走向攻擊者視角的風險工程方法；SSDF 1.2 進入最終發布階段，軟體供應鏈合規壓力持續升高。
 </p>
 
-1. **歐盟建材法規勘誤：強制性門檻釐清（歐盟，amendment）**：Regulation (EU) 2024/3110 勘誤修正 Recital 21，明確強制性門檻為產品進入內部市場的先決條件，不論產品用途。
+1. **ISO/IEC 25706:2026 SPDM 硬體驗證標準發布（國際，new）**：定義裝置身份驗證與安全通訊協定，為硬體供應鏈設備驗證提供國際標準化基礎。
 
-2. **伊朗軍事支援制裁擴大：十類零組件出口禁令（歐盟，amendment）**：Council Regulation (EU) 2026/271 擴大對伊朗的出口管制，新增十類與無人機、飛彈開發相關的零組件禁令。
+2. **CSA 第三方風險管理範式轉型（國際，guidance）**：傳統勾選式 TPRM 無法應對供應商數量爆增，組織應轉向風險工程方法。
 
 3. **SSDF 1.2 持續推進最終版本（美國 NIST，revision）**：SP 800-218r1 公開徵詢期已截止，預期近期發布最終版本。
 
-4. **供應鏈軟體漏洞持續被利用（美國 CISA，final）**：SolarWinds、GitLab、Vite 等供應鏈軟體漏洞被列入 CISA KEV。
+4. **供應鏈軟體漏洞持續被利用（美國 CISA，final）**：Versa Concerto、SolarWinds、GitLab、Vite、FreePBX 等供應鏈軟體漏洞被列入 CISA KEV。
 
-5. **歐盟海事安全局擴權（歐盟，regulation）**：Regulation (EU) 2025/2434 擴大 EMSA 職責至海事脫碳轉型治理。
+5. **PQC 遷移風險框架映射指引（美國 NIST，draft）**：CSWP 48 提供後量子密碼學遷移與風險框架映射。
 
 <blockquote class="expert-quote">
-  「強制性門檻為產品進入內部市場的先決條件，不論其用途為何；自願性門檻僅適用於特定用途。」
-  <cite>Regulation (EU) 2024/3110 Corrigendum, Recital 21</cite>
+  「傳統勾選式第三方風險管理無法應對現代供應商數量爆增的挑戰，組織應轉向風險工程方法——分析實際供應商連接、執行針對性技術測試並採取具體行動。」
+  <cite>Cloud Security Alliance (CSA), "Checkbox TPRM is Dead. Start Engineering Risk."</cite>
 </blockquote>
 
 ---
@@ -54,14 +54,19 @@ has_children: true
 | **SSDF 1.2 版** | SP 800-218r1 | public_comment（徵詢期已截止） | 安全軟體開發實務擴充，受 EO 14306 推動 |
 | **SP 800-53 修補管理控制** | SP 800-53 Release 5.2.0 | draft / public_comment | 修補程式安全部署控制 |
 | **供應鏈追溯性元框架** | NIST IR 8536 | public_comment（第二版草案） | 製造業供應鏈追溯性管理 |
+| **PQC 遷移風險映射** | CSWP 48 | draft | 後量子密碼學遷移與風險框架映射 |
 
 ### 歐盟
 
 | 法規 | 文件編號 | binding_force | 重點內容 |
 |-----|---------|---------------|---------|
-| **建材法規勘誤** | Regulation (EU) 2024/3110 Corrigendum | directly_applicable | 釐清強制性與自願性門檻 |
-| **伊朗制裁擴大** | Council Regulation (EU) 2026/271 | directly_applicable | 十類零組件出口禁令 |
-| **海事安全局擴權** | Regulation (EU) 2025/2434 | directly_applicable | EMSA 擴展至脫碳轉型監管 |
+| **人源物質品質安全勘誤** | Regulation (EU) 2024/1938 Corrigendum | directly_applicable | 釐清 SoHO 機構授權要求 |
+
+### 國際標準
+
+| 標準 | 文件編號 | 狀態 | 重點內容 |
+|-----|---------|------|---------|
+| **SPDM 硬體驗證** | ISO/IEC 25706:2026 | final | 裝置身份驗證與安全通訊協定標準 |
 
 ---
 
@@ -70,10 +75,10 @@ has_children: true
 | 角色 | 美國（NIST）要求 | 歐盟要求 | 本週變動趨勢 |
 |------|-----------------|---------|-------------|
 | **軟體供應商** | SSDF 1.2 實務作法、修補完整性驗證（SP 800-53）、SBOM | — | SSDF 進入最終階段 |
-| **建材製造商/經銷商** | — | 強制性門檻為上市先決條件 | 門檻要求釐清 |
-| **雙用途技術供應商** | — | 伊朗出口禁令十類零組件篩選 | 出口管制擴大 |
+| **硬體/韌體供應商** | — | — | ISO/IEC 25706 SPDM 標準發布 |
+| **TPRM 分析師** | — | — | CSA 建議轉向風險工程方法 |
 | **採購方** | SSDF 合規證明、SBOM 驗證 | 供應鏈來源驗證 | 評估標準持續強化 |
-| **航運公司/港口管理機關** | — | EMSA 擴權合規、制裁船舶禁入 | 海事監管擴大 |
+| **系統整合商** | 供應鏈追溯性（IR 8536）、PQC 遷移（CSWP 48） | — | 密碼學遷移議題新增 |
 
 ---
 
@@ -81,10 +86,10 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 12 |
-| 來源分布 | NIST Frameworks: 4, NIST Cybersecurity Insights: 1, EU Regulations: 4, CISA KEV: 3 |
-| rule_type 分布 | amendment: 4, draft: 3, revision: 2, new: 3 |
-| enforcement_signal 分布 | mandatory: 5, recommended: 4, informational: 3 |
+| 總變動數 | 14 |
+| 來源分布 | NIST Frameworks: 5, NIST Cybersecurity Insights: 3, EU Regulations: 1, ISO Standards: 1, CSA: 1, CISA KEV: 5 |
+| rule_type 分布 | draft: 4, revision: 1, new: 4, guidance: 3, amendment: 1, event: 1 |
+| enforcement_signal 分布 | mandatory: 2, recommended: 7, informational: 5 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -93,14 +98,15 @@ has_children: true
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | supply_chain | 1 | 2025-07-31 |
-| nist_frameworks | cybersecurity | 3 | 2025-07-22 ~ 2025-12-17 |
-| nist_cybersecurity_insights | cybersecurity | 1 | 2025-09-30 |
-| eu_regulations | supply_chain | 2 | 2026-01-28 ~ 2026-01-30 |
-| eu_regulations | financial_compliance | 2 | 2026-01-16 ~ 2026-01-30 |
-| cisa_kev | vulnerability | 3 | 2026-01-22 ~ 2026-02-03 |
+| nist_frameworks | supply_chain | 4 | 2025-07-30 ~ 2025-12-17 |
+| nist_frameworks | cybersecurity | 2 | 2025-07-22 ~ 2025-08-27 |
+| nist_cybersecurity_insights | supply_chain | 3 | 2024-11-21 ~ 2025-09-30 |
+| eu_regulations | supply_chain | 1 | 2026-01-30 |
+| iso_standards | information_security | 1 | 2026-02-03 |
+| csa_cloud_security | best_practices | 1 | 2026-02-26 |
+| cisa_kev | vulnerability | 5 | 2026-01-22 ~ 2026-02-03 |
 
 ---
 
-*報告產出時間：2026-03-22*
-*完整報告：[2026-W12 Supply Chain Security](2026-W12-supply-chain-security/)*
+*報告產出時間：2026-03-23*
+*完整報告：[2026-W13 Supply Chain Security](2026-W13-supply-chain-security/)*

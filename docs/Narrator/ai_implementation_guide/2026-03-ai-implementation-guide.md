@@ -1,6 +1,6 @@
 ---
 layout: report
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 title: "2026-03 AI Implementation Guide"
 parent: "AI Implementation Guide"
 nav_order: 97
@@ -9,7 +9,7 @@ seo:
   title: "2026-03 AI 實作技術指引 | Agentic AI 威脅建模、IAM 自動化、AI 治理控制層"
   description: "本月 AI 實作重點：MAESTRO 框架導入 Agentic AI 威脅建模、AI Agent IAM 自動化授權架構、從護欄到治理的全生命週期控制層、MTU 授權可觀測性指標。含實作清單、程式碼範例、常見陷阱。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-22"
+  date_modified: "2026-03-23"
   article_section: "AI Implementation Guide"
   keywords:
     - "AI Implementation"
@@ -17,15 +17,15 @@ seo:
     - "MAESTRO Framework"
     - "Agentic AI Security"
     - "AI 實作"
-    - "機器學習治理"
     - "ISO 42001"
     - "AI IAM"
+    - "Prompt Injection Defense"
   related_articles:
+    - "https://risk.weiqi.kids/docs/Narrator/ai_implementation_guide/2026-02-ai-implementation-guide/"
     - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-03-ai-governance-landscape/"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W12-rule-change-brief/"
   faq:
     - question: "2026 年 3 月有哪些 AI 實作要點？"
-      answer: "2026 年 3 月 AI 實作指引涵蓋四大重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行威脅建模、建立 AI Agent 專用的自動化 IAM 授權架構（Policy-as-Code）、從護欄擴展為全生命週期治理控制層、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性指標。"
+      answer: "2026 年 3 月 AI 實作指引涵蓋五大重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行威脅建模、建立 AI Agent 專用的自動化 IAM 授權架構（Policy-as-Code）、從護欄擴展為全生命週期治理控制層、導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性指標、以及實作 LLM Prompt Injection 韌性設計。"
     - question: "如何在組織內落實 AI RMF？"
       answer: "建議採用三階段方法：第一階段建立 AI 資產清冊與風險分類（MAP 1.x）；第二階段實作模型監控與偏差測試（MEASURE 2.x）；第三階段整合 ISO 42001 管理系統持續改善（GOVERN 1.x）。每階段約需 3-6 個月，依組織規模調整。"
     - question: "Agentic AI 系統的主要安全威脅有哪些？"
@@ -39,10 +39,10 @@ seo:
 # AI Implementation Guide — 2026-03 {: .no_toc }
 
 <div class="key-takeaway">
-本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO。
+本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO、以及實作 LLM Prompt Injection 韌性設計。
 </div>
 
-> 本期聚焦 12 項 AI 治理要求的技術實作，涵蓋 NIST AI RMF、CSA MAESTRO 框架、ISO 42001、CSA STAR 等權威指引。
+> 本期聚焦 13 項 AI 治理要求的技術實作，涵蓋 NIST AI RMF、CSA MAESTRO 框架、ISO 42001、CSA STAR 等權威指引。
 
 ## 免責聲明
 
@@ -62,7 +62,7 @@ seo:
 | 審核狀態 | <span class="badge-reviewed">已通過自動審核</span> |
 | 審核依據 | CLAUDE.md 自我審核 Checklist |
 | 資料來源 | 30 個權威來源（NIST、CSA、SANS 等） |
-| 資料時間 | 2024-03-21 ~ 2026-03-16 |
+| 資料時間 | 2024-05-02 ~ 2026-03-16 |
 
 </div>
 
@@ -141,6 +141,11 @@ seo:
   - 來源：NIST — Protecting Model Updates in Privacy-Preserving Federated Learning
   - 優先級：中
   - 說明：在聯邦式學習場景中實作模型更新的隱私保護技術，防止模型逆推攻擊
+
+- [ ] **實作 LLM Prompt Injection 韌性設計**
+  - 來源：CSA — Designing Prompt Injection-Resilient LLMs (2026-03-02)
+  - 優先級：中
+  - 說明：評估 LLM 部署中向量資料庫、API 及 Prompt 介面的注入攻擊面，為 LLM 生態系建立零信任安全控制
 
 ---
 
@@ -661,6 +666,95 @@ tags:
 
 ---
 
+### LLM Prompt Injection 韌性設計
+
+<p class="key-answer" data-question="如何防禦 LLM Prompt Injection 攻擊">
+  <strong>CSA 建議以零信任原則重新設計 LLM 生態系的安全架構</strong>，將向量資料庫、API 端點與 Prompt 介面的注入攻擊面納入全面評估，而非僅依賴輸出過濾。
+</p>
+
+**背景**：CSA 於 2026 年 3 月發布的 Prompt Injection 韌性設計指引指出，傳統邊界安全模型無法覆蓋 LLM 生態系中的注入攻擊面。攻擊者可透過向量資料庫中的惡意嵌入、第三方 API 回應注入、以及 Agent 工具呼叫鏈中的間接注入等多種途徑繞過輸入過濾。該指引強調必須在 LLM 生態系的每個信任邊界實施零信任控制。
+
+**實作步驟**：
+
+<ol class="actionable-steps">
+  <li>盤點 LLM 生態系中的所有信任邊界（datasets、APIs、agents、第三方服務）</li>
+  <li>對每個信任邊界進行 Prompt Injection 攻擊面評估</li>
+  <li>在向量資料庫查詢結果上實施內容驗證與清洗</li>
+  <li>為 Agent 工具呼叫建立輸入/輸出驗證機制</li>
+  <li>部署多層 Prompt Injection 偵測（靜態規則 + ML 模型）</li>
+</ol>
+
+**Prompt Injection 防禦配置範例**：
+
+```python
+# middleware/prompt_injection_guard.py
+from dataclasses import dataclass
+from typing import List, Optional
+import re
+
+@dataclass
+class InjectionCheckResult:
+    is_safe: bool
+    risk_level: str  # low / medium / high / critical
+    matched_patterns: List[str]
+    recommendation: str
+
+class PromptInjectionGuard:
+    """LLM Prompt Injection 防禦中介層
+    對應 MAESTRO L1 (Foundation Model) 與 L2 (Data & Context)
+    """
+
+    # 已知注入模式（靜態規則層）
+    INJECTION_PATTERNS = [
+        r"ignore\s+(previous|above|all)\s+instructions",
+        r"you\s+are\s+now\s+(a|an)\s+",
+        r"system\s*:\s*",
+        r"<\|im_start\|>",
+        r"\[INST\]",
+    ]
+
+    def check_user_input(self, text: str) -> InjectionCheckResult:
+        """檢查使用者輸入是否包含注入嘗試"""
+        matched = []
+        for pattern in self.INJECTION_PATTERNS:
+            if re.search(pattern, text, re.IGNORECASE):
+                matched.append(pattern)
+
+        if matched:
+            return InjectionCheckResult(
+                is_safe=False,
+                risk_level="high",
+                matched_patterns=matched,
+                recommendation="Block input and log for review"
+            )
+        return InjectionCheckResult(
+            is_safe=True, risk_level="low",
+            matched_patterns=[], recommendation="Allow"
+        )
+
+    def sanitize_rag_context(
+        self, retrieved_docs: List[str]
+    ) -> List[str]:
+        """清洗 RAG 檢索結果中的潛在注入內容
+        對應零信任原則：不信任向量資料庫回傳的內容
+        """
+        sanitized = []
+        for doc in retrieved_docs:
+            check = self.check_user_input(doc)
+            if check.is_safe:
+                sanitized.append(doc)
+            else:
+                # 記錄但不丟棄，改為標記
+                sanitized.append(
+                    f"[SANITIZED] {doc[:100]}..."
+                )
+        return sanitized
+```
+
+**驗證方式**：建立 Prompt Injection 測試集（含已知攻擊模式與變種），定期對 LLM 系統執行自動化紅隊測試，確認偵測率達 95% 以上且誤報率低於 5%。
+
+---
+
 ## 常見實作陷阱
 
 <p class="key-answer" data-question="AI 實作中常見的錯誤有哪些">
@@ -725,6 +819,7 @@ tags:
 | CSA — Rethinking Authorization | MTU 授權可觀測性指標指引 | [CSA Authorization](https://cloudsecurityalliance.org/articles/rethinking-authorization-for-the-age-of-agentic-ai) |
 | CSA — From Guardrails to Governance | AI 治理控制層建構指引 | [CSA Governance](https://cloudsecurityalliance.org/articles/from-guardrails-to-governance-why-enterprise-ai-needs-a-control-layer) |
 | CSA — Multi-Framework Compliance | AI 輔助多框架合規自動化 | [CSA STAR Compliance](https://cloudsecurityalliance.org/articles/how-ai-is-simplifying-multi-framework-cloud-compliance-for-csa-star-assessments) |
+| CSA — Prompt Injection Resilience | LLM 注入攻擊韌性設計指引 | [CSA Prompt Injection](https://cloudsecurityalliance.org/articles/designing-prompt-injection-resilient-llms) |
 | SANS ISC AI Threat Feeds | AI 相關威脅情報 | [SANS ISC](https://isc.sans.edu/) |
 | openclaw-detect | 掃描系統中的 AI Agent 框架 artifacts | [SANS ISC Diary](https://isc.sans.edu/diary/rss/32678) |
 | openclaw-telemetry | AI Agent 工具呼叫與 LLM 請求監控插件 | [SANS ISC Diary](https://isc.sans.edu/diary/rss/32678) |
@@ -749,10 +844,10 @@ tags:
 
 | 指標 | 數值 |
 |------|------|
-| 實作項目數 | 12 |
+| 實作項目數 | 13 |
 | 必做項目 | 5 |
-| 建議項目 | 7 |
-| 來源分布 | CSA: 22, NIST Frameworks: 2, NIST Insights: 3, SANS ISC: 2, ISO: 1 |
+| 建議項目 | 8 |
+| 來源分布 | CSA: 18, NIST Frameworks: 3, NIST Insights: 3, EU Regulations: 4, SANS ISC: 2 |
 | REVIEW_NEEDED | 0 筆 |
 
 ---
@@ -761,11 +856,12 @@ tags:
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| csa_cloud_security | ai_security | 13 | 2026-01-06 ~ 2026-03-16 |
-| csa_cloud_security | identity | 4 | 2026-02-03 ~ 2026-03-16 |
-| csa_cloud_security | best_practices | 3 | 2026-01-09 ~ 2026-01-27 |
+| csa_cloud_security | ai_security | 12 | 2026-01-06 ~ 2026-03-16 |
+| csa_cloud_security | identity | 2 | 2026-02-11 ~ 2026-03-16 |
+| csa_cloud_security | best_practices | 2 | 2026-01-09 ~ 2026-01-27 |
 | csa_cloud_security | compliance | 2 | 2026-01-13 ~ 2026-03-03 |
-| nist_frameworks | ai_risk | 2 | 2025-08-05 |
-| nist_cybersecurity_insights | privacy | 3 | 2024-03-21 ~ 2024-10-08 |
-| iso_standards | other | 1 | 2026-01-28 |
+| nist_frameworks | ai_risk | 3 | 2025-08-05 ~ 2025-12-16 |
+| nist_cybersecurity_insights | ai_risk | 2 | 2025-05-22 ~ 2025-07-31 |
+| nist_cybersecurity_insights | privacy | 1 | 2024-05-02 |
+| eu_regulations | ai_governance | 4 | 2026-01-13 ~ 2026-01-27 |
 | sans_isc | threat_analysis | 2 | 2026-02-02 ~ 2026-02-03 |

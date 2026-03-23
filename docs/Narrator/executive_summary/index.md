@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 layout: default
 title: Executive Summary
 nav_order: 10
@@ -38,13 +38,13 @@ has_children: true
 
 ## 最新一期
 
-### [2026-W12 Executive Summary](2026-W12-executive-summary/)
+### [2026-W13 Executive Summary](2026-W13-executive-summary/)
 
 本週 3 大重點：
 
-1. **歐盟網攻制裁：首次具名制裁中國 APT 組織** — Regulation (EU) 2026/589 對中國 Anxun/I-Soon、Integrity Technology Group 及伊朗 Emennet Pasargad 實施資產凍結與交易禁令
-2. **伊朗軍事支援制裁擴大：十類零組件出口禁令** — Council Regulation (EU) 2026/271 新增無人機、飛彈相關零組件出口管制，衝擊雙用途技術供應鏈
-3. **EU AI Act 人類監督條款倒數 5 個月** — Article 14 將於 2026-08-02 開始執行，違規罰款最高 3,500 萬歐元或全球營收 7%
+1. **NIST Privacy Framework 1.1 即將發布：隱私框架與 CSF 2.0 加速整合** — 與 CSF 2.0 重新對齊，新增中小企業快速啟動指南，標誌三大框架互操作性加速推進
+2. **ISO/IEC 25706:2026 SPDM 硬體供應鏈驗證標準正式發布** — 為硬體與韌體供應鏈的設備驗證與完整性檢查提供國際標準化基礎
+3. **CLAIR 模型揭示 AI 整合的關鍵基礎設施級聯失效風險** — SANS ISC 提出 10 層相依性映射框架，識別 AI 整合帶來的新型級聯失效風險
 
 ---
 
@@ -52,5 +52,6 @@ has_children: true
 
 | 週次 | 報告 |
 |------|------|
+| 2026-W13 | [Executive Summary](2026-W13-executive-summary/) |
 | 2026-W12 | [Executive Summary](2026-W12-executive-summary/) |
 | 2026-W09 | [Executive Summary](2026-W09-executive-summary/) |

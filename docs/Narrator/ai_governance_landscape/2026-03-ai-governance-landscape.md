@@ -1,6 +1,6 @@
 ---
 layout: report
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 title: "2026-03 AI Governance Landscape"
 parent: "AI Governance Landscape"
 nav_order: 97
@@ -9,7 +9,7 @@ seo:
   title: "2026-03 AI 治理全景 | AI Controls Matrix、Agentic AI 授權重構、ISO 42001 深化"
   description: "2026 年 3 月 AI 治理月報：追蹤 30 項 AI 治理動態，涵蓋 CSA AI Controls Matrix 獲獎、Agentic AI 授權架構重構、ISO 42001 認證實務深化、EU AI Act 勘誤與 EuroHPC AI Gigafactories 擴展等重要更新。"
   date_published: "2026-03-01"
-  date_modified: "2026-03-22"
+  date_modified: "2026-03-23"
   article_section: "AI Governance Landscape"
   keywords:
     - "AI Governance"
@@ -21,8 +21,8 @@ seo:
     - "Non-Human Identity"
     - "AI Risk Management"
   related_articles:
-    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-W07-ai_governance_landscape/"
-    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W12-rule-change-brief/"
+    - "https://risk.weiqi.kids/docs/Narrator/ai_governance_landscape/2026-02-ai-governance-landscape/"
+    - "https://risk.weiqi.kids/docs/Narrator/rule_change_brief/2026-W13-rule-change-brief/"
   faq:
     - question: "2026 年 3 月有哪些重要的 AI 治理動態？"
       answer: "2026 年 3 月重點包括：CSA AI Controls Matrix（AICM）獲 2026 CSO Awards 認可，成為業界首個供應商無關的生成式 AI 控制框架；Agentic AI 授權架構從護欄轉向全生命週期治理控制層；ISO 42001 認證實務指引持續深化；MAESTRO 威脅建模完成 OpenClaw 實戰案例；EU AI Act 勘誤修正線上空間適用範圍。"
@@ -362,4 +362,4 @@ seo:
 
 ---
 
-*報告產出時間：2026-03-22*
+*報告產出時間：2026-03-23*

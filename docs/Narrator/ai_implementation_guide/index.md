@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-03-22
+last_modified_at: 2026-03-23
 layout: default
 title: AI Implementation Guide
 nav_order: 13
@@ -52,7 +52,7 @@ has_children: true
 
 ### [2026-03 AI Implementation Guide](2026-03-ai-implementation-guide/)
 
-本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、以及導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO。
+本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO、以及實作 LLM Prompt Injection 韌性設計。
 
 **必做項目**：
 - 導入 MAESTRO 框架進行 Agentic AI 威脅建模
@@ -61,7 +61,7 @@ has_children: true
 - 建立 AI 代理全生命週期治理控制層
 - 盤點組織內 Shadow AI 與嵌入式 AI 風險
 
-**實作項目數**：12（必做 5、建議 7）
+**實作項目數**：13（必做 5、建議 8）
 
 ---
 
