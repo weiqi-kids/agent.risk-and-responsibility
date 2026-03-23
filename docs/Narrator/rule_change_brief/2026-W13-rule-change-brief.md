@@ -178,7 +178,7 @@ NISTIR 8596 AI 網路安全框架草案持續推進，NCCoE Cyber AI Profile 開
 - 首個整合 CSF 與 AI RMF 的框架草案，涵蓋保護 AI 系統、使用 AI 強化防禦、抵禦 AI 驅動攻擊
 - 影響對象：所有採用 AI 的組織、資安專業人員、企業管理層
 - enforcement_signal：recommended
-- （[來源](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-for-the-ai-era)）
+- （[來源](https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era)）
 
 **NCCoE Cyber AI Profile（CSF 2.0 Extension）**（draft，2025-09-02）
 - CSF 2.0 的 AI 威脅擴展配置檔開發中
