@@ -230,7 +230,7 @@ NCCoE 發布 SSDF 驅動的 DevSecOps live guidelines（附首個 Azure 實作�
 - 安全軟體開發框架 1.2 版開放公開意見
 - 影響對象：軟體開發者、DevSecOps 團隊、軟體供應商
 - enforcement_signal：recommended
-- （[來源](https://csrc.nist.gov/News/2025/ssdf-version-1-2-available-for-comment)）
+- （[來源](https://www.nist.gov/news-events/news/2025/12/secure-software-development-framework-ssdf-version-12-available-public)）
 
 **NIST IR 8536 供應鏈可追溯性框架**（draft，2025-07-31，public_comment）
 - 製造業元框架第二次公開草案，建構供應鏈可追溯性標準
