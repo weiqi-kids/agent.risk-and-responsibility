@@ -231,6 +231,17 @@
     "review_needed": false
   },
   {
+    "id": "compliance-2026-05-27-hipaa-security-rule-change-healthcare-cisos-final-rule-md",
+    "title": "The HIPAA Security Rule Is About to Change: What Healthcare CISOs Need to Do Before the Final Rule Drops",
+    "category": "compliance",
+    "date": "2026-05-27",
+    "file": "compliance/2026-05-27-hipaa-security-rule-change-healthcare-cisos-final-rule.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/the-hipaa-security-rule-is-about-to-change-what-healthcare-cisos-need-to-do-before-the-final-rule-drops",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "compliance-2026-03-06-csa-ai-controls-matrix-2026-cso-awards-winner-md",
     "title": "Cloud Security Alliance's AI Controls Matrix (AICM) Named 2026 CSO Awards Winner",
     "category": "compliance",
@@ -402,6 +413,61 @@
     "date": "2026-01-13",
     "file": "compliance/2026-01-13-ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-2026.md",
     "source_url": "https://cloudsecurityalliance.org/articles/ai-governance-and-iso-42001-faqs-what-organizations-need-to-know-in-2026",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-06-08-ai-turned-cloud-risk-into-race-human-defenders-losing-md",
+    "title": "AI Has Turned Cloud Risk Into a Race and Human Defenders are Losing",
+    "category": "cloud_security",
+    "date": "2026-06-08",
+    "file": "cloud_security/2026-06-08-ai-turned-cloud-risk-into-race-human-defenders-losing.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/ai-has-turned-cloud-risk-into-a-race-and-human-defenders-are-losing",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-06-01-80-percent-miss-24hr-patch-window-security-incidents-known-vulnerabilities-md",
+    "title": "Over 80% of Organizations that Miss 24-Hour Patch Window Report Security Incidents Involving Known Vulnerabilities",
+    "category": "cloud_security",
+    "date": "2026-06-01",
+    "file": "cloud_security/2026-06-01-80-percent-miss-24hr-patch-window-security-incidents-known-vulnerabilities.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/over-80-of-organizations-that-miss-24-hour-patch-window-report-security-incidents-involving-known-vulnerabilities",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-05-27-security-tools-target-detection-first-architectures-failing-ai-zero-day-md",
+    "title": "Your Security Tools Are the Target Now: Why Detection-First Architectures Are Failing Against AI-Driven and Zero-Day Exploits",
+    "category": "cloud_security",
+    "date": "2026-05-27",
+    "file": "cloud_security/2026-05-27-security-tools-target-detection-first-architectures-failing-ai-zero-day.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/your-security-tools-are-the-target-now-why-detection-first-architectures-are-failing-against-ai-driven-and-zero-day-exploits",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-05-19-when-apps-expose-user-data-misconfigurations-md",
+    "title": "When Apps Expose User Data: 6 Ways Misconfigurations Break Customer Trust",
+    "category": "cloud_security",
+    "date": "2026-05-19",
+    "file": "cloud_security/2026-05-19-when-apps-expose-user-data-misconfigurations.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/when-apps-expose-user-data-6-ways-misconfigurations-break-customer-trust",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "cloud_security-2026-05-19-securing-ai-workloads-aws-bedrock-sagemaker-md",
+    "title": "Securing AI Workloads in AWS: Why Bedrock and SageMaker Need Runtime Detection and AI-Powered Response",
+    "category": "cloud_security",
+    "date": "2026-05-19",
+    "file": "cloud_security/2026-05-19-securing-ai-workloads-aws-bedrock-sagemaker.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/securing-ai-workloads-in-aws-why-bedrock-and-sagemaker-need-runtime-detection-and-ai-powered-response",
     "confidence": "高",
     "source_layer": "csa_cloud_security",
     "review_needed": false
@@ -605,6 +671,50 @@
     "review_needed": false
   },
   {
+    "id": "best_practices-2026-05-27-top-cloud-cost-optimization-techniques-2026-maximum-roi-md",
+    "title": "Top Cloud Cost Optimization Techniques in 2026 for Maximum ROI",
+    "category": "best_practices",
+    "date": "2026-05-27",
+    "file": "best_practices/2026-05-27-top-cloud-cost-optimization-techniques-2026-maximum-roi.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/top-cloud-cost-optimization-techniques-in-2026-for-maximum-roi",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-05-19-mean-time-to-breach-traditional-patch-cycles-md",
+    "title": "Mean Time to Breach: Why Traditional Patch Cycles No Longer Protect You",
+    "category": "best_practices",
+    "date": "2026-05-19",
+    "file": "best_practices/2026-05-19-mean-time-to-breach-traditional-patch-cycles.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/mean-time-to-breach-why-traditional-patch-cycles-no-longer-protect-you",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-05-19-cant-patch-running-plant-ot-security-timeline-md",
+    "title": "You Can't Patch a Running Plant: How Mythos Compresses the OT Security Timeline",
+    "category": "best_practices",
+    "date": "2026-05-19",
+    "file": "best_practices/2026-05-19-cant-patch-running-plant-ot-security-timeline.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/you-can-t-patch-a-running-plant-how-mythos-compresses-the-ot-security-timeline",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "best_practices-2026-05-19-annual-threat-report-2026-security-leaders-md",
+    "title": "Annual Threat Report 2026: What It Means for Security Leaders",
+    "category": "best_practices",
+    "date": "2026-05-19",
+    "file": "best_practices/2026-05-19-annual-threat-report-2026-security-leaders.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/annual-threat-report-2026-what-it-means-for-security-leaders",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
     "id": "best_practices-2026-02-26-checkbox-tprm-is-dead-start-engineering-risk-md",
     "title": "Checkbox TPRM is Dead. Start Engineering Risk.",
     "category": "best_practices",
@@ -722,6 +832,116 @@
     "file": "best_practices/2026-01-09-first-question-security-ai-projects.md",
     "source_url": "https://cloudsecurityalliance.org/articles/the-first-question-security-should-ask-on-ai-projects",
     "confidence": "中",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-06-08-financial-services-ai-governance-autonomous-systems-csa-survey-md",
+    "title": "Financial Services Industry Shifts from AI Adoption to Governance as Autonomous Systems Proliferate, Cloud Security Alliance Survey Finds",
+    "category": "ai_security",
+    "date": "2026-06-08",
+    "file": "ai_security/2026-06-08-financial-services-ai-governance-autonomous-systems-csa-survey.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/financial-services-industry-shifts-from-ai-adoption-to-governance-as-autonomous-systems-proliferate-cloud-security-alliance-survey-finds",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-06-04-riskrubric-updates-ai-risk-assessment-agentic-era-md",
+    "title": "RiskRubric Updates: AI Risk Assessment for the Agentic Era",
+    "category": "ai_security",
+    "date": "2026-06-04",
+    "file": "ai_security/2026-06-04-riskrubric-updates-ai-risk-assessment-agentic-era.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/riskrubric-updates-ai-risk-assessment-for-the-agentic-era",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": true
+  },
+  {
+    "id": "ai_security-2026-06-04-csai-foundation-riskrubric-v2-agentic-control-plane-md",
+    "title": "CSAI Foundation Announces RiskRubric V2 as the Next Key Milestone to Secure the Agentic Control Plane",
+    "category": "ai_security",
+    "date": "2026-06-04",
+    "file": "ai_security/2026-06-04-csai-foundation-riskrubric-v2-agentic-control-plane.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/csai-foundation-announces-riskrubric-v2-as-the-next-key-milestone-to-secure-the-agentic-control-plane",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": true
+  },
+  {
+    "id": "ai_security-2026-05-28-designing-agentic-ai-systems-orchideas-framework-md",
+    "title": "Designing Agentic AI Systems with the ORCHIDEAS Framework",
+    "category": "ai_security",
+    "date": "2026-05-28",
+    "file": "ai_security/2026-05-28-designing-agentic-ai-systems-orchideas-framework.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/designing-agentic-ai-systems-with-the-orchideas-framework",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-05-27-top-6-claude-security-risks-ai-employees-operating-system-md",
+    "title": "Top 6 Claude Security Risks to Watch as AI Becomes Your Employees' Operating System",
+    "category": "ai_security",
+    "date": "2026-05-27",
+    "file": "ai_security/2026-05-27-top-6-claude-security-risks-ai-employees-operating-system.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/top-6-claude-security-risks-to-watch-as-ai-becomes-your-employees-operating-system",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-05-19-what-is-aiuc-1-framework-agentic-ai-systems-md",
+    "title": "What is AIUC-1? Understanding The Framework Designed to Secure Agentic AI Systems",
+    "category": "ai_security",
+    "date": "2026-05-19",
+    "file": "ai_security/2026-05-19-what-is-aiuc-1-framework-agentic-ai-systems.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/what-is-aiuc-1-understanding-the-framework-designed-to-secure-agentic-ai-systems",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-05-19-toxic-combinations-five-powers-agentic-threat-md",
+    "title": "Toxic Combinations: The Five Powers Fueling the Agentic Threat Landscape",
+    "category": "ai_security",
+    "date": "2026-05-19",
+    "file": "ai_security/2026-05-19-toxic-combinations-five-powers-agentic-threat.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/toxic-combinations-the-five-powers-fueling-the-agentic-threat-landscape",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-05-19-slms-llms-real-difference-dspm-md",
+    "title": "SLMs, LLMs, and the Real Difference That Matters in DSPM",
+    "category": "ai_security",
+    "date": "2026-05-19",
+    "file": "ai_security/2026-05-19-slms-llms-real-difference-dspm.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/slms-llms-and-the-real-difference-that-matters-in-dspm",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-05-19-how-c-suite-leaders-taming-shadow-ai-md",
+    "title": "How C-Suite Leaders Are Taming Shadow AI",
+    "category": "ai_security",
+    "date": "2026-05-19",
+    "file": "ai_security/2026-05-19-how-c-suite-leaders-taming-shadow-ai.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/how-c-suite-leaders-are-taming-shadow-ai",
+    "confidence": "高",
+    "source_layer": "csa_cloud_security",
+    "review_needed": false
+  },
+  {
+    "id": "ai_security-2026-05-19-7-mcp-risks-cisos-should-consider-md",
+    "title": "7 MCP Risks CISOs Should Consider and How to Prepare",
+    "category": "ai_security",
+    "date": "2026-05-19",
+    "file": "ai_security/2026-05-19-7-mcp-risks-cisos-should-consider.md",
+    "source_url": "https://cloudsecurityalliance.org/articles/7-mcp-risks-cisos-should-consider-and-how-to-prepare",
+    "confidence": "高",
     "source_layer": "csa_cloud_security",
     "review_needed": false
   },

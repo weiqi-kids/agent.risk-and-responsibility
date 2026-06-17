@@ -1,5 +1,16 @@
 [
   {
+    "id": "vulnerability-2026-06-09-microsoft-june-2026-patch-tuesday-md",
+    "title": "Microsoft June 2026 Patch Tuesday",
+    "category": "vulnerability",
+    "date": "2026-06-09",
+    "file": "vulnerability/2026-06-09-microsoft-june-2026-patch-tuesday.md",
+    "source_url": "https://isc.sans.edu/diary/rss/33064",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
     "id": "vulnerability-2026-03-18-scans-for-adminer-database-management-tool-md",
     "title": "Scans for Adminer Database Management Tool",
     "category": "vulnerability",
@@ -50,6 +61,17 @@
     "date": "2026-02-10",
     "file": "vulnerability/2026-02-10-microsoft-patch-tuesday-february-2026.md",
     "source_url": "https://isc.sans.edu/diary/rss/32700",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "threat_analysis-2026-06-10-framing-protection-security-headers-3-year-trend-md",
+    "title": "How has use of framing protection security headers changed in the past 3 years?",
+    "category": "threat_analysis",
+    "date": "2026-06-10",
+    "file": "threat_analysis/2026-06-10-framing-protection-security-headers-3-year-trend.md",
+    "source_url": "https://isc.sans.edu/diary/rss/33068",
     "confidence": "高",
     "source_layer": "sans_isc",
     "review_needed": false
@@ -182,6 +204,28 @@
     "date": "2026-01-30",
     "file": "threat_analysis/2026-01-30-google-presentations-phishing.md",
     "source_url": "https://isc.sans.edu/diary/rss/32668",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-06-16-vhdx-file-remcos-rat-multi-stage-md",
+    "title": "From a VHDX File to a Remcos RAT",
+    "category": "malware",
+    "date": "2026-06-16",
+    "file": "malware/2026-06-16-vhdx-file-remcos-rat-multi-stage.md",
+    "source_url": "https://isc.sans.edu/diary/rss/33080",
+    "confidence": "高",
+    "source_layer": "sans_isc",
+    "review_needed": false
+  },
+  {
+    "id": "malware-2026-06-15-evil-msi-background-base64-statistical-analysis-md",
+    "title": "Evil MSI Background: BASE64 Statistical Analysis",
+    "category": "malware",
+    "date": "2026-06-15",
+    "file": "malware/2026-06-15-evil-msi-background-base64-statistical-analysis.md",
+    "source_url": "https://isc.sans.edu/diary/rss/33072",
     "confidence": "高",
     "source_layer": "sans_isc",
     "review_needed": false

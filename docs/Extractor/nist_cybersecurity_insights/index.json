@@ -737,6 +737,17 @@
     "review_needed": false
   },
   {
+    "id": "identity-2026-04-28-dmv-wallet-verifiable-digital-credential-issuance-md",
+    "title": "From DMV to Wallet: Understanding Verifiable Digital Credential Issuance",
+    "category": "identity",
+    "date": "2026-04-28",
+    "file": "identity/2026-04-28-dmv-wallet-verifiable-digital-credential-issuance.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/dmv-wallet-understanding-verifiable-digital-credential-issuance",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
     "id": "identity-2026-01-07-vdc-ecosystem-standards-interoperability-md",
     "title": "Digital Identities: Getting to Know the Verifiable Digital Credential Ecosystem",
     "category": "identity",
@@ -952,6 +963,17 @@
     "date": "2024-04-22",
     "file": "identity/2024-04-22-digital-identity-guidelines-syncable-authenticators.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/giving-nist-digital-identity-guidelines-boost-supplement-incorporating",
+    "confidence": "中",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-05-04-stronger-cybersecurity-small-business-nist-2026-md",
+    "title": "Stronger Cybersecurity, Stronger Business: NIST Celebrates 2026 National Small Business Week",
+    "category": "cybersecurity",
+    "date": "2026-05-04",
+    "file": "cybersecurity/2026-05-04-stronger-cybersecurity-small-business-nist-2026.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/stronger-cybersecurity-stronger-business-nist-celebrates-2026-national",
     "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
@@ -1217,6 +1239,17 @@
     "file": "critical_infrastructure/2024-10-22-iot-advisory-board-report.md",
     "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/iot-assignment-completed-report-barriers-us-iot-adoption",
     "confidence": "高",
+    "source_layer": "nist_cybersecurity_insights",
+    "review_needed": false
+  },
+  {
+    "id": "ai_risk-2026-03-23-reflections-second-nist-cyber-ai-profile-workshop-md",
+    "title": "Reflections from the Second NIST Cyber AI Profile Workshop",
+    "category": "ai_risk",
+    "date": "2026-03-23",
+    "file": "ai_risk/2026-03-23-reflections-second-nist-cyber-ai-profile-workshop.md",
+    "source_url": "https://www.nist.gov/blogs/cybersecurity-insights/reflections-second-nist-cyber-ai-profile-workshop",
+    "confidence": "中",
     "source_layer": "nist_cybersecurity_insights",
     "review_needed": false
   },

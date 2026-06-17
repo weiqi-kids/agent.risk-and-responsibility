@@ -11,6 +11,17 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2026-03-24-live-guidelines-devsecops-ssdf-practices-md",
+    "title": "New Live Guidelines for Secure Software Development, Security, and Operations Practices",
+    "category": "supply_chain",
+    "date": "2026-03-24",
+    "file": "supply_chain/2026-03-24-live-guidelines-devsecops-ssdf-practices.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/03/new-live-guidelines-secure-software-development-security-and-operations",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2025-12-17-ssdf-version-12-public-comment-md",
     "title": "Secure Software Development Framework (SSDF) Version 1.2 is Available for Public Comment",
     "category": "supply_chain",
@@ -139,6 +150,28 @@
     "file": "identity/nist-ir-8584-face-morph-detection.md",
     "source_url": "https://www.nist.gov/news-events/news/2025/08/nist-guidelines-can-help-organizations-detect-face-photo-morphs-deter",
     "confidence": "",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-03-18-nist-sp-1800-42a-mobile-drivers-license-financial-institutions-md",
+    "title": "NIST Guidelines on Implementing Mobile Driver's Licenses for Financial Institutions",
+    "category": "identity",
+    "date": "2026-03-18",
+    "file": "identity/2026-03-18-nist-sp-1800-42a-mobile-drivers-license-financial-institutions.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/03/nist-guidelines-implementing-mobile-drivers-licenses-financial-institutions",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "identity-2026-02-05-concept-paper-identity-authority-software-agents-md",
+    "title": "New Concept Paper on Identity and Authority of Software Agents — Accelerating the Adoption of Software and AI Agent Identity and Authorization",
+    "category": "identity",
+    "date": "2026-02-05",
+    "file": "identity/2026-02-05-concept-paper-identity-authority-software-agents.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/02/new-concept-paper-identity-and-authority-software-agents",
+    "confidence": "高",
     "source_layer": "nist_frameworks",
     "review_needed": false
   },
@@ -314,6 +347,72 @@
     "date": "2025-09-18",
     "file": "cybersecurity/cswp-48-pqc-migration-mappings.md",
     "source_url": "https://www.nist.gov/news-events/news/2025/09/new-draft-white-paper-pqc-migration-mappings-risk-framework-docs",
+    "confidence": "高",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-05-21-nist-sp-1800-41-cyber-attack-response-manufacturing-md",
+    "title": "Now Available: NIST SP 1800-41, Responding to and Recovering from a Cyber Attack",
+    "category": "cybersecurity",
+    "date": "2026-05-21",
+    "file": "cybersecurity/2026-05-21-nist-sp-1800-41-cyber-attack-response-manufacturing.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/05/now-available-nist-sp-1800-41-responding-and-recovering-cyber-attack",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-05-06-draft-pnt-profile-ir-8323-rev2-csf-20-alignment-md",
+    "title": "Draft PNT Profile Updated to Align with NIST CSF 2.0",
+    "category": "cybersecurity",
+    "date": "2026-05-06",
+    "file": "cybersecurity/2026-05-06-draft-pnt-profile-ir-8323-rev2-csf-20-alignment.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/05/draft-pnt-profile-updated-align-nist-csf-20",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-04-15-nist-sp-1800-40b-cmvp-automation-draft-md",
+    "title": "New Publication: Automation of the NIST Cryptographic Module Validation Program",
+    "category": "cybersecurity",
+    "date": "2026-04-15",
+    "file": "cybersecurity/2026-04-15-nist-sp-1800-40b-cmvp-automation-draft.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/04/new-publication-automation-nist-cryptographic-module-validation-program",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-04-15-nist-nvd-operations-update-cve-priority-model-md",
+    "title": "NIST Updates NVD Operations to Address Record CVE Growth",
+    "category": "cybersecurity",
+    "date": "2026-04-15",
+    "file": "cybersecurity/2026-04-15-nist-nvd-operations-update-cve-priority-model.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/04/nist-updates-nvd-operations-address-record-cve-growth",
+    "confidence": "中",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-02-12-draft-sp-1800-39-data-classification-practices-md",
+    "title": "Comment Now: Draft Guidelines on Data Classification Practices (NIST SP 1800-39)",
+    "category": "cybersecurity",
+    "date": "2026-02-12",
+    "file": "cybersecurity/2026-02-12-draft-sp-1800-39-data-classification-practices.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/02/comment-now-draft-guidelines-data-classification-practices",
+    "confidence": "高",
+    "source_layer": "nist_frameworks",
+    "review_needed": false
+  },
+  {
+    "id": "cybersecurity-2026-01-22-draft-ir-8576-transit-cybersecurity-csf-community-profile-md",
+    "title": "Now Available! Transit Cybersecurity Framework Community Profile (Draft NIST IR 8576)",
+    "category": "cybersecurity",
+    "date": "2026-01-22",
+    "file": "cybersecurity/2026-01-22-draft-ir-8576-transit-cybersecurity-csf-community-profile.md",
+    "source_url": "https://www.nist.gov/news-events/news/2026/01/now-available-transit-cybersecurity-framework-community-profile",
     "confidence": "高",
     "source_layer": "nist_frameworks",
     "review_needed": false

@@ -33,6 +33,248 @@
     "review_needed": false
   },
   {
+    "id": "supply_chain-2026-06-15-council-regulation-2026-1336-ukraine-sanctions-framework-md",
+    "title": "Council Regulation (EU) 2026/1336 of 15 June 2026 amending Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-regulation-2026-1336-ukraine-sanctions-framework.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1336",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-15-council-regulation-2026-1332-libya-sanctions-framework-md",
+    "title": "Council Regulation (EU) 2026/1332 of 12 June 2026 amending Regulation (EU) 2016/44 concerning restrictive measures in view of the situation in Libya",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-regulation-2026-1332-libya-sanctions-framework.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1332",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-15-council-implementing-regulation-2026-1361-ukraine-sanctions-md",
+    "title": "Council Implementing Regulation (EU) 2026/1361 of 15 June 2026 implementing Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-implementing-regulation-2026-1361-ukraine-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1361",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-15-council-implementing-regulation-2026-1358-moldova-sanctions-md",
+    "title": "Council Implementing Regulation (EU) 2026/1358 of 15 June 2026 implementing Regulation (EU) 2023/888 concerning restrictive measures in view of actions destabilising the Republic of Moldova",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-implementing-regulation-2026-1358-moldova-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1358",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-15-council-decision-cfsp-2026-1364-ukraine-sanctions-md",
+    "title": "Council Decision (CFSP) 2026/1364 of 15 June 2026 amending Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-decision-cfsp-2026-1364-ukraine-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1364",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-15-council-decision-cfsp-2026-1357-moldova-sanctions-md",
+    "title": "Council Decision (CFSP) 2026/1357 of 15 June 2026 amending Decision (CFSP) 2023/891 concerning restrictive measures in view of actions destabilising the Republic of Moldova",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-decision-cfsp-2026-1357-moldova-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1357",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-15-council-decision-cfsp-2026-1334-libya-sanctions-md",
+    "title": "Council Decision (CFSP) 2026/1334 of 12 June 2026 amending Decision (CFSP) 2015/1333 concerning restrictive measures in view of the situation in Libya",
+    "category": "supply_chain",
+    "date": "2026-06-15",
+    "file": "supply_chain/2026-06-15-council-decision-cfsp-2026-1334-libya-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1334",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-08-council-decision-cfsp-2026-1226-iran-sanctions-russia-middle-east-md",
+    "title": "Council Decision (CFSP) 2026/1226 of 8 June 2026 amending Decision (CFSP) 2023/1532 concerning restrictive measures in view of Iran's military support to Russia's war of aggression against Ukraine and to armed groups in the Middle East and the Red Sea region",
+    "category": "supply_chain",
+    "date": "2026-06-08",
+    "file": "supply_chain/2026-06-08-council-decision-cfsp-2026-1226-iran-sanctions-russia-middle-east.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1226",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-08-corrigendum-council-decision-cfsp-2026-1072-ukraine-sanctions-md",
+    "title": "Corrigendum to Council Decision (CFSP) 2026/1072 of 11 May 2026 amending Decision 2014/145/CFSP concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine (OJ L, 2026/1072, 11.5.2026)",
+    "category": "supply_chain",
+    "date": "2026-06-08",
+    "file": "supply_chain/2026-06-08-corrigendum-council-decision-cfsp-2026-1072-ukraine-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1072R(01)",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-06-04-council-decision-2026-1213-istanbul-convention-violence-women-judicial-cooperation-md",
+    "title": "Council Decision (EU) 2026/1213 of 29 May 2026 on the position to be taken on behalf of the European Union within the Committee of the Parties to the Council of Europe Convention on preventing and combating violence against women and domestic violence (Istanbul Convention), at its 20th meeting, with regard to matters related to judicial cooperation in criminal matters, asylum and non-refoulement",
+    "category": "supply_chain",
+    "date": "2026-06-04",
+    "file": "supply_chain/2026-06-04-council-decision-2026-1213-istanbul-convention-violence-women-judicial-cooperation.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1213",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-28-implementing-regulation-human-rights-violations-restrictive-measures-md",
+    "title": "Council Implementing Regulation (EU) 2026/1177 — Restrictive Measures against Serious Human Rights Violations",
+    "category": "supply_chain",
+    "date": "2026-05-28",
+    "file": "supply_chain/2026-05-28-implementing-regulation-human-rights-violations-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1177",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-28-implementing-regulation-hamas-pij-restrictive-measures-md",
+    "title": "Council Implementing Regulation (EU) 2026/1174 — Restrictive Measures against Hamas and PIJ",
+    "category": "supply_chain",
+    "date": "2026-05-28",
+    "file": "supply_chain/2026-05-28-implementing-regulation-hamas-pij-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1174",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-28-council-regulation-amending-hamas-pij-restrictive-measures-md",
+    "title": "Council Regulation (EU) 2026/1175 — Amending Restrictive Measures against Hamas and PIJ",
+    "category": "supply_chain",
+    "date": "2026-05-28",
+    "file": "supply_chain/2026-05-28-council-regulation-amending-hamas-pij-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1175",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-28-cfsp-decision-amending-human-rights-violations-measures-md",
+    "title": "Council Decision (CFSP) 2026/1176 — Amending CFSP Measures against Human Rights Violations",
+    "category": "supply_chain",
+    "date": "2026-05-28",
+    "file": "supply_chain/2026-05-28-cfsp-decision-amending-human-rights-violations-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1176",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-28-cfsp-decision-amending-hamas-pij-measures-md",
+    "title": "Council Decision (CFSP) 2026/1173 — Amending CFSP Restrictive Measures against Hamas and PIJ",
+    "category": "supply_chain",
+    "date": "2026-05-28",
+    "file": "supply_chain/2026-05-28-cfsp-decision-amending-hamas-pij-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1173",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-27-council-decision-eu-mexico-interim-trade-agreement-md",
+    "title": "Council Decision (EU) 2026/1163 — Signing of EU-Mexico Interim Trade Agreement",
+    "category": "supply_chain",
+    "date": "2026-05-27",
+    "file": "supply_chain/2026-05-27-council-decision-eu-mexico-interim-trade-agreement.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1163",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-26-council-regulation-eu-2026-1164-iran-russia-restrictive-measures-md",
+    "title": "Council Regulation (EU) 2026/1164 amending restrictive measures re Iran's military support to Russia and Middle East",
+    "category": "supply_chain",
+    "date": "2026-05-26",
+    "file": "supply_chain/2026-05-26-council-regulation-eu-2026-1164-iran-russia-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1164",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-26-council-implementing-regulation-eu-2026-1147-russia-restrictive-measures-md",
+    "title": "Council Implementing Regulation (EU) 2026/1147 implementing Regulation 2024/1485 re restrictive measures in view of situation in Russia",
+    "category": "supply_chain",
+    "date": "2026-05-26",
+    "file": "supply_chain/2026-05-26-council-implementing-regulation-eu-2026-1147-russia-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1147",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-26-council-decision-cfsp-2026-1157-iran-russia-restrictive-measures-md",
+    "title": "Council Decision (CFSP) 2026/1157 amending restrictive measures re Iran's military support to Russia and Middle East",
+    "category": "supply_chain",
+    "date": "2026-05-26",
+    "file": "supply_chain/2026-05-26-council-decision-cfsp-2026-1157-iran-russia-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1157",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-26-council-decision-cfsp-2026-1149-russia-restrictive-measures-md",
+    "title": "Council Decision (CFSP) 2026/1149 amending restrictive measures re situation in Russia",
+    "category": "supply_chain",
+    "date": "2026-05-26",
+    "file": "supply_chain/2026-05-26-council-decision-cfsp-2026-1149-russia-restrictive-measures.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1149",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-22-corrigendum-regulation-eu-2026-471-wine-sector-spirit-drinks-labelling-md",
+    "title": "Corrigendum to Regulation (EU) 2026/471 amending wine sector market rules and spirit drinks labelling",
+    "category": "supply_chain",
+    "date": "2026-05-22",
+    "file": "supply_chain/2026-05-22-corrigendum-regulation-eu-2026-471-wine-sector-spirit-drinks-labelling.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R0471R(02)",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "supply_chain-2026-05-21-decision-egf-2025-008-be-liberty-belgium-md",
+    "title": "Decision (EU) 2026/1134 on the mobilisation of the European Globalisation Adjustment Fund for Displaced Workers – EGF/2025/008 BE/Liberty (Belgium)",
+    "category": "supply_chain",
+    "date": "2026-05-21",
+    "file": "supply_chain/2026-05-21-decision-egf-2025-008-be-liberty-belgium.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1134",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "supply_chain-2026-03-20-eu-2026-697-agri-food-enforcement-cooperation-md",
     "title": "Regulation (EU) 2026/697 — Cooperation Among Enforcement Authorities for Unfair Trading Practices in Agricultural and Food Supply Chain",
     "category": "supply_chain",
@@ -735,6 +977,171 @@
     "confidence": "high",
     "source_layer": "eu_regulations",
     "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-06-12-council-decision-wco-customs-valuation-rules-of-origin-md",
+    "title": "Council Decision (EU) 2026/1340 on EU Position within WCO Technical Committees on Customs Valuation and Rules of Origin",
+    "category": "institutional_administration",
+    "date": "2026-06-12",
+    "file": "institutional_administration/2026-06-12-council-decision-wco-customs-valuation-rules-of-origin.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1340",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-10-council-decision-eea-joint-committee-protocol-31-social-security-md",
+    "title": "Council Decision (EU) 2026/1322 on EU Position within EEA Joint Committee Concerning Amendment to Protocol 31 on Social Security Budget Line",
+    "category": "institutional_administration",
+    "date": "2026-06-10",
+    "file": "institutional_administration/2026-06-10-council-decision-eea-joint-committee-protocol-31-social-security.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1322",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-10-corrigendum-cfsp-decision-european-peace-facility-egypt-md",
+    "title": "Corrigendum to Council Decision (CFSP) 2026/1224 on Assistance Measure under European Peace Facility to Support Egyptian Armed Forces",
+    "category": "institutional_administration",
+    "date": "2026-06-10",
+    "file": "institutional_administration/2026-06-10-corrigendum-cfsp-decision-european-peace-facility-egypt.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1224R(01)",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-09-council-decision-cfsp-2026-1227-mauritania-armed-forces-md",
+    "title": "Council Decision (CFSP) 2026/1227 of 8 June 2026 amending Decision (CFSP) 2024/2015 on an assistance measure under the European Peace Facility to support the Armed Forces of the Islamic Republic of Mauritania",
+    "category": "institutional_administration",
+    "date": "2026-06-09",
+    "file": "institutional_administration/2026-06-09-council-decision-cfsp-2026-1227-mauritania-armed-forces.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1227",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-09-council-decision-cfsp-2026-1224-egypt-armed-forces-md",
+    "title": "Council Decision (CFSP) 2026/1224 of 8 June 2026 on an assistance measure under the European Peace Facility to support the Egyptian Armed Forces",
+    "category": "institutional_administration",
+    "date": "2026-06-09",
+    "file": "institutional_administration/2026-06-09-council-decision-cfsp-2026-1224-egypt-armed-forces.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1224",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-09-cfsp-decision-european-peace-facility-african-union-amendment-md",
+    "title": "Council Decision (CFSP) 2026/1235 Amending Decision (CFSP) 2022/667 on Assistance Measure under European Peace Facility for African Union (2022-2024)",
+    "category": "institutional_administration",
+    "date": "2026-06-09",
+    "file": "institutional_administration/2026-06-09-cfsp-decision-european-peace-facility-african-union-amendment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1235",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-05-council-decision-cfsp-2026-1223-opcw-institutional-planning-md",
+    "title": "Council Decision (CFSP) 2026/1223 of 4 June 2026 amending Decision (CFSP) 2024/1984 in support of the Institutional Transitional Planning for Non-Routine Missions and Investigative Capacities of the Organisation for the Prohibition of Chemical Weapons (OPCW)",
+    "category": "institutional_administration",
+    "date": "2026-06-05",
+    "file": "institutional_administration/2026-06-05-council-decision-cfsp-2026-1223-opcw-institutional-planning.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1223",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-05-council-decision-cfsp-2026-1222-opcw-operational-effectiveness-md",
+    "title": "Council Decision (CFSP) 2026/1222 of 4 June 2026 amending Decision (CFSP) 2023/1344 in support of enhancing the operational effectiveness of the Organisation for the Prohibition of Chemical Weapons (OPCW)",
+    "category": "institutional_administration",
+    "date": "2026-06-05",
+    "file": "institutional_administration/2026-06-05-council-decision-cfsp-2026-1222-opcw-operational-effectiveness.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1222",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-05-council-decision-cfsp-2026-1202-moldova-armed-forces-second-md",
+    "title": "Council Decision (CFSP) 2026/1202 of 4 June 2026 amending Decision (CFSP) 2023/921 on an assistance measure under the European Peace Facility to support the Armed Forces of the Republic of Moldova",
+    "category": "institutional_administration",
+    "date": "2026-06-05",
+    "file": "institutional_administration/2026-06-05-council-decision-cfsp-2026-1202-moldova-armed-forces-second.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1202",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-06-05-council-decision-cfsp-2026-1201-moldova-armed-forces-first-md",
+    "title": "Council Decision (CFSP) 2026/1201 of 4 June 2026 amending Decision (CFSP) 2022/1093 on an assistance measure under the European Peace Facility to support the Armed Forces of the Republic of Moldova",
+    "category": "institutional_administration",
+    "date": "2026-06-05",
+    "file": "institutional_administration/2026-06-05-council-decision-cfsp-2026-1201-moldova-armed-forces-first.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1201",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-05-27-council-decision-european-statistical-governance-advisory-board-md",
+    "title": "Council Decision — Appointing Member of European Statistical Governance Advisory Board",
+    "category": "institutional_administration",
+    "date": "2026-05-27",
+    "file": "institutional_administration/2026-05-27-council-decision-european-statistical-governance-advisory-board.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D02937",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-05-27-council-decision-cedefop-member-slovakia-md",
+    "title": "Council Decision — Replacing Cedefop Management Board Member for Slovakia",
+    "category": "institutional_administration",
+    "date": "2026-05-27",
+    "file": "institutional_administration/2026-05-27-council-decision-cedefop-member-slovakia.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D02938",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-05-27-council-decision-cedefop-member-cyprus-md",
+    "title": "Council Decision — Replacing Cedefop Management Board Member for Cyprus",
+    "category": "institutional_administration",
+    "date": "2026-05-27",
+    "file": "institutional_administration/2026-05-27-council-decision-cedefop-member-cyprus.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D02903",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "institutional_administration-2026-05-26-council-decision-cfsp-2026-1153-european-peace-facility-albania-md",
+    "title": "Council Decision (CFSP) 2026/1153 on assistance measure under European Peace Facility to support Albanian Armed Forces",
+    "category": "institutional_administration",
+    "date": "2026-05-26",
+    "file": "institutional_administration/2026-05-26-council-decision-cfsp-2026-1153-european-peace-facility-albania.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1153",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "institutional_administration-2026-05-26-council-decision-cfsp-2026-1152-eusr-middle-east-peace-process-md",
+    "title": "Council Decision (CFSP) 2026/1152 extending mandate of EU Special Representative for Middle East Peace Process",
+    "category": "institutional_administration",
+    "date": "2026-05-26",
+    "file": "institutional_administration/2026-05-26-council-decision-cfsp-2026-1152-eusr-middle-east-peace-process.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1152",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
   },
   {
     "id": "institutional_administration-2026-03-20-eu-2026-714-icao-annex13-amendment20-position-md",
@@ -2046,6 +2453,61 @@
     "review_needed": false
   },
   {
+    "id": "financial_compliance-2026-06-09-council-implementing-decision-sweden-reduced-excise-duty-md",
+    "title": "Council Implementing Decision (EU) 2026/1295 Authorising Sweden to Apply Reduced Excise Duty Rates on Gas Oil and Petrol as Motor Fuels",
+    "category": "financial_compliance",
+    "date": "2026-06-09",
+    "file": "financial_compliance/2026-06-09-council-implementing-decision-sweden-reduced-excise-duty.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1295",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "financial_compliance-2026-06-08-council-implementing-regulation-2026-1225-iran-sanctions-ukraine-md",
+    "title": "Council Implementing Regulation (CFSP) 2026/1225 of 8 June 2026 implementing Regulation (EU) 2023/1529 concerning restrictive measures in view of Iran's military support to Russia's war of aggression against Ukraine and actions undermining freedom of navigation in the Middle East",
+    "category": "financial_compliance",
+    "date": "2026-06-08",
+    "file": "financial_compliance/2026-06-08-council-implementing-regulation-2026-1225-iran-sanctions-ukraine.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1225",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "financial_compliance-2026-06-08-corrigendum-implementing-regulation-2026-1055-ukraine-sanctions-md",
+    "title": "Corrigendum to Council Implementing Regulation (EU) 2026/1055 of 11 May 2026 implementing Regulation (EU) No 269/2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine (OJ L, 2026/1055, 11.5.2026)",
+    "category": "financial_compliance",
+    "date": "2026-06-08",
+    "file": "financial_compliance/2026-06-08-corrigendum-implementing-regulation-2026-1055-ukraine-sanctions.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1055R(01)",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "financial_compliance-2026-06-04-council-implementing-decision-2026-1204-ukraine-facility-seventh-instalment-md",
+    "title": "Council Implementing Decision (EU) 2026/1204 of 28 May 2026 establishing the satisfactory fulfilment of the conditions for the partial payment of the seventh instalment under the Ukraine Plan of the Ukraine Facility and amending Implementing Decision (EU) 2024/1447",
+    "category": "financial_compliance",
+    "date": "2026-06-04",
+    "file": "financial_compliance/2026-06-04-council-implementing-decision-2026-1204-ukraine-facility-seventh-instalment.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1204",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "financial_compliance-2026-05-21-council-decision-negotiations-ceb-membership-md",
+    "title": "Council Decision (EU) 2026/1138 authorising the opening of negotiations for an agreement between the Union and the Council of Europe Development Bank on the conditions for the Union's membership",
+    "category": "financial_compliance",
+    "date": "2026-05-21",
+    "file": "financial_compliance/2026-05-21-council-decision-negotiations-ceb-membership.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1138",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "financial_compliance-2026-03-05-safe-financial-assistance-slovakia-md",
     "title": "Council Implementing Decision (EU) 2026/414 — SAFE Financial Assistance to Slovakia",
     "category": "financial_compliance",
@@ -2882,6 +3344,17 @@
     "review_needed": false
   },
   {
+    "id": "digital_market-2026-06-11-council-decision-roaming-negotiations-western-balkans-md",
+    "title": "Council Decision (EU) 2026/1329 Authorising Negotiations for Roaming Agreements with Western Balkans Countries",
+    "category": "digital_market",
+    "date": "2026-06-11",
+    "file": "digital_market/2026-06-11-council-decision-roaming-negotiations-western-balkans.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1329",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
     "id": "digital_market-2026-03-20-eu-2026-706-measuring-instruments-ev-gas-energy-md",
     "title": "Directive (EU) 2026/706 — Measuring Systems for EV Supply Equipment, Compressed Gas Dispensers, and Energy Meters",
     "category": "digital_market",
@@ -3146,6 +3619,17 @@
     "review_needed": false
   },
   {
+    "id": "data_protection-2026-05-26-regulation-eu-2026-1165-biocidal-data-protection-periods-extension-md",
+    "title": "Regulation (EU) 2026/1165 amending Regulation 528/2012 as regards extension of certain data protection periods for biocidal products",
+    "category": "data_protection",
+    "date": "2026-05-26",
+    "file": "data_protection/2026-05-26-regulation-eu-2026-1165-biocidal-data-protection-periods-extension.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1165",
+    "confidence": "低",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
     "id": "data_protection-2026-03-17-council-decision-2026-643-eu-swiss-pnr-data-transfer-md",
     "title": "Council Decision (EU) 2026/643 on Signing of EU-Switzerland PNR Data Transfer Agreement",
     "category": "data_protection",
@@ -3322,6 +3806,17 @@
     "review_needed": false
   },
   {
+    "id": "cybersecurity-2026-06-16-council-implementing-decision-2026-1354-eu-cybersecurity-reserve-ukraine-md",
+    "title": "Council Implementing Decision (EU) 2026/1354 authorising the provision of support from the EU Cybersecurity Reserve to Ukraine",
+    "category": "cybersecurity",
+    "date": "2026-06-16",
+    "file": "cybersecurity/2026-06-16-council-implementing-decision-2026-1354-eu-cybersecurity-reserve-ukraine.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1354",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
     "id": "cybersecurity-2026-03-16-council-implementing-regulation-cyber-attacks-sanctions-2026-589-md",
     "title": "Council Implementing Regulation (EU) 2026/589 implementing restrictive measures against cyber-attacks threatening the Union",
     "category": "cybersecurity",
@@ -3395,6 +3890,83 @@
     "file": "critical_infrastructure/32026R0261-russian-gas-oil-phaseout.md",
     "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R0261",
     "confidence": "high",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-06-16-council-decision-cfsp-2026-1338-digital-ammunition-aims-sims-md",
+    "title": "Council Decision (CFSP) 2026/1338 in support of digital solutions for secure conventional ammunition stockpiles in the EU Neighbourhood (AIMS/SIMS)",
+    "category": "critical_infrastructure",
+    "date": "2026-06-16",
+    "file": "critical_infrastructure/2026-06-16-council-decision-cfsp-2026-1338-digital-ammunition-aims-sims.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1338",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": false
+  },
+  {
+    "id": "critical_infrastructure-2026-06-10-regulation-eu-2026-1184-railway-infrastructure-capacity-md",
+    "title": "Regulation (EU) 2026/1184 on Use of Railway Infrastructure Capacity in the Single European Railway Area",
+    "category": "critical_infrastructure",
+    "date": "2026-06-10",
+    "file": "critical_infrastructure/2026-06-10-regulation-eu-2026-1184-railway-infrastructure-capacity.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026R1184",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "critical_infrastructure-2026-06-10-council-decision-otif-rail-technical-prescriptions-revision-md",
+    "title": "Council Decision (EU) 2026/1303 on EU Position at 18th OTIF CTE Session on Revision of Rail Technical Prescriptions",
+    "category": "critical_infrastructure",
+    "date": "2026-06-10",
+    "file": "critical_infrastructure/2026-06-10-council-decision-otif-rail-technical-prescriptions-revision.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1303",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "critical_infrastructure-2026-06-05-council-decision-cfsp-2026-1218-european-peace-facility-lebanon-md",
+    "title": "Council Decision (CFSP) 2026/1218 of 4 June 2026 on an assistance measure under the European Peace Facility to support the Lebanese Armed Forces",
+    "category": "critical_infrastructure",
+    "date": "2026-06-05",
+    "file": "critical_infrastructure/2026-06-05-council-decision-cfsp-2026-1218-european-peace-facility-lebanon.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1218",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "critical_infrastructure-2026-06-02-corrigendum-council-decision-cfsp-2026-1170-european-peace-facility-lebanon-md",
+    "title": "Corrigendum to Council Decision (CFSP) 2026/1170 of 28 May 2026 on an assistance measure under the European Peace Facility to support the Lebanese Armed Forces (OJ L, 2026/1170, 29.5.2026)",
+    "category": "critical_infrastructure",
+    "date": "2026-06-02",
+    "file": "critical_infrastructure/2026-06-02-corrigendum-council-decision-cfsp-2026-1170-european-peace-facility-lebanon.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1170R(01)",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "critical_infrastructure-2026-05-27-corrigendum-eutm-mozambique-military-training-md",
+    "title": "Corrigendum to Council Decision (CFSP) 2024/1354 — EU Military Training Mission in Mozambique (EUTM Mozambique)",
+    "category": "critical_infrastructure",
+    "date": "2026-05-27",
+    "file": "critical_infrastructure/2026-05-27-corrigendum-eutm-mozambique-military-training.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32024D1354R(03)",
+    "confidence": "中",
+    "source_layer": "eu_regulations",
+    "review_needed": true
+  },
+  {
+    "id": "critical_infrastructure-2026-05-21-council-decision-signing-coe-prevention-of-terrorism-protocol-md",
+    "title": "Council Decision (EU) 2026/1132 on the signing of the Protocol amending the Council of Europe Convention on the Prevention of Terrorism",
+    "category": "critical_infrastructure",
+    "date": "2026-05-21",
+    "file": "critical_infrastructure/2026-05-21-council-decision-signing-coe-prevention-of-terrorism-protocol.md",
+    "source_url": "https://eur-lex.europa.eu/legal-content/AUTO/?uri=CELEX:32026D1132",
+    "confidence": "中",
     "source_layer": "eu_regulations",
     "review_needed": false
   },
