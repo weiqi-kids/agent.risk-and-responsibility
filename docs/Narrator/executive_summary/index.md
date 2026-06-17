@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: Executive Summary
 nav_order: 10
@@ -38,13 +38,13 @@ has_children: true
 
 ## 最新一期
 
-### [2026-W13 Executive Summary](2026-W13-executive-summary/)
+### [2026-W25 Executive Summary](2026-W25-executive-summary/)
 
 本週 3 大重點：
 
-1. **NIST Privacy Framework 1.1 即將發布：隱私框架與 CSF 2.0 加速整合** — 與 CSF 2.0 重新對齊，新增中小企業快速啟動指南，標誌三大框架互操作性加速推進
-2. **ISO/IEC 25706:2026 SPDM 硬體供應鏈驗證標準正式發布** — 為硬體與韌體供應鏈的設備驗證與完整性檢查提供國際標準化基礎
-3. **CLAIR 模型揭示 AI 整合的關鍵基礎設施級聯失效風險** — SANS ISC 提出 10 層相依性映射框架，識別 AI 整合帶來的新型級聯失效風險
+1. **EU AI Act Article 14 進入強制執行倒數** — 人類監督義務 2026-08-02 強制執行，違規罰款最高 €35M 或全球營收 7%，在歐盟營運的 AI 系統提供者與部署者須備妥執行時授權合規文件
+2. **歐盟對俄影子船隊與對伊朗出口管制制裁立即生效** — 41 艘船舶港口禁令與海事服務禁止、伊朗無人機/飛彈組件出口管制，皆為 directly_applicable 強制義務
+3. **CISA KEV 兩項漏洞聯邦修補期限已逾期逾四個月** — CVE-2025-31125（Vite）與 CVE-2025-34026（Versa Concerto）依 BOD 22-01 須立即緩解或停用產品
 
 ---
 
@@ -52,6 +52,7 @@ has_children: true
 
 | 週次 | 報告 |
 |------|------|
+| 2026-W25 | [Executive Summary](2026-W25-executive-summary/) |
 | 2026-W13 | [Executive Summary](2026-W13-executive-summary/) |
 | 2026-W12 | [Executive Summary](2026-W12-executive-summary/) |
 | 2026-W09 | [Executive Summary](2026-W09-executive-summary/) |

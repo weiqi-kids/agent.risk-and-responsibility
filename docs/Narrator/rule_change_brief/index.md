@@ -1,18 +1,18 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: Rule Change Brief
 nav_order: 11
 has_children: true
 ---
 
-# Rule Change Brief — 2026-W13
+# Rule Change Brief — 2026-W25
 
 <div class="key-takeaway">
-本期重點：NIST IoT Future Directions 工作坊倒數一週（2026-03-31），為 NISTIR 8259 與 SP 800-213 修訂徵集最後意見；NIST Privacy Framework 1.1 即將發布並與 CSF 2.0 對齊；ISO/IEC 29167-22:2026 RFID SPECK 加密標準第二版正式發布；ISO/IEC/IEEE 9945:2026 POSIX Issue 8 正式發布；CISA KEV 持續追蹤 5 項已遭利用弱點。
+本期重點：NIST IR 8323 Revision 2（PNT Profile）草案改版以對齊 CSF 2.0，進入公開意見徵詢；NIST SP 1800-40B 草案推動密碼模組驗證計畫（CMVP）自動化；NIST NVD 改採「風險優先」模型重新定義 CVE 豐富化範圍；ISO/IEC 15408:2026（Common Criteria）完成第五版改版；ISO/IEC 25831:2026 OpenID Identity Assurance 標準正式發布。CISA KEV 持續追蹤 4 項已遭利用弱點。
 </div>
 
-> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、csa_cloud_security、eu_regulations 等資料源。
+> 本期追蹤 50 項框架與標準變動，涵蓋 nist_frameworks、nist_cybersecurity_insights、iso_standards、cisa_kev、eu_regulations 等資料源。
 
 ## 免責聲明
 
@@ -25,22 +25,22 @@ has_children: true
 ## 本期重點
 
 <p class="key-answer" data-question="本期有哪些重要的規則變動">
-  <strong>NIST IoT Future Directions 工作坊倒數一週</strong>，2026-03-31 舉辦，為 NISTIR 8259 與 SP 800-213 修訂方向徵集最後意見，IoT 製造商與安全從業人員應把握最後參與機會。
+  <strong>NIST IR 8323 Revision 2（PNT Profile）草案改版以對齊 CSF 2.0</strong>，定位、導航與授時系統使用者的風險管理責任範圍擴大，目前處於公開意見徵詢階段。
 </p>
 
-1. **NIST IoT Future Directions 工作坊倒數（guidance）**：NIST Cybersecurity for IoT Program 預定 2026-03-31 至 04-01 於 Gaithersburg 舉辦兩日工作坊，距今僅剩一週。
+1. **NIST IR 8323 Rev 2 PNT Profile 對齊 CSF 2.0（revision）**：NCCoE 將 PNT 系統安全配置重新對齊至 CSF 2.0，狀態為 public_comment。
 
-2. **NIST Privacy Framework 1.1 即將發布（guidance）**：將與 CSF 2.0 重新對齊，新增中小企業快速啟動指南。SP 800-226 差分隱私指引已正式發布。
+2. **NIST SP 1800-40B 推動 CMVP 自動化（draft）**：密碼模組驗證流程走向自動化，導入標準化提交協定與雲端原生基礎設施。
 
-3. **ISO/IEC 29167-22:2026 RFID 加密標準更新（revision）**：SPECK 對稱加密套件第二版正式發布，明確支援多種區塊/金鑰長度組合。
+3. **NIST NVD 改採風險優先 CVE 豐富化（revision）**：因應創紀錄 CVE 成長，聯邦相關與 CISA KEV 目錄 CVE 優先豐富化。
 
-4. **ISO/IEC/IEEE 9945:2026 POSIX Issue 8（revision）**：POSIX 基本規格第八版正式發布，更新作業系統可移植性標準。
+4. **ISO/IEC 15408:2026 Common Criteria 改版（revision）**：Part 2 安全功能元件（第 5 版）與 Part 4 評估方法框架（第 2 版）正式發布。
 
-5. **NIST SP 800-53 Rev. 5.2.0 持續落實（revision）**：三項新增控制項持續影響聯邦機關系統安全計畫更新。
+5. **ISO/IEC 25831:2026 OpenID Identity Assurance 正式發布（new）**：建立 OpenID 身分保證機制的 ISO 標準化框架（Part 1 通則 + Part 2 結構定義）。
 
 <blockquote class="expert-quote">
-  「Share your input on where we're headed during our Future Directions Two-Day Workshop on March 31st.」
-  <cite>NIST Cybersecurity for IoT Program</cite>
+  「The catalog revision is part of NIST's response to a recent executive order on strengthening the nation's cybersecurity.」
+  <cite>NIST — SP 800-53 Rev. 5.2.0 control catalog revision</cite>
 </blockquote>
 
 ---
@@ -48,32 +48,32 @@ has_children: true
 ## 按風險領域分析
 
 ### Cybersecurity
-本期有 15 項資安相關變動，以 NIST IoT 工作坊倒數、ISO/IEC 29167-22:2026 RFID 加密標準更新、NIST SP 800-53 Rev. 5.2.0 持續落實、CCM v4.1 轉型倒數、CISA KEV 5 項弱點修復追蹤為重點。
+本期以 NIST IR 8323 Rev 2 PNT Profile 對齊 CSF 2.0、CMVP 自動化草案 SP 1800-40B、NVD 風險優先 CVE 豐富化、ISO/IEC 15408:2026 Common Criteria 改版、Transit CSF Community Profile（IR 8576）及 CISA KEV 4 項弱點修復追蹤為重點。
 
 ### AI Risk
-本期有 4 項 AI 風險相關變動，以 NISTIR 8596 AI 網路安全框架草案持續推進、NCCoE Cyber AI Profile 開發中、EU EuroHPC AI Initiative 勘誤為核心。
+本期以 NIST 第二次 Cyber AI Profile 工作坊推進 CSF Profile for AI 草案、CSF 與 AI RMF 整合方向演進為核心。
 
 ### Privacy
-本期有 2 項隱私相關變動，以 NIST Privacy Framework 1.1 即將發布與 EU 國際保護資格標準勘誤為主。
+本期以 NIST Privacy Framework 1.1 即將發布並與 CSF 2.0 對齊、SP 800-226 差分隱私指引正式發布為主。
 
 ### Supply Chain
-本期有 5 項供應鏈相關變動，以 NIST IR 8536 供應鏈可追溯性框架、IoT 製造商安全指引修訂、EU 生態設計與建築產品法規勘誤為重點。
+本期以 NCCoE DevSecOps live guidelines（附首個 Azure 範例）、SSDF 1.2 公開意見徵詢、NIST IR 8536 供應鏈可追溯性框架為重點。
 
 ### Identity
-本期有 2 項身分認證相關變動，以 SP 800-63B 同步式驗證器指引與 NIST IR 8523 多因素驗證指引為主。
+本期以 ISO/IEC 25831:2026 OpenID Identity Assurance 正式發布、NIST IR 8523 刑事司法多因素驗證、SP 800-63B 同步式驗證器指引為主。
 
 ### Critical Infrastructure
-本期有 3 項關鍵基礎設施相關變動，以 NIST NCCoE IoT 安全登錄指引、NIST IR 8349 IoT 設備安全指引、EU 商用車輛路邊檢查勘誤為重點。
+本期以 NIST IR 8349 IoT 設備安全指引、PNT Profile（IR 8323 Rev 2）關鍵基礎設施面向、Transit CSF Community Profile（IR 8576）為重點。
 
 ---
 
 ## L5 — Evolution Signals
 
-- [系統推論] **隱私框架與網路安全框架加速對齊** — Privacy Framework 1.1 即將發布並與 CSF 2.0 重新對齊，NIST 正系統性推動「隱私—網路安全—AI 風險」三大框架的互操作性。
+- [系統推論] **NIST 框架治理正全面收斂至 CSF 2.0 作為共同骨架** — PNT、交通、AI 等專屬指引皆以 CSF 2.0 為基礎延伸，收斂為可互通的 Profile 體系。
 
-- [系統推論] **IoT 安全從裝置層級邁向生態系統治理** — NIST IoT Future Directions 工作坊即將舉辦，IoT 安全的關注範圍正從個別裝置擴展至產品全生命週期。
+- [系統推論] **驗證與漏洞作業正從「人工逐案」轉向「自動化與風險優先」** — CMVP 自動化（SP 1800-40B）與 NVD 風險優先豐富化反映處理量已超出傳統人工流程負荷。
 
-- [系統推論] **基礎標準的「靜默更新」正在重塑技術合規底線** — POSIX Issue 8 與 RFID SPECK 加密標準等基礎技術標準的更新定義了系統互通性與加密實作的基線要求。
+- [系統推論] **國際標準（ISO/IEC）密集改版正抬升技術合規基線** — Common Criteria 15408:2026、OpenID Identity Assurance 25831:2026 等基礎安全標準集中更新。
 
 ---
 
@@ -82,9 +82,9 @@ has_children: true
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 50 |
-| rule_type 分布 | amendment: 13, guidance: 11, revision: 7, draft: 7, new: 5, final: 4, unspecified: 3 |
-| enforcement_signal 分布 | recommended: 21, mandatory: 18, informational: 8, unspecified: 3 |
-| REVIEW_NEEDED | 1 筆 |
+| rule_type 分布 | guidance: 11, draft: 10, revision: 8, new: 7, amendment: 6, final: 4, 其他/未分類: 4 |
+| enforcement_signal 分布 | recommended: 24, mandatory: 11, informational: 11, 未分類: 4 |
+| REVIEW_NEEDED | 2 筆 |
 
 ---
 
@@ -92,15 +92,14 @@ has_children: true
 
 | Layer | 筆數 | 時間範圍 |
 |-------|------|----------|
-| nist_cybersecurity_insights | 15 | 2024-02-26 ~ 2026-03-20 |
-| nist_frameworks | 14 | 2025-07-22 ~ 2026-01-28 |
-| eu_regulations | 10 | 2026-01-22 ~ 2026-02-04 |
-| iso_standards | 5 | 2025-12-22 ~ 2026-03-18 |
-| cisa_kev | 5 | 2026-01-13 ~ 2026-02-03 |
-| csa_cloud_security | 1 | 2026-02-19 |
+| nist_frameworks | 22 | 2025-07-22 ~ 2026-05-06 |
+| nist_cybersecurity_insights | 13 | 2024-02-26 ~ 2026-05-04 |
+| iso_standards | 8 | 2026-02-03 ~ 2026-06-05 |
+| cisa_kev | 4 | 2026-01-13 ~ 2026-02-03 |
+| eu_regulations | 3 | 2026-01-29 ~ 2026-02-02 |
 
 ---
 
-[閱讀完整報告](/docs/Narrator/rule_change_brief/2026-W13-rule-change-brief/)
+[閱讀完整報告](/docs/Narrator/rule_change_brief/2026-W25-rule-change-brief/)
 
-*報告產出時間：2026-03-23*
+*報告產出時間：2026-06-17*

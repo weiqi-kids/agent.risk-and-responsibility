@@ -1,18 +1,18 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: Critical Infrastructure
 nav_order: 15
 has_children: true
 ---
 
-# Critical Infrastructure Resilience — 2026-W13
+# Critical Infrastructure Resilience — 2026-W25
 
 <div class="key-takeaway">
-本週重點：SANS ISC 提出 CLAIR 模型將 Purdue 架構與 Zachman Framework 整合為 10 層關鍵基礎設施相依性映射框架，揭示 AI 整合帶來的新型級聯失效風險；歐盟 Regulation (EU) 2025/2653 ReArm Europe 計畫提供跨預算防衛投資激勵強化歐洲防衛供應鏈；NIST IoT 安全計畫 Future Directions Workshop 持續徵集下一代指引方向意見；ISO/TS 22359-2:2026 發布防護庇護所保護設備標準。
+本週重點：歐盟連續發布兩項鐵路基礎設施文件——Regulation (EU) 2026/1184 建立單一鐵路區容量使用新規並廢除 Regulation No 913/2010，Council Decision (EU) 2026/1303 確立 OTIF 第 18 屆技術委員會的鐵路技術標準（UTP、TAF）立場（兩者皆為降級萃取，生效日期待確認）；CSA 緊急策略簡報將 OT 安全危機比擬為系統性 Y2K，主張壓縮無法停機修補的安全時間線；SANS ISC 的 CLAIR 模型揭示 AI 整合帶來的級聯失效風險。
 </div>
 
-> 本期追蹤 14 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準、SANS ISC。
+> 本期追蹤 30 項關鍵基礎設施韌性動態，涵蓋 NIST 框架、NIST 洞察、歐盟法規、ISO 標準、CSA、SANS ISC 與 CISA。
 
 ## 免責聲明
 
@@ -25,27 +25,27 @@ has_children: true
 ## 本週重點
 
 <p class="key-answer" data-question="本週有哪些重要的基礎設施韌性動態">
-  <strong>SANS ISC 提出 CLAIR 模型整合 Purdue 架構與 Zachman Framework 為 10 層關鍵基礎設施相依性映射框架</strong>，揭示 AI 整合帶來的新型級聯失效風險，強調最弱環節（Level -1 公用事業層）的韌性監控需求。
+  <strong>歐盟同日發布 Regulation (EU) 2026/1184 與 Council Decision (EU) 2026/1303 兩項鐵路基礎設施文件</strong>（來源區域：歐盟），分別重整單一鐵路區容量使用規則與 OTIF 鐵路技術標準立場；惟兩者均為 WebFetch 失敗的降級萃取，生效日期與具體條文待人工確認。
 </p>
 
-1. **CLAIR 模型 — 關鍵基礎設施相依性映射框架（2026-02-25, guidance, final）**
-   SANS ISC 發布 CLAIR 模型，整合 Purdue 架構與 Zachman Framework 為 10 層映射框架，識別 AI 整合帶來的新型級聯失效風險。
+1. **Regulation (EU) 2026/1184 — 單一鐵路區基礎設施容量使用新規（2026-06-10, new/final, mandatory）** ⚠️
+   修訂 Directive 2012/34/EU 並廢除 Regulation (EU) No 913/2010，重建跨境鐵路容量協調與分配機制。**[REVIEW_NEEDED]**：WebFetch 失敗，生效日期待確認。
 
-2. **Regulation (EU) 2025/2653 — ReArm Europe 防衛投資激勵（2026-01-14, revision, mandatory）**
-   歐盟通過 ReArm Europe 計畫，跨預算提供防衛相關投資激勵，涵蓋防衛產業 SME 與雙用途技術開發商。
+2. **Council Decision (EU) 2026/1303 — OTIF 第 18 屆 CTE 鐵路技術規範立場（2026-06-10, new/final, mandatory）** ⚠️
+   確立歐盟在 OTIF 技術專家委員會應採立場，涵蓋貨車與機車客車統一技術規範（UTP）及電傳貨運（TAF）修訂。**[REVIEW_NEEDED]**：WebFetch 失敗，UTP/TAF 條文待確認。
 
-3. **NIST IoT Cybersecurity Program — Future Directions Workshop（2026-03-20, guidance, public_comment）**
-   NIST 持續徵集 IoT 資安指引（NISTIR 8259、SP 800-213）擴展方向意見。
+3. **CSA 緊急策略簡報 — OT 安全時間線壓縮（2026-05-19, guidance/final, recommended）**
+   CSA 將當前 OT 安全威脅比擬為 Y2K 系統性危機，由多位頂級安全專家聯署，主張壓縮無法停機環境的安全回應時間線。
 
-4. **ISO/TS 22359-2:2026 — 防護庇護所保護設備標準（2026-03-05, new, recommended）**
-   ISO/TC 292 發布首版防護庇護所保護設備技術規格。
+4. **NIST SP 1800-41 — 製造業事件回應與復原指引（2026-05-21, draft/public_comment, recommended）**
+   NCCoE 初始公開草案，協助製造業組織建立網路攻擊事件回應與復原能力。
 
-5. **Regulation (EU) 2026/589 — 網路攻擊制裁持續生效（2026-03-16, new, mandatory）**
-   歐盟對五名網路攻擊威脅行為者的制裁持續生效。
+5. **NIST IR 8323 Rev 2 — PNT 剖面對齊 CSF 2.0（2026-05-06, revision/public_comment, recommended）**
+   將既有 PNT Profile 更新以對齊 NIST CSF 2.0，適用於依賴 GPS/PNT 技術的關鍵基礎設施組織。
 
 <blockquote class="expert-quote">
-  「The CLAIR model synthesizes the Purdue architecture and the Zachman Framework into a 10-level mapping framework, revealing new failure risks introduced by AI integration.」
-  <cite>SANS Internet Storm Center (ISC Diary 32748)</cite>
+  「You Can't Patch a Running Plant — CSA 將當前 OT 安全威脅比擬為 Y2K 等級的系統性危機，主張壓縮 OT 環境中無法停機修補的安全時間線。」
+  <cite>Cloud Security Alliance（緊急策略簡報，2026-04-12 聯署）</cite>
 </blockquote>
 
 ---
@@ -54,11 +54,12 @@ has_children: true
 
 | 領域 | 美國要求 | 歐盟要求 | 本週變動 |
 |------|----------|----------|----------|
-| 能源 | IoT 基礎設施投資效益研究（final） | 能源計量設備擴展（EV 充電、氫能）；Energy Community 條約修訂 | Directive (EU) 2026/706; Council Decision (EU) 2026/69, 2026/70 |
+| 能源 | IoT 基礎設施投資效益研究（final） | EV 充電/氫能/冷能量測系統擴展（2028 轉置）；能源共同體治理 | Directive (EU) 2026/706；Council Decision (EU) 2026/69 |
 | 電信 | IoT 資安指引擴展中（public_comment） | 無新要求 | NIST IoT Future Directions Workshop |
-| 金融 | 無新要求 | 網攻制裁資產凍結義務；ReArm Europe 防衛投資激勵 | Regulation (EU) 2026/589; 2025/2653 |
-| 運輸 | Transit Cybersecurity Framework（draft） | EMSA 改革 | Regulation (EU) 2025/2434 |
-| 水務 | 無新要求 | 飲用水品質指令勘誤 | Directive (EU) 2020/2184 勘誤 |
+| 金融 | 無新要求 | 能源共同體預算與反詐合作（mandatory） | Council Decision (EU) 2026/69 |
+| 運輸（鐵路） | Transit Cybersecurity Framework（draft） | 單一鐵路區容量新規；OTIF 鐵路技術標準立場 ⚠️ | Regulation (EU) 2026/1184；Council Decision (EU) 2026/1303 |
+| 水務 | 無新要求 | 無新要求 | 無 |
+| OT/ICS 跨域 | SP 1334 USB 管理（draft）；SP 1800-41 事件復原（draft） | 無新要求 | CSA OT 時間線簡報；SANS CLAIR 模型 |
 
 ---
 
@@ -66,11 +67,11 @@ has_children: true
 
 | 指標 | 數值 |
 |------|------|
-| 總變動數 | 14 |
-| 來源分布 | NIST Frameworks: 3, NIST Insights: 2, EU Regulations: 7, ISO: 1, SANS ISC: 1 |
-| rule_type 分布 | new: 3, draft: 2, guidance: 3, expanded: 1, revision: 1, Council Decision: 2, amendment: 1, corrigendum: 1 |
-| enforcement_signal 分布 | mandatory: 7, recommended: 2, informational: 1, public_comment: 4 |
-| REVIEW_NEEDED | 0 筆 |
+| 總變動數 | 30 |
+| 來源分布 | NIST Frameworks: 9, ISO: 7, EU Regulations: 4, NIST Insights: 4, CSA: 4, SANS ISC: 1, CISA KEV: 1 |
+| rule_type 分布 | guidance: 7, new: 6, draft: 5, revision: 4, amendment: 2, expanded: 1, 其他: 5 |
+| enforcement_signal 分布 | recommended: 18, mandatory: 8, informational: 4 |
+| REVIEW_NEEDED | 2 筆（EU 2026/1184、EU 2026/1303，降級萃取） |
 
 ---
 
@@ -78,17 +79,15 @@ has_children: true
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| nist_frameworks | critical_infrastructure | 3 | 2025-07-15 ~ 2025-09-02 |
-| nist_cybersecurity_insights | cybersecurity | 1 | 2026-03-20 |
-| nist_cybersecurity_insights | supply_chain | 1 | 2025-05-13 |
-| eu_regulations | critical_infrastructure | 3 | 2026-01-16 ~ 2026-01-29 |
-| eu_regulations | cybersecurity | 1 | 2026-03-16 |
-| eu_regulations | digital_market | 1 | 2026-03-20 |
-| eu_regulations | financial_compliance | 2 | 2026-01-14 ~ 2026-01-16 |
-| eu_regulations | supply_chain | 1 | 2026-01-19 |
-| iso_standards | other | 1 | 2026-03-05 |
+| nist_frameworks | critical_infrastructure / cybersecurity / ai_risk | 9 | 2025-07-15 ~ 2026-05-21 |
+| iso_standards | other / information_security | 7 | 2025-12-22 ~ 2026-05-19 |
+| eu_regulations | critical_infrastructure / digital_market | 4 | 2026-01-16 ~ 2026-06-10 |
+| nist_cybersecurity_insights | cybersecurity / supply_chain / workforce | 4 | 2024-10-09 ~ 2026-03-20 |
+| csa_cloud_security | best_practices / cloud_security / ai_security | 4 | 2026-01-27 ~ 2026-05-19 |
 | sans_isc | threat_analysis | 1 | 2026-02-25 |
+| cisa_kev | vulnerability | 1 | 2026-01-29 |
 
 ---
 
-[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W13-critical-infrastructure-resilience/)
+[查看完整報告](/docs/Narrator/critical_infrastructure_resilience/2026-W25-critical-infrastructure-resilience/)
+</content>

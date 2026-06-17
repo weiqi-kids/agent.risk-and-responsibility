@@ -1,18 +1,20 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: AI Governance Landscape
 nav_order: 12
 has_children: true
 ---
 
-# AI Governance Landscape — 2026-03
+# AI Governance Landscape — 2026-06
 
 <div class="key-takeaway">
-本月重點：CSA AI Controls Matrix（AICM）獲 2026 CSO Awards 認可，成為業界首個供應商無關的生成式 AI 控制框架；Agentic AI 治理從「護欄」升級為「全生命週期控制層」，授權架構引入 MTU 指標；ISO 42001 認證實務持續深化，第三方審計角色釐清；MAESTRO 威脅建模完成 OpenClaw 實戰案例與 CI/CD 整合；EU AI Act Article 14 將於 2026 年 8 月執行，違規罰款最高 3,500 萬歐元。
+本月重點：金融服務業正式從「AI 採用」轉向「自主系統治理」——CSA 調查顯示 62% 組織已部署 AI 代理、93% 授予某種自主權，但僅 10% 有安全計畫；CSA RiskRubric V2 將風險評估擴展至 MCP 伺服器與 AI 代理，以「過度代理性」取代「聲譽」維度；EU AI Act Article 14 人類監督要求將於 2026-08-02 強制執行，違規罰款最高 3,500 萬歐元或全球營收 7%；歐盟透過 Regulation 2026/150 投入 41.2 億歐元擴展 EuroHPC 至 AI Gigafactories。
 </div>
 
-> 本期追蹤 30 項 AI 治理動態，涵蓋 CSA 雲端安全（21 項）、歐盟法規（3 項）、NIST 框架（2 項）、NIST 洞察（2 項）、ISO 標準（1 項）、SANS ISC（1 項）。
+> 本期追蹤 30 項 AI 治理動態，涵蓋 CSA 雲端安全（22 項）、歐盟法規（6 項）、NIST 框架（1 項）、ISO 標準（1 項）。
+
+最新月報：[2026-06 AI Governance Landscape](2026-06-ai-governance-landscape.md)
 
 ## 免責聲明
 
@@ -24,15 +26,15 @@ has_children: true
 
 ## 本月重點
 
-1. **CSA AI Controls Matrix（AICM）獲獎** — CSA 於 2026-03-06 宣布 AICM 獲 2026 CSO Awards 認可，為業界首個供應商無關的生成式 AI 控制框架，可整合至 AI 採購與供應商評估流程。（來源：CSA，rule_type: guidance，enforcement: recommended）
+1. **金融服務業治理轉向自主系統** — CSA Financial Services Working Group 於 2026-06-08 發布調查，金融業已從「AI 採用討論」轉向「自主系統治理」。62% 組織已部署 AI 代理、93% 授予某種自主權，85% 預期自主 AI 支付。（來源：CSA，美國產業，rule_type: guidance，enforcement: recommended）
 
-2. **Agentic AI 從護欄到治理控制層** — CSA 於 2026-03-16 發布「From Guardrails to Governance」，指出 AI 安全控制必須從「輸出過濾護欄」擴展為「全生命週期治理控制層」。（來源：CSA，rule_type: guidance，enforcement: recommended）
+2. **RiskRubric V2 擴展至 AI 代理與 MCP 伺服器** — CSA CSAI Foundation 於 2026-06-04 公告 RiskRubric V2（draft，預計 Q3 2026 發布），評估範圍從 AI 模型擴展至 MCP 伺服器與 AI 代理，並以「過度代理性」取代「聲譽」維度。（來源：CSA，美國產業，rule_type: revision，status: draft）
 
-3. **ISO 42001 認證實務深化** — CSA 連續發布 ISO 42001 實務指引（2026-01-13 及 2026-03-03），提供 AIMS 導入路線圖並釐清第三方審計者角色。（來源：CSA，rule_type: guidance，enforcement: recommended）
+3. **EU AI Act Article 14 進入執行倒數** — EU AI Act（Regulation 2024/1689，directly_applicable）Article 14 人類監督要求將於 2026-08-02 強制執行，違規罰款最高 3,500 萬歐元或全球營收 7%。（來源：EU 法規 + CSA，歐盟，enforcement: mandatory）
 
-4. **MAESTRO 威脅建模首個實戰案例** — CSA 於 2026-02-17 以 OpenClaw 為案例展示 MAESTRO 七層威脅模型的實務應用。SANS ISC 亦發布 OpenClaw 偵測監控指引。（來源：CSA + SANS ISC，rule_type: guidance，enforcement: recommended）
+4. **EuroHPC 擴展至 AI Gigafactories** — 歐盟透過 Council Regulation (EU) 2026/150（生效 2026-01-20，directly_applicable）將 EuroHPC 範圍擴大至 AI Gigafactories 與量子技術，財務承諾提高至最高 41.2 億歐元。（來源：EU 法規，歐盟，enforcement: mandatory）
 
-5. **AI 代理授權架構引入 MTU 指標** — CSA 於 2026-03-16 引入「Mean Time to Understand（MTU）」作為身分治理的核心 SLO，要求 AI 代理授權可觀測性與人類用戶同等。（來源：CSA，rule_type: guidance，enforcement: recommended）
+5. **NIST 發布 AI 代理身分授權概念文件** — NIST NCCoE 於 2026-02-05 發布 AI 代理身分與授權概念文件（public_comment，截止 2026-04-02），要求對 AI 代理實施身分識別、授權、審計與不可否認性控制。（來源：NIST，美國，status: public_comment）
 
 ---
 
@@ -40,42 +42,41 @@ has_children: true
 
 ### 美國（NIST）
 
-**NIST Frameworks（2 項）**：
+**NIST Frameworks（1 項）**：
 
 | 文件 | 發布日期 | Document ID | 狀態 | 重點 |
 |------|----------|-------------|------|------|
-| Draft NIST Guidelines Rethink Cybersecurity for the AI Era | 2025-12-16 | NISTIR 8596 | public_comment（已截止 2026-01-30） | 首個整合 CSF 與 AI RMF 的 AI 網路安全框架配置檔 |
-| NCCoE Cyber AI Profile: Securing AI System Components | 2025-08-05 | CSF 2.0 Core | public_comment | AI 系統元件安全工作坊 |
+| Concept Paper — Software and AI Agent Identity and Authorization | 2026-02-05 | NCCoE Concept Paper | public_comment（截止 2026-04-02） | AI 代理身分識別、授權、審計與不可否認性控制 |
 
 ### 產業指引（CSA）
 
-本期 CSA 發布 21 項 AI 安全治理指引，持續為最活躍的指引來源，聚焦 AI 控制框架正式化（AICM）、Agentic AI 授權架構重構、非人類身分治理深化與 AI 驅動資安架構轉型四大主軸。
+本期 CSA 發布 22 項 AI 安全治理指引，持續為最活躍的指引來源，聚焦金融與自主系統治理、AI 風險評估框架（RiskRubric V2、AIUC-1、ORCHIDEAS）、ISO 42001 與多框架合規、非人類身分與執行時治理四大主軸。
 
 ### 國際標準（ISO）
 
 | 標準 | 發布日期 | Document ID | 重點 |
 |------|----------|-------------|------|
-| AI Transparency Taxonomy | 2025-11-11 | ISO/IEC 12792:2025 | AI 系統透明度分類法 |
+| AI Transparency Taxonomy | 2025-11-11 | ISO/IEC 12792:2025 | AI 系統透明度分類法（自願性標準） |
 
 ### 歐盟
 
 | 法規 | 發布日期 | Document ID | 類型 | binding_force | 重點 |
 |------|----------|-------------|------|---------------|------|
-| Council Regulation (EU) 2026/150 | 2026-01-23 | CELEX:32026R0150 | amendment | directly_applicable | 擴展 EuroHPC 至 AI Gigafactories，41.2 億歐元 |
 | Corrigendum to AI Act (EU) 2024/1689 R(02) | 2026-01-13 | CELEX:32024R1689R(02) | corrigendum | directly_applicable | 明確排除線上空間適用範圍 |
-| Corrigendum to (EU) 2024/1732 R(02) | 2026-01-27 | CELEX:32024R1732R(02) | corrigendum | binding_regulation | 術語更正 |
+| Council Regulation (EU) 2026/150 | 2026-01-19 | CELEX:32026R0150 | amendment | directly_applicable | 擴展 EuroHPC 至 AI Gigafactories，41.2 億歐元 |
+| Corrigendum to (EU) 2024/1732 R(02) | 2026-01-27 | CELEX:32024R1732R(02) | corrigendum | binding_regulation | 術語更正：AI factory → facility |
 
-**EU AI Act 關鍵時程**：2026-08-02 Article 14 開始執行（罰款最高 EUR 35M）；2026-08-31 RRF 資金轉移截止。
+**EU AI Act 關鍵時程**：2026-08-02 Article 14 開始強制執行（罰款最高 EUR 35M 或全球營收 7%）；2026-08-31 EuroHPC RRF 資金轉移截止。
 
 ---
 
 ## L5 — Evolution Signals
 
-1. [系統推論] **AI 控制框架從碎片化走向標準化整合** — AICM 獲獎標誌 AI 安全控制走向產業標準化，結合 ISO 42001 深化與多框架合規工具，AI 治理進入落地執行階段。
+1. [系統推論] **AI 治理重心從「框架制定」轉向「執行時問責」** — CSA 金融業調查、NCCoE 代理身分概念文件、執行時授權系列均指向治理焦點從靜態框架移向 AI 代理運行時點的即時授權與可追溯性。
 
-2. [系統推論] **Agentic AI 治理從身分管理升級為全生命週期授權架構** — 從護欄到治理、MTU 指標、跨域身分擔保三個發展串聯，顯示 Agentic AI 治理正從戰術層級升級為完整授權架構。
+2. [系統推論] **美歐監管路徑分歧持續，但 2026-08 形成共同壓力臨界點** — 歐盟維持直接適用硬性立法（Article 14 於 2026-08-02 執行），美國 NIST 仍停留於 public_comment 指引，2026 年 8 月可能成為全球 AI 治理從「建議」轉向「強制」的共同轉折點。
 
-3. [系統推論] **監管執行壓力逼近臨界點** — EU AI Act Article 14（2026-08-02）、EuroHPC RRF 截止日（2026-08-31）、NISTIR 8596 正式版預計年內發布，2026 年下半年可能成為 AI 治理從「建議」轉向「強制」的轉折點。
+3. [系統推論] **金融服務業成為 Agentic AI 治理的領先壓力測試場域** — 金融業 62% 部署率與 65% 認為需新授權模型的數據，顯示高度監管產業正率先面對自主 AI 的治理缺口。
 
 ---
 
@@ -84,10 +85,10 @@ has_children: true
 | 指標 | 數值 |
 |------|------|
 | 總變動數 | 30 |
-| 來源分布 | CSA: 21, EU: 3, NIST Frameworks: 2, NIST Insights: 2, ISO: 1, SANS ISC: 1 |
-| rule_type 分布 | guidance: 24, amendment: 3, new: 1, draft: 1, unknown: 1 |
-| enforcement_signal 分布 | recommended: 24, mandatory: 4, informational: 1, unknown: 1 |
-| REVIEW_NEEDED | 0 筆 |
+| 來源分布 | CSA: 22, EU: 6, NIST Frameworks: 1, ISO: 1 |
+| rule_type 分布 | guidance: 18, amendment/corrigendum: 6, revision: 1, new: 1, regulation: 4 |
+| enforcement_signal 分布 | recommended: 18, mandatory: 6, informational: 4, mixed: 2 |
+| REVIEW_NEEDED | 2 筆（RiskRubric V2 相關，均為 draft 公告階段） |
 
 ---
 
@@ -95,13 +96,11 @@ has_children: true
 
 | Layer | Category | 筆數 | 時間範圍 |
 |-------|----------|------|----------|
-| csa_cloud_security | ai_security, identity, compliance, best_practices | 21 | 2026-01-06 ~ 2026-03-16 |
-| eu_regulations | ai_governance, critical_infrastructure | 3 | 2026-01-13 ~ 2026-01-27 |
-| nist_frameworks | ai_risk | 2 | 2025-08-05 ~ 2025-12-16 |
-| nist_cybersecurity_insights | ai_risk | 2 | 2024-09-19 ~ 2025-07-31 |
+| csa_cloud_security | ai_security, compliance, identity, best_practices | 22 | 2026-01-06 ~ 2026-06-08 |
+| eu_regulations | ai_governance, critical_infrastructure | 6 | 2026-01-13 ~ 2026-01-27 |
+| nist_frameworks | identity | 1 | 2026-02-05 |
 | iso_standards | other | 1 | 2025-11-11 |
-| sans_isc | threat_analysis | 1 | 2026-02-03 |
 
 ---
 
-*報告產出時間：2026-03-23*
+*報告產出時間：2026-06-17*

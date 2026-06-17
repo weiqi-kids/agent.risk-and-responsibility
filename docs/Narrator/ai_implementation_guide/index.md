@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2026-03-23
+last_modified_at: 2026-06-17
 layout: default
 title: AI Implementation Guide
 nav_order: 13
@@ -50,18 +50,17 @@ has_children: true
 
 ## 最新一期
 
-### [2026-03 AI Implementation Guide](2026-03-ai-implementation-guide/)
+### [2026-06 AI Implementation Guide](2026-06-ai-implementation-guide/)
 
-本月重點：使用 CSA MAESTRO 框架對 Agentic AI 系統進行七層威脅建模與 CI/CD 整合、建立 AI Agent 專用的 Policy-as-Code 自動化授權架構、從「護欄」擴展為「全生命週期治理控制層」管理 AI 代理行為、導入 MTU（Mean Time to Understand）作為 AI 授權可觀測性的核心 SLO、以及實作 LLM Prompt Injection 韌性設計。
+本月重點：為 AI Agent 簽發目的綁定的專用身分並採用執行時授權（task-scoped、5-15 分鐘短期 token），取代以人為核心的同意式授權；依 CSA 七大 MCP 風險建立 Model Context Protocol 治理框架；對 Agentic AI 系統實施 MAESTRO 跨層威脅建模並整合 CI/CD；採用 ORCHIDEAS 九支柱「結構即安全」設計；並依 ISO/IEC TS 42112:2026 優化機器學習訓練效率。
 
 **必做項目**：
-- 導入 MAESTRO 框架進行 Agentic AI 威脅建模
-- 建立 AI Agent 專用 IAM 授權架構
-- 實施 AI 系統 Credential Lifecycle 管理
-- 建立 AI 代理全生命週期治理控制層
-- 盤點組織內 Shadow AI 與嵌入式 AI 風險
+- 為 AI Agent 簽發專用身分並採用執行時授權（短期 token）
+- 建立 MCP（Model Context Protocol）治理框架
+- 對 Agentic AI 系統實施跨層威脅建模並整合 CI/CD
+- 建立 AI 代理身分治理與可觀測性（代理登錄冊 + session tracing）
 
-**實作項目數**：13（必做 5、建議 8）
+**實作項目數**：8（必做 4、建議 4）
 
 ---
 
@@ -69,4 +68,5 @@ has_children: true
 
 | 月份 | 報告 |
 |------|------|
+| 2026-06 | [2026-06 AI Implementation Guide](2026-06-ai-implementation-guide/) |
 | 2026-03 | [2026-03 AI Implementation Guide](2026-03-ai-implementation-guide/) |
