@@ -168,3 +168,7 @@ flowchart TB
 | v1.2 | 2026-02-05 | 新增 4 個跨 Layer 主題式 Mode（ai_governance_landscape、supply_chain_security、critical_infrastructure_resilience、cybersecurity_compliance）；資料利用率從 12% 提升至 53% |
 | v1.3 | 2026-02-07 | 整合 Jekyll + Just the Docs 主題，支援 GitHub Pages 自動部署 |
 | v1.4 | 2026-02-08 | 新增 4 個 Layer（cisa_kev、sans_isc、iso_standards、csa_cloud_security）；fetch.sh 預過濾優化 |
+
+---
+
+Maintained by Light. I build and maintain websites with AI as a service: [arthurs.tw](https://arthurs.tw/?utm_source=github&utm_medium=readme&utm_campaign=oss)
